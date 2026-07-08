@@ -1,0 +1,60 @@
+declare name "KS_Minimal_Pluck";
+declare author "you";
+declare license "MIT";
+
+import("stdfaust.lib");
+
+// -------- Controles simples --------
+
+freq   = hslider("freq[unit:Hz]", 110, 27.5, 1760, 0.01);
+bright = hslider("brightness[unit:Hz]", 3000, 300, 20000, 1); // LP en el lazo
+decay  = hslider("decay", 0.996, 0.90, 0.9999, 0.0001);       // ganancia del lazo
+gain   = hslider("gain", 0.8, 0, 1, 0.001);
+gate   = button("gate");
+
+// -------- Parámetros básicos --------
+sr = ma.SR;
+L  = sr/freq;                       // longitud del delay (muestras)
+
+// Scaling: concentrar efecto entre C1 (32.7 Hz) y C3 (130.8 Hz)
+// Factor común para brightness y decay en graves
+freqFactorGrave = min(1.0, max(0.0, (freq - 32.7) / (130.8 - 32.7)));  // 0 en C1, 1 en C3
+
+// Brightness: graves tienen menos brillo
+brightScaled = bright * (0.2 + freqFactorGrave * 0.8);      // C1: 60%, C3+: 100% del bright
+
+// Decay: graves tienen menos sustain
+decayScaled = decay * (0.95 + freqFactorGrave * 0.05);      // C1: 93%, C3+: 100% del decay
+
+// -------- Excitación (ruido breve con envolvente AR) --------
+exc = no.noise
+    : fi.lowpass(1, 7000)
+    : *( en.adsr(0.009 * (0.3 + 0.7 * (1-gain)), 0.0, 0.0, 0.35, gate) * gain );
+
+// -------- Lazo KS: delay fraccionario + LP + atenuación --------
+// Compensación de fase del filtro lowpass de 2do orden
+// Limitar cutoff a 90% de Nyquist para evitar inestabilidad
+nyquist = sr * 0.5;
+
+// Cutoff FIJO para compensación de fase (independiente de frecuencia y gain)
+cutoffCompensation = min(bright, nyquist * 0.9);
+
+// Cutoff VARIABLE para el filtro post-loop (con scaling)
+cutoffFilter = min(brightScaled * gain, nyquist * 0.9);
+
+omega = 2.0 * ma.PI * freq;
+omega_c = 2.0 * ma.PI * cutoffCompensation;
+phaseDelay = atan(omega / omega_c) / omega * sr * 4.0; // x4 por ser orden 4
+
+L_compensated = L - phaseDelay;
+
+loop = de.fdelay(48000, L_compensated)
+     : fi.lowpass(4, cutoffCompensation)  // Cutoff fijo para estabilidad de pitch
+     : *(decayScaled);
+
+// -------- Ecuación: y = x + y(loop) --------
+sig = exc : + ~ (loop)
+    : fi.lowpass(1, cutoffFilter);  // Filtro post-loop para variación de timbre
+
+// -------- Salida estéreo --------
+process = sig * gate <: _,_;

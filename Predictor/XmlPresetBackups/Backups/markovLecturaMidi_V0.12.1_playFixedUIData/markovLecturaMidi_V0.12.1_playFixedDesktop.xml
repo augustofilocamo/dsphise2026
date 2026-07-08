@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptImage" id="backgroundImage" x="0.0" y="0.0" fileName="{PROJECT_FOLDER}background03.png"
+             width="1024.0" height="680.0" locked="1"/>
+  <Component type="ScriptButton" id="Record" x="94.0" y="606.0" width="110.0"
+             height="30.0" filmstripImage="{PROJECT_FOLDER}btn_Rec.png" scaleFactor="0.2000000029802322"/>
+  <Component type="ScriptButton" id="Play" x="100.0" y="643.0" width="70.0"
+             height="30.0" filmstripImage="{PROJECT_FOLDER}btn_Play.png" scaleFactor="0.2000000029802322"/>
+  <Component type="ScriptFloatingTile" id="FloatingTile4" x="710.0" y="310.0"
+             ContentType="MidiSources" bgColour="4278190080" itemColour="0"
+             itemColour2="0" width="170.0" height="30.0"/>
+  <Component type="ScriptFloatingTile" id="FloatingTile6" x="200.0" y="590.0"
+             ContentType="MidiOverlayPanel" bgColour="620756992" itemColour="4294967295"
+             itemColour2="16711680" Data="{&#10;  &quot;ProcessorId&quot;: &quot;MIDI Player2&quot;,&#10;  &quot;Index&quot;: 1,&#10;  &quot;FollowWorkspace&quot;: false&#10;}"
+             width="820.0" height="90.0" textColour="16777215">
+    <Component type="ScriptLabel" id="Label1" x="660.0" y="30.0" text="Drag to DAW"
+               width="90.0" height="30.0" parentComponent="FloatingTile6"/>
+    <Component type="ScriptFloatingTile" id="FloatingTile5" x="0.0" y="0.0"
+               ContentType="MidiOverlayPanel" bgColour="1728098559" itemColour="4287137928"
+               itemColour2="4294901760" Data="{&#10;  &quot;ProcessorId&quot;: &quot;MIDI Player2&quot;,&#10;  &quot;Index&quot;: 0,&#10;  &quot;FollowWorkspace&quot;: false&#10;}"
+               width="820.0" height="90.0" textColour="16777215" itemColour3="4293525504"
+               parentComponent="FloatingTile6"/>
+  </Component>
+  <Component type="ScriptSlider" id="transposeKnob" x="290.0" y="350.0" stepSize="1.0"
+             max="24.0" min="-24.0" width="110.0" height="30.0"/>
+  <Component type="ScriptPanel" id="panel" x="190.0" y="1.0" width="680.0"
+             height="280.0"/>
+  <Component type="ScriptFloatingTile" id="FloatingTile1" x="203.0" y="62.0"
+             ContentType="MidiOverlayPanel" bgColour="8947848" itemColour="8947848"
+             itemColour2="8947848" Data="{&#10;  &quot;ProcessorId&quot;: &quot;MIDI Player1&quot;,&#10;  &quot;Index&quot;: 0,&#10;  &quot;FollowWorkspace&quot;: false&#10;}"
+             width="630.0" height="190.0" textColour="8947848" itemColour3="8947848"/>
+  <Component type="ScriptPanel" id="panelRefresh" x="20.0" y="80.0" visible="0"/>
+  <Component type="ScriptButton" id="Clear" x="24.0" y="606.0" width="55.0"
+             height="61.0" filmstripImage="{PROJECT_FOLDER}btn_Clear.png"
+             scaleFactor="0.2000000029802322"/>
+  <Component type="ScriptPanel" id="helpersPanel" x="20.0" y="30.0" width="240.0"
+             height="330.0" visible="0">
+    <Component type="ScriptFloatingTile" id="FloatingTile2" x="40.0" y="70.0"
+               ContentType="MidiOverlayPanel" bgColour="0" itemColour="4291952850"
+               itemColour2="4294901760" Data="{&#10;  &quot;ProcessorId&quot;: &quot;MIDI Player1&quot;,&#10;  &quot;Index&quot;: 1,&#10;  &quot;FollowWorkspace&quot;: false&#10;}"
+               width="110.0" height="50.0" textColour="4291821568" parentComponent="helpersPanel"/>
+    <Component type="ScriptButton" id="PlayMIDISequence" x="40.0" y="183.0"
+               width="140.0" height="30.0" text="Play MIDI Sequence" parentComponent="helpersPanel"/>
+    <Component type="ScriptButton" id="ReadMidiFile" x="40.0" y="126.0" isMomentary="1"
+               width="120.0" height="40.0" parentComponent="helpersPanel"/>
+    <Component type="ScriptButton" id="Clear MIDI Sequence" x="40.0" y="240.0"
+               width="140.0" height="30.0" isMomentary="1" parentComponent="helpersPanel"/>
+  </Component>
+  <Component type="ScriptButton" id="qwertyPlayButton" x="15.0" y="520.0"
+             filmstripImage="{PROJECT_FOLDER}btn_qwertyPlay.png" scaleFactor="0.5"
+             height="60.0" width="180.0"/>
+  <Component type="ScriptButton" id="midiPlayButton" x="17.0" y="475.0" filmstripImage="{PROJECT_FOLDER}btn_midiPlay.png"
+             scaleFactor="0.5" height="60.0" width="180.0"/>
+  <Component type="ScriptButton" id="clickPlayButton" x="17.0" y="411.0" filmstripImage="{PROJECT_FOLDER}btn_clickPlay.png"
+             scaleFactor="0.5" width="180.0" height="60.0"/>
+  <Component type="ScriptPanel" id="clickPlayPanel" x="200.0" y="400.0" width="820.0"
+             height="190.0" borderSize="0.0" borderRadius="0.0" bgColour="16777215"
+             itemColour="4280427042" itemColour2="4280427042" textColour="16777215">
+    <Component type="ScriptButton" id="Next3Notes" x="77.0" y="32.0" width="310.0"
+               height="120.0" isMomentary="1" text="generate 3 notes" parentComponent="clickPlayPanel"
+               filmstripImage="{PROJECT_FOLDER}btn_triads.png" scaleFactor="0.5"/>
+    <Component type="ScriptButton" id="NextNote" x="457.0" y="32.0" width="330.0"
+               height="120.0" isMomentary="1" text="generate 1 note" parentComponent="clickPlayPanel"
+               filmstripImage="{PROJECT_FOLDER}btn_melody.png" scaleFactor="0.5"/>
+  </Component>
+  <Component type="ScriptPanel" id="qwertyPlayPanel" x="200.0" y="400.0" width="820.0"
+             height="190.0" borderSize="0.0" borderRadius="0.0" bgColour="16777215"
+             itemColour="4280427042" itemColour2="4280427042" textColour="16777215"
+             visible="0">
+    <Component type="ScriptImage" id="qwertyScriptImage" x="0.0" y="0.0" width="824.0"
+               height="190.0" parentComponent="qwertyPlayPanel" fileName="{PROJECT_FOLDER}qwerty.png"/>
+    <Component type="ScriptFloatingTile" id="keyboardFloatingTile" x="-50.0"
+               y="0.0" ContentType="Keyboard" bgColour="6579300" itemColour="452984831"
+               itemColour2="16777215" textColour="0" Data="{&#10;  &quot;KeyWidth&quot;: 14.0,&#10;  &quot;DisplayOctaveNumber&quot;: false,&#10;  &quot;LowKey&quot;: 9,&#10;  &quot;HiKey&quot;: 10,&#10;  &quot;CustomGraphics&quot;: true,&#10;  &quot;DefaultAppearance&quot;: false,&#10;  &quot;BlackKeyRatio&quot;: 0.699999988079071,&#10;  &quot;ToggleMode&quot;: false,&#10;  &quot;MidiChannel&quot;: 1,&#10;  &quot;UseVectorGraphics&quot;: true,&#10;  &quot;UseFlatStyle&quot;: true,&#10;  &quot;MPEKeyboard&quot;: false,&#10;  &quot;MPEStartChannel&quot;: 2,&#10;  &quot;MPEEndChannel&quot;: 16&#10;}"
+               width="840.0" height="190.0" parentComponent="qwertyPlayPanel"/>
+    <Component type="ScriptPanel" id="keyboardPanel" x="-70.0" y="-30.0" width="60.0"
+               height="160.0" parentComponent="qwertyPlayPanel"/>
+  </Component>
+  <Component type="ScriptPanel" id="midiPlayPanel" x="200.0" y="400.0" width="820.0"
+             height="190.0" borderSize="0.0" borderRadius="0.0" bgColour="16777215"
+             itemColour="4280427042" itemColour2="4280427042" textColour="16777215"
+             visible="0">
+    <Component type="ScriptFloatingTile" id="midiSourcesFloatingTile" x="450.0"
+               y="50.0" ContentType="MidiSources" bgColour="4278190080" itemColour="0"
+               itemColour2="0" width="230.0" height="100.0" parentComponent="midiPlayPanel"
+               Font="Abel" FontSize="22.0" textColour="4291085508"/>
+    <Component type="ScriptLabel" id="midiPanelScriptLabel" x="70.0" y="60.0"
+               width="340.0" height="70.0" parentComponent="midiPlayPanel" editable="0"
+               text="Connect and choose your midi device." fontName="Abel" fontSize="22.0"
+               itemColour2="4211081216" textColour="4291085508"/>
+  </Component>
+  <Component type="ScriptButton" id="chooseButton" x="467.0" y="273.0" filmstripImage="{PROJECT_FOLDER}btn_choose.png"
+             width="110.0" height="50.0" scaleFactor="0.25"/>
+  <Component type="ScriptLabel" id="midiDropLabel" x="325.0" y="267.0" text="Drop a MIDI file or                             a Midi Template"
+             fontName="Abel" fontSize="22.0" width="380.0" height="60.0" textColour="4291085508"
+             editable="0"/>
+  <Component type="ScriptImage" id="Image1" x="0.0" y="381.0" fileName="{PROJECT_FOLDER}line_horizontal_long.png"
+             width="1020.0" height="30.0"/>
+  <Component type="ScriptImage" id="Image2" x="0.0" y="329.0" fileName="{PROJECT_FOLDER}line_horizontal_long.png"
+             width="1020.0" height="30.0"/>
+  <Component type="ScriptImage" id="Image3" x="0.0" y="580.0" fileName="{PROJECT_FOLDER}line_horizontal_long.png"
+             width="1020.0" height="30.0"/>
+  <Component type="ScriptImage" id="Image4" x="195.0" y="389.0" fileName="{PROJECT_FOLDER}line_vert_mid.png"
+             width="10.0" height="291.0"/>
+  <Component type="ScriptPanel" id="selectTrackPanel" x="400.0" y="90.0" width="410.0"
+             height="200.0" itemColour="4279703319" itemColour2="4279703319"
+             borderSize="1.0" borderRadius="2.0" visible="0">
+    <Component type="ScriptLabel" id="numTracksLabel" x="56.0" y="39.0" width="300.0"
+               height="70.0" parentComponent="selectTrackPanel" text="The midi you loaded contains 3 tracks. Pleaea pick the track to load."
+               fontSize="22.0" fontName="Abel"/>
+    <Component type="ScriptComboBox" id="tracksComboBox" x="110.0" y="120.0"
+               width="180.0" height="40.0" max="0" parentComponent="selectTrackPanel"/>
+  </Component>
+  <Component type="ScriptButton" id="metronomeButton" x="30.0" y="360.0" width="100.0"
+             height="30.0"/>
+  <Component type="ScriptButton" id="hostSyncButton" x="150.0" y="360.0" width="100.0"
+             height="30.0"/>
+  <Component type="ScriptButton" id="pianoButton" x="470.0" y="360.0" width="70.0"
+             height="30.0"/>
+  <Component type="ScriptButton" id="stringButton" x="550.0" y="360.0" width="70.0"
+             height="30.0"/>
+  <Component type="ScriptButton" id="synthButton" x="631.0" y="360.0" width="70.0"
+             height="30.0"/>
+  <Component type="ScriptButton" id="autoplayButton" x="730.0" y="360.0" width="70.0"
+             height="30.0"/>
+  <Component type="ScriptButton" id="autoplayButton1" x="730.0" y="360.0"
+             width="70.0" height="30.0"/>
+  <Component type="ScriptButton" id="autoplayButton2" x="730.0" y="360.0"
+             width="70.0" height="30.0"/>
+  <Component type="ScriptButton" id="settingsButton" x="930.0" y="360.0" width="70.0"
+             height="30.0"/>
+</ContentProperties>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Network ID="Shimmer" Version="0.0.0">
+  <Node FactoryPath="container.chain" ID="Shimmer" Bypassed="0" ShowParameters="1">
+    <Nodes>
+      <Node ID="faust1" FactoryPath="core.faust" Bypassed="0">
+        <Parameters>
+          <Parameter MinValue="0.0" MaxValue="4.0" StepSize="0.05000000074505806"
+                     ID="control1" Automated="1"/>
+          <Parameter MinValue="0.0" MaxValue="4.0" StepSize="0.05000000074505806"
+                     ID="depth" Automated="1"/>
+          <Parameter MinValue="0.1000000014901161" MaxValue="0.699999988079071" StepSize="0.05000000074505806"
+                     ID="diffusion" Automated="1"/>
+          <Parameter MinValue="0.0" MaxValue="1.0" StepSize="0.05000000074505806"
+                     ID="dry/wet" Automated="1"/>
+          <Parameter MinValue="0.1000000014901161" MaxValue="3.0" StepSize="0.05000000074505806"
+                     ID="envelope" Automated="1"/>
+          <Parameter MinValue="0.0" MaxValue="0.3499999940395355" StepSize="0.05000000074505806"
+                     ID="feedback" Automated="1"/>
+          <Parameter MinValue="0.004999999888241291" MaxValue="0.9950000047683716"
+                     StepSize="0.004999999888241291" ID="hf damping" Automated="1"/>
+          <Parameter MinValue="-12.0" MaxValue="12.0" StepSize="0.1000000014901161"
+                     ID="shift" Automated="1"/>
+          <Parameter MinValue="1.0" MaxValue="9.0" StepSize="0.05000000074505806"
+                     ID="size" Automated="1"/>
+          <Parameter MinValue="0.1000000014901161" MaxValue="10.0" StepSize="0.05000000074505806"
+                     ID="speed" Automated="1"/>
+        </Parameters>
+        <Properties>
+          <Property ID="ClassId" Value="shimmer"/>
+          <Property ID="NumParameters" Value="0"/>
+        </Properties>
+        <SwitchTargets/>
+      </Node>
+    </Nodes>
+    <Parameters>
+      <Parameter ID="Dry/Wet" MinValue="0.0" MaxValue="1.0" StepSize="0.05000000074505806"
+                 Value="0.5500000081956387">
+        <Connections>
+          <Connection NodeId="faust1" ParameterId="dry/wet"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="Control 1" MinValue="0.0" MaxValue="4.0" StepSize="0.05000000074505806"
+                 Value="1.150000017136335">
+        <Connections>
+          <Connection NodeId="faust1" ParameterId="control1"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="Depth" MinValue="0.0" MaxValue="4.0" StepSize="0.05000000074505806"
+                 Value="4.0">
+        <Connections>
+          <Connection NodeId="faust1" ParameterId="depth"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="Diffusion" MinValue="0.1000000014901161" MaxValue="0.699999988079071"
+                 StepSize="0.05000000074505806" Value="0.6500000096857548">
+        <Connections>
+          <Connection NodeId="faust1" ParameterId="diffusion"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="Envelope" MinValue="0.1000000014901161" MaxValue="3.0" StepSize="0.05000000074505806"
+                 Value="0.800000011920929">
+        <Connections>
+          <Connection NodeId="faust1" ParameterId="envelope"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="Feedback" MinValue="0.0" MaxValue="0.3499999940395355" StepSize="0.05000000074505806"
+                 Value="0.3000000044703484">
+        <Connections>
+          <Connection NodeId="faust1" ParameterId="feedback"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="Damping" MinValue="0.004999999888241291" MaxValue="0.9950000047683716"
+                 StepSize="0.004999999888241291" Value="0.1999999955296516">
+        <Connections>
+          <Connection NodeId="faust1" ParameterId="hf damping"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="Shift" MinValue="-12.0" MaxValue="12.0" StepSize="0.1000000014901161"
+                 Value="3.20000022649765">
+        <Connections>
+          <Connection NodeId="faust1" ParameterId="shift"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="Size" MinValue="1.0" MaxValue="9.0" StepSize="0.05000000074505806"
+                 Value="7.350000094622374">
+        <Connections>
+          <Connection NodeId="faust1" ParameterId="size"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="Speed" MinValue="0.1000000014901161" MaxValue="10.0" StepSize="0.05000000074505806"
+                 Value="1.350000020116568">
+        <Connections>
+          <Connection NodeId="faust1" ParameterId="speed"/>
+        </Connections>
+      </Parameter>
+    </Parameters>
+  </Node>
+</Network>

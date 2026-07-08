@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Processor Type="SynthChain" ID="markovLecturaMidi_V10_Funciona_MarkovOrdenVariable_Hardcodeado"
+           Bypassed="0" Gain="1.0" Balance="0.0" VoiceLimit="64.0" KillFadeTime="20.0"
+           IconColour="0" packageName="" BuildVersion="650">
+  <ChildProcessors>
+    <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
+      <ChildProcessors>
+        <Processor Type="MidiPlayer" ID="MIDI Player1" Bypassed="0" CurrentSequence="9.0"
+                   CurrentTrack="1.0" LoopEnabled="1.0" PlaybackSpeed="1.0">
+          <ChildProcessors/>
+          <MidiFiles>
+            <MidiFile ID="" Data="56.nT6K8ChX8E..zIPSTgFY....F.P..Dv4nzDUxsF....S..IOjbHP.xC.+.HO..v+u.P..LnTwI."
+                      FileName="{PROJECT_FOLDER}simpleMelody.mid">
+              <TimeSignature NumBars="2.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="77.nT6K8ChXkH..TKPSTgFY....F.P..Dv4nzDUxsF....S..IOfcHP.xC...YPA4iOCMD..Az+u.PBf.0TEd.D.jurrSqMPfS.CfPLH9D"
+                      FileName="{PROJECT_FOLDER}simpleMelody.mid">
+              <TimeSignature NumBars="2.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="82.nT6K8ChXMI..jLPSTgFY....F.P..Dv4nzDUxsF....S..IOfcHP.xC...YPA4iOCMD..AzO.ND..7+K.j.HPMUgG...4KK6zZCD3Dv.HDChOA"
+                      FileName="C:\Users\Guido\AppData\Local\Temp\temp.mid">
+              <TimeSignature NumBars="2.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="87.nT6K8Chp0I..jKPSTgFY....F.P..Dv4nzDUxsF....k..ILfcHP.BC...IMzHiL0TyM2...++B.M.JDc8+2A.rT.YGA4OG.kqAH9ZG7GFTyxBCULXrC"
+                      FileName="{PROJECT_FOLDER}MidiFilesmidiTest_2.mid">
+              <TimeSignature NumBars="4.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="87.nT6K8Chp0I..jKPSTgFY....F.P..Dv4nzDUxsF....k..ILfcHP.BC...IMzHiL0TyM2...++B.M.JDc8+2A.rT.YGA4OG.kqAH9ZG7GFTyxBCULXrC"
+                      FileName="{PROJECT_FOLDER}MidiFilesmidiTest_2.mid">
+              <TimeSignature NumBars="4.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="77.nT6K8ChXkH..TKPSTgFY....F.P..Dv4nzDUxsF....S..IOfcHP.xC...YPA4iOCMD..Az+u.PBf.0TEd.D.jurrSqMPfS.CfPLH9D"
+                      FileName="{PROJECT_FOLDER}simpleMelody.mid">
+              <TimeSignature NumBars="2.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="87.nT6K8Chp0I..jKPSTgFY....F.P..Dv4nzDUxsF....k..ILfcHP.BC...IMzHiL0TyM2...++B.M.JDc8+2A.rT.YGA4OG.kqAH9ZG7GFTyxBCULXrC"
+                      FileName="{PROJECT_FOLDER}MidiFilesmidiTest_2.mid">
+              <TimeSignature NumBars="4.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="87.nT6K8Chp0I..jKPSTgFY....F.P..Dv4nzDUxsF....k..IOfcHP.xC...IP.4iOAEzPCA..++B.M.JDc8+2A.rT.YGA4OG.kqAH9ZG7GFTyxBCULXrC"
+                      FileName="{PROJECT_FOLDER}MidiFilesmidiTest_3.mid">
+              <TimeSignature NumBars="4.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="87.nT6K8Chp0I..jKPSTgFY....F.P..Dv4nzDUxsF....k..IOfcHP.xC...IP.4iOAEzPCA..++B.M.JDc8+2A.rT.YGA4OG.kqAH9ZG7GFTyxBCULXrC"
+                      FileName="C:\Users\Guido\AppData\Local\Temp\temp.mid">
+              <TimeSignature NumBars="4.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+          </MidiFiles>
+        </Processor>
+        <Processor Type="ScriptProcessor" ID="Interface" Bypassed="0">
+          <ChildProcessors/>
+          <Content>
+            <Control type="ScriptButton" id="StartButton" value="0.0"/>
+            <Control type="ScriptButton" id="Read MIDI" value="0.0"/>
+            <Control type="ScriptButton" id="NextNote" value="0.0"/>
+          </Content>
+          <UIData Source="markovLecturaMidi_V10_Funciona_MarkovOrdenVariable_HardcodeadoUIData"/>
+        </Processor>
+      </ChildProcessors>
+    </Processor>
+    <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
+      <ChildProcessors/>
+    </Processor>
+    <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="1" Intensity="0.0">
+      <ChildProcessors/>
+    </Processor>
+    <Processor Type="EffectChain" ID="FX" Bypassed="0">
+      <ChildProcessors/>
+    </Processor>
+    <Processor Type="SineSynth" ID="Sine Wave Generator1" Bypassed="0" Gain="0.25"
+               Balance="0.0" VoiceLimit="256.0" KillFadeTime="20.0" IconColour="0"
+               OctaveTranspose="1.0" SemiTones="0.0" UseFreqRatio="0.0" CoarseFreqRatio="1.0"
+               FineFreqRatio="0.0" SaturationAmount="0.0">
+      <ChildProcessors>
+        <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
+          <ChildProcessors/>
+        </Processor>
+        <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
+          <ChildProcessors>
+            <Processor Type="AHDSR" ID="AHDSR Envelope1" Bypassed="0" Monophonic="0.0"
+                       Retrigger="0.0" Intensity="1.0" AttackCurve="0.3100000023841858"
+                       DecayCurve="0.1700000017881393" Attack="0.0" AttackLevel="-12.53364944458008"
+                       Hold="1120.0" Decay="1735.0" Sustain="-100.0" Release="220.0"
+                       EcoMode="1.0">
+              <ChildProcessors>
+                <Processor Type="ModulatorChain" ID="Attack Time" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Attack Level" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Decay Time" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Sustain Level" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Release Time" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+              </ChildProcessors>
+            </Processor>
+          </ChildProcessors>
+        </Processor>
+        <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0.0">
+          <ChildProcessors/>
+        </Processor>
+        <Processor Type="EffectChain" ID="FX" Bypassed="0">
+          <ChildProcessors/>
+        </Processor>
+      </ChildProcessors>
+      <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+    </Processor>
+  </ChildProcessors>
+  <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+  <macro_controls>
+    <macro name="Macro 1" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 2" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 3" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 4" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 5" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 6" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 7" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 8" value="0.0" midi_cc="-1"/>
+  </macro_controls>
+  <MidiAutomation/>
+  <MPEData Enabled="0"/>
+</Processor>

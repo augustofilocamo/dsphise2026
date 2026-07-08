@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ProjectSettings>
+  <Name value="Tactile"/>
+  <Version value="1.0.2"/>
+  <Description value=""/>
+  <BundleIdentifier value="com.sampleson.tactile"/>
+  <PluginCode value="Tact"/>
+  <EmbedAudioFiles value="1"/>
+  <EmbedImageFiles value="Yes"/>
+  <SupportFullDynamicsHLAC value="0"/>
+  <AdditionalDspLibraries value=""/>
+  <OSXStaticLibs value=""/>
+  <WindowsStaticLibFolder value=""/>
+  <ExtraDefinitionsWindows value="JucePlugin_ProducesMidiOutput=1&#10;HISE_SEND_PANEL_CHANGED_TO_PLUGIN_PARAMETER=1"/>
+  <ExtraDefinitionsOSX value="JucePlugin_ProducesMidiOutput=1&#10;HISE_SEND_PANEL_CHANGED_TO_PLUGIN_PARAMETER=1"/>
+  <ExtraDefinitionsIOS value=""/>
+  <ExtraDefinitionsLinux value=""/>
+  <AppGroupID value=""/>
+  <RedirectSampleFolder value=""/>
+  <AAXCategoryFX value="AAX_ePlugInCategory_Modulation"/>
+  <SupportMonoFX value="No"/>
+  <EnableMidiInputFX value="No"/>
+  <EnableMidiOut value="1"/>
+  <EnableSoundGeneratorsFX value="No"/>
+  <VST3Support value="1"/>
+  <UseRawFrontend value="No"/>
+  <ExpansionType value="Disabled"/>
+  <EncryptionKey value=""/>
+  <LinkExpansionsToProject value="No"/>
+  <ReadOnlyFactoryPresets value="No"/>
+  <ForceStereoOutput value="No"/>
+  <AdminPermissions value="No"/>
+  <EmbedUserPresets value="Yes"/>
+  <EnableGlobalPreprocessor value="No"/>
+  <VST3Category value=""/>
+  <OverwriteOldUserPresets value="No"/>
+  <UseGlobalAppDataFolderWindows value="No"/>
+  <UseGlobalAppDataFolderMacOS value="No"/>
+  <DefaultUserPreset value=""/>
+  <CompileWithPerfetto value="No"/>
+  <CompileWithDebugSymbols value="No"/>
+  <ExtraDefinitionsNetworkDll value=""/>
+  <IncludeLorisInFrontend value="No"/>
+  <ProjectType value="Instrument"/>
+</ProjectSettings>

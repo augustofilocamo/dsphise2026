@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Preset Version="1.0.0">
+  <Content Processor="Interface">
+    <Control type="ScriptSlider" id="Knob1" value="0.2300000041723251"/>
+    <Control type="ScriptSlider" id="Knob2" value="0.0"/>
+    <Control type="ScriptSlider" id="Knob3" value="0"/>
+    <Control type="ScriptSlider" id="Knob5" value="-100.0"/>
+    <Control type="ScriptSlider" id="Knob6" value="0.0"/>
+    <Control type="ScriptSlider" id="Knob7" value="191.0"/>
+    <Control type="ScriptSlider" id="Knob8" value="0"/>
+    <Control type="ScriptSlider" id="Knob4" value="0.0"/>
+    <Control type="ScriptSlider" id="Knob9" value="0.0"/>
+    <Control type="ScriptSlider" id="Knob10" value="0.0"/>
+    <Control type="ScriptSlider" id="Knob12" value="1.960000038146973"/>
+    <Control type="ScriptSlider" id="Knob13" value="-68.00351502513513"/>
+    <Control type="ScriptSlider" id="Knob14" value="3.019999980926514"/>
+    <Control type="ScriptSlider" id="TempoKnob" value="102.0"/>
+    <Control type="ScriptButton" id="Knob11" value="0"/>
+    
+    <Control type="ScriptSlider" id="Knob17" value="1.0"/>
+    <Control type="ScriptSlider" id="Knob15" value="7.96999979019165"/>
+    <Control type="ScriptSlider" id="Knob16" value="1.0"/>
+    <Control type="ScriptSlider" id="Knob19" value="0.7704644177574664"/>
+    <Control type="ScriptButton" id="Knob18" value="0.0"/>
+    <Control type="ScriptButton" id="Button1" value="0"/>
+    <Control type="ScriptButton" id="Button2" value="0"/>
+    <Control type="ScriptButton" id="Button3" value="0"/>
+    <Control type="ScriptButton" id="Button4" value="0"/>
+    <Control type="ScriptButton" id="Button5" value="0"/>
+    <Control type="ScriptButton" id="Button6" value="0"/>
+    <Control type="ScriptButton" id="Button7" value="0"/>
+    <Control type="ScriptButton" id="Button8" value="0"/>
+    <Control type="ScriptButton" id="Button9" value="0"/>
+    <Control type="ScriptButton" id="Button10" value="0"/>
+    <Control type="ScriptButton" id="Button11" value="0"/>
+    <Control type="ScriptButton" id="Button12" value="0"/>
+    <Control type="ScriptButton" id="Button13" value="0"/>
+    <Control type="ScriptButton" id="Button14" value="0"/>
+    <Control type="ScriptButton" id="Button15" value="0"/>
+    <Control type="ScriptButton" id="Button16" value="0"/>
+    <Control type="ScriptButton" id="Button17" value="0"/>
+    <Control type="ScriptButton" id="Button18" value="0"/>
+    <Control type="ScriptButton" id="Button19" value="0"/>
+    <Control type="ScriptButton" id="Button20" value="0"/>
+    <Control type="ScriptButton" id="Button21" value="0"/>
+    <Control type="ScriptButton" id="Button22" value="0"/>
+    <Control type="ScriptButton" id="Button23" value="0"/>
+    <Control type="ScriptButton" id="Button24" value="0.0"/>
+    <Control type="ScriptButton" id="Button25" value="0"/>
+    <Control type="ScriptButton" id="Button26" value="0"/>
+    <Control type="ScriptButton" id="Button27" value="0"/>
+    <Control type="ScriptButton" id="Button28" value="0"/>
+    <Control type="ScriptButton" id="Button29" value="0"/>
+    <Control type="ScriptButton" id="Button30" value="0.0"/>
+    <Control type="ScriptButton" id="Button31" value="0"/>
+    <Control type="ScriptButton" id="Button32" value="0"/>
+    <Control type="ScriptButton" id="Button33" value="0"/>
+    <Control type="ScriptButton" id="Button34" value="0"/>
+    <Control type="ScriptButton" id="Button35" value="0"/>
+    <Control type="ScriptButton" id="Button36" value="0"/>
+    <Control type="ScriptButton" id="Button37" value="0"/>
+    <Control type="ScriptButton" id="Button38" value="0"/>
+    <Control type="ScriptSliderPack" id="SliderPack1" value="6" data="32....LAC..................HFL.............PDL"/>
+    <Control type="ScriptSliderPack" id="SliderPack3" value="7" data="32...f+BA...9C...3O...f+...9KD...3O...f+...DHD"/>
+    <Control type="ScriptSliderPack" id="SliderPack4" value="16" data="32....sBA..................zJD.............zJD"/>
+    <Control type="ScriptSlider" id="Knob20" value="8"/>
+    <Control type="ScriptSlider" id="Knob21" value="0.0"/>
+    <Control type="ScriptButton" id="ScriptButton1" value="1"/>
+    <Control type="ScriptButton" id="ScriptButton2" value="1"/>
+    <Control type="ScriptButton" id="ScriptButton3" value="0"/>
+  </Content>
+  <MidiAutomation/>
+  <MPEData Enabled="0"/>
+</Preset>

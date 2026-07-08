@@ -1,0 +1,118 @@
+{
+  "index": 487530,
+  "distance": 3.936978100344385,
+  "meta_bpm": 93.0,
+  "matches": [
+    {
+      "index": 487530,
+      "distance": 3.936978100344385,
+      "meta_bpm": 93.0,
+      "bank": "pattern_bank.bbank",
+      "midi_id": "e-gmd-v1.0.0/drummer7/session3/120_rock_93_beat_4-4_1.midi",
+      "bar_start": 23,
+      "source_path": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/.midi_cache/120_rock_93_beat_4-4_1_f2e53ed1.mid",
+      "mid_path": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/AudioFiles/stems/current/closest_1bar_1.mid",
+      "mid_path_expand": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/AudioFiles/stems/current/closest_1bar_1_expand.mid",
+      "preview_bars": 2
+    },
+    {
+      "index": 639565,
+      "distance": 5.058608215943249,
+      "meta_bpm": 96.0,
+      "bank": "pattern_bank.bbank",
+      "midi_id": "e-gmd-v1.0.0/drummer7/session2/113_jazz-fusion_96_beat_4-4_1.midi",
+      "bar_start": 10,
+      "source_path": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/.midi_cache/113_jazz-fusion_96_beat_4-4_1_044c203a.mid",
+      "mid_path": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/AudioFiles/stems/current/closest_1bar_2.mid",
+      "mid_path_expand": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/AudioFiles/stems/current/closest_1bar_2_expand.mid",
+      "preview_bars": 2
+    },
+    {
+      "index": 49283,
+      "distance": 5.471818548718221,
+      "meta_bpm": 96.0,
+      "bank": "pattern_bank.bbank",
+      "midi_id": "e-gmd-v1.0.0/drummer7/session2/112_jazz-fusion_96_beat_4-4_1.midi",
+      "bar_start": 2,
+      "source_path": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/.midi_cache/112_jazz-fusion_96_beat_4-4_1_7c1be05b.mid",
+      "mid_path": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/AudioFiles/stems/current/closest_1bar_3.mid",
+      "mid_path_expand": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/AudioFiles/stems/current/closest_1bar_3_expand.mid",
+      "preview_bars": 2
+    },
+    {
+      "index": 458743,
+      "distance": 6.104129206070033,
+      "meta_bpm": 96.0,
+      "bank": "pattern_bank.bbank",
+      "midi_id": "e-gmd-v1.0.0/drummer7/session2/115_jazz-fusion_96_beat_4-4_1.midi",
+      "bar_start": 6,
+      "source_path": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/.midi_cache/115_jazz-fusion_96_beat_4-4_1_14ac9ff8.mid",
+      "mid_path": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/AudioFiles/stems/current/closest_1bar_4.mid",
+      "mid_path_expand": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/AudioFiles/stems/current/closest_1bar_4_expand.mid",
+      "preview_bars": 2
+    },
+    {
+      "index": 488978,
+      "distance": 8.887458704195314,
+      "meta_bpm": 93.0,
+      "bank": "pattern_bank.bbank",
+      "midi_id": "e-gmd-v1.0.0/drummer7/session3/129_rock_93_beat_4-4_1.midi",
+      "bar_start": 9,
+      "source_path": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/.midi_cache/129_rock_93_beat_4-4_1_9897f3da.mid",
+      "mid_path": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/AudioFiles/stems/current/closest_1bar_5.mid",
+      "mid_path_expand": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/AudioFiles/stems/current/closest_1bar_5_expand.mid",
+      "preview_bars": 2
+    },
+    {
+      "index": 265323,
+      "distance": 11.35678580906335,
+      "meta_bpm": 120.0,
+      "bank": "pattern_bank.bbank",
+      "midi_id": "e-gmd-v1.0.0/drummer3/session1/22_jazz_120_beat_4-4_18.midi",
+      "bar_start": 9,
+      "source_path": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/.midi_cache/22_jazz_120_beat_4-4_18_ae371531.mid",
+      "mid_path": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/AudioFiles/stems/current/closest_1bar_6.mid",
+      "mid_path_expand": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/AudioFiles/stems/current/closest_1bar_6_expand.mid",
+      "preview_bars": 2
+    },
+    {
+      "index": 445374,
+      "distance": 13.66975780052572,
+      "meta_bpm": 93.0,
+      "bank": "pattern_bank.bbank",
+      "midi_id": "e-gmd-v1.0.0/drummer7/session1/10_rock_93_beat_4-4_1.midi",
+      "bar_start": 13,
+      "source_path": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/.midi_cache/10_rock_93_beat_4-4_1_6d1db3a1.mid",
+      "mid_path": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/AudioFiles/stems/current/closest_1bar_7.mid",
+      "mid_path_expand": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/AudioFiles/stems/current/closest_1bar_7_expand.mid",
+      "preview_bars": 2
+    },
+    {
+      "index": 185325,
+      "distance": 13.78854306887684,
+      "meta_bpm": 90.0,
+      "bank": "pattern_bank.bbank",
+      "midi_id": "e-gmd-v1.0.0/drummer1/session3/10_rock-folk_90_beat_4-4_1.midi",
+      "bar_start": 35,
+      "source_path": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/.midi_cache/10_rock-folk_90_beat_4-4_1_5e2445d9.mid",
+      "mid_path": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/AudioFiles/stems/current/closest_1bar_8.mid",
+      "mid_path_expand": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/AudioFiles/stems/current/closest_1bar_8_expand.mid",
+      "preview_bars": 2
+    },
+    {
+      "index": 49885,
+      "distance": 14.05673204252144,
+      "meta_bpm": 96.0,
+      "bank": "pattern_bank.bbank",
+      "midi_id": "e-gmd-v1.0.0/drummer7/session2/114_jazz-fusion_96_beat_4-4_1.midi",
+      "bar_start": 2,
+      "source_path": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/.midi_cache/114_jazz-fusion_96_beat_4-4_1_8c7c6019.mid",
+      "mid_path": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/AudioFiles/stems/current/closest_1bar_9.mid",
+      "mid_path_expand": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/AudioFiles/stems/current/closest_1bar_9_expand.mid",
+      "preview_bars": 2
+    }
+  ],
+  "bars": 9,
+  "preview_bars": 2,
+  "match_two_consecutive_bars": true
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptPanel" id="Panel1" x="0.0" y="0.0" width="1020.0"
+             height="680.0" borderSize="0.0" borderRadius="0.0" itemColour="4279242768"
+             itemColour2="4279242768"/>
+  <Component type="ScriptPanel" id="XYPadPnl" x="0.0" y="0.0" width="1020.0"
+             height="420.0" allowCallbacks="All Callbacks" popupOnRightClick="0"
+             isPluginParameter="1" pluginParameterName="PackedXY" itemColour="4294901866"/>
+  <Component type="ScriptLabel" id="Label1" x="100.0" y="560.0" width="410.0"
+             height="50.0" text="Pack&#8594;0.8149 X:0.82 Y:0.49" itemColour="16711768"
+             itemColour2="4227792975"/>
+</ContentProperties>

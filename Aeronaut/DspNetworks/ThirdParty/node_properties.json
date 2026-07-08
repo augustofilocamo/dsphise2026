@@ -1,0 +1,6 @@
+{
+  "spectral_freeze_node": [
+    "IsPolyphonic",
+    "AllowPolyphonic"
+  ]
+}

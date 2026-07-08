@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap ID="uprPiano" RRGroupAmount="1.0" MicPositions=";" CrossfadeGamma="1.0"
+           SaveMode="2">
+  <sample Root="33" LoKey="23" HiKey="36" LoVel="0" HiVel="79" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Upright Piano/Player_dyn2_rr1_000.wav"
+          Duplicate="0" Volume="7" SampleEnd="749917" MonolithOffset="0"
+          MonolithLength="753664" SampleRate="44100.0"/>
+  <sample Root="37" LoKey="37" HiKey="40" LoVel="0" HiVel="79" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Upright Piano/Player_dyn2_rr1_002.wav"
+          Duplicate="0" Volume="7" SampleEnd="1012253" MonolithOffset="753664"
+          MonolithLength="1015808" SampleRate="44100.0"/>
+  <sample Root="41" LoKey="41" HiKey="44" LoVel="0" HiVel="79" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Upright Piano/Player_dyn2_rr1_004.wav"
+          Duplicate="0" Volume="7" SampleEnd="937387" MonolithOffset="1769472"
+          MonolithLength="937984" SampleRate="44100.0"/>
+  <sample Root="45" LoKey="45" HiKey="48" LoVel="0" HiVel="79" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Upright Piano/Player_dyn2_rr1_006.wav"
+          Duplicate="0" Volume="7" SampleEnd="822665" MonolithOffset="2707456"
+          MonolithLength="823296" SampleRate="44100.0"/>
+  <sample Root="49" LoKey="49" HiKey="52" LoVel="0" HiVel="79" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Upright Piano/Player_dyn2_rr1_008.wav"
+          Duplicate="0" Volume="7" SampleEnd="1143596" MonolithOffset="3530752"
+          MonolithLength="1146880" SampleRate="44100.0"/>
+  <sample Root="53" LoKey="53" HiKey="56" LoVel="0" HiVel="79" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Upright Piano/Player_dyn2_rr1_010.wav"
+          Duplicate="0" Volume="7" SampleEnd="1262028" MonolithOffset="4677632"
+          MonolithLength="1265664" SampleRate="44100.0"/>
+  <sample Root="57" LoKey="57" HiKey="60" LoVel="0" HiVel="79" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Upright Piano/Player_dyn2_rr1_012.wav"
+          Duplicate="0" Volume="7" SampleEnd="1050895" MonolithOffset="5943296"
+          MonolithLength="1052672" SampleRate="44100.0"/>
+  <sample Root="61" LoKey="61" HiKey="64" LoVel="0" HiVel="79" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Upright Piano/Player_dyn2_rr1_014.wav"
+          Duplicate="0" Volume="7" SampleEnd="1029982" MonolithOffset="6995968"
+          MonolithLength="1032192" SampleRate="44100.0"/>
+  <sample Root="65" LoKey="65" HiKey="68" LoVel="0" HiVel="79" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Upright Piano/Player_dyn2_rr1_016.wav"
+          Duplicate="0" Volume="7" SampleEnd="773746" MonolithOffset="8028160"
+          MonolithLength="774144" SampleRate="44100.0"/>
+  <sample Root="69" LoKey="69" HiKey="72" LoVel="0" HiVel="79" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Upright Piano/Player_dyn2_rr1_018.wav"
+          Duplicate="0" Volume="7" SampleEnd="957911" MonolithOffset="8802304"
+          MonolithLength="958464" SampleRate="44100.0"/>
+  <sample Root="73" LoKey="73" HiKey="76" LoVel="0" HiVel="79" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Upright Piano/Player_dyn2_rr1_020.wav"
+          Duplicate="0" Volume="7" SampleEnd="724352" MonolithOffset="9760768"
+          MonolithLength="724992" SampleRate="44100.0"/>
+  <sample Root="77" LoKey="77" HiKey="80" LoVel="0" HiVel="79" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Upright Piano/Player_dyn2_rr1_022.wav"
+          Duplicate="0" Volume="7" SampleEnd="745969" MonolithOffset="10485760"
+          MonolithLength="749568" SampleRate="44100.0"/>
+  <sample Root="81" LoKey="81" HiKey="84" LoVel="0" HiVel="79" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Upright Piano/Player_dyn2_rr1_024.wav"
+          Duplicate="0" Volume="7" SampleEnd="534034" MonolithOffset="11235328"
+          MonolithLength="536576" SampleRate="44100.0"/>
+  <sample Root="85" LoKey="85" HiKey="88" LoVel="0" HiVel="79" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Upright Piano/Player_dyn2_rr1_026.wav"
+          Duplicate="0" Volume="7" SampleEnd="442689" MonolithOffset="11771904"
+          MonolithLength="446464" SampleRate="44100.0"/>
+  <sample Root="89" LoKey="89" HiKey="92" LoVel="0" HiVel="79" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Upright Piano/Player_dyn2_rr1_028.wav"
+          Duplicate="0" Volume="7" SampleEnd="501355" MonolithOffset="12218368"
+          MonolithLength="503808" SampleRate="44100.0"/>
+  <sample Root="93" LoKey="93" HiKey="96" LoVel="0" HiVel="79" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Upright Piano/Player_dyn2_rr1_030.wav"
+          Duplicate="0" Volume="7" SampleEnd="523938" MonolithOffset="12722176"
+          MonolithLength="524288" SampleRate="44100.0"/>
+  <sample Root="97" LoKey="97" HiKey="100" LoVel="0" HiVel="79" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Upright Piano/Player_dyn2_rr1_032.wav"
+          Duplicate="0" Volume="7" SampleEnd="481306" MonolithOffset="13246464"
+          MonolithLength="483328" SampleRate="44100.0"/>
+  <sample Root="101" LoKey="101" HiKey="104" LoVel="0" HiVel="79" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Upright Piano/Player_dyn2_rr1_034.wav"
+          Duplicate="0" Volume="7" SampleEnd="434112" MonolithOffset="13729792"
+          MonolithLength="434176" SampleRate="44100.0"/>
+  <sample Root="105" LoKey="105" HiKey="108" LoVel="0" HiVel="79" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Upright Piano/Player_dyn2_rr1_036.wav"
+          Duplicate="0" Volume="7" SampleEnd="375699" MonolithOffset="14163968"
+          MonolithLength="376832" SampleRate="44100.0"/>
+  <sample Root="109" LoKey="109" HiKey="112" LoVel="0" HiVel="79" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Upright Piano/Player_dyn2_rr1_038.wav"
+          Duplicate="0" Volume="7" SampleEnd="237439" MonolithOffset="14540800"
+          MonolithLength="237568" SampleRate="44100.0"/>
+  <sample Root="33" LoKey="23" HiKey="36" LoVel="80" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Upright Piano/Player_dyn3_rr1_000.wav"
+          Duplicate="0" SampleEnd="1152986" MonolithOffset="14778368" MonolithLength="1155072"
+          SampleRate="44100.0"/>
+  <sample Root="37" LoKey="37" HiKey="40" LoVel="80" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Upright Piano/Player_dyn3_rr1_002.wav"
+          Duplicate="0" SampleEnd="1076961" MonolithOffset="15933440" MonolithLength="1077248"
+          SampleRate="44100.0"/>
+  <sample Root="41" LoKey="41" HiKey="44" LoVel="80" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Upright Piano/Player_dyn3_rr1_004.wav"
+          Duplicate="0" SampleEnd="1025895" MonolithOffset="17010688" MonolithLength="1028096"
+          SampleRate="44100.0"/>
+  <sample Root="45" LoKey="45" HiKey="48" LoVel="80" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Upright Piano/Player_dyn3_rr1_006.wav"
+          Duplicate="0" SampleEnd="1034996" MonolithOffset="18038784" MonolithLength="1036288"
+          SampleRate="44100.0"/>
+  <sample Root="49" LoKey="49" HiKey="52" LoVel="80" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Upright Piano/Player_dyn3_rr1_008.wav"
+          Duplicate="0" SampleEnd="1177069" MonolithOffset="19075072" MonolithLength="1179648"
+          SampleRate="44100.0"/>
+  <sample Root="53" LoKey="53" HiKey="56" LoVel="80" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Upright Piano/Player_dyn3_rr1_010.wav"
+          Duplicate="0" SampleEnd="1157661" MonolithOffset="20254720" MonolithLength="1159168"
+          SampleRate="44100.0"/>
+  <sample Root="57" LoKey="57" HiKey="60" LoVel="80" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Upright Piano/Player_dyn3_rr1_012.wav"
+          Duplicate="0" SampleEnd="1025414" MonolithOffset="21413888" MonolithLength="1028096"
+          SampleRate="44100.0"/>
+  <sample Root="61" LoKey="61" HiKey="64" LoVel="80" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Upright Piano/Player_dyn3_rr1_014.wav"
+          Duplicate="0" SampleEnd="838335" MonolithOffset="22441984" MonolithLength="839680"
+          SampleRate="44100.0"/>
+  <sample Root="65" LoKey="65" HiKey="68" LoVel="80" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Upright Piano/Player_dyn3_rr1_016.wav"
+          Duplicate="0" SampleEnd="959754" MonolithOffset="23281664" MonolithLength="962560"
+          SampleRate="44100.0"/>
+  <sample Root="69" LoKey="69" HiKey="72" LoVel="80" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Upright Piano/Player_dyn3_rr1_018.wav"
+          Duplicate="0" SampleEnd="934602" MonolithOffset="24244224" MonolithLength="937984"
+          SampleRate="44100.0"/>
+  <sample Root="73" LoKey="73" HiKey="76" LoVel="80" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Upright Piano/Player_dyn3_rr1_020.wav"
+          Duplicate="0" SampleEnd="868706" MonolithOffset="25182208" MonolithLength="872448"
+          SampleRate="44100.0"/>
+  <sample Root="77" LoKey="77" HiKey="80" LoVel="80" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Upright Piano/Player_dyn3_rr1_022.wav"
+          Duplicate="0" SampleEnd="816365" MonolithOffset="26054656" MonolithLength="819200"
+          SampleRate="44100.0"/>
+  <sample Root="81" LoKey="81" HiKey="84" LoVel="80" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Upright Piano/Player_dyn3_rr1_024.wav"
+          Duplicate="0" SampleEnd="786730" MonolithOffset="26873856" MonolithLength="790528"
+          SampleRate="44100.0"/>
+  <sample Root="85" LoKey="85" HiKey="88" LoVel="80" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Upright Piano/Player_dyn3_rr1_026.wav"
+          Duplicate="0" SampleEnd="641487" MonolithOffset="27664384" MonolithLength="643072"
+          SampleRate="44100.0"/>
+  <sample Root="89" LoKey="89" HiKey="92" LoVel="80" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Upright Piano/Player_dyn3_rr1_028.wav"
+          Duplicate="0" SampleEnd="475559" MonolithOffset="28307456" MonolithLength="479232"
+          SampleRate="44100.0"/>
+  <sample Root="93" LoKey="93" HiKey="96" LoVel="80" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Upright Piano/Player_dyn3_rr1_030.wav"
+          Duplicate="0" SampleEnd="623019" MonolithOffset="28786688" MonolithLength="626688"
+          SampleRate="44100.0"/>
+  <sample Root="97" LoKey="97" HiKey="100" LoVel="80" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Upright Piano/Player_dyn3_rr1_032.wav"
+          Duplicate="0" SampleEnd="561985" MonolithOffset="29413376" MonolithLength="565248"
+          SampleRate="44100.0"/>
+  <sample Root="101" LoKey="101" HiKey="104" LoVel="80" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Upright Piano/Player_dyn3_rr1_034.wav"
+          Duplicate="0" SampleEnd="467918" MonolithOffset="29978624" MonolithLength="471040"
+          SampleRate="44100.0"/>
+  <sample Root="105" LoKey="105" HiKey="108" LoVel="80" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Upright Piano/Player_dyn3_rr1_036.wav"
+          Duplicate="0" SampleEnd="247779" MonolithOffset="30449664" MonolithLength="249856"
+          SampleRate="44100.0"/>
+  <sample Root="109" LoKey="109" HiKey="112" LoVel="80" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Upright Piano/Player_dyn3_rr1_038.wav"
+          Duplicate="0" SampleEnd="154496" MonolithOffset="30699520" MonolithLength="155648"
+          SampleRate="44100.0"/>
+  <sample Root="113" LoKey="113" HiKey="116" LoVel="80" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Upright Piano/Player_dyn3_rr1_040.wav"
+          Duplicate="0" SampleEnd="120853" MonolithOffset="30855168" MonolithLength="122880"
+          SampleRate="44100.0"/>
+  <sample Root="117" LoKey="117" HiKey="120" LoVel="80" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Upright Piano/Player_dyn3_rr1_042.wav"
+          Duplicate="0" SampleEnd="78562" MonolithOffset="30978048" MonolithLength="81920"
+          SampleRate="44100.0"/>
+  <sample Root="113" LoKey="113" HiKey="116" LoVel="0" HiVel="79" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Upright Piano/Player_dyn2_rr1_040.wav"
+          Duplicate="0" Volume="7" SampleEnd="111202" MonolithOffset="31059968"
+          MonolithLength="114688" SampleRate="44100.0"/>
+  <sample Root="117" LoKey="117" HiKey="120" LoVel="0" HiVel="79" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Upright Piano/Player_dyn2_rr1_042.wav"
+          Duplicate="0" Volume="7" SampleEnd="105383" MonolithOffset="31174656"
+          MonolithLength="106496" SampleRate="44100.0"/>
+  <sample Root="121" LoKey="121" HiKey="127" LoVel="0" HiVel="79" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Upright Piano/Player_dyn2_rr1_044.wav"
+          Duplicate="0" Volume="7" SampleEnd="96738" MonolithOffset="31281152"
+          MonolithLength="98304" SampleRate="44100.0"/>
+  <sample Root="121" LoKey="121" HiKey="127" LoVel="80" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Upright Piano/Player_dyn3_rr1_044.wav"
+          Duplicate="0" SampleEnd="102393" MonolithOffset="31379456" MonolithLength="102400"
+          SampleRate="44100.0"/>
+</samplemap>

@@ -1,0 +1,485 @@
+namespace Authorisation
+{
+    // funciona con Engine.getSystemTime(1)
+    function secondsFrom2021(dt){
+        Console.print(dt);
+        var date_time = dt.split("T");
+        var date = date_time[0];
+        date = date.split("-");
+        var year = parseInt(date[0]);
+        var month = parseInt(date[1]);
+        var day = parseInt(date[2]);
+        var time = date_time[1];
+        time = time.split("-")[0];
+        time = time.split(":");
+        var hora = parseInt(time[0]);
+        var min = parseInt(time[1]);
+        var seg = parseInt(time[2]);
+        seg = seg + min * 60 + hora * 60 * 60 + day * 24 * 60 * 60 + month * 30 * 24 * 60 * 60 + (year - 2021) * 12 * 30 * 24 * 60 * 60;
+        Console.print(seg);
+        return seg;
+    }
+        
+        
+//3EF2B848-15054205-BE896E41-ECB71F00
+        
+    // Visible product ID (editable by hand).
+    // Cambiá este valor si sacás otra build con otro producto:
+    const var PRODUCT_ID = "QmRvo";
+
+    // Legacy PIN/product/base URL are composed at runtime (obfuscation)
+    global ActivationsCount = 4;
+    const var REGDATA_VERSION = 2;
+    reg vStatus;
+
+	reg machineId = FileSystem.getSystemId();
+	reg currTimeSecondCheck;
+	reg p2;
+    reg dataToEncrypt;
+    reg FileDirectory;
+    reg currTimeOS;
+    reg checkTime;
+    reg currTimeCOL;
+    global licenseKey;
+    reg LastRegDataError = "";
+
+    // Hard‑obfuscated helpers. All sensitive strings are reconstructed indirectly.
+    inline function __alphaTable()
+    {
+        // Common, non‑sensitive alphabet table used for index‑based reconstruction.
+        return "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+    }
+
+    inline function __pickAlpha(idx)
+    {
+        local t = __alphaTable();
+        if (idx < 0 || idx >= t.length)
+            return "";
+        return t.substring(idx, idx + 1);
+    }
+
+    inline function __mixPair(a, b, flag)
+    {
+        // Small opaque helper so static analysis can't trivially fold literals.
+        if (flag)
+            return a + b;
+        else
+            return b + a;
+    }
+
+    inline function getSecretA()
+    {
+        // "A7m$2" rebuilt via alphabet indices and local literals
+        // A -> alpha[10], '7' -> alpha[7], 'm' -> alpha[48]
+        local s1 = __pickAlpha(10) + __pickAlpha(7);
+        local s2 = __pickAlpha(48);
+        local tail = "$2";
+        return __mixPair(s1, s2, 1) + tail;
+    }
+
+    inline function getSecretB()
+    {
+        // "kP9!z" -> 'k' alpha[46], 'P' alpha[25], '9' alpha[9], rest literal
+        local left = __pickAlpha(46) + __pickAlpha(25);
+        local mid = __pickAlpha(9) + "!";
+        local right = "z";
+        return __mixPair(left, mid, 1) + right;
+    }
+
+    inline function getLegacyPin()
+    {
+        // Original legacy PIN broken into shuffled fragments and re‑ordered at runtime.
+        // "sqeiebfi98e9hdc" + "asdKJHDSKJdlksjw" + "988e8e8e8kjasdhkj"
+        local p0 = "sqei";
+        local p1 = "ebfi";
+        local p2 = "98e9";
+        local p3 = "hdc";
+
+        local q0 = "asdKJH";
+        local q1 = "DSKJd";
+        local q2 = "lksjw";
+
+        local r0 = "988e8";
+        local r1 = "e8e8k";
+        local r2 = "jasd";
+        local r3 = "hkj";
+
+        local first = __mixPair(p0, p1, 1) + __mixPair(p2, p3, 1);
+        local second = __mixPair(q0, q1, 1) + q2;
+        local third = __mixPair(r0, r1, 1) + __mixPair(r2, r3, 1);
+
+        return first + second + third;
+    }
+
+    inline function getProductId()
+    {
+        // Usar siempre el PRODUCT_ID visible al inicio del archivo
+        return PRODUCT_ID;
+    }
+
+    inline function getApiBaseUrl()
+    {
+        // "https://308service.com"
+        // Scheme part is harmless; domain is split and slightly shuffled.
+        local scheme = "https://";
+        local d0 = "30";
+        local d1 = "8ser";
+        local d2 = "vice";
+        local d3 = ".com";
+        local host = __mixPair(d0, d1, 1) + __mixPair(d2, d3, 1);
+        return scheme + host;
+    }
+
+    inline function getValidationPath()
+    {
+        // "/api/v1/licenses/validations"
+        local a0 = "/ap";
+        local a1 = "i/v";
+        local a2 = "1/li";
+        local a3 = "cense";
+        local a4 = "s/va";
+        local a5 = "lidat";
+        local a6 = "ions";
+        local left = __mixPair(a0, a1, 1) + __mixPair(a2, a3, 1);
+        local right = __mixPair(a4, a5, 1) + a6;
+        return left + right;
+    }
+
+    inline function getDerivedPin()
+    {
+        // getSecretA() + "-" + getProductId() + "-" + machineId + "-" + getSecretB()
+        local mid = FileSystem.getSystemId();
+        local part1 = getSecretA() + "-";
+        local part2 = getProductId() + "-";
+        local part3 = mid + "-";
+        return __mixPair(part1, part2, 1) + part3 + getSecretB();
+    }
+
+    inline function getRegDataFile()
+    {
+        local dir = FileSystem.getFolder(FileSystem.UserPresets).getParentDirectory();
+        return dir.getChildFile("RegData.js");
+    }
+
+    inline function getLicenseHint(keyValue)
+    {
+        if (!keyValue)
+            return "";
+
+        if (keyValue.length <= 6)
+            return keyValue;
+
+        return keyValue.substring(keyValue.length - 6, keyValue.length);
+    }
+
+    inline function computeLocalSeal(machineIdValue, productIdValue, issuedAtValue, licenseHintValue)
+    {
+        local raw = machineIdValue + "|" + productIdValue + "|" + issuedAtValue + "|" + licenseHintValue + "|" + getSecretA() + "|" + getSecretB();
+        local h = 146959810;
+        local i = 0;
+        while (i < raw.length)
+        {
+            h = (h + ((i + 1) * raw.charCodeAt(i) * 131)) % 2147483647;
+            i = i + 1;
+        }
+        return "" + h;
+    }
+
+    inline function makeRegDataObject(licenseKeyValue, checkTimeValue)
+    {
+        local issuedAt = secondsFrom2021(Engine.getSystemTime(1));
+        local machine = FileSystem.getSystemId();
+        local hint = getLicenseHint(licenseKeyValue);
+        local obj = {
+            "v": REGDATA_VERSION,
+            "OuathReg": machine,
+            "machineId": machine,
+            "productId": getProductId(),
+            "Compl1": "212d0dJk3SkTkjd89d8sKJDKJSs83SkTk9JKDKJ4848938498S3SkTkK",
+            "Compl2": "7aiJL1zjKn95H5TV2uqnVqlPDPynT8Ts31T2ukjjmxGLRzFkIW3SkTkVvWp7zZNLLFE2jCD0f1lJhU8dfscZq2naCyVJWgJ90ih0U7HkyNqeRzIx566WRuwvLJOZqFAuJURncvdMoNwxAgm1P4ygN2KUyzVU1ybwxxM4em4Ah4R6S9X0g3jGNeJGOw2yyzgoSO0Q4nkaZCgvAMVN0WUI9Ga0P2yvzsGxf09DDhkZK9bdfIvCJRKJbC32goZJ8z7eNHbSbPeUfijLKatsJUNIkw5LCSQIuBVKySPbFsVcCAEOSAI7oqaIyhwbZBEfTwer",
+            "licenseKey": licenseKeyValue,
+            "licenseHint": hint,
+            "issuedAt": issuedAt,
+            "checkTime": checkTimeValue
+        };
+        obj.localSeal = computeLocalSeal(obj.machineId, obj.productId, obj.issuedAt, obj.licenseHint);
+        return obj;
+    }
+
+    inline function saveRegDataObject(obj)
+    {
+        local regFile = getRegDataFile();
+        regFile.writeEncryptedObject(obj, getDerivedPin());
+    }
+
+    inline function loadRegDataObject()
+    {
+        local regFile = getRegDataFile();
+        local data = regFile.loadEncryptedObject(getDerivedPin());
+        if (data)
+            return data;
+
+        // Migracion de instalaciones existentes guardadas con PIN legacy
+        data = regFile.loadEncryptedObject(getLegacyPin());
+        if (!data)
+        {
+            Console.print("RegData unreadable (derived pin + legacy pin failed)");
+            return false;
+        }
+
+        Console.print("Legacy RegData found. Upgrading format...");
+        local legacyLicense = data.licenseKey ? data.licenseKey : "";
+        local legacyCheckTime = data.checkTime ? data.checkTime : 0;
+        local upgraded = makeRegDataObject(legacyLicense, legacyCheckTime);
+        saveRegDataObject(upgraded);
+        return upgraded;
+    }
+
+    inline function isRegDataValid(data)
+    {
+        LastRegDataError = "";
+
+        if (!data)
+        {
+            LastRegDataError = "RegData missing";
+            return false;
+        }
+
+        // Aceptar datos legacy sin version para no romper instalaciones existentes
+        if (data.v != undefined && data.v != REGDATA_VERSION)
+        {
+            LastRegDataError = "Version mismatch";
+            return false;
+        }
+
+        // Compatibilidad legacy: machineId puede no existir, entonces usar OuathReg
+        local storedMachine = data.machineId != undefined ? data.machineId : data.OuathReg;
+        if (storedMachine != FileSystem.getSystemId())
+        {
+            LastRegDataError = "Machine mismatch";
+            return false;
+        }
+
+        if (data.OuathReg != FileSystem.getSystemId())
+        {
+            LastRegDataError = "OuathReg mismatch";
+            return false;
+        }
+
+        // productId solo se valida si el campo existe (legacy puede no tenerlo)
+        if (data.productId != undefined && data.productId != getProductId())
+        {
+            LastRegDataError = "Product mismatch";
+            return false;
+        }
+
+        // localSeal solo se valida si el campo existe (legacy puede no tenerlo)
+        if (data.localSeal != undefined)
+        {
+            local sealMachine = data.machineId != undefined ? data.machineId : data.OuathReg;
+            local sealProduct = data.productId != undefined ? data.productId : getProductId();
+            local sealIssuedAt = data.issuedAt != undefined ? data.issuedAt : 0;
+            local sealHint = data.licenseHint != undefined ? data.licenseHint : getLicenseHint(data.licenseKey);
+            local expectedSeal = computeLocalSeal(sealMachine, sealProduct, sealIssuedAt, sealHint);
+            if (data.localSeal != expectedSeal)
+            {
+                LastRegDataError = "Seal mismatch";
+                return false;
+            }
+        }
+
+        return true;
+    }
+    
+
+
+    // checkOnTimer / dialogTimer eliminados: ya no se usa second check online
+    
+    // Cambiar para comparar 48 horas
+    const var SerialInput = Content.getComponent("SerialInput");
+    const var Description = Content.getComponent("Description");
+    
+    //const var SerialStateLabel = Content.getComponent("SerialStateLabel");
+    const var AuthorisationDialogue = Content.getComponent("AuthorisationDialogue");
+    //const var GlobalMute = Synth.getMidiProcessor("GlobalMute");
+    const var GlobalMute = Synth.getEffect("GlobalMute");
+    const var Leveler1 = Synth.getEffect("Leveler1");
+    const var Leveler2 = Synth.getEffect("Leveler2");
+    const var crystalPanel = Content.getComponent("cristalPanel");
+    var decryptedData;
+    
+    //const var productId1 = Content.getComponent("productId1");
+    //const var productId2 = Content.getComponent("productId2");
+
+  	//productId1.set("text", productId);  
+   	//productId2.set("text", productId);        
+ 
+    /** Checks if the serial input is valid and stores the result if successful. */
+    inline function onSubmitButtonControl(component, value) {
+        if(!value) // Just execute once
+            return;
+ 
+        // Server busy or done
+        Server.setServerCallback(function(isWaiting) {
+            //Console.print(isWaiting ? "SERVER IS BUSY" : "DONE");
+        
+            if (isWaiting == true) {
+                Console.print("is waiting");
+                Description.set("text", "Checking your license...");
+            }
+            else{
+                Console.print("is done");
+            }
+        });                 
+
+        if (Server.isOnline() == 0) {// Check internet status on button click
+            Console.print("offline 1");
+            Description.set("text", "Check your internet connection");
+        }
+        else {
+            licenseKey = SerialInput.getValue();
+            local onlineStatus = Server.isOnline();
+
+            currTimeOS = secondsFrom2021(Engine.getSystemTime(1));
+            
+            // agregar un valor random de aproximadamente 48 horas
+            //checkTime = currTimeOS + 12 * 60 * 60 + Math.randInt(60 * 60, 5 * 60 * 60);
+            checkTime = currTimeOS + 5;
+            local p1 = {
+                "licenseKey": licenseKey,
+                "productId": getProductId(),
+                "currTime": currTimeOS
+            };
+
+            reg r1;
+
+            Server.setBaseURL(getApiBaseUrl());
+            Server.callWithPOST(getValidationPath(), p1, function(status, response) {
+                r1 = response;
+            
+                global serverStatus = status;
+                global licenseUses = r1.uses;
+                global licenseIsValid = r1.valid;
+                global retCurrTime = r1.retCurrTime;
+                global errorMessage = r1.error;
+
+                Console.print("licenseUses: " + licenseUses);
+                Console.print("licenseIsValid: " + licenseIsValid);
+                Console.print("retCurrTime: " + retCurrTime);
+                Console.print("response is:" + trace(r1));
+                Console.print("status is:" + serverStatus);
+            
+                // Checks if it's in the input
+                if(licenseIsValid == 1 && licenseUses < ActivationsCount && currTimeOS == retCurrTime) {
+                    Console.print("Serial number found");
+        
+                    dataToEncrypt = makeRegDataObject(licenseKey, checkTime);
+                    saveRegDataObject(dataToEncrypt);
+                    //Engine.dumpAsJSON(data, "../RegistrationInfo.js");              
+                    setValidLicense(true);
+                }
+                else {              
+                    if (errorMessage == "Par\u00e1metro faltante") {
+                        Console.print("empty input");
+                        Description.set("text", "Type or paste a license key");
+            
+                        setValidLicense(false);   
+                    }
+                    else {         
+                        if (licenseIsValid == 0) {
+                            Console.print("Invalid serial number");
+                            Description.set("text", "Invalid Licence Key");
+            
+                            setValidLicense(false);
+                        }
+                        else if (licenseUses > ActivationsCount) {
+                            Console.print("exceded activation count");
+                            Description.set("text", "Too many activations for this license (Code:400)");
+            
+                            setValidLicense(false);
+                        }
+                    }
+                }
+            });
+        }
+    };
+
+    Content.getComponent("SubmitButton").setControlCallback(onSubmitButtonControl);
+
+    inline function setValidLicense(isValid) {
+        // Do whatever you want to do here. I suggest a MIDI muter...
+        if (GlobalMute) GlobalMute.setBypassed(isValid);
+
+        // Extra hardening layers: two -100dB gain effects + transparent blocker panel
+        // Licensed   -> bypass levelers / hide blocker
+        // Unlicensed -> enable levelers / show blocker
+        if (Leveler1) Leveler1.setBypassed(isValid);
+        if (Leveler2) Leveler2.setBypassed(isValid);
+        if (crystalPanel) crystalPanel.set("visible", !isValid);
+    
+        if(isValid) {
+            // Change this to any other visual indication...
+            // SerialStateLabel.set("bgColour", Colours.greenyellow);
+            if (AuthorisationDialogue) AuthorisationDialogue.set("visible", false);
+        }
+        else {
+            //SerialStateLabel.set("bgColour", Colours.red);
+            if (AuthorisationDialogue) AuthorisationDialogue.set("visible", true);
+        }
+    }
+
+    inline function checkOnLoad() {
+        Console.print("checkOnLoad");
+        Description.set("text", "Type or paste your license key");
+        
+        //Check internet conection
+        if (Server.isOnline() == 0) {
+            Console.print("offline");
+            Description.set("text", "Check your internet connection");
+        }
+
+        // Clear the input
+        SerialInput.set("text", "");
+        
+        // Load the serial from the stored file
+        //local pData = Engine.loadFromJSON("../RegistrationInfo.js");
+        Console.print("Checking serial");
+        
+        // Get encrypted file/object
+        decryptedData = loadRegDataObject();
+    
+        //Console.print(decryptedData.OuathReg);
+        // Load contents of the encrypted object
+        //local pData = Engine.loadFromJSON(FileDirectory);
+
+        if(decryptedData) {
+            if(!isRegDataValid(decryptedData)) {
+                Console.print("RegData invalid/tampered on load (" + LastRegDataError + ")");
+                Description.set("text", "RegData invalid: " + LastRegDataError);
+                setValidLicense(false);
+                return;
+            }
+
+            local vStatus = decryptedData.OuathReg;
+            Console.print("Restored machineID: " + vStatus);
+
+            local machineId = FileSystem.getSystemId();
+
+            if(decryptedData.OuathReg != FileSystem.getSystemId()) {
+                setValidLicense(false);
+                return;
+            }
+
+            // Single-check mode: licencia válida local → desbloquear sin second check.
+            setValidLicense(true);
+            return;
+        }
+
+        Console.print("No valid RegData on load, set invalid");
+        Description.set("text", "Type or paste your license key");
+        setValidLicense(false);
+    }
+
+    // Call this on startup
+    checkOnLoad();
+}

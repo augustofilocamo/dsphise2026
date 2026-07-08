@@ -1,0 +1,29 @@
+------------------------------
+
+HISE 3.6.0 
+
+------------------------------
+
+Faust Version -> 2.69.3
+
+------------------------------
+
+Code in HISE to Change:
+
+HISE-3.6.0/hi_dsp_library/dsp_nodes/StretchNode.h - Line 416
+s.timeRatio(0.0, 6.0, v);
+
+HISE-3.6.0/hi_streaming/timestretch/time_stretcher.cpp - Line 61
+
+
+        //stretcher.configure(numChannels, 4096, 512);
+        stretcher.configure(numChannels, 8192, 1024);
+        //stretcher.configure(numChannels, 16384, 2048);
+
+------------------------------
+
+Installers Win
+InnoSettup 5.2.3
+
+Installer Mac
+Packages 1.2.10

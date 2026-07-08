@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptImage" id="Image1" x="0.0" y="0.0" fileName="{PROJECT_FOLDER}background-06.png"
+             width="1024.0" height="680.0"/>
+  <Component type="ScriptSlider" id="Pitch1" x="147.0" y="518.0" processorId="Stretcher"
+             parameterId="Pitch_1" min="-12.0" max="12.0" middlePosition="0.0"
+             suffix=" St" filmstripImage="{PROJECT_FOLDER}reverbBtn.png" numStrips="128.0"
+             scaleFactor="0.25" width="70.0" height="70.0"/>
+  <Component type="ScriptSlider" id="Pitch2" x="278.0" y="518.0" processorId="Stretcher"
+             parameterId="Pitch_2" min="-12.0" max="12.0" middlePosition="0.0"
+             suffix=" St" filmstripImage="{PROJECT_FOLDER}reverbBtn.png" numStrips="128.0"
+             scaleFactor="0.25" width="70.0" height="70.0"/>
+  <Component type="ScriptSlider" id="Pitch3" x="409.0" y="518.0" processorId="Stretcher"
+             parameterId="Pitch_3" min="-12.0" max="12.0" middlePosition="0.0"
+             suffix=" St" filmstripImage="{PROJECT_FOLDER}reverbBtn.png" numStrips="128.0"
+             scaleFactor="0.25" width="70.0" height="70.0"/>
+  <Component type="ScriptSlider" id="Pitch4" x="540.0" y="518.0" processorId="Arpeggiator1"
+             parameterId="SpeedKnob" max="18.0" middlePosition="9.0" suffix=" St"
+             filmstripImage="{PROJECT_FOLDER}reverbBtn.png" numStrips="128.0"
+             scaleFactor="0.25" width="70.0" height="70.0" stepSize="1.0"/>
+  <Component type="ScriptButton" id="Button1" x="557.0" y="341.0" width="67.0"
+             height="27.0" text="Click to load" isMomentary="1" setValueOnClick="1"
+             enableMidiLearn="0" saveInPreset="0" filmstripImage="{PROJECT_FOLDER}browse2.png"
+             scaleFactor="0.5"/>
+  <Component type="ScriptPanel" id="Panel1" x="150.0" y="210.0" width="720.0"
+             height="100.0" allowCallbacks="All Callbacks" allowDragging="1"
+             bgColour="16777215" itemColour="16777215" itemColour2="16777215"
+             textColour="16777215">
+    <Component type="ScriptAudioWaveform" id="AudioWaveform1" x="0.0" y="10.0"
+               processorId="Interface" width="720.0" height="80.0" itemColour3="0"
+               enableRange="0" parentComponent="Panel1" itemColour2="4287266815"
+               enabled="0" showFileName="0" bgColour="4280295456"/>
+  </Component>
+  <Component type="ScriptSlider" id="positionGranu" x="388.0" y="112.0" stepSize="0.009999999776482582"
+             processorId="Granulator" parameterId="granu_position" visible="0"/>
+  <Component type="ScriptPanel" id="circleAnim" x="635" y="210" width="30"
+             height="120"/>
+</ContentProperties>

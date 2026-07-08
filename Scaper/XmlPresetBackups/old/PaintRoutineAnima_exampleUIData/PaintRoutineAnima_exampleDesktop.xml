@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptPanel" id="circleAnim" x="20.0" y="10.0" width="580"
+             height="580"/>
+</ContentProperties>

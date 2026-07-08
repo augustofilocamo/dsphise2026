@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap ID="Coros" RRGroupAmount="1.0" MicPositions=";" CrossfadeGamma="1.0"
+           SaveMode="2">
+  <sample Root="82" LoKey="82" HiKey="100" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Voz/Voz_nota_A#4.wav" Duplicate="0"
+          Normalized="0" NormalizedPeak="35.91106033325195" LoopXFade="3000"
+          LoopStart="211420" SampleStart="168222" Volume="16" LoopEnabled="1"
+          LoopEnd="340168" SampleEnd="451282" MonolithOffset="0" MonolithLength="471040"
+          SampleRate="44100.0"/>
+  <sample Root="79" LoKey="79" HiKey="81" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Voz/Voz_nota_G4.wav" Duplicate="0"
+          Normalized="0" NormalizedPeak="24.59526252746582" LoopXFade="5000"
+          LoopStart="118377" SampleStart="16441" Volume="16" LoopEnabled="1"
+          LoopEnd="249360" SampleEnd="403361" MonolithOffset="471040" MonolithLength="417792"
+          SampleRate="44100.0"/>
+  <sample Root="63" LoKey="52" HiKey="66" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Voz/Voz_nota_D#3.wav" Duplicate="0"
+          Normalized="0" NormalizedPeak="63.54091644287109" LoopXFade="9000"
+          LoopStart="179197" SampleStart="8037" Volume="14" LoopEnabled="1"
+          LoopEnd="339577" SampleStartMod="0" SampleEnd="458797" MonolithOffset="888832"
+          MonolithLength="507904" SampleRate="44100.0"/>
+  <sample Root="67" LoKey="67" HiKey="69" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Voz/Voz_nota_G3.wav" Duplicate="0"
+          Normalized="0" NormalizedPeak="32.81183624267578" LoopXFade="9000"
+          LoopStart="117374" SampleStart="5275" Volume="16" LoopEnabled="1"
+          LoopEnd="302007" SampleEnd="481366" MonolithOffset="1396736"
+          MonolithLength="499712" SampleRate="44100.0"/>
+  <sample Root="70" LoKey="70" HiKey="72" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Voz/Voz_nota _A#3.wav" Duplicate="0"
+          Normalized="0" NormalizedPeak="45.12333297729492" LoopXFade="9000"
+          LoopStart="95821" SampleStart="56219" Volume="16" LoopEnabled="1"
+          LoopEnd="143555" SampleEnd="261299" MonolithOffset="1896448"
+          MonolithLength="266240" SampleRate="44100.0"/>
+  <sample Root="75" LoKey="73" HiKey="78" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Voz/Voz_nota_D#4.wav" Duplicate="0"
+          Normalized="0" NormalizedPeak="9.986985206604004" LoopXFade="9000"
+          LoopStart="78328" SampleStart="5714" Volume="11" LoopEnabled="1"
+          LoopEnd="179853" SampleEnd="246415" MonolithOffset="2162688"
+          MonolithLength="258048" SampleRate="44100.0"/>
+</samplemap>

@@ -1,0 +1,99 @@
+Cursor-history.txt (resumen de estado para continuar)
+
+Proyecto: audioToBeat
+
+Objetivo de este documento
+- Dejar un “checkpoint” textual para poder abrir otra carpeta y retomar desde este mismo punto de cambios.
+
+Fecha (aprox. de esta sesión): 2026-03-18
+
+------------------------------------------------------------
+1) Cambios clave en HISE scripts
+------------------------------------------------------------
+
+A) Scripts/ScriptProcessors/grid-to-human/Interface.js
+
+1. Tempo knob con sync:
+   - El knob “Tempo” ahora acepta -1:
+     - bpmKnob.setRange(-1, 300, 1)
+   - getEffectiveTempoBpm():
+     - Si Tempo == -1: usa Engine.getHostBpm() (con fallback a BPM interno)
+     - Si Tempo != -1: valida rango y usa BPM fijo si corresponde
+   - onTempoControl():
+     - Si value == -1: Engine.setHostBpm(-1)
+     - Si value != -1: Engine.setHostBpm(value)
+   - Label del knob:
+     - Cuando Tempo == -1 muestra texto “Tempo Synced” (en hover y estado normal)
+
+2. Timing/animación de grilla usando tempo efectivo:
+   - La grilla (gridAnimTimer) y collectGridData* usan getEffectiveTempoBpm()
+   - Así los cálculos de timing se alinean al host cuando Tempo == -1.
+
+3. Arreglo “cluster al final” al mostrar 2 bars:
+   - loadExportedMidiIntoPlayer(player, playerName, midPath, numBars, sourceBars)
+   - Se recortan los eventos si numBars < sourceBars (filtrado por timestamp < cutoff)
+   - Evita que las notas de bars no mostrados se acumulen al final.
+
+4. Expand dinámico con expandSizeComboBox:
+   - ExpandPlayerLoadFull(...) ya no usa un fijo 8 bars.
+   - Pasa el valor del combo (topX) como numBars.
+   - sourceBars se toma de match.bars (o fallback LastMatchBars).
+   - loadExportedMidiIntoPlayer usa sourceBars para recortar correctamente.
+
+5. Samplemap switching (Sampler1):
+   - Synth.getChildSynth("Sampler1").asSampler().loadSampleMap(sampleMapId)
+   - btnAccoustic -> loadSampleMap("sfz2") y pone btnElectronic a 0
+   - btnElectronic -> loadSampleMap("electrokit") y pone btnAccoustic a 0
+   - IMPORTANTE: los IDs de componentes deben existir como:
+     - "btnAccoustic"
+     - "btnElectronic"
+
+6. Vaciar players al cargar preset:
+   - En uph.setPostCallback(...)
+   - Se apagan/limpian MidiPlayer2, MidiPlayer3, MidiPlayer4 (NO toca MidiPlayer1)
+   - También se pone playStop2/3/4 a 0 vía setOtherPlayStopsToZero(1)
+
+7. CLI / bancos (EGMD + Lakh groovified):
+   - getCliPaths() apunta en la raíz del proyecto a:
+     - find_closest_groove_bar_macos
+     - pattern_bank_egmd.npz (bank_main)
+     - pattern_bank_lakh_74k_groovified.npz (bank_fallback)
+   - DEBUG_WORKER_LOG está en false (no debería crear worker_debug.log).
+
+------------------------------------------------------------
+2) Cambios en Authorisation.js
+------------------------------------------------------------
+
+Scripts/Authorisation.js
+1. getProductId:
+   - Se dejó visible arriba del archivo como const var PRODUCT_ID = "QmRvo"
+   - getProductId() devuelve PRODUCT_ID (para cambiarlo a mano fácil)
+
+2. Obfuscación:
+   - Se ofuscaron funciones tipo getSecretA/getSecretB/getLegacyPin/getApiBaseUrl/getValidationPath/getDerivedPin.
+   - Nota: este archivo está separado del flujo de drums/CLI.
+
+------------------------------------------------------------
+3) Cómo continuar en otra carpeta (checklist mínimo)
+------------------------------------------------------------
+1. Verificar que exista el binario CLI:
+   - audioToBeat/find_closest_groove_bar_macos
+2. Verificar bancos en la raíz del proyecto:
+   - audioToBeat/pattern_bank_egmd.npz
+   - audioToBeat/pattern_bank_lakh_74k_groovified.npz
+3. Verificar carpeta de export de stems y IDs de botones del UI:
+   - Interface.js asume la ruta de export a FileSystem.AudioFiles/stems/current/
+   - IDs obligatorios:
+     - “Tempo”, “labelTempo”
+     - “sendToServerButton”
+     - playStop1..playStop4 (y los visores si existen)
+     - “expandSizeComboBox”, “batchSizeComboBox”
+     - botones samplemap: “btnAccoustic” y “btnElectronic”
+4. Verificar que en el proyecto HISE existan:
+   - Synth child “Sampler1”
+   - MidiPlayers con IDs: “MIDI Player1”, “MIDI Player2”, “MIDI Player3”, “MIDI Player4”
+
+------------------------------------------------------------
+Fin del documento.
+------------------------------------------------------------
+

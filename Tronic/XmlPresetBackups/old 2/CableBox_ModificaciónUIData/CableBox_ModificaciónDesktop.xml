@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptPanel" id="x" x="200" y="50" width="180" height="180"
+             saveInPreset="1" allowCallbacks="Clicks, Hover &amp; Dragging"/>
+  <Component type="ScriptLabel" id="lfoLabel" x="93" y="55" text="LFO" width="104"
+             height="25" fontName="Oxygen" fontSize="16" fontStyle="Bold"
+             alignment="right"/>
+  <Component type="ScriptLabel" id="envelopeLabel" x="93" y="108" text="Velocity"
+             width="104" height="25" fontName="Oxygen" fontSize="16" fontStyle="Bold"
+             alignment="right"/>
+  <Component type="ScriptLabel" id="modWheelLabel" x="93" y="162" text="Modwheel"
+             width="104" height="25" fontName="Oxygen" fontSize="16" fontStyle="Bold"
+             alignment="right"/>
+  <Component type="ScriptLabel" id="Gain" x="381" y="56" width="104" height="25"
+             fontName="Oxygen" fontSize="16" fontStyle="Bold" alignment="left"/>
+  <Component type="ScriptLabel" id="Pitch" x="379" y="109" width="104" height="25"
+             fontName="Oxygen" fontSize="16" fontStyle="Bold" alignment="left"/>
+  <Component type="ScriptLabel" id="Filter" x="379" y="161" width="104" height="25"
+             fontName="Oxygen" fontSize="16" fontStyle="Bold" alignment="left"/>
+</ContentProperties>

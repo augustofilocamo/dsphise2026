@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptButton" id="Record" x="290.0" y="50.0" width="240.0"
+             height="40.0"/>
+  <Component type="ScriptAudioWaveform" id="AudioWaveform1" x="40.0" y="40.0"
+             width="220.0" height="70.0" processorId="Audio Loop Player1"/>
+  <Component type="ScriptLabel" id="LevelMeter" x="60.0" y="130.0" width="120.0"
+             height="24.0" text="-inf dB"/>
+  <Component type="ScriptFloatingTile" id="FloatingTile1" x="50.0" y="170.0"
+             ContentType="MidiOverlayPanel" bgColour="620756992" itemColour="4287137928"
+             itemColour2="4282664004" Data="{&#10;  &quot;ProcessorId&quot;: &quot;MIDI Player1&quot;,&#10;  &quot;Index&quot;: 1,&#10;  &quot;FollowWorkspace&quot;: false&#10;}"
+             width="290.0" height="80.0"/>
+  <Component type="ScriptFloatingTile" id="FloatingTile2" x="340.0" y="160.0"
+             ContentType="MidiOverlayPanel" bgColour="620756992" itemColour="4287137928"
+             itemColour2="4282664004" Data="{&#10;  &quot;ProcessorId&quot;: &quot;MIDI Player1&quot;,&#10;  &quot;Index&quot;: 0,&#10;  &quot;FollowWorkspace&quot;: false&#10;}"
+             width="220.0" height="60.0"/>
+  <Component type="ScriptButton" id="Analizebutton" x="60.0" y="270.0"/>
+  <Component type="ScriptLabel" id="AnalyzeResult" x="210.0" y="270.0" width="320.0"
+             height="20.0" text="Grid OK &#8594; stems/current/grid_buttons.json"/>
+  <Component type="ScriptSlider" id="bpmKnob" x="350.0" y="310.0" min="40.0"
+             max="300.0" stepSize="1.0"/>
+  <Component type="ScriptButton" id="quantizeButton" x="60.0" y="320.0"/>
+  <Component type="ScriptButton" id="postprocessButton" x="200.0" y="320.0"
+             width="130.0" height="30.0"/>
+  <Component type="ScriptButton" id="sd1" x="30.0" y="470.0" width="30.0"
+             height="30.0"/>
+  <Component type="ScriptButton" id="sd2" x="62.0" y="470.0" width="30.0"
+             height="30.0"/>
+  <Component type="ScriptButton" id="sd3" x="94.0" y="470.0" width="30.0"
+             height="30.0"/>
+  <Component type="ScriptButton" id="sd4" x="126.0" y="470.0" width="30.0"
+             height="30.0"/>
+  <Component type="ScriptButton" id="sd5" x="158.0" y="470.0" width="30.0"
+             height="30.0"/>
+  <Component type="ScriptButton" id="sd6" x="190.0" y="470.0" width="30.0"
+             height="30.0"/>
+  <Component type="ScriptButton" id="sd7" x="222.0" y="470.0" width="30.0"
+             height="30.0"/>
+  <Component type="ScriptButton" id="sd8" x="254.0" y="470.0" width="30.0"
+             height="30.0"/>
+  <Component type="ScriptButton" id="sd9" x="286.0" y="470.0" width="30.0"
+             height="30.0"/>
+  <Component type="ScriptButton" id="sd10" x="318.0" y="470.0" width="30.0"
+             height="30.0"/>
+  <Component type="ScriptButton" id="sd11" x="350.0" y="470.0" width="30.0"
+             height="30.0"/>
+  <Component type="ScriptButton" id="sd12" x="382.0" y="470.0" width="30.0"
+             height="30.0"/>
+  <Component type="ScriptButton" id="sd13" x="414.0" y="470.0" width="30.0"
+             height="30.0"/>
+  <Component type="ScriptButton" id="sd14" x="446.0" y="470.0" width="30.0"
+             height="30.0"/>
+  <Component type="ScriptButton" id="sd15" x="478.0" y="470.0" width="30.0"
+             height="30.0"/>
+  <Component type="ScriptButton" id="sd16" x="510.0" y="470.0" width="30.0"
+             height="30.0"/>
+  <Component type="ScriptButton" id="bd1" x="30.0" y="510.0" width="30.0"
+             height="30.0"/>
+  <Component type="ScriptButton" id="bd2" x="62.0" y="510.0" width="30.0"
+             height="30.0"/>
+  <Component type="ScriptButton" id="bd3" x="94.0" y="510.0" width="30.0"
+             height="30.0"/>
+  <Component type="ScriptButton" id="bd4" x="126.0" y="510.0" width="30.0"
+             height="30.0"/>
+  <Component type="ScriptButton" id="bd5" x="158.0" y="510.0" width="30.0"
+             height="30.0"/>
+  <Component type="ScriptButton" id="bd6" x="190.0" y="510.0" width="30.0"
+             height="30.0"/>
+  <Component type="ScriptButton" id="bd7" x="222.0" y="510.0" width="30.0"
+             height="30.0"/>
+  <Component type="ScriptButton" id="bd8" x="254.0" y="510.0" width="30.0"
+             height="30.0"/>
+  <Component type="ScriptButton" id="bd9" x="286.0" y="510.0" width="30.0"
+             height="30.0"/>
+  <Component type="ScriptButton" id="bd10" x="318.0" y="510.0" width="30.0"
+             height="30.0"/>
+  <Component type="ScriptButton" id="bd11" x="350.0" y="510.0" width="30.0"
+             height="30.0"/>
+  <Component type="ScriptButton" id="bd12" x="382.0" y="510.0" width="30.0"
+             height="30.0"/>
+  <Component type="ScriptButton" id="bd13" x="414.0" y="510.0" width="30.0"
+             height="30.0"/>
+  <Component type="ScriptButton" id="bd14" x="446.0" y="510.0" width="30.0"
+             height="30.0"/>
+  <Component type="ScriptButton" id="bd15" x="478.0" y="510.0" width="30.0"
+             height="30.0"/>
+  <Component type="ScriptButton" id="bd16" x="510.0" y="510.0" width="30.0"
+             height="30.0"/>
+  <Component type="ScriptButton" id="exportGridButton" x="420.0" y="390.0"/>
+  <Component type="ScriptLabel" id="Label1" x="40.0" y="440.0" text="|" width="20.0"
+             height="30.0"/>
+  <Component type="ScriptLabel" id="Label2" x="160.0" y="440.0" text="|" width="20.0"
+             height="30.0"/>
+  <Component type="ScriptLabel" id="Label3" x="290.0" y="440.0" text="|" width="20.0"
+             height="30.0"/>
+  <Component type="ScriptLabel" id="Label4" x="420.0" y="440.0" text="|" width="20.0"
+             height="30.0"/>
+  <Component type="ScriptLabel" id="Label5" x="100.0" y="440.0" text="." width="20.0"
+             height="30.0"/>
+  <Component type="ScriptLabel" id="Label6" x="230.0" y="440.0" text="." width="20.0"
+             height="30.0"/>
+  <Component type="ScriptLabel" id="Label7" x="355.0" y="440.0" text="." width="20.0"
+             height="30.0"/>
+  <Component type="ScriptLabel" id="Label8" x="482.0" y="440.0" text="." width="20.0"
+             height="30.0"/>
+  <Component type="ScriptButton" id="expandMidi" x="143.0" y="403.0"/>
+</ContentProperties>

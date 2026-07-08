@@ -1,0 +1,26 @@
+HISE branch develop
+
+commit a037cfbf5d310ad908d5a9edf4389e75a7a898d5 (HEAD -> develop)
+Author: Christoph Hart <christoph-hart@gmx.de>
+Date:   Wed Nov 20 16:00:07 2024 +0100
+
+------
+
+Editar 
+/HISE Repo/JUCE/modules/juce_audio_utils/gui/juce_MidiKeyboardComponent.cpp
+
+agregar esto en linea 884 aprox
+
+grabKeyboardFocus(); // Recupera el foco inmediatamente
+
+
+debe quedar asi:
+
+void MidiKeyboardComponent::focusLost (FocusChangeType)
+{
+    resetAnyKeysInUse();
+    grabKeyboardFocus(); // Recupera el foco inmediatamente
+}
+
+
+

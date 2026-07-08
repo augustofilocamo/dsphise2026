@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Network ID="DspNetwork_filo2" AllowCompilation="1" Version="0.0.0" AllowPolyphonic="1">
+  <Node FactoryPath="container.chain" ID="DspNetwork_filo2" Bypassed="0"
+        Name="DspNetwork_filo2" ShowParameters="1">
+    <Nodes>
+      <Node ID="midichain" FactoryPath="container.midichain" Bypassed="0"
+            Name="midichain">
+        <Nodes>
+          <Node ID="split" FactoryPath="container.split" Bypassed="0" Name="split">
+            <Nodes>
+              <Node ID="chain" FactoryPath="container.chain" Bypassed="0" Name="chain">
+                <Nodes>
+                  <Node ID="faust1" FactoryPath="core.faust" Bypassed="0" Name="faust1">
+                    <Properties>
+                      <Property ID="ClassId" Value="VCO1_V4"/>
+                      <Property ID="NumParameters" Value="0"/>
+                    </Properties>
+                    <Parameters>
+                      <Parameter MinValue="0.004999999888241291" MaxValue="1.0" StepSize="0.001000000047497451"
+                                 ID="EG Decay" Automated="1" DefaultValue="0.5"/>
+                      <Parameter MinValue="0.0" MaxValue="400.0" StepSize="1.0" ID="EG amount"
+                                 Automated="1" DefaultValue="0.0"/>
+                      <Parameter MinValue="0.0" MaxValue="1.0" StepSize="1.0" ID="Tri-Sqr Wave"
+                                 Automated="1" DefaultValue="0.0"/>
+                      <Parameter MinValue="0.004999999888241291" MaxValue="10.0" StepSize="0.001000000047497451"
+                                 ID="decay" Automated="1" DefaultValue="1.0"/>
+                      <Parameter MinValue="20.0" MaxValue="15000.0" StepSize="0.1000000014901161"
+                                 ID="freq" Value="20.0"/>
+                      <Parameter MinValue="0.0" MaxValue="5000.0" StepSize="0.1000000014901161"
+                                 ID="freqKnob" Automated="1" DefaultValue="0.0"/>
+                      <Parameter MinValue="0.0" MaxValue="1.0" StepSize="0.001000000047497451"
+                                 ID="gain" Value="1.0"/>
+                      <Parameter MinValue="0.0" MaxValue="1.0" StepSize="1.0" ID="gate" Value="0.0"/>
+                    </Parameters>
+                    <SwitchTargets/>
+                  </Node>
+                  <Node ID="gain" FactoryPath="core.gain" Bypassed="0" Name="gain">
+                    <Parameters>
+                      <Parameter MinValue="-100.0" MaxValue="0.0" StepSize="0.1000000014901161"
+                                 SkewFactor="5.422270774841309" ID="Gain" Automated="1"/>
+                      <Parameter MinValue="0.0" MaxValue="1000.0" StepSize="0.1000000014901161"
+                                 SkewFactor="0.3010300099849701" ID="Smoothing" Value="0.0"/>
+                      <Parameter MinValue="-100.0" MaxValue="0.0" StepSize="0.1000000014901161"
+                                 SkewFactor="5.422270774841309" ID="ResetValue" Value="0.0"/>
+                    </Parameters>
+                  </Node>
+                </Nodes>
+                <Parameters/>
+              </Node>
+              <Node ID="chain1" FactoryPath="container.chain" Bypassed="0" Name="chain1">
+                <Nodes>
+                  <Node ID="faust2" FactoryPath="core.faust" Bypassed="0" Name="faust2">
+                    <Properties>
+                      <Property ID="ClassId" Value="VCO2_V4"/>
+                      <Property ID="NumParameters" Value="0"/>
+                    </Properties>
+                    <Parameters>
+                      <Parameter MinValue="0.004999999888241291" MaxValue="10.0" StepSize="0.001000000047497451"
+                                 ID="Decay" Automated="1" DefaultValue="1.0"/>
+                      <Parameter MinValue="0.0" MaxValue="400.0" StepSize="1.0" ID="EG Amount"
+                                 Automated="1" DefaultValue="0.0"/>
+                      <Parameter MinValue="0.004999999888241291" MaxValue="1.0" StepSize="0.001000000047497451"
+                                 ID="EG Decay" Automated="1" DefaultValue="0.07500000298023224"/>
+                      <Parameter MinValue="0.0" MaxValue="1000.0" StepSize="0.009999999776482582"
+                                 ID="FM amount" Automated="1" DefaultValue="0.0"/>
+                      <Parameter MinValue="0.0" MaxValue="1.0" StepSize="1.0" ID="Hs On-Off" Automated="1"
+                                 DefaultValue="0.0"/>
+                      <Parameter MinValue="0.0" MaxValue="1.0" StepSize="1.0" ID="Tri-Sqr Wave"
+                                 Automated="1" DefaultValue="0.0"/>
+                      <Parameter MinValue="0.004999999888241291" MaxValue="1.0" StepSize="0.001000000047497451"
+                                 ID="VCO1- Decay" Automated="1" DefaultValue="0.07500000298023224"/>
+                      <Parameter MinValue="0.0" MaxValue="400.0" StepSize="1.0" ID="VCO1- EG amount"
+                                 Automated="1" DefaultValue="200.0"/>
+                      <Parameter MinValue="0.0" MaxValue="5000.0" StepSize="0.1000000014901161"
+                                 ID="VCO1- Freq" Automated="1" DefaultValue="40.0"/>
+                      <Parameter MinValue="20.0" MaxValue="15000.0" StepSize="0.1000000014901161"
+                                 ID="freq" Value="20.0"/>
+                      <Parameter MinValue="0.0" MaxValue="5000.0" StepSize="0.1000000014901161"
+                                 ID="freqKnob" Automated="1" DefaultValue="0.0"/>
+                      <Parameter MinValue="0.0" MaxValue="1.0" StepSize="0.001000000047497451"
+                                 ID="gain" Value="1.0"/>
+                      <Parameter MinValue="0.0" MaxValue="1.0" StepSize="1.0" ID="gate" Value="0.0"/>
+                    </Parameters>
+                    <SwitchTargets/>
+                  </Node>
+                  <Node ID="gain1" FactoryPath="core.gain" Bypassed="0" Name="gain1">
+                    <Parameters>
+                      <Parameter MinValue="-100.0" MaxValue="0.0" StepSize="0.1000000014901161"
+                                 SkewFactor="5.422270774841309" ID="Gain" Automated="1"/>
+                      <Parameter MinValue="0.0" MaxValue="1000.0" StepSize="0.1000000014901161"
+                                 SkewFactor="0.3010300099849701" ID="Smoothing" Value="0.0"/>
+                      <Parameter MinValue="-100.0" MaxValue="0.0" StepSize="0.1000000014901161"
+                                 SkewFactor="5.422270774841309" ID="ResetValue" Value="0.0"/>
+                    </Parameters>
+                  </Node>
+                </Nodes>
+                <Parameters/>
+              </Node>
+              <Node ID="chain2" FactoryPath="container.chain" Bypassed="0" Name="chain2">
+                <Nodes>
+                  <Node ID="faust3" FactoryPath="core.faust" Bypassed="0" Name="faust3">
+                    <Properties>
+                      <Property ID="ClassId" Value="noise_V2"/>
+                      <Property ID="NumParameters" Value="0"/>
+                    </Properties>
+                    <Parameters>
+                      <Parameter MinValue="0.001000000047497451" MaxValue="0.699999988079071"
+                                 StepSize="0.00009999999747378752" ID="Decay" Automated="1" DefaultValue="0.05000000074505806"/>
+                      <Parameter MinValue="0.0" MaxValue="1.0" StepSize="1.0" ID="gate" Value="0.0"/>
+                    </Parameters>
+                    <SwitchTargets/>
+                  </Node>
+                  <Node ID="gain2" FactoryPath="core.gain" Bypassed="0" Name="gain2">
+                    <Parameters>
+                      <Parameter MinValue="-100.0" MaxValue="0.0" StepSize="0.1000000014901161"
+                                 SkewFactor="5.422270774841309" ID="Gain" Automated="1"/>
+                      <Parameter MinValue="0.0" MaxValue="1000.0" StepSize="0.1000000014901161"
+                                 SkewFactor="0.3010300099849701" ID="Smoothing" Value="0.0"/>
+                      <Parameter MinValue="-100.0" MaxValue="0.0" StepSize="0.1000000014901161"
+                                 SkewFactor="5.422270774841309" ID="ResetValue" Value="0.0"/>
+                    </Parameters>
+                  </Node>
+                </Nodes>
+                <Parameters/>
+              </Node>
+            </Nodes>
+            <Parameters/>
+          </Node>
+        </Nodes>
+        <Parameters/>
+      </Node>
+      <Node ID="gain3" FactoryPath="core.gain" Bypassed="0" Name="gain3">
+        <Parameters>
+          <Parameter MinValue="-100.0" MaxValue="0.0" StepSize="0.1000000014901161"
+                     SkewFactor="5.422270774841309" ID="Gain" DefaultValue="-6.999998614192009"
+                     Value="-1.499998532235637"/>
+          <Parameter MinValue="0.0" MaxValue="1000.0" StepSize="0.1000000014901161"
+                     SkewFactor="0.3010300099849701" ID="Smoothing" Value="0.0" DefaultValue="20.0"/>
+          <Parameter MinValue="-100.0" MaxValue="0.0" StepSize="0.1000000014901161"
+                     SkewFactor="5.422270774841309" ID="ResetValue" Value="0.0"/>
+        </Parameters>
+      </Node>
+    </Nodes>
+    <Parameters>
+      <Parameter ID="vco_decay" MinValue="0.004999999888241291" MaxValue="1.0"
+                 StepSize="0.001000000047497451" Value="1.0" DefaultValue="0.2700000124750658">
+        <Connections>
+          <Connection NodeId="faust1" ParameterId="EG Decay"/>
+          <Connection NodeId="faust2" ParameterId="EG Decay"/>
+          <Connection NodeId="faust2" ParameterId="VCO1- Decay"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="vco1_eg_amount" MinValue="0.0" MaxValue="400.0" StepSize="1.0"
+                 Value="386.0" DefaultValue="132.0">
+        <Connections>
+          <Connection NodeId="faust1" ParameterId="EG amount"/>
+          <Connection NodeId="faust2" ParameterId="VCO1- EG amount"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="vco1_freq" MinValue="0.0" MaxValue="5000.0" StepSize="0.1000000014901161"
+                 Value="400.0000059604644" DefaultValue="0.0">
+        <Connections>
+          <Connection NodeId="faust1" ParameterId="freqKnob"/>
+          <Connection NodeId="faust2" ParameterId="VCO1- Freq"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="vco1_waveform" MinValue="0.0" MaxValue="1.0" StepSize="1.0"
+                 Value="0.0">
+        <Connections>
+          <Connection NodeId="faust1" ParameterId="Tri-Sqr Wave"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="vco1_level" MinValue="-100.0" MaxValue="0.0" StepSize="0.1000000014901161"
+                 SkewFactor="5.422270774841309" Value="0.0">
+        <Connections>
+          <Connection NodeId="gain" ParameterId="Gain"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="fm_amount" MinValue="0.0" MaxValue="1000.0" StepSize="0.009999999776482582"
+                 Value="739.1299834791571" DefaultValue="0.0">
+        <Connections>
+          <Connection NodeId="faust2" ParameterId="FM amount"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="vco2_eg_amount" MinValue="0.0" MaxValue="400.0" StepSize="1.0"
+                 Value="191.0" DefaultValue="0.0">
+        <Connections>
+          <Connection NodeId="faust2" ParameterId="EG Amount"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="vco2_freq" MinValue="0.0" MaxValue="5000.0" StepSize="0.1000000014901161"
+                 Value="549.6000081896781" DefaultValue="719.1000104174017">
+        <Connections>
+          <Connection NodeId="faust2" ParameterId="freqKnob"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="vco2_waveform" MinValue="0.0" MaxValue="1.0" StepSize="1.0"
+                 Value="0.0">
+        <Connections>
+          <Connection NodeId="faust2" ParameterId="Tri-Sqr Wave"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="vco2_level" MinValue="-100.0" MaxValue="0.0" StepSize="0.1000000014901161"
+                 SkewFactor="5.422270774841309" Value="0.0" DefaultValue="-100.0">
+        <Connections>
+          <Connection NodeId="gain1" ParameterId="Gain"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="hard_sync" MinValue="0.0" MaxValue="1.0" StepSize="1.0" Value="1.0"
+                 DefaultValue="0.0">
+        <Connections>
+          <Connection NodeId="faust2" ParameterId="Hs On-Off"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="noise_decay" MinValue="0.001000000047497451" MaxValue="0.699999988079071"
+                 StepSize="0.00009999999747378752" Value="0.5327999866130967"
+                 DefaultValue="0.6999999823892686">
+        <Connections>
+          <Connection NodeId="faust3" ParameterId="Decay"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="noise_level" MinValue="-100.0" MaxValue="0.0" StepSize="0.1000000014901161"
+                 SkewFactor="5.422270774841309" Value="0.0" DefaultValue="-100.0">
+        <Connections>
+          <Connection NodeId="gain2" ParameterId="Gain"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="vca_decay" MinValue="0.004999999888241291" MaxValue="10.0"
+                 StepSize="0.001000000047497451" Value="10.0">
+        <Connections>
+          <Connection NodeId="faust1" ParameterId="decay"/>
+          <Connection NodeId="faust2" ParameterId="Decay"/>
+        </Connections>
+      </Parameter>
+    </Parameters>
+  </Node>
+</Network>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Network ID="_4grans" Version="0.0.0">
+  <Node FactoryPath="container.chain" ID="_4grans" Bypassed="0" Name="_4grans"
+        ShowParameters="1">
+    <Nodes>
+      <Node ID="midichain" FactoryPath="container.midichain" Bypassed="0"
+            Name="midichain">
+        <Nodes>
+          <Node ID="split" FactoryPath="container.split" Bypassed="0" Name="split">
+            <Nodes>
+              <Node ID="chain" FactoryPath="container.chain" Bypassed="0" Name="chain">
+                <Nodes>
+                  <Node ID="granulator" FactoryPath="core.granulator" Bypassed="0" Name="granulator">
+                    <ComplexData>
+                      <AudioFiles>
+                        <AudioFile Index="0" EmbeddedData="{PROJECT_FOLDER}rand2.wav" MinValue="15036"
+                                   MaxValue="103236"/>
+                      </AudioFiles>
+                    </ComplexData>
+                    <Parameters>
+                      <Parameter MinValue="0.0" MaxValue="1.0" ID="Position" Automated="1"/>
+                      <Parameter MinValue="0.5" MaxValue="2.0" SkewFactor="0.6309297680854797"
+                                 ID="Pitch" DefaultValue="1.0" Automated="1"/>
+                      <Parameter MinValue="20.0" MaxValue="800.0" ID="GrainSize" DefaultValue="80.0"
+                                 Value="90.06197641372681"/>
+                      <Parameter MinValue="0.0" MaxValue="1.0" ID="Density" Value="0.9409531249999999"
+                                 DefaultValue="0.0"/>
+                      <Parameter MinValue="0.0" MaxValue="1.0" ID="Spread" Value="0.12315625"
+                                 DefaultValue="0.0"/>
+                      <Parameter MinValue="0.0" MaxValue="1.0" ID="Detune" Value="0.0"/>
+                    </Parameters>
+                  </Node>
+                  <Node ID="gain" FactoryPath="core.gain" Bypassed="0" Name="gain">
+                    <Parameters>
+                      <Parameter MinValue="-100.0" MaxValue="0.0" StepSize="0.1000000014901161"
+                                 SkewFactor="5.422270774841309" ID="Gain" Automated="1"/>
+                      <Parameter MinValue="0.0" MaxValue="1000.0" StepSize="0.1000000014901161"
+                                 SkewFactor="0.3010300099849701" ID="Smoothing" Value="20.0"/>
+                      <Parameter MinValue="-100.0" MaxValue="0.0" StepSize="0.1000000014901161"
+                                 SkewFactor="5.422270774841309" ID="ResetValue" Value="0.0"/>
+                    </Parameters>
+                  </Node>
+                  <Node ID="gain3" FactoryPath="core.gain" Bypassed="0" Name="gain3">
+                    <Parameters>
+                      <Parameter MinValue="-100.0" MaxValue="0.0" StepSize="0.1000000014901161"
+                                 SkewFactor="5.422270774841309" ID="Gain" Automated="1"/>
+                      <Parameter MinValue="0.0" MaxValue="1000.0" StepSize="0.1000000014901161"
+                                 SkewFactor="0.3010300099849701" ID="Smoothing" Value="20.0"/>
+                      <Parameter MinValue="-100.0" MaxValue="0.0" StepSize="0.1000000014901161"
+                                 SkewFactor="5.422270774841309" ID="ResetValue" Value="0.0"/>
+                    </Parameters>
+                  </Node>
+                </Nodes>
+                <Parameters/>
+              </Node>
+              <Node ID="chain1" FactoryPath="container.chain" Bypassed="0" Name="chain1">
+                <Nodes>
+                  <Node ID="granulator1" FactoryPath="core.granulator" Bypassed="0" Name="granulator1">
+                    <ComplexData>
+                      <AudioFiles>
+                        <AudioFile Index="1" EmbeddedData="{PROJECT_FOLDER}flute.wav" MinValue="155196"
+                                   MaxValue="243396"/>
+                      </AudioFiles>
+                    </ComplexData>
+                    <Parameters>
+                      <Parameter MinValue="0.0" MaxValue="1.0" ID="Position" Automated="1"/>
+                      <Parameter MinValue="0.5" MaxValue="2.0" SkewFactor="0.6309297680854797"
+                                 ID="Pitch" Value="1.0"/>
+                      <Parameter MinValue="20.0" MaxValue="800.0" ID="GrainSize" Value="95.27628417968761"
+                                 DefaultValue="80.0"/>
+                      <Parameter MinValue="0.0" MaxValue="1.0" ID="Density" Value="0.9353125"
+                                 DefaultValue="0.0"/>
+                      <Parameter MinValue="0.0" MaxValue="1.0" ID="Spread" Value="0.04471875000000003"
+                                 DefaultValue="0.0"/>
+                      <Parameter MinValue="0.0" MaxValue="1.0" ID="Detune" Value="0.0"/>
+                    </Parameters>
+                  </Node>
+                  <Node ID="gain1" FactoryPath="core.gain" Bypassed="0" Name="gain1">
+                    <Parameters>
+                      <Parameter MinValue="-100.0" MaxValue="0.0" StepSize="0.1000000014901161"
+                                 SkewFactor="5.422270774841309" ID="Gain" Automated="1"/>
+                      <Parameter MinValue="0.0" MaxValue="1000.0" StepSize="0.1000000014901161"
+                                 SkewFactor="0.3010300099849701" ID="Smoothing" Value="20.0"/>
+                      <Parameter MinValue="-100.0" MaxValue="0.0" StepSize="0.1000000014901161"
+                                 SkewFactor="5.422270774841309" ID="ResetValue" Value="0.0"/>
+                    </Parameters>
+                  </Node>
+                  <Node ID="gain4" FactoryPath="core.gain" Bypassed="0" Name="gain4">
+                    <Parameters>
+                      <Parameter MinValue="-100.0" MaxValue="0.0" StepSize="0.1000000014901161"
+                                 SkewFactor="5.422270774841309" ID="Gain" Automated="1"/>
+                      <Parameter MinValue="0.0" MaxValue="1000.0" StepSize="0.1000000014901161"
+                                 SkewFactor="0.3010300099849701" ID="Smoothing" Value="20.0"/>
+                      <Parameter MinValue="-100.0" MaxValue="0.0" StepSize="0.1000000014901161"
+                                 SkewFactor="5.422270774841309" ID="ResetValue" Value="0.0"/>
+                    </Parameters>
+                  </Node>
+                </Nodes>
+                <Parameters/>
+              </Node>
+            </Nodes>
+            <Parameters/>
+          </Node>
+          <Node ID="ahdsr" FactoryPath="envelope.ahdsr" Bypassed="0" Name="ahdsr">
+            <Properties>
+              <Property ID="NumParameters" Value="2"/>
+            </Properties>
+            <SwitchTargets>
+              <SwitchTarget>
+                <Connections/>
+              </SwitchTarget>
+              <SwitchTarget>
+                <Connections/>
+              </SwitchTarget>
+            </SwitchTargets>
+            <ComplexData>
+              <DisplayBuffers>
+                <DisplayBuffer Index="-1" EmbeddedData=""/>
+              </DisplayBuffers>
+            </ComplexData>
+            <Parameters>
+              <Parameter MinValue="0.0" MaxValue="10000.0" StepSize="0.1000000014901161"
+                         SkewFactor="0.1976716816425323" ID="Attack" Value="2604.700038813055"
+                         DefaultValue="10.0"/>
+              <Parameter MinValue="0.0" MaxValue="1.0" ID="AttackLevel" Value="1.0"/>
+              <Parameter MinValue="0.0" MaxValue="10000.0" StepSize="0.1000000014901161"
+                         SkewFactor="0.1976716816425323" ID="Hold" Value="20.0"/>
+              <Parameter MinValue="0.0" MaxValue="10000.0" StepSize="0.1000000014901161"
+                         SkewFactor="0.1976716816425323" ID="Decay" Value="300.0"/>
+              <Parameter MinValue="0.0" MaxValue="1.0" ID="Sustain" Value="1.0" DefaultValue="0.5"/>
+              <Parameter MinValue="0.0" MaxValue="10000.0" StepSize="0.1000000014901161"
+                         SkewFactor="0.1976716816425323" ID="Release" Value="10000.0"
+                         DefaultValue="20.0"/>
+              <Parameter MinValue="0.0" MaxValue="1.0" ID="AttackCurve" Value="0.1532500000000001"
+                         DefaultValue="0.5"/>
+              <Parameter MinValue="0.0" MaxValue="1.0" StepSize="1.0" ID="Retrigger" Value="0.0"/>
+              <Parameter MinValue="0.0" MaxValue="1.0" StepSize="1.0" ID="Gate" Value="0.0"/>
+            </Parameters>
+          </Node>
+        </Nodes>
+        <Parameters/>
+      </Node>
+    </Nodes>
+    <Parameters>
+      <Parameter ID="Position1" MinValue="0.0" MaxValue="1.0" Value="0.546875"
+                 DefaultValue="1.0">
+        <Connections>
+          <Connection NodeId="granulator" ParameterId="Position"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="Position2" MinValue="0.0" MaxValue="1.0" Value="0.4199999868869781"
+                 DefaultValue="1.0">
+        <Connections>
+          <Connection NodeId="granulator1" ParameterId="Position"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="Position3" MinValue="0.0" MaxValue="1.0" Value="0.546875"
+                 DefaultValue="1.0">
+        <Connections/>
+      </Parameter>
+      <Parameter ID="Gain1" MinValue="-100.0" MaxValue="0.0" StepSize="0.1000000014901161"
+                 SkewFactor="5.422270774841309" Value="-26.19999890029432" DefaultValue="1.0">
+        <Connections>
+          <Connection NodeId="gain" ParameterId="Gain"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="Gain2" MinValue="-100.0" MaxValue="0.0" StepSize="0.1000000014901161"
+                 SkewFactor="5.422270774841309" Value="0.0" DefaultValue="1.0">
+        <Connections>
+          <Connection NodeId="gain1" ParameterId="Gain"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="Gain3" MinValue="-100.0" MaxValue="0.0" StepSize="0.1000000014901161"
+                 SkewFactor="5.422270774841309" Value="-25.49999888986351" DefaultValue="1.0">
+        <Connections/>
+      </Parameter>
+      <Parameter ID="onoff1" MinValue="0.0" MaxValue="1.0" StepSize="0.1000000014901161"
+                 SkewFactor="5.422270774841309" Value="1.0">
+        <Connections>
+          <Connection NodeId="gain3" ParameterId="Gain"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="onoff2" MinValue="0.0" MaxValue="1.0" StepSize="0.1000000014901161"
+                 SkewFactor="5.422270774841309" Value="1.0">
+        <Connections>
+          <Connection NodeId="gain4" ParameterId="Gain"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="onoff3" MinValue="0.0" MaxValue="1.0" StepSize="0.1000000014901161"
+                 SkewFactor="5.422270774841309" Value="0.0" DefaultValue="1.0">
+        <Connections/>
+      </Parameter>
+      <Parameter ID="pitch1" MinValue="0.5" MaxValue="2.0" SkewFactor="0.6309297680854797"
+                 Value="1.0">
+        <Connections>
+          <Connection NodeId="granulator" ParameterId="Pitch"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="grainSize1" MinValue="0.0" MaxValue="1.0" Value="0.3600000143051147"
+                 DefaultValue="1.0">
+        <Connections/>
+      </Parameter>
+    </Parameters>
+  </Node>
+</Network>

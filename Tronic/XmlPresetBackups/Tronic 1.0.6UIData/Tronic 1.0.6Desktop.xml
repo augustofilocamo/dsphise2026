@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptImage" id="BackbroundImage" x="0.0" y="0.0" fileName="{PROJECT_FOLDER}backgound-012.png"
+             width="1024.0" height="680.0" locked="1"/>
+  <Component type="ScriptSlider" id="Knob1" x="50.0" y="172.0" min="0.009999999776482582"
+             processorId="Hardcoded Polyphonic FX1" parameterId="vco_decay"
+             filmstripImage="{PROJECT_FOLDER}slider-64.png" numStrips="64.0"
+             scaleFactor="0.2199999988079071" width="110.0" height="110.0"
+             showTextBox="0" pluginParameterName="Vco Decay" isPluginParameter="1"
+             defaultValue="0.009999999776482582" text="VCO DECAY" suffix=" Sec"/>
+  <Component type="ScriptSlider" id="Knob2" x="150.0" y="172.0" width="110.0"
+             height="110.0" max="400.0" processorId="Hardcoded Polyphonic FX1"
+             parameterId="vco1_eg_amount" filmstripImage="{PROJECT_FOLDER}slider-64.png"
+             numStrips="64.0" scaleFactor="0.2199999988079071" showTextBox="0"
+             isPluginParameter="1" pluginParameterName="Vco1 Click" text="VCO 1 CLICK"
+             suffix=" Hz"/>
+  <Component type="ScriptSlider" id="Knob3" x="250.0" y="172.0" width="110.0"
+             height="110.0" max="5000.0" processorId="Hardcoded Polyphonic FX1"
+             parameterId="vco1_freq" filmstripImage="{PROJECT_FOLDER}slider-64.png"
+             numStrips="64.0" scaleFactor="0.2199999988079071" showTextBox="0"
+             middlePosition="500.0" isPluginParameter="1" pluginParameterName="Vco1 Frequency"
+             suffix=" Hz" text="VCO 1 FREQ"/>
+  <Component type="ScriptSlider" id="Knob5" x="354.0" y="102.0" min="-100.0"
+             mode="Decibel" max="0.0" processorId="Hardcoded Polyphonic FX1"
+             parameterId="vco1_level" middlePosition="-18.0" filmstripImage="{PROJECT_FOLDER}small-knob-64.png"
+             numStrips="64.0" scaleFactor="0.119999997317791" width="60.0"
+             height="60.0" showTextBox="0" isPluginParameter="1" pluginParameterName="Vco1 Gain"
+             text="VCO 1 GAIN" suffix=" Db"/>
+  <Component type="ScriptSlider" id="Knob6" x="50.0" y="286.0" width="110.0"
+             height="110.0" max="1000.0" stepSize="1.0" processorId="Hardcoded Polyphonic FX1"
+             parameterId="fm_amount" filmstripImage="{PROJECT_FOLDER}slider-64.png"
+             numStrips="64.0" scaleFactor="0.2199999988079071" showTextBox="0"
+             isPluginParameter="1" pluginParameterName="Vco2 FM Amount " suffix=" Index"
+             text="FM MOD"/>
+  <Component type="ScriptSlider" id="Knob7" x="150.0" y="286.0" width="110.0"
+             height="110.0" max="400.0" processorId="Hardcoded Polyphonic FX1"
+             parameterId="vco2_eg_amount" filmstripImage="{PROJECT_FOLDER}slider-64.png"
+             numStrips="64.0" scaleFactor="0.2199999988079071" showTextBox="0"
+             isPluginParameter="1" pluginParameterName="Vco2 Click" suffix=" Hz"
+             text="VCO 2 CLICK"/>
+  <Component type="ScriptSlider" id="Knob8" x="250.0" y="286.0" width="110.0"
+             height="110.0" max="5000.0" processorId="Hardcoded Polyphonic FX1"
+             parameterId="vco2_freq" filmstripImage="{PROJECT_FOLDER}slider-64.png"
+             numStrips="64.0" scaleFactor="0.2199999988079071" showTextBox="0"
+             middlePosition="500.0" isPluginParameter="1" pluginParameterName="Vco2 Frequency"
+             suffix=" Hz" text="VCO 2 FREQ"/>
+  <Component type="ScriptSlider" id="Knob4" x="360.0" y="196.0" width="74.0"
+             height="74.0" processorId="Hardcoded Polyphonic FX1" parameterId="vco1_waveform"
+             filmstripImage="{PROJECT_FOLDER}waveformSlider.png" numStrips="2.0"
+             scaleFactor="0.25" showTextBox="0" isPluginParameter="1" pluginParameterName="Vcf Cutoff"
+             stepSize="1.0" middlePosition="0.5"/>
+  <Component type="ScriptSlider" id="Knob9" x="360.0" y="316.0" width="74.0"
+             height="74.0" processorId="Hardcoded Polyphonic FX1" parameterId="vco2_waveform"
+             filmstripImage="{PROJECT_FOLDER}waveformSlider.png" numStrips="2.0"
+             scaleFactor="0.25" showTextBox="0" isPluginParameter="1" pluginParameterName="Vcf Cutoff"
+             stepSize="1.0" middlePosition="0.5"/>
+  <Component type="ScriptSlider" id="Knob10" x="467.0" y="100.0" min="-100.0"
+             mode="Decibel" max="0.0" processorId="Hardcoded Polyphonic FX1"
+             parameterId="vco2_level" middlePosition="-18.0" filmstripImage="{PROJECT_FOLDER}small-knob-64.png"
+             numStrips="64.0" scaleFactor="0.119999997317791" width="60.0"
+             height="60.0" showTextBox="0" isPluginParameter="1" pluginParameterName="Vco2 Gain"
+             suffix=" Db" text="VCO 2 GAIN"/>
+  <Component type="ScriptSlider" id="Knob12" x="723.0" y="199.0" width="60.0"
+             height="60.0" max="2.0" processorId="Hardcoded Polyphonic FX1"
+             parameterId="noise_decay" filmstripImage="{PROJECT_FOLDER}small-knob-64.png"
+             numStrips="64.0" scaleFactor="0.119999997317791" showTextBox="0"
+             isPluginParameter="1" pluginParameterName="Noise Decay" text="NOISE DECAY"
+             suffix=" Ms" enabled="0"/>
+  <Component type="ScriptSlider" id="Knob13" x="574.0" y="101.0" min="-100.0"
+             mode="Decibel" max="0.0" processorId="Hardcoded Polyphonic FX1"
+             parameterId="noise_level" middlePosition="-18.0" filmstripImage="{PROJECT_FOLDER}small-knob-64.png"
+             numStrips="64.0" scaleFactor="0.119999997317791" width="60.0"
+             height="60.0" showTextBox="0" isPluginParameter="1" pluginParameterName="Noise Gain"
+             text="NOISE GAIN" suffix=" Db"/>
+  <Component type="ScriptSlider" id="Knob14" x="723.0" y="313.0" width="60.0"
+             height="60.0" max="10.0" processorId="Hardcoded Polyphonic FX1"
+             parameterId="vca_decay" filmstripImage="{PROJECT_FOLDER}small-knob-64.png"
+             numStrips="64.0" scaleFactor="0.119999997317791" showTextBox="0"
+             middlePosition="0.800000011920929" isPluginParameter="1" pluginParameterName="Vca Decay"
+             text="VCA DECAY" suffix=" Ms"/>
+  <Component type="ScriptLabel" id="label_vco_decay" x="50.0" y="265.0" text="VCO DECAY"
+             fontName="Abel" fontSize="14" width="110.0" height="30.0" editable="0"
+             textColour="3204448255"/>
+  <Component type="ScriptSlider" id="TempoKnob" x="37.0" y="376.0" stepSize="1.0"
+             min="-1.0" max="280.0" filmstripImage="{PROJECT_FOLDER}tempo-knob-64.png"
+             numStrips="64.0" scaleFactor="0.3499999940395355" width="170.0"
+             height="180.0" isPluginParameter="1" pluginParameterName="Sync-BPM"
+             showTextBox="0" textColour="3204448255" text="BPM"/>
+  <Component type="ScriptLabel" id="label_vco_1_click" x="150.0" y="265.0"
+             text="VCO 1 CLICK" fontName="Abel" fontSize="14" width="110.0"
+             height="30.0" editable="0" textColour="3204448255"/>
+  <Component type="ScriptLabel" id="label_vco2_eg_amount" x="150.0" y="380.0"
+             text="VCO 2 CLICK" fontName="Abel" fontSize="14" textColour="3204448255"
+             width="110.0" height="30.0" editable="0"/>
+  <Component type="ScriptLabel" id="label_fm_amount" x="50.0" y="380.0" text="FM MOD"
+             fontName="Abel" fontSize="14" textColour="3204448255" width="110.0"
+             height="30.0" editable="0"/>
+  <Component type="ScriptLabel" id="label_fm_amount1" x="447.0" y="380.0"
+             text="HARD SYNC" fontName="Abel" fontSize="14.0" textColour="3204448255"
+             width="80.0" height="30.0"/>
+  <Component type="ScriptLabel" id="label_vco1_FREQ" x="250.0" y="265.0" text="VCO 1 FREQ"
+             fontName="Abel" fontSize="14" textColour="3204448255" width="110.0"
+             height="30.0" editable="0"/>
+  <Component type="ScriptLabel" id="label_vco2_FREQ" x="250.0" y="380.0" text="VCO 2 FREQ"
+             fontName="Abel" fontSize="14" textColour="3204448255" width="110.0"
+             height="30.0" editable="0"/>
+  <Component type="ScriptButton" id="Knob11" x="446.0" y="310.0" processorId="Hardcoded Polyphonic FX1"
+             parameterId="hard_sync" width="80.0" height="80.0" filmstripImage="{PROJECT_FOLDER}switch-button.png"
+             scaleFactor="0.2000000029802322" isPluginParameter="1" pluginParameterName="Vco2 Hard Sync"/>
+  <Component type="ScriptLabel" id="label_vco1_level" x="397.0" y="116.0"
+             text="VCO 1 GAIN" fontName="Abel" fontSize="14" textColour="3204448255"
+             width="80.0" height="30.0" editable="0"/>
+  <Component type="ScriptLabel" id="label_vco2_level" x="507.0" y="116.0"
+             text="VCO 2 GAIN" fontName="Abel" fontSize="14" textColour="3204448255"
+             width="80.0" height="30.0" editable="0"/>
+  <Component type="ScriptLabel" id="label_noise_level" x="614.0" y="116.0"
+             text="NOISE GAIN" fontName="Abel" fontSize="14" textColour="3204448255"
+             width="80.0" height="30.0" editable="0"/>
+  <Component type="ScriptLabel" id="label_noise_decay" x="713.0" y="265.0"
+             text="NOISE DECAY" fontName="Abel" fontSize="14" textColour="3204448255"
+             width="80.0" height="30.0" editable="0"/>
+  <Component type="ScriptLabel" id="label_vca_decay" x="700.0" y="380.0" text="VCA DECAY"
+             fontName="Abel" fontSize="14" textColour="3204448255" width="110.0"
+             height="30.0" editable="0"/>
+  <Component type="ScriptLabel" id="label_tempo" x="168.0" y="506.0" text="BPM"
+             fontName="Abel" fontSize="14" textColour="3204448255" width="59.0"
+             height="30.0" editable="0" alignment="left"/>
+  <Component type="ScriptButton" id="playbutton" x="154.0" y="542.0" width="40.0"
+             height="40.0" text="." defaultValue="1.0" bgColour="1442840575"
+             itemColour="1714631475" itemColour2="4212199697" textColour="4294967295"/>
+  <Component type="ScriptLabel" id="label_tempo1" x="148.0" y="585.0" text="PLAY"
+             fontName="Abel" fontSize="14.0" textColour="3204448255" width="53.0"
+             height="30.0"/>
+  <Component type="ScriptLabel" id="label_tempo_sync" x="51.0" y="506.0" text="SYNC"
+             fontName="Abel" fontSize="14.0" textColour="3204448255" width="40.0"
+             height="30.0"/>
+  <Component type="ScriptPanel" id="ledPanel" x="475.0" y="526.0" width="9.0"
+             height="9.0" textColour="4294252800" itemColour2="4290122496"
+             itemColour="4290122496" borderSize="4.0"/>
+  <Component type="ScriptSlider" id="Knob17" x="430.0" y="171.0" width="110.0"
+             height="110.0" processorId="HardcodedMasterFX3" parameterId="cutoff"
+             filmstripImage="{PROJECT_FOLDER}slider-64.png" numStrips="64.0"
+             scaleFactor="0.2199999988079071" showTextBox="0" isPluginParameter="1"
+             pluginParameterName="Vcf Cutoff" text="CUTOFF" suffix=" N Freq"/>
+  <Component type="ScriptLabel" id="label_cutoff" x="460.0" y="265.0" text="CUTOFF"
+             fontName="Abel" fontSize="14" textColour="3204448255" width="50.0"
+             height="30.0" editable="0"/>
+  <Component type="ScriptLabel" id="label_vcf_decay" x="621.0" y="265.0" text="FILTER DECAY"
+             fontName="Abel" fontSize="14" textColour="3204448255" width="90.0"
+             height="30.0" editable="0"/>
+  <Component type="ScriptSlider" id="Knob15" x="610.0" y="172.0" width="110.0"
+             height="110.0" max="20.0" processorId="HardcodedMasterFX3" parameterId="vcf_decay"
+             filmstripImage="{PROJECT_FOLDER}slider-64.png" numStrips="64.0"
+             scaleFactor="0.2199999988079071" showTextBox="0" min="0.5" middlePosition="5.0"
+             isPluginParameter="1" pluginParameterName="Filter Decay" text="FILTER DECAY"
+             suffix=" Ms" enabled="0"/>
+  <Component type="ScriptSlider" id="Knob16" x="518.0" y="286.0" width="110.0"
+             height="110.0" processorId="HardcodedMasterFX3" parameterId="vcf_eg_amount"
+             filmstripImage="{PROJECT_FOLDER}slider-64.png" numStrips="64.0"
+             scaleFactor="0.2199999988079071" showTextBox="0" isPluginParameter="1"
+             pluginParameterName="Filter Envelope" text="FILTER ENV" suffix=" %"
+             enabled="0"/>
+  <Component type="ScriptLabel" id="label_vcf_eg" x="518.0" y="380.0" text="FILTER ENV"
+             fontName="Abel" fontSize="14" textColour="3204448255" width="110.0"
+             height="30.0" editable="0"/>
+  <Component type="ScriptSlider" id="Knob19" x="610.0" y="286.0" width="110.0"
+             height="110.0" max="16.0" processorId="HardcodedMasterFX3" parameterId="q"
+             filmstripImage="{PROJECT_FOLDER}slider-64.png" numStrips="64.0"
+             scaleFactor="0.2199999988079071" showTextBox="0" isPluginParameter="1"
+             pluginParameterName="Filter Q" suffix=" Q" text="FILTER Q"/>
+  <Component type="ScriptLabel" id="label_vcf_Q" x="612.0" y="380.0" text="FILTER Q"
+             fontName="Abel" fontSize="14" textColour="3204448255" width="110.0"
+             height="30.0" editable="0"/>
+  <Component type="ScriptButton" id="Knob18" x="535.0" y="199.0" processorId="HardcodedMasterFX3"
+             parameterId="LP_HP" width="71.0" height="66.0" filmstripImage="{PROJECT_FOLDER}shiwtch-vfc.png"
+             scaleFactor="0.2000000029802322" isPluginParameter="1" pluginParameterName="Filter Type"/>
+  <Component type="ScriptLabel" id="label_vcf_HP" x="568.0" y="204.0" text="LP"
+             fontName="Abel" fontSize="14.0" textColour="3204448255" width="30.0"
+             height="10.0"/>
+  <Component type="ScriptButton" id="Button1" x="824.0" y="154.0" width="20.0"
+             height="20.0" filmstripImage="{PROJECT_FOLDER}led-red.png" scaleFactor="0.1500000059604645"/>
+  <Component type="ScriptButton" id="Button2" x="851.0" y="154.0" width="20.0"
+             height="20.0" filmstripImage="{PROJECT_FOLDER}led-red.png" scaleFactor="0.1500000059604645"/>
+  <Component type="ScriptButton" id="Button3" x="824.0" y="178.0" width="20.0"
+             height="20.0" filmstripImage="{PROJECT_FOLDER}led-red.png" scaleFactor="0.1500000059604645"/>
+  <Component type="ScriptButton" id="Button4" x="851.0" y="178.0" width="20.0"
+             height="20.0" filmstripImage="{PROJECT_FOLDER}led-red.png" scaleFactor="0.1500000059604645"/>
+  <Component type="ScriptButton" id="Button5" x="824.0" y="202.0" width="20.0"
+             height="20.0" filmstripImage="{PROJECT_FOLDER}led-red.png" scaleFactor="0.1500000059604645"/>
+  <Component type="ScriptButton" id="Button6" x="851.0" y="202.0" width="20.0"
+             height="20.0" filmstripImage="{PROJECT_FOLDER}led-red.png" scaleFactor="0.1500000059604645"/>
+  <Component type="ScriptButton" id="Button7" x="824.0" y="226.0" width="20.0"
+             height="20.0" filmstripImage="{PROJECT_FOLDER}led-red.png" scaleFactor="0.1500000059604645"/>
+  <Component type="ScriptButton" id="Button8" x="851.0" y="226.0" width="20.0"
+             height="20.0" filmstripImage="{PROJECT_FOLDER}led-red.png" scaleFactor="0.1500000059604645"/>
+  <Component type="ScriptButton" id="Button9" x="824.0" y="251.0" width="20.0"
+             height="20.0" filmstripImage="{PROJECT_FOLDER}led-red.png" scaleFactor="0.1500000059604645"/>
+  <Component type="ScriptButton" id="Button10" x="851.0" y="251.0" width="20.0"
+             height="20.0" filmstripImage="{PROJECT_FOLDER}led-red.png" scaleFactor="0.1500000059604645"/>
+  <Component type="ScriptButton" id="Button11" x="824.0" y="275.0" width="20.0"
+             height="20.0" filmstripImage="{PROJECT_FOLDER}led-red.png" scaleFactor="0.1500000059604645"/>
+  <Component type="ScriptButton" id="Button12" x="851.0" y="275.0" width="20.0"
+             height="20.0" filmstripImage="{PROJECT_FOLDER}led-red.png" scaleFactor="0.1500000059604645"/>
+  <Component type="ScriptButton" id="Button13" x="824.0" y="299.0" width="20.0"
+             height="20.0" filmstripImage="{PROJECT_FOLDER}led-red.png" scaleFactor="0.1500000059604645"/>
+  <Component type="ScriptButton" id="Button14" x="851.0" y="299.0" width="20.0"
+             height="20.0" filmstripImage="{PROJECT_FOLDER}led-red.png" scaleFactor="0.1500000059604645"/>
+  <Component type="ScriptButton" id="Button15" x="824.0" y="323.0" width="20.0"
+             height="20.0" filmstripImage="{PROJECT_FOLDER}led-red.png" scaleFactor="0.1500000059604645"/>
+  <Component type="ScriptButton" id="Button16" x="851.0" y="323.0" width="20.0"
+             height="20.0" filmstripImage="{PROJECT_FOLDER}led-red.png" scaleFactor="0.1500000059604645"/>
+  <Component type="ScriptButton" id="Button17" x="824.0" y="348.0" width="20.0"
+             height="20.0" filmstripImage="{PROJECT_FOLDER}led-red.png" scaleFactor="0.1500000059604645"/>
+  <Component type="ScriptButton" id="Button18" x="851.0" y="348.0" width="20.0"
+             height="20.0" filmstripImage="{PROJECT_FOLDER}led-red.png" scaleFactor="0.1500000059604645"/>
+  <Component type="ScriptButton" id="Button19" x="824.0" y="372.0" width="20.0"
+             height="20.0" filmstripImage="{PROJECT_FOLDER}led-red.png" scaleFactor="0.1500000059604645"/>
+  <Component type="ScriptButton" id="Button20" x="851.0" y="372.0" width="20.0"
+             height="20.0" filmstripImage="{PROJECT_FOLDER}led-red.png" scaleFactor="0.1500000059604645"/>
+  <Component type="ScriptButton" id="Button21" x="824.0" y="396.0" width="20.0"
+             height="20.0" filmstripImage="{PROJECT_FOLDER}led-red.png" scaleFactor="0.1500000059604645"/>
+  <Component type="ScriptButton" id="Button22" x="851.0" y="396.0" width="20.0"
+             height="20.0" filmstripImage="{PROJECT_FOLDER}led-red.png" scaleFactor="0.1500000059604645"/>
+  <Component type="ScriptButton" id="Button23" x="824.0" y="421.0" width="20.0"
+             height="20.0" filmstripImage="{PROJECT_FOLDER}led-red.png" scaleFactor="0.1500000059604645"/>
+  <Component type="ScriptButton" id="Button24" x="851.0" y="421.0" width="20.0"
+             height="20.0" filmstripImage="{PROJECT_FOLDER}led-red.png" scaleFactor="0.1500000059604645"/>
+  <Component type="ScriptButton" id="Button25" x="824.0" y="445.0" width="20.0"
+             height="20.0" filmstripImage="{PROJECT_FOLDER}led-red.png" scaleFactor="0.1500000059604645"/>
+  <Component type="ScriptButton" id="Button26" x="851.0" y="445.0" width="20.0"
+             height="20.0" filmstripImage="{PROJECT_FOLDER}led-red.png" scaleFactor="0.1500000059604645"/>
+  <Component type="ScriptButton" id="Button27" x="824.0" y="469.0" width="20.0"
+             height="20.0" filmstripImage="{PROJECT_FOLDER}led-red.png" scaleFactor="0.1500000059604645"/>
+  <Component type="ScriptButton" id="Button28" x="851.0" y="469.0" width="20.0"
+             height="20.0" filmstripImage="{PROJECT_FOLDER}led-red.png" scaleFactor="0.1500000059604645"/>
+  <Component type="ScriptButton" id="Button29" x="824.0" y="493.0" width="20.0"
+             height="20.0" filmstripImage="{PROJECT_FOLDER}led-red.png" scaleFactor="0.1500000059604645"/>
+  <Component type="ScriptButton" id="Button30" x="851.0" y="493.0" width="20.0"
+             height="20.0" filmstripImage="{PROJECT_FOLDER}led-red.png" scaleFactor="0.1500000059604645"/>
+  <Component type="ScriptButton" id="Button31" x="824.0" y="518.0" width="20.0"
+             height="20.0" filmstripImage="{PROJECT_FOLDER}led-red.png" scaleFactor="0.1500000059604645"/>
+  <Component type="ScriptButton" id="Button32" x="851.0" y="518.0" width="20.0"
+             height="20.0" filmstripImage="{PROJECT_FOLDER}led-red.png" scaleFactor="0.1500000059604645"/>
+  <Component type="ScriptButton" id="Button33" x="824.0" y="542.0" width="20.0"
+             height="20.0" filmstripImage="{PROJECT_FOLDER}led-red.png" scaleFactor="0.1500000059604645"/>
+  <Component type="ScriptButton" id="Button34" x="851.0" y="542.0" width="20.0"
+             height="20.0" filmstripImage="{PROJECT_FOLDER}led-red.png" scaleFactor="0.1500000059604645"/>
+  <Component type="ScriptButton" id="Button35" x="824.0" y="566.0" width="20.0"
+             height="20.0" filmstripImage="{PROJECT_FOLDER}led-red.png" scaleFactor="0.1500000059604645"/>
+  <Component type="ScriptButton" id="Button36" x="851.0" y="566.0" width="20.0"
+             height="20.0" filmstripImage="{PROJECT_FOLDER}led-red.png" scaleFactor="0.1500000059604645"/>
+  <Component type="ScriptButton" id="Button37" x="824.0" y="590.0" width="20.0"
+             height="20.0" filmstripImage="{PROJECT_FOLDER}led-red.png" scaleFactor="0.1500000059604645"/>
+  <Component type="ScriptButton" id="Button38" x="851.0" y="590.0" width="20.0"
+             height="20.0" filmstripImage="{PROJECT_FOLDER}led-red.png" scaleFactor="0.1500000059604645"/>
+  <Component type="ScriptImage" id="ImageDisplay" x="202.0" y="420.0" fileName="{PROJECT_FOLDER}display.png"
+             width="620.0" height="190.0">
+    <Component type="ScriptLabel" id="label_note" x="536.0" y="127.0" text="NOTE"
+               fontName="Abel" fontSize="14.0" textColour="2684354559" width="50.0"
+               height="30.0" parentComponent="ImageDisplay"/>
+    <Component type="ScriptLabel" id="label_velo" x="536.0" y="44.0" text="VELO"
+               fontName="Abel" fontSize="14.0" textColour="2684354559" width="50.0"
+               height="30.0" parentComponent="ImageDisplay"/>
+    <Component type="ScriptSliderPack" id="SliderPack1" x="29.0" y="101.0" processorId="Arpeggiator1"
+               width="480.0" height="75.0" parentComponent="ImageDisplay" itemColour="3435921408"
+               itemColour2="16777215" textColour="16777215"/>
+    <Component type="ScriptSliderPack" id="SliderPack3" x="30.0" y="28.0" processorId="Arpeggiator1"
+               width="480.0" height="60.0" SliderPackIndex="1" parentComponent="ImageDisplay"
+               itemColour="3435921408" itemColour2="16777215" textColour="16777215"/>
+    <Component type="ScriptSliderPack" id="SliderPack4" x="30.0" y="73.0" processorId="Arpeggiator1"
+               width="480.0" height="60.0" SliderPackIndex="2" parentComponent="ImageDisplay"
+               itemColour="3422604302" itemColour2="16777215" textColour="16777215"
+               max="100.0" visible="0"/>
+  </Component>
+  <Component type="ScriptLabel" id="label_vco1_FREQ1" x="355.0" y="265.0"
+             text="VCO 1 WAVE" fontName="Abel" fontSize="14.0" textColour="3204448255"
+             width="80.0" height="30.0"/>
+  <Component type="ScriptLabel" id="label_vco1_FREQ2" x="355.0" y="380.0"
+             text="VCO 2 WAVE" fontName="Abel" fontSize="14.0" textColour="3204448255"
+             width="80.0" height="30.0"/>
+  <Component type="ScriptLabel" id="label_vco_decay2" x="876.0" y="152.0"
+             text="VCO DECAY" fontName="Abel" fontSize="14.0" textColour="3204448255"
+             width="100.0" height="20.0" alignment="left"/>
+  <Component type="ScriptLabel" id="label_vco_decay3" x="876.0" y="176.0"
+             text="VCO 1 CLICK" fontName="Abel" fontSize="14.0" textColour="3204448255"
+             width="100.0" height="20.0" alignment="left"/>
+  <Component type="ScriptLabel" id="label_vco1_FREQ3" x="876.0" y="200.0"
+             text="VCO 1 FREQ" fontName="Abel" fontSize="14.0" textColour="3204448255"
+             width="100.0" height="20.0" alignment="left"/>
+  <Component type="ScriptLabel" id="label_vco1_FREQ4" x="876.0" y="224.0"
+             text="VCO 1 WAVEFORM" fontName="Abel" fontSize="14.0" textColour="3204448255"
+             width="100.0" height="20.0" alignment="left"/>
+  <Component type="ScriptLabel" id="label_vco1_level1" x="876.0" y="248.0"
+             text="VCO 1 GAIN" fontName="Abel" fontSize="14.0" textColour="3204448255"
+             width="100.0" height="20.0" alignment="left"/>
+  <Component type="ScriptLabel" id="label_fm_amount2" x="876.0" y="272.0"
+             text="FM MOD" fontName="Abel" fontSize="14.0" textColour="3204448255"
+             width="100.0" height="20.0" alignment="left"/>
+  <Component type="ScriptLabel" id="label_vco2_eg_amount1" x="876.0" y="297.0"
+             text="VCO 2 CLICK" fontName="Abel" fontSize="14.0" textColour="3204448255"
+             width="100.0" height="20.0" alignment="left"/>
+  <Component type="ScriptLabel" id="label_vco2_FREQ1" x="876.0" y="321.0"
+             text="VCO 2 FREQ" fontName="Abel" fontSize="14.0" textColour="3204448255"
+             width="100.0" height="20.0" alignment="left"/>
+  <Component type="ScriptLabel" id="label_vco1_FREQ5" x="876.0" y="345.0"
+             text="VCO 2 WAVEFORM" fontName="Abel" fontSize="14.0" textColour="3204448255"
+             width="100.0" height="20.0" alignment="left"/>
+  <Component type="ScriptLabel" id="label_vco2_level1" x="876.0" y="369.0"
+             text="VCO 2 GAIN" fontName="Abel" fontSize="14.0" textColour="3204448255"
+             width="100.0" height="20.0" alignment="left"/>
+  <Component type="ScriptLabel" id="label_fm_amount3" x="876.0" y="393.0"
+             text="HARD SYNC" fontName="Abel" fontSize="14.0" textColour="3204448255"
+             width="100.0" height="20.0" alignment="left"/>
+  <Component type="ScriptLabel" id="label_noise_decay1" x="876.0" y="417.0"
+             text="NOISE DECAY" fontName="Abel" fontSize="14.0" textColour="3204448255"
+             width="100.0" height="20.0" alignment="left"/>
+  <Component type="ScriptLabel" id="label_noise_level1" x="876.0" y="441.0"
+             text="NOISE GAIN" fontName="Abel" fontSize="14.0" textColour="3204448255"
+             width="100.0" height="20.0" alignment="left"/>
+  <Component type="ScriptLabel" id="label_vca_decay1" x="876.0" y="466.0"
+             text="VCA DECAY" fontName="Abel" fontSize="14.0" textColour="3204448255"
+             width="100.0" height="20.0" alignment="left"/>
+  <Component type="ScriptLabel" id="label_vcf_decay1" x="876.0" y="490.0"
+             text="FILTER DECAY" fontName="Abel" fontSize="14.0" textColour="3204448255"
+             width="100.0" height="20.0" alignment="left"/>
+  <Component type="ScriptLabel" id="label_vcf_eg1" x="876.0" y="514.0" text="FILTER ENV"
+             fontName="Abel" fontSize="14.0" textColour="3204448255" width="100.0"
+             height="20.0" alignment="left"/>
+  <Component type="ScriptLabel" id="label_cutoff1" x="876.0" y="538.0" text="CUTOFF"
+             fontName="Abel" fontSize="14.0" textColour="3204448255" width="100.0"
+             height="20.0" alignment="left"/>
+  <Component type="ScriptLabel" id="label_vcf_LPHP1" x="876.0" y="562.0" text="LP-HP"
+             fontName="Abel" fontSize="14.0" textColour="3204448255" width="100.0"
+             height="20.0" alignment="left"/>
+  <Component type="ScriptLabel" id="label_vcf_Q1" x="876.0" y="587.0" text="FILTER Q"
+             fontName="Abel" fontSize="14.0" textColour="3204448255" width="100.0"
+             height="20.0" alignment="left"/>
+  <Component type="ScriptImage" id="Image1" x="785.0" y="115.0" fileName="{PROJECT_FOLDER}lines.png"
+             width="120.0" height="40.0"/>
+  <Component type="ScriptLabel" id="label_velo_cables" x="765.0" y="120.0"
+             text="VELO" fontName="Abel" fontSize="14.0" textColour="3204448255"
+             width="40.0" height="20.0" alignment="left"/>
+  <Component type="ScriptLabel" id="label_note_cables" x="893.0" y="120.0"
+             text="NOTE" fontName="Abel" fontSize="14.0" textColour="3204448255"
+             width="40.0" height="20.0" alignment="left"/>
+  <Component type="ScriptLabel" id="label_vcf_LHP" x="567.0" y="250.0" text="HP"
+             fontName="Abel" fontSize="14.0" textColour="3204448255" width="30.0"
+             height="10.0"/>
+  <Component type="ScriptPanel" id="presetDecButton" x="100" y="22" width="20"
+             height="20" allowCallbacks="Clicks &amp; Hover"/>
+  <Component type="ScriptPanel" id="presetIncButton" x="255" y="22" width="20"
+             height="20" allowCallbacks="Clicks &amp; Hover"/>
+  <Component type="ScriptPanel" id="presetDisplayPanel" x="130" y="20" width="120"
+             height="25" allowCallbacks="Clicks &amp; Hover"/>
+  <Component type="ScriptButton" id="settingsButton" x="21.0" y="17.0" filmstripImage="{PROJECT_FOLDER}settingsBtn2.png"
+             scaleFactor="0.1099999994039536" width="38.0" height="33.0" saveInPreset="0"/>
+  <Component type="ScriptButton" id="presetsButton" x="301.0" y="18.0" filmstripImage="{PROJECT_FOLDER}browseBtn.png"
+             scaleFactor="0.119999997317791" width="107.0" height="29.0" saveInPreset="0"/>
+  <Component type="ScriptImage" id="Image3" x="396.0" y="0.0" fileName="{PROJECT_FOLDER}verti-line.png"
+             width="17.0" height="60.0"/>
+  <Component type="ScriptImage" id="Image4" x="64.0" y="0.0" fileName="{PROJECT_FOLDER}verti-line.png"
+             width="17.0" height="60.0"/>
+  <Component type="ScriptLabel" id="label_steps" x="54.0" y="585.0" text="STEPS"
+             fontName="Abel" fontSize="14" textColour="3204448255" width="50.0"
+             height="30.0" editable="0"/>
+  <Component type="ScriptSlider" id="Knob20" x="48.0" y="529.0" stepSize="1.0"
+             min="2.0" max="16.0" processorId="Arpeggiator1" parameterId="NumStepSlider"
+             filmstripImage="{PROJECT_FOLDER}small-knob-64.png" numStrips="64.0"
+             scaleFactor="0.119999997317791" width="60.0" height="58.0" isPluginParameter="1"
+             pluginParameterName="Steps" showTextBox="0" suffix=" Steps" text="STEPS"/>
+  <Component type="ScriptSlider" id="Knob21" x="95.0" y="529.0" processorId="Arpeggiator1"
+             parameterId="Shuffle" filmstripImage="{PROJECT_FOLDER}small-knob-64.png"
+             numStrips="64.0" scaleFactor="0.119999997317791" width="60.0"
+             height="58.0" showTextBox="0" middlePosition="0.5" isPluginParameter="1"
+             pluginParameterName="Swing" text="SWING" mode="NormalizedPercentage"
+             suffix="%"/>
+  <Component type="ScriptLabel" id="label_shuffle" x="98.0" y="585.0" text="SWING"
+             fontName="Abel" fontSize="14" textColour="3204448255" width="54.0"
+             height="31.0" editable="0"/>
+  <Component type="ScriptLabel" id="label_Filter_LP_HP" x="538.0" y="265.0"
+             text="FILTER TYPE" fontName="Abel" fontSize="14.0" textColour="3204448255"
+             width="70.0" height="30.0"/>
+  <Component type="ScriptImage" id="ImageScrew1" x="33.0" y="612.0" fileName="{PROJECT_FOLDER}screw.png"
+             width="31.0" height="34.0"/>
+  <Component type="ScriptImage" id="ImageScrew2" x="956.0" y="612.0" fileName="{PROJECT_FOLDER}screw.png"
+             width="31.0" height="34.0"/>
+  <Component type="ScriptImage" id="ImageScrew3" x="956.0" y="90.0" fileName="{PROJECT_FOLDER}screw.png"
+             width="31.0" height="34.0"/>
+  <Component type="ScriptPanel" id="presetsPanel" x="0.0" y="60.0" width="1024.0"
+             height="620.0" itemColour="4279966234" itemColour2="4279966234"
+             borderRadius="0.0" borderSize="0.0" visible="0">
+    <Component type="ScriptFloatingTile" id="presetsFloatingTile" x="50.0" y="60.0"
+               width="910.0" height="510.0" parentComponent="presetsPanel" ContentType="PresetBrowser"
+               bgColour="0" itemColour="4288914339" itemColour2="0" Data="{&#10;  &quot;ShowSaveButton&quot;: true,&#10;  &quot;ShowExpansionsAsColumn&quot;: false,&#10;  &quot;ShowFolderButton&quot;: true,&#10;  &quot;ShowNotes&quot;: true,&#10;  &quot;ShowEditButtons&quot;: true,&#10;  &quot;EditButtonOffset&quot;: 10,&#10;  &quot;ShowAddButton&quot;: true,&#10;  &quot;ShowRenameButton&quot;: true,&#10;  &quot;ShowDeleteButton&quot;: true,&#10;  &quot;ShowFavoriteIcon&quot;: false,&#10;  &quot;ButtonsInsideBorder&quot;: false,&#10;  &quot;NumColumns&quot;: 3,&#10;  &quot;ColumnWidthRatio&quot;: [&#10;    0.3333333333333333,&#10;    0.3333333333333333,&#10;    0.3333333333333333&#10;  ],&#10;  &quot;ListAreaOffset&quot;: [&#10;    0,&#10;    0,&#10;    0,&#10;    0&#10;  ],&#10;  &quot;ColumnRowPadding&quot;: [&#10;    0,&#10;    0,&#10;    0,&#10;    0&#10;  ],&#10;  &quot;SearchBarBounds&quot;: [&#10;    160,&#10;    7,&#10;    590,&#10;    30&#10;  ],&#10;  &quot;MoreButtonBounds&quot;: [],&#10;  &quot;SaveButtonBounds&quot;: [],&#10;  &quot;FavoriteButtonBounds&quot;: []&#10;}"
+               Font="Abel" FontSize="24.0" textColour="4292861919"/>
+  </Component>
+  <Component type="ScriptPanel" id="settingsPanel" x="0.0" y="60.0" itemColour="4279966234"
+             itemColour2="4279966234" width="1024.0" height="620.0" borderSize="0.0"
+             borderRadius="0.0" visible="0">
+    <Component type="ScriptPanel" id="instrumentSettingPnl" x="40.0" y="30.0"
+               width="950.0" height="550.0" parentComponent="settingsPanel"
+               visible="0" itemColour="0" borderSize="0.0" borderRadius="0.0"
+               itemColour2="0">
+      <Component type="ScriptFloatingTile" id="presetsFloatingTile4" x="98.0"
+                 y="260.0" width="410.0" height="60.0" parentComponent="instrumentSettingPnl"
+                 ContentType="CustomSettings" bgColour="4278190080" itemColour="0"
+                 itemColour2="0" Data="{&#10;  &quot;Driver&quot;: false,&#10;  &quot;Device&quot;: false,&#10;  &quot;Output&quot;: false,&#10;  &quot;BufferSize&quot;: false,&#10;  &quot;SampleRate&quot;: false,&#10;  &quot;GlobalBPM&quot;: false,&#10;  &quot;StreamingMode&quot;: false,&#10;  &quot;ScaleFactor&quot;: true,&#10;  &quot;VoiceAmountMultiplier&quot;: false,&#10;  &quot;ClearMidiCC&quot;: false,&#10;  &quot;SampleLocation&quot;: false,&#10;  &quot;DebugMode&quot;: false,&#10;  &quot;UseOpenGL&quot;: false,&#10;  &quot;ScaleFactorList&quot;: [&#10;    0.5,&#10;    0.75,&#10;    1.0,&#10;    1.25,&#10;    1.5,&#10;    2.0&#10;  ]&#10;}"
+                 Font="Abel" FontSize="22.0" textColour="4288585374"/>
+      <Component type="ScriptFloatingTile" id="presetsFloatingTile5" x="530.0"
+                 y="100.0" width="200.0" height="380.0" parentComponent="instrumentSettingPnl"
+                 ContentType="MidiChannelList" bgColour="4278190080" itemColour="0"
+                 itemColour2="0" Font="Abel" FontSize="22.0" textColour="4288585374"/>
+      <Component type="ScriptLabel" id="settingsLabel1" x="330.0" y="19.0" width="270.0"
+                 height="60.0" parentComponent="instrumentSettingPnl" text="AUDIO &amp; MIDI SETTINGS"
+                 fontSize="29.0" fontName="Abel" textColour="4287664272" fontStyle="Regular"/>
+    </Component>
+    <Component type="ScriptPanel" id="standaloneSettingPnl" x="40.0" y="30.0"
+               width="950.0" height="550.0" parentComponent="settingsPanel"
+               itemColour="0" borderSize="0.0" borderRadius="0.0" itemColour2="0">
+      <Component type="ScriptFloatingTile" id="presetsFloatingTile1" x="-40.0"
+                 y="94.0" width="430.0" height="390.0" parentComponent="standaloneSettingPnl"
+                 ContentType="CustomSettings" bgColour="4278190080" itemColour="0"
+                 itemColour2="0" Data="{&#10;  &quot;Driver&quot;: true,&#10;  &quot;Device&quot;: true,&#10;  &quot;Output&quot;: true,&#10;  &quot;BufferSize&quot;: true,&#10;  &quot;SampleRate&quot;: true,&#10;  &quot;GlobalBPM&quot;: true,&#10;  &quot;StreamingMode&quot;: true,&#10;  &quot;ScaleFactor&quot;: true,&#10;  &quot;VoiceAmountMultiplier&quot;: true,&#10;  &quot;ClearMidiCC&quot;: false,&#10;  &quot;SampleLocation&quot;: false,&#10;  &quot;DebugMode&quot;: false,&#10;  &quot;UseOpenGL&quot;: false,&#10;  &quot;ScaleFactorList&quot;: [&#10;    0.5,&#10;    0.75,&#10;    1.0,&#10;    1.25,&#10;    1.5,&#10;    2.0&#10;  ]&#10;}"
+                 Font="Abel" FontSize="22.0" textColour="4288585374"/>
+      <Component type="ScriptFloatingTile" id="presetsFloatingTile2" x="392.0"
+                 y="101.0" width="200.0" height="380.0" parentComponent="standaloneSettingPnl"
+                 ContentType="MidiChannelList" bgColour="4278190080" itemColour="0"
+                 itemColour2="0" Font="Abel" FontSize="22.0" textColour="4288585374"/>
+      <Component type="ScriptLabel" id="settingsLabel" x="330.0" y="20.0" width="270.0"
+                 height="60.0" parentComponent="standaloneSettingPnl" text="AUDIO &amp; MIDI SETTINGS"
+                 fontSize="29.0" fontName="Abel" textColour="4287664272" fontStyle="Regular"/>
+      <Component type="ScriptFloatingTile" id="presetsFloatingTile3" x="600.0"
+                 y="101.0" width="350.0" height="370.0" parentComponent="standaloneSettingPnl"
+                 ContentType="MidiSources" bgColour="4278190080" itemColour="0"
+                 itemColour2="0" Font="Abel" FontSize="22.0" textColour="4288585374"/>
+    </Component>
+  </Component>
+  <Component type="ScriptPanel" id="beatPanel" x="0.0" y="60.0" width="1020.0"
+             height="620.0" borderSize="0.0" borderRadius="0.0" itemColour="2298478592"
+             itemColour2="2298478592" allowCallbacks="Clicks Only" visible="0">
+    <Component type="ScriptPanel" id="beatPanelinner" x="100.0" y="130.0" width="820.0"
+               height="330.0" itemColour="3642169111" itemColour2="3642169111"
+               borderSize="1.0" selectedPopupIndex="1" parentComponent="beatPanel">
+      <Component type="ScriptButton" id="MagicButton" x="580.0" y="95.0" width="150.0"
+                 height="150.0" filmstripImage="{PROJECT_FOLDER}buttonGenerate_6states.png"
+                 scaleFactor="0.2000000029802322" parentComponent="beatPanelinner"
+                 saveInPreset="0" defaultValue="1.0"/>
+      <Component type="ScriptLabel" id="ScriptLabelBeat" x="43.0" y="28.0" width="740.0"
+                 height="60.0" parentComponent="beatPanelinner" text="P I C K   A   S T Y L E   &amp;  C L I C K   G E N E R A T E "
+                 fontName="Abel" textColour="2281701375" fontSize="32.0" editable="0"/>
+      <Component type="ScriptButton" id="ScriptButton1" x="84.0" y="95.0" width="159.0"
+                 height="158.0" parentComponent="beatPanelinner" filmstripImage="{PROJECT_FOLDER}styleHit.png"
+                 scaleFactor="0.3300000131130219" saveInPreset="0"/>
+      <Component type="ScriptButton" id="ScriptButton2" x="234.0" y="95.0" width="159.0"
+                 height="158.0" parentComponent="beatPanelinner" filmstripImage="{PROJECT_FOLDER}styleRave.png"
+                 scaleFactor="0.3300000131130219" saveInPreset="0"/>
+      <Component type="ScriptButton" id="ScriptButton3" x="380.0" y="95.0" width="159.0"
+                 height="158.0" parentComponent="beatPanelinner" filmstripImage="{PROJECT_FOLDER}styleSynth.png"
+                 scaleFactor="0.3300000131130219" saveInPreset="0"/>
+      <Component type="ScriptLabel" id="ScriptLabelHit" x="114.0" y="248.0" width="100.0"
+                 height="30.0" parentComponent="beatPanelinner" text="HIT MAKER"
+                 fontName="Abel" fontSize="18.0" textColour="4290888129" editable="0"/>
+      <Component type="ScriptLabel" id="ScriptLabelRAVE" x="264.0" y="248.0" width="100.0"
+                 height="30.0" parentComponent="beatPanelinner" text="RAVE MASTER"
+                 fontName="Abel" fontSize="18.0" textColour="4290888129" editable="0"/>
+      <Component type="ScriptLabel" id="ScriptLabelSynth" x="411.0" y="248.0"
+                 width="100.0" height="30.0" parentComponent="beatPanelinner"
+                 text="SYNTH HERO" fontName="Abel" fontSize="18.0" textColour="4290888129"
+                 editable="0"/>
+      <Component type="ScriptButton" id="StopMagicButton" x="550.0" y="244.0"
+                 width="90.0" height="40.0" filmstripImage="{PROJECT_FOLDER}stop.png"
+                 scaleFactor="0.25" parentComponent="beatPanelinner" saveInPreset="0"/>
+      <Component type="ScriptButton" id="EditMagicButton" x="640.0" y="244.0"
+                 width="138.0" height="39.0" filmstripImage="{PROJECT_FOLDER}editCurrent.png"
+                 scaleFactor="0.25" parentComponent="beatPanelinner" saveInPreset="0"/>
+    </Component>
+  </Component>
+  <Component type="ScriptPanel" id="AuthorisationDialogue" x="217.0" y="180.0"
+             width="590.0" height="351.0" itemColour="4030282041" itemColour2="4030282041"
+             borderRadius="4.0" visible="0">
+    <Component type="ScriptLabel" id="TitleLabel" x="30.0" y="39.0" parentComponent="AuthorisationDialogue"
+               width="521.0" height="53.0" text="Enter your License Key" fontName="Abel"
+               fontSize="40.0" bgColour="16777215" editable="0"/>
+    <Component type="ScriptLabel" id="Description" x="90.0" y="90.0" width="406.0"
+               height="49.0" parentComponent="AuthorisationDialogue" text="Type or paste your license key"
+               multiline="1" fontSize="24.0" editable="0" textColour="4291414473"
+               fontName="Abel"/>
+    <Component type="ScriptLabel" id="SerialInput" x="142.0" y="154.0" width="318.0"
+               height="41.0" parentComponent="AuthorisationDialogue" text=""
+               fontName="Source Code Pro" fontSize="26.0" bgColour="1174405119"
+               textColour="4279440147"/>
+    <Component type="ScriptButton" id="SubmitButton" x="142.0" y="220.0" parentComponent="AuthorisationDialogue"
+               bgColour="16777215" itemColour="4281479730" text="Submit" itemColour2="4214634038"
+               width="318.0" isMomentary="1" saveInPreset="0" height="47.0"
+               filmstripImage="{PROJECT_FOLDER}authorise-btn.png" scaleFactor="0.25"/>
+  </Component>
+  <Component type="ScriptButton" id="beatButton" x="421.0" y="12.0" filmstripImage="{PROJECT_FOLDER}beatGenerator.png"
+             scaleFactor="0.3260000050067902" width="180.0" height="40.0"
+             saveInPreset="0"/>
+</ContentProperties>

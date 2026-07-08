@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptImage" id="Image1" x="0.0" y="0.0" fileName="{PROJECT_FOLDER}background-02.png"
+             width="1024.0" height="680.0"/>
+  <Component type="ScriptSlider" id="Pitch1" x="147.0" y="518.0" processorId="Stretcher"
+             parameterId="Pitch_1" min="-12.0" max="12.0" middlePosition="0.0"
+             suffix=" St" filmstripImage="{PROJECT_FOLDER}reverbBtn.png" numStrips="128"
+             scaleFactor=".25" width="70.0" height="70.0"/>
+  <Component type="ScriptSlider" id="Pitch2" x="277.0" y="518.0" processorId="Stretcher"
+             parameterId="Pitch_2" min="-12.0" max="12.0" middlePosition="0.0"
+             suffix=" St" filmstripImage="{PROJECT_FOLDER}reverbBtn.png" numStrips="128"
+             scaleFactor=".25" width="70.0" height="70.0"/>
+  <Component type="ScriptSlider" id="Pitch3" x="407.0" y="518.0" processorId="Stretcher"
+             parameterId="Pitch_3" min="-12.0" max="12.0" middlePosition="0.0"
+             suffix=" St" filmstripImage="{PROJECT_FOLDER}reverbBtn.png" numStrips="128"
+             scaleFactor=".25" width="70.0" height="70.0"/>
+  <Component type="ScriptAudioWaveform" id="AudioWaveform1" x="148.0" y="231.0"
+             processorId="Stretcher" width="720.0" height="80.0" itemColour3="0"
+             enableRange="0" bgColour="4278190080" showFileName="0">
+    <Component type="ScriptPanel" id="Panel1" x="2" y="-11" width="720.0" height="100.0"
+               allowCallbacks="All Callbacks" allowDragging="1" parentComponent="AudioWaveform1"
+               bgColour="16777215" itemColour="16777215" itemColour2="16777215"
+               textColour="16777215"/>
+  </Component>
+  <Component type="ScriptButton" id="Button1" x="150.0" y="360.0" width="120.0"
+             height="30.0" text="Click to load" isMomentary="1" numStrips="1.0"
+             setValueOnClick="1" enableMidiLearn="0"/>
+</ContentProperties>

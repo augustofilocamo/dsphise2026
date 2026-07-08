@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptLabel" id="Click panel to activate QWERTY playing"
+             x="100.0" y="110.0" width="240" height="40"/>
+  <Component type="ScriptPanel" id="panelQwerty" x="50.0" y="60.0" width="360"
+             height="150"/>
+  <Component type="ScriptFloatingTile" id="FloatingTile1" x="60.0" y="240.0"
+             ContentType="Keyboard" bgColour="0" itemColour="16777215" itemColour2="16777215"
+             textColour="0" Data="{&#10;  &quot;KeyWidth&quot;: 14.0,&#10;  &quot;DisplayOctaveNumber&quot;: false,&#10;  &quot;LowKey&quot;: 9,&#10;  &quot;HiKey&quot;: 127,&#10;  &quot;CustomGraphics&quot;: true,&#10;  &quot;DefaultAppearance&quot;: false,&#10;  &quot;BlackKeyRatio&quot;: 0.699999988079071,&#10;  &quot;ToggleMode&quot;: false,&#10;  &quot;MidiChannel&quot;: 1,&#10;  &quot;UseVectorGraphics&quot;: false,&#10;  &quot;UseFlatStyle&quot;: true,&#10;  &quot;MPEKeyboard&quot;: false,&#10;  &quot;MPEStartChannel&quot;: 2,&#10;  &quot;MPEEndChannel&quot;: 16&#10;}"
+             width="380" height="70"/>
+</ContentProperties>

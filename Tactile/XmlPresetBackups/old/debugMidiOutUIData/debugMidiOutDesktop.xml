@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptButton" id="Button1" x="331.0" y="159.0"/>
+  <Component type="ScriptPanel" id="Panel1" x="110.0" y="250.0" width="290.0"
+             height="200.0" allowCallbacks="All Callbacks"/>
+  <Component type="ScriptFloatingTile" id="FloatingTile1" x="80.0" y="470.0"
+             width="440.0" height="100.0" ContentType="Keyboard" bgColour="4284769380"
+             itemColour="452984831" itemColour2="4294967295" textColour="0"
+             Data="{&#10;  &quot;KeyWidth&quot;: 14.0,&#10;  &quot;DisplayOctaveNumber&quot;: false,&#10;  &quot;LowKey&quot;: 9,&#10;  &quot;HiKey&quot;: 127,&#10;  &quot;CustomGraphics&quot;: false,&#10;  &quot;DefaultAppearance&quot;: true,&#10;  &quot;BlackKeyRatio&quot;: 0.699999988079071,&#10;  &quot;ToggleMode&quot;: false,&#10;  &quot;MidiChannel&quot;: 1,&#10;  &quot;UseVectorGraphics&quot;: true,&#10;  &quot;UseFlatStyle&quot;: false,&#10;  &quot;MPEKeyboard&quot;: false,&#10;  &quot;MPEStartChannel&quot;: 2,&#10;  &quot;MPEEndChannel&quot;: 16&#10;}"/>
+  <Component type="ScriptSlider" id="Knob1" x="184" y="78" isPluginParameter="1"
+             pluginParameterName="parameter1" processorId="Sine Wave Generator1"
+             parameterId="SaturationAmount"/>
+</ContentProperties>

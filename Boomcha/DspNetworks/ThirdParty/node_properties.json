@@ -1,0 +1,10 @@
+{
+  "hello_custom_node": [
+    "IsPolyphonic",
+    "AllowPolyphonic"
+  ],
+  "boomcha_find_closest": [
+    "IsPolyphonic",
+    "AllowPolyphonic"
+  ]
+}

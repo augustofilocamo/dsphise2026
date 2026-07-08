@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Processor Type="SynthChain" ID="Tronic 1.0.1" Bypassed="0" Gain="1.0" Balance="0.0"
+           VoiceLimit="64.0" KillFadeTime="20.0" IconColour="0" packageName=""
+           BuildVersion="650">
+  <ChildProcessors>
+    <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
+      <ChildProcessors>
+        <Processor Type="ScriptProcessor" ID="Interface" Bypassed="0">
+          <ChildProcessors/>
+          <Content>
+            <Control type="ScriptSlider" id="Knob1" value="0.5423833131790161"/>
+            <Control type="ScriptSlider" id="Knob2" value="206.3498229980469"/>
+            <Control type="ScriptSlider" id="Knob3" value="22.60000038146973"/>
+            <Control type="ScriptSlider" id="Knob5" value="0.0"/>
+            <Control type="ScriptSlider" id="Knob6" value="0.0"/>
+            <Control type="ScriptSlider" id="Knob7" value="169.3089599609375"/>
+            <Control type="ScriptSlider" id="Knob8" value="1.300000071525574"/>
+            <Control type="ScriptSlider" id="Knob4" value="0.0"/>
+            <Control type="ScriptSlider" id="Knob9" value="0.0"/>
+            <Control type="ScriptSlider" id="Knob10" value="-13.06999969482422"/>
+            <Control type="ScriptSlider" id="Knob12" value="0.5099999904632568"/>
+            <Control type="ScriptSlider" id="Knob13" value="-13.52999973297119"/>
+            <Control type="ScriptSlider" id="Knob14" value="5.821693897247314"/>
+            <Control type="ScriptSlider" id="TempoKnob" value="104.0"/>
+            <Control type="ScriptButton" id="Knob11" value="0.0"/>
+            <Control type="ScriptButton" id="playbutton" value="0.0"/>
+            <Control type="ScriptSlider" id="Knob17" value="1.0"/>
+            <Control type="ScriptSlider" id="Knob15" value="1.557091593742371"/>
+            <Control type="ScriptSlider" id="Knob16" value="1.0"/>
+            <Control type="ScriptSlider" id="Knob19" value="0.5233011245727539"/>
+            <Control type="ScriptButton" id="Knob18" value="0.0"/>
+            <Control type="ScriptButton" id="Button1" value="0.0"/>
+            <Control type="ScriptButton" id="Button2" value="0.0"/>
+            <Control type="ScriptButton" id="Button3" value="0.0"/>
+            <Control type="ScriptButton" id="Button4" value="0.0"/>
+            <Control type="ScriptButton" id="Button5" value="0.0"/>
+            <Control type="ScriptButton" id="Button6" value="0.0"/>
+            <Control type="ScriptButton" id="Button7" value="0.0"/>
+            <Control type="ScriptButton" id="Button8" value="0.0"/>
+            <Control type="ScriptButton" id="Button9" value="0.0"/>
+            <Control type="ScriptButton" id="Button10" value="0.0"/>
+            <Control type="ScriptButton" id="Button11" value="0.0"/>
+            <Control type="ScriptButton" id="Button12" value="0.0"/>
+            <Control type="ScriptButton" id="Button13" value="0"/>
+            <Control type="ScriptButton" id="Button14" value="1.0"/>
+            <Control type="ScriptButton" id="Button15" value="0.0"/>
+            <Control type="ScriptButton" id="Button16" value="0.0"/>
+            <Control type="ScriptButton" id="Button17" value="0.0"/>
+            <Control type="ScriptButton" id="Button18" value="0.0"/>
+            <Control type="ScriptButton" id="Button19" value="0.0"/>
+            <Control type="ScriptButton" id="Button20" value="0.0"/>
+            <Control type="ScriptButton" id="Button21" value="0.0"/>
+            <Control type="ScriptButton" id="Button22" value="0.0"/>
+            <Control type="ScriptButton" id="Button23" value="0"/>
+            <Control type="ScriptButton" id="Button24" value="0.0"/>
+            <Control type="ScriptButton" id="Button25" value="0"/>
+            <Control type="ScriptButton" id="Button26" value="1.0"/>
+            <Control type="ScriptButton" id="Button27" value="0.0"/>
+            <Control type="ScriptButton" id="Button28" value="0.0"/>
+            <Control type="ScriptButton" id="Button29" value="0.0"/>
+            <Control type="ScriptButton" id="Button30" value="0.0"/>
+            <Control type="ScriptButton" id="Button31" value="0.0"/>
+            <Control type="ScriptButton" id="Button32" value="0.0"/>
+            <Control type="ScriptButton" id="Button33" value="0.0"/>
+            <Control type="ScriptButton" id="Button34" value="0.0"/>
+            <Control type="ScriptButton" id="Button35" value="0.0"/>
+            <Control type="ScriptButton" id="Button36" value="0.0"/>
+            <Control type="ScriptButton" id="Button37" value="0.0"/>
+            <Control type="ScriptButton" id="Button38" value="0.0"/>
+            <Control type="ScriptSliderPack" id="SliderPack1" value="10" data="64.jJopAKKgfE7iiNyu.....69owF7kKHav...lAyxzIF7dUdav1tnpAC...E7Nb0avsw4sAC..fCbSrLZv4OGE.C"/>
+            <Control type="ScriptSliderPack" id="SliderPack3" value="10" data="64.yqx7BA..........Tf2TBwSf0KD.....7hPxAA....PF4TuPDNoY+....9C.....4qW7BA...9C.....cN7TBA"/>
+            <Control type="ScriptSliderPack" id="SliderPack4" value="16" data="64....sBA.............sBA..zJD........sBA.......PqP...................sBA.............sBA"/>
+            <Control type="ScriptSlider" id="Knob20" value="16.0"/>
+            <Control type="ScriptSlider" id="Knob21" value="0.1755092591047287"/>
+          </Content>
+          <UIData Source="Tronic 1.0.1UIData"/>
+        </Processor>
+        <Processor Type="Arpeggiator" ID="Arpeggiator1" Bypassed="0">
+          <ChildProcessors/>
+          <Content>
+            <Control type="ScriptButton" id="BypassButton" value="0.0"/>
+            <Control type="ScriptButton" id="ResetButton" value="0.0"/>
+            <Control type="ScriptSlider" id="NumStepSlider" value="16.0"/>
+            <Control type="ScriptSlider" id="StepReset" value="0.0"/>
+            <Control type="ScriptSlider" id="StepSkipSlider" value="1.0"/>
+            <Control type="ScriptButton" id="SortKeysButton" value="0.0"/>
+            <Control type="ScriptSlider" id="SpeedKnob" value="11.0"/>
+            <Control type="ScriptComboBox" id="SequenceComboBox" value="6.0"/>
+            <Control type="ScriptSlider" id="OctaveRange" value="0.0"/>
+            <Control type="ScriptSlider" id="Shuffle" value="0.1755092591047287"/>
+            <Control type="ScriptButton" id="EnableTie" value="1.0"/>
+            <Control type="ScriptSliderPack" id="SemiToneSliderPack" value="10" data="64.jJopAKKgfE7iiNyu.....69owF7kKHav...lAyxzIF7dUdav1tnpAC...E7Nb0avsw4sAC..fCbSrLZv4OGE.C"/>
+            <Control type="ScriptSliderPack" id="VelocitySliderPack" value="10" data="64.yqx7BA..........Tf2TBwSf0KD.....7hPxAA....PF4TuPDNoY+....9C.....4qW7BA...9C.....cN7TBA"/>
+            <Control type="ScriptSliderPack" id="LengthSliderPack" value="-1" data="64....sBA.............sBA..zJD........sBA.......PqP...................sBA.............sBA"/>
+            <Control type="ScriptComboBox" id="ChannelSelector" value="1.0"/>
+            <Control type="ScriptComboBox" id="OutputChannelSelector" value="1.0"/>
+            <Control type="ScriptComboBox" id="MPEStartChannel" value="2.0"/>
+            <Control type="ScriptComboBox" id="MPEEndChannel" value="16.0"/>
+            <Control type="ScriptButton" id="Hold" value="0.0"/>
+          </Content>
+        </Processor>
+      </ChildProcessors>
+    </Processor>
+    <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
+      <ChildProcessors/>
+    </Processor>
+    <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="1" Intensity="0.0">
+      <ChildProcessors/>
+    </Processor>
+    <Processor Type="EffectChain" ID="FX" Bypassed="0">
+      <ChildProcessors>
+        <Processor Type="SimpleGain" ID="GlobalMute" Bypassed="1" Gain="-100.0"
+                   Delay="0.0" Width="100.0" Balance="0.0" InvertPolarity="0.0">
+          <ChildProcessors>
+            <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+          <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+        </Processor>
+      </ChildProcessors>
+    </Processor>
+    <Processor Type="SilentSynth" ID="Silent Synth1" Bypassed="0" Gain="1.0"
+               Balance="0.0" VoiceLimit="256.0" KillFadeTime="20.0" IconColour="0">
+      <ChildProcessors>
+        <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
+          <ChildProcessors>
+            <Processor Type="ScriptProcessor" ID="Script Processor1" Bypassed="0">
+              <ChildProcessors/>
+              <Content>
+                <Control type="ScriptButton" id="Button1" value="0.0"/>
+                <Control type="ScriptButton" id="Button2" value="0.0"/>
+                <Control type="ScriptButton" id="Button3" value="0.0"/>
+                <Control type="ScriptButton" id="Button4" value="0.0"/>
+                <Control type="ScriptButton" id="Button5" value="0.0"/>
+                <Control type="ScriptButton" id="Button6" value="0.0"/>
+                <Control type="ScriptButton" id="Button7" value="0.0"/>
+                <Control type="ScriptButton" id="Button8" value="0.0"/>
+                <Control type="ScriptButton" id="Button9" value="0.0"/>
+                <Control type="ScriptButton" id="Button10" value="0.0"/>
+                <Control type="ScriptButton" id="Button11" value="0.0"/>
+                <Control type="ScriptButton" id="Button12" value="0.0"/>
+                <Control type="ScriptButton" id="Button13" value="0.0"/>
+                <Control type="ScriptButton" id="Button14" value="1.0"/>
+                <Control type="ScriptButton" id="Button15" value="0.0"/>
+                <Control type="ScriptButton" id="Button16" value="0.0"/>
+                <Control type="ScriptButton" id="Button17" value="0.0"/>
+                <Control type="ScriptButton" id="Button18" value="0.0"/>
+                <Control type="ScriptButton" id="Button19" value="0.0"/>
+                <Control type="ScriptButton" id="Button20" value="0.0"/>
+                <Control type="ScriptButton" id="Button21" value="0.0"/>
+                <Control type="ScriptButton" id="Button22" value="0.0"/>
+                <Control type="ScriptButton" id="Button23" value="0.0"/>
+                <Control type="ScriptButton" id="Button24" value="0.0"/>
+                <Control type="ScriptButton" id="Button25" value="0.0"/>
+                <Control type="ScriptButton" id="Button26" value="1.0"/>
+                <Control type="ScriptButton" id="Button27" value="0.0"/>
+                <Control type="ScriptButton" id="Button28" value="0.0"/>
+                <Control type="ScriptButton" id="Button29" value="0.0"/>
+                <Control type="ScriptButton" id="Button30" value="0.0"/>
+                <Control type="ScriptButton" id="Button31" value="0.0"/>
+                <Control type="ScriptButton" id="Button32" value="0.0"/>
+                <Control type="ScriptButton" id="Button33" value="0.0"/>
+                <Control type="ScriptButton" id="Button34" value="0.0"/>
+                <Control type="ScriptButton" id="Button35" value="0.0"/>
+                <Control type="ScriptButton" id="Button36" value="0.0"/>
+                <Control type="ScriptButton" id="Button37" value="0.0"/>
+                <Control type="ScriptButton" id="Button38" value="0.0"/>
+              </Content>
+              <UIData>
+                <ContentProperties DeviceType="Desktop">
+                  <Component type="ScriptButton" id="Button1" x="310.0" y="20.0" width="30.0"
+                             height="30.0"/>
+                  <Component type="ScriptButton" id="Button2" x="350.0" y="20.0" width="30.0"
+                             height="30.0"/>
+                  <Component type="ScriptButton" id="Button3" x="310.0" y="50.0" width="30.0"
+                             height="30.0"/>
+                  <Component type="ScriptButton" id="Button4" x="350.0" y="50.0" width="30.0"
+                             height="30.0"/>
+                  <Component type="ScriptButton" id="Button5" x="310.0" y="80.0" width="30.0"
+                             height="30.0"/>
+                  <Component type="ScriptButton" id="Button6" x="350.0" y="80.0" width="30.0"
+                             height="30.0"/>
+                  <Component type="ScriptButton" id="Button7" x="310.0" y="110.0" width="30.0"
+                             height="30.0"/>
+                  <Component type="ScriptButton" id="Button8" x="350.0" y="110.0" width="30.0"
+                             height="30.0"/>
+                  <Component type="ScriptButton" id="Button9" x="310.0" y="140.0" width="30.0"
+                             height="30.0"/>
+                  <Component type="ScriptButton" id="Button10" x="350.0" y="140.0" width="30.0"
+                             height="30.0"/>
+                  <Component type="ScriptButton" id="Button11" x="310.0" y="170.0" width="30.0"
+                             height="30.0"/>
+                  <Component type="ScriptButton" id="Button12" x="350.0" y="170.0" width="30.0"
+                             height="30.0"/>
+                  <Component type="ScriptButton" id="Button13" x="310.0" y="200.0" width="30.0"
+                             height="30.0"/>
+                  <Component type="ScriptButton" id="Button14" x="350.0" y="200.0" width="30.0"
+                             height="30.0"/>
+                  <Component type="ScriptButton" id="Button15" x="310.0" y="230.0" width="30.0"
+                             height="30.0"/>
+                  <Component type="ScriptButton" id="Button16" x="350.0" y="230.0" width="30.0"
+                             height="30.0"/>
+                  <Component type="ScriptButton" id="Button17" x="310.0" y="260.0" width="30.0"
+                             height="30.0"/>
+                  <Component type="ScriptButton" id="Button18" x="350.0" y="260.0" width="30.0"
+                             height="30.0"/>
+                  <Component type="ScriptButton" id="Button19" x="310.0" y="290.0" width="30.0"
+                             height="30.0"/>
+                  <Component type="ScriptButton" id="Button20" x="350.0" y="290.0" width="30.0"
+                             height="30.0"/>
+                  <Component type="ScriptButton" id="Button21" x="310.0" y="320.0" width="30.0"
+                             height="30.0"/>
+                  <Component type="ScriptButton" id="Button22" x="350.0" y="320.0" width="30.0"
+                             height="30.0"/>
+                  <Component type="ScriptButton" id="Button23" x="310.0" y="350.0" width="30.0"
+                             height="30.0"/>
+                  <Component type="ScriptButton" id="Button24" x="350.0" y="350.0" width="30.0"
+                             height="30.0"/>
+                  <Component type="ScriptButton" id="Button25" x="310.0" y="380.0" width="30.0"
+                             height="30.0"/>
+                  <Component type="ScriptButton" id="Button26" x="350.0" y="380.0" width="30.0"
+                             height="30.0"/>
+                  <Component type="ScriptButton" id="Button27" x="310.0" y="410.0" width="30.0"
+                             height="30.0"/>
+                  <Component type="ScriptButton" id="Button28" x="350.0" y="410.0" width="30.0"
+                             height="30.0"/>
+                  <Component type="ScriptButton" id="Button29" x="310.0" y="440.0" width="30.0"
+                             height="30.0"/>
+                  <Component type="ScriptButton" id="Button30" x="350.0" y="440.0" width="30.0"
+                             height="30.0"/>
+                  <Component type="ScriptButton" id="Button31" x="310.0" y="470.0" width="30.0"
+                             height="30.0"/>
+                  <Component type="ScriptButton" id="Button32" x="350.0" y="470.0" width="30.0"
+                             height="30.0"/>
+                  <Component type="ScriptButton" id="Button33" x="310.0" y="500.0" width="30.0"
+                             height="30.0"/>
+                  <Component type="ScriptButton" id="Button34" x="350.0" y="500.0" width="30.0"
+                             height="30.0"/>
+                  <Component type="ScriptButton" id="Button35" x="310.0" y="530.0" width="30.0"
+                             height="30.0"/>
+                  <Component type="ScriptButton" id="Button36" x="350.0" y="530.0" width="30.0"
+                             height="30.0"/>
+                  <Component type="ScriptButton" id="Button37" x="310.0" y="560.0" width="30.0"
+                             height="30.0"/>
+                  <Component type="ScriptButton" id="Button38" x="350.0" y="560.0" width="30.0"
+                             height="30.0"/>
+                </ContentProperties>
+              </UIData>
+            </Processor>
+          </ChildProcessors>
+        </Processor>
+        <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="1" Intensity="1.0">
+          <ChildProcessors/>
+        </Processor>
+        <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="1" Intensity="0.0">
+          <ChildProcessors/>
+        </Processor>
+        <Processor Type="EffectChain" ID="FX" Bypassed="0">
+          <ChildProcessors>
+            <Processor Type="HardcodedPolyphonicFX" ID="Hardcoded Polyphonic FX1" Bypassed="0"
+                       Network="DspNetwork_filo2" vco_decay="0.5423833131790161" vco1_eg_amount="206.3498229980469"
+                       vco1_freq="22.60000038146973" vco1_waveform="0.0" vco1_level="0.0"
+                       fm_amount="0.0" vco2_eg_amount="-16.66666603088379" vco2_freq="1.300000071525574"
+                       vco2_waveform="0.0" vco2_level="-13.06999969482422" hard_sync="0.0"
+                       noise_decay="0.5099999904632568" noise_level="-100.0" vca_decay="5.821693897247314">
+              <ChildProcessors/>
+              <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+            </Processor>
+            <Processor Type="Hardcoded Master FX" ID="HardcodedMasterFX3" Bypassed="0"
+                       Network="DspNetwork_filo2_vcf" vcf_decay="1.557091593742371"
+                       vcf_eg_amount="1.0" cutoff="1.0" LP_HP="0.0" q="0.5233011245727539">
+              <ChildProcessors/>
+              <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+            </Processor>
+          </ChildProcessors>
+        </Processor>
+      </ChildProcessors>
+      <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+    </Processor>
+  </ChildProcessors>
+  <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+  <macro_controls>
+    <macro name="Macro 1" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 2" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 3" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 4" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 5" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 6" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 7" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 8" value="0.0" midi_cc="-1"/>
+  </macro_controls>
+  <MidiAutomation/>
+  <MPEData Enabled="0"/>
+</Processor>

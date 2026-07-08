@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptPanel" id="XYPadPnl" x="150.0" y="150.0" width="300.0"
+             height="300.0" allowCallbacks="All Callbacks" popupOnRightClick="0"
+             isPluginParameter="1" pluginParameterName="My Parameter"/>
+  <Component type="ScriptLabel" id="Label1" x="100.0" y="20.0" width="410.0"
+             height="50.0" text="Panel value: 0.4533333333333333"/>
+</ContentProperties>

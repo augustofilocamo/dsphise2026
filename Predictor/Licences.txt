@@ -1,0 +1,16 @@
+https://github.com/asigalov61/Tegridy-MIDI-Dataset?tab=Apache-2.0-1-ov-file
+
+
+http://piano-midi.de/copy.htm
+
+
+
+Legal Disclaimer on the Use of MIDI Files
+
+This software uses a Markov-based algorithm to generate melodies and chords inspired by MIDI files provided by the user. The resulting music is not a direct copy of the input MIDI but a new creation derived from statistical patterns.
+
+It is the sole responsibility of the user to ensure that any MIDI file used within the software has the necessary rights for use, distribution, or modification. The developer of this software assumes no responsibility for the improper or illegal use of copyrighted MIDI files.
+
+By using this software, the user acknowledges that any legal consequences resulting from the use of copyrighted MIDI files will be their sole responsibility.
+
+If you are unsure about the rights to a MIDI file, we strongly recommend consulting with a legal advisor before using it within the software.

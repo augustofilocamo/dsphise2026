@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptPanel" id="pnl_MidiPatternGrid" x="0.0" y="0.0" width="600.0"
+             height="500.0" allowCallbacks="All Callbacks"/>
+  <Component type="ScriptPanel" id="pnl_MidiViewer1" x="0.0" y="520.0" width="600.0"
+             height="80.0"/>
+  <Component type="ScriptLabel" id="lbl_MidiFileName1" x="200.0" y="500.0"
+             text="No Pattern Selected" width="200.0" height="20.0"/>
+  <Component type="ScriptButton" id="btn_GridPrev" x="100.0" y="500.0" isMomentary="1"
+             text="Previous" width="90.0" height="20.0"/>
+  <Component type="ScriptButton" id="btn_GridNext" x="400.0" y="500.0" isMomentary="1"
+             text="Next" width="90.0" height="20.0"/>
+  <Component type="ScriptLabel" id="lbl_PageInfo" x="490.0" y="500.0" text="Page 1 of 41.0"
+             width="90.0" height="20.0"/>
+  <Component type="ScriptButton" id="btn_Player1" x="0.0" y="500.0" text="1"
+             width="50.0" height="20.0" radioGroup="1.0"/>
+  <Component type="ScriptButton" id="btn_Player2" x="50.0" y="500.0" text="2"
+             width="50.0" height="20.0" radioGroup="1.0"/>
+</ContentProperties>

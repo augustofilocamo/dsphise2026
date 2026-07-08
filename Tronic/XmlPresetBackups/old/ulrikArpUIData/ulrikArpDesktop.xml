@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptLabel" id="ScriptLabel3" x="0.0" y="0.0" width="600.0"
+             height="40.0" fontSize="20.0" text="Independent Arps" editable="0"/>
+  <Component type="ScriptPanel" id="ArpContainer1" x="0.0" y="50.0" width="600.0"
+             height="260.0">
+    <Component type="ScriptSliderPack" id="NVSLPArp1" x="0.0" y="0.0" width="600.0"
+               height="60.0" parentComponent="ArpContainer1" max="24.0" stepSize="1.0"
+               defaultValue="0.0" min="-24.0" sliderAmount="4.0" itemColour="2013232252"/>
+    <Component type="ScriptSliderPack" id="VELSLPArp1" x="0.0" y="60.0" width="600.0"
+               height="60.0" parentComponent="ArpContainer1" min="1.0" max="127.0"
+               stepSize="1.0" SliderPackIndex="1" sliderAmount="4.0" itemColour="2004606975"/>
+    <Component type="ScriptSliderPack" id="LENSLPArp1" x="0.0" y="120.0" width="600.0"
+               height="60.0" parentComponent="ArpContainer1" SliderPackIndex="2"
+               sliderAmount="4.0" itemColour="2004811713"/>
+    <Component type="ScriptButton" id="PlayArp1" x="0.0" y="220.0" width="100.0"
+               height="30.0" parentComponent="ArpContainer1"/>
+    <Component type="ScriptButton" id="TempoSyncArp1" x="110.0" y="220.0" width="70.0"
+               height="30.0" parentComponent="ArpContainer1" text="Sync"/>
+    <Component type="ScriptSlider" id="NoteValueArp1" x="210.0" y="210.0" width="120.0"
+               height="50.0" parentComponent="ArpContainer1" max="18.0" stepSize="1.0"
+               middlePosition="9.0" defaultValue="8.0" text="NoteValue" mode="Discrete"/>
+    <Component type="ScriptSlider" id="FreqArp1" x="210.0" y="210.0" width="120.0"
+               height="50.0" parentComponent="ArpContainer1" max="40.0" stepSize="0.1000000014901161"
+               middlePosition="8.0" defaultValue="3.0" text="Freq" mode="Frequency"
+               min="0.5" visible="0" enabled="0"/>
+    <Component type="ScriptSlider" id="NumStepsArp1" x="340.0" y="209.0" width="120.0"
+               height="50.0" parentComponent="ArpContainer1" text="Steps" min="2.0"
+               max="32.0" stepSize="1.0" middlePosition="17.0" defaultValue="16.0"/>
+    <Component type="ScriptSlider" id="OctaveArp1" x="470.0" y="210.0" width="120.0"
+               height="50.0" parentComponent="ArpContainer1" text="Octave" min="-3.0"
+               max="3.0" stepSize="1.0" middlePosition="0.0"/>
+    <Component type="ScriptLabel" id="NoteValueLblArp1" x="250.0" y="190.0"
+               width="80.0" height="30.0" parentComponent="ArpContainer1" editable="0"
+               text="1/8"/>
+  </Component>
+  <Component type="ScriptPanel" id="ArpContainer2" x="0.0" y="320.0" width="600.0"
+             height="260.0">
+    <Component type="ScriptSliderPack" id="NVSLPArp2" x="0.0" y="0.0" width="600.0"
+               height="60.0" parentComponent="ArpContainer2" max="24.0" stepSize="1.0"
+               defaultValue="0.0" min="-24.0" sliderAmount="4.0" itemColour="2013232252"/>
+    <Component type="ScriptSliderPack" id="VELSLPArp2" x="0.0" y="60.0" width="600.0"
+               height="60.0" parentComponent="ArpContainer2" min="1.0" max="127.0"
+               stepSize="1.0" SliderPackIndex="1" sliderAmount="4.0" itemColour="2004606975"/>
+    <Component type="ScriptSliderPack" id="LENSLPArp2" x="0.0" y="120.0" width="600.0"
+               height="60.0" parentComponent="ArpContainer2" SliderPackIndex="2"
+               sliderAmount="4.0" itemColour="2004811713"/>
+    <Component type="ScriptButton" id="PlayArp2" x="0.0" y="220.0" width="100.0"
+               height="30.0" parentComponent="ArpContainer2"/>
+    <Component type="ScriptButton" id="TempoSyncArp2" x="110.0" y="220.0" width="70.0"
+               height="30.0" parentComponent="ArpContainer2" text="Sync"/>
+    <Component type="ScriptSlider" id="NoteValueArp2" x="210.0" y="210.0" width="120.0"
+               height="50.0" parentComponent="ArpContainer2" max="18.0" stepSize="1.0"
+               middlePosition="9.0" defaultValue="8.0" text="NoteValue" mode="Discrete"/>
+    <Component type="ScriptSlider" id="FreqArp2" x="210.0" y="210.0" width="120.0"
+               height="50.0" parentComponent="ArpContainer2" max="40.0" stepSize="0.1000000014901161"
+               middlePosition="8.0" defaultValue="3.0" text="Freq" mode="Frequency"
+               min="0.5" visible="0" enabled="0"/>
+    <Component type="ScriptSlider" id="NumStepsArp2" x="340.0" y="209.0" width="120.0"
+               height="50.0" parentComponent="ArpContainer2" text="Steps" min="2.0"
+               max="32.0" stepSize="1.0" middlePosition="17.0" defaultValue="16.0"/>
+    <Component type="ScriptSlider" id="OctaveArp2" x="470.0" y="210.0" width="120.0"
+               height="50.0" parentComponent="ArpContainer2" text="Octave" min="-3.0"
+               max="3.0" stepSize="1.0" middlePosition="0.0"/>
+    <Component type="ScriptLabel" id="NoteValueLblArp2" x="250.0" y="190.0"
+               width="80.0" height="30.0" parentComponent="ArpContainer2" editable="0"
+               text="1/16"/>
+  </Component>
+</ContentProperties>

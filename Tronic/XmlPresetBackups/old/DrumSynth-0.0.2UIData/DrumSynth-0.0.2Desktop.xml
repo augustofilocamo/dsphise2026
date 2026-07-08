@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptSliderPack" id="SliderPack1" x="40.0" y="30.0" width="700.0"
+             height="30.0" processorId="Arpeggiator1" SliderPackIndex="1"/>
+  <Component type="ScriptSliderPack" id="SliderPack2" x="40.0" y="70.0" width="700.0"
+             height="30.0" processorId="Arpeggiator1" SliderPackIndex="2"/>
+  <Component type="ScriptSliderPack" id="SliderPack3" x="40.0" y="110.0" width="700.0"
+             height="30.0" processorId="Arpeggiator1" max="6.0" min="-6.0"/>
+  <Component type="ScriptButton" id="play1" x="50.0" y="600.0" width="110"
+             height="50"/>
+  <Component type="ScriptSliderPack" id="SliderPack4" x="40.0" y="250.0" width="700.0"
+             height="30.0" processorId="Arpeggiator2" max="6.0" min="-6.0"/>
+  <Component type="ScriptSliderPack" id="SliderPack5" x="40.0" y="210.0" width="700.0"
+             height="30.0" processorId="Arpeggiator2" SliderPackIndex="2"/>
+  <Component type="ScriptSliderPack" id="SliderPack6" x="40.0" y="170.0" width="700.0"
+             height="30.0" processorId="Arpeggiator2" SliderPackIndex="1"/>
+  <Component type="ScriptSliderPack" id="SliderPack7" x="40.0" y="310.0" width="700.0"
+             height="30.0" processorId="Arpeggiator3" SliderPackIndex="1"/>
+  <Component type="ScriptSliderPack" id="SliderPack8" x="40.0" y="350.0" width="700.0"
+             height="30.0" processorId="Arpeggiator3" SliderPackIndex="2"/>
+  <Component type="ScriptSliderPack" id="SliderPack9" x="40.0" y="390.0" width="700.0"
+             height="30.0" processorId="Arpeggiator3" max="6.0" min="-6.0"/>
+  <Component type="ScriptSliderPack" id="SliderPack10" x="40.0" y="530.0"
+             width="700.0" height="30.0" processorId="Arpeggiator4" max="6.0"
+             min="-6.0"/>
+  <Component type="ScriptSliderPack" id="SliderPack11" x="40.0" y="490.0"
+             width="700.0" height="30.0" processorId="Arpeggiator4" SliderPackIndex="2"/>
+  <Component type="ScriptSliderPack" id="SliderPack12" x="40.0" y="450.0"
+             width="700.0" height="30.0" processorId="Arpeggiator4" SliderPackIndex="1"/>
+  <Component type="ScriptSlider" id="track1Gain" x="760.0" y="30.0" width="120.0"
+             height="40.0" processorId="Simple Gain track1" parameterId="Gain"
+             mode="Decibel" min="-100.0" max="0.0" stepSize="0.1" suffix=" dB"
+             middlePosition="-18.0"/>
+  <Component type="ScriptSlider" id="track1Gain1" x="760.0" y="180" width="120.0"
+             height="40.0" processorId="Simple Gain track2" parameterId="Gain"
+             mode="Decibel" min="-100.0" max="0.0" stepSize="0.1" suffix=" dB"
+             middlePosition="-18.0"/>
+  <Component type="ScriptSlider" id="track1Gain2" x="760.0" y="310" width="120.0"
+             height="40.0" processorId="Simple Gain track3" parameterId="Gain"
+             mode="Decibel" min="-100.0" max="0.0" stepSize="0.1" suffix=" dB"
+             middlePosition="-18.0"/>
+  <Component type="ScriptSlider" id="track1Gain3" x="760.0" y="450" width="120.0"
+             height="40.0" processorId="Simple Gain trfack4" parameterId="Gain"
+             mode="Decibel" min="-100.0" max="0.0" stepSize="0.1" suffix=" dB"
+             middlePosition="-18.0"/>
+</ContentProperties>

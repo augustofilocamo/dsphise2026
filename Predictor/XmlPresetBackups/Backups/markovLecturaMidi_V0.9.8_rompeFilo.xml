@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Processor Type="SynthChain" ID="markovLecturaMidi_V0.9.8_rompeFilo" Bypassed="0"
+           Gain="1.0" Balance="0.0" VoiceLimit="64.0" KillFadeTime="20.0"
+           IconColour="0" packageName="" BuildVersion="650">
+  <ChildProcessors>
+    <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
+      <ChildProcessors>
+        <Processor Type="MidiPlayer" ID="MIDI Player1" Bypassed="0" CurrentSequence="10.0"
+                   CurrentTrack="1.0" LoopEnabled="1.0" PlaybackSpeed="1.0">
+          <ChildProcessors/>
+          <MidiFiles>
+            <MidiFile ID="" Data="299.nT6K8CVdAzPB.HAyojBnkX.iX0B.nAAA0KS4QyHT5IIkj76+cua2VDWlS8.fpqkfBjpxxc+6AbBV.g.ETiJTvHxnQCGx0rJepEVaVkKGJn77TwX7g5DSaURPEVrwjIsEbMqNTOqxyrZPB2zN26PRUBlDs8cns8ctskQTtAhl0dVSTtQIc+hawbrdsrZaKg11N41VVQ4FF08Ab3+8Ceb9I7G.mQ73NC+Gfvhz.Jfbje3+OlEo9fZLrUOKnPcF1N.nlnyzMDJIpyiozTm167hu5A7+m74q6nGc1jOkWsIqjrDqWk1LMYFr.YLzn7Fu67LGDAadSBLJwUi3aUiXatpN3joIh85bvkLW3sJ.51Mu8kVlfUH9jQTAckBfb6A8UR9KTfUCoH62pFwqZUE"
+                      FileName="{PROJECT_FOLDER}Ghosthack MIDI Melody D# 1.mid">
+              <TimeSignature NumBars="8.25" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="130.00013000013"/>
+            </MidiFile>
+            <MidiFile ID="" Data="86.nT6K8CBlsI..jMPSTgFY....F.P..Dv4nzDUxsF...ff..IRh4I..hDP..IRsU1g.kUXmA2ffMUaYMFVmk1+u.PCnBAxAq+2C.d0A.AMAePyvibztkA"
+                      FileName="/Users/filo/Desktop/1_midi_export.mid">
+              <TimeSignature NumBars="4.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="86.nT6K8CBlsI..jMPSTgFY....F.P..Dv4nzDUxsF...ff..IRh4I..hDP..IRsU1g.kUXmA2ffMUaYMFVmk1+u.PCnBAxAq+2C.d0A.AMAePyvibztkA"
+                      FileName="/Users/filo/Desktop/38_midi_export.mid">
+              <TimeSignature NumBars="4.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="331.MQEZjA...X..A.P.miRSTI2Z..P.0P3aPhDZH51M5LPN47.OrXAMnjIY.RCPTjCPKbCPSvCPBVCR.Q3BPFEZEpGfQAjIPJ0UE5DfRATFPREVGVBRsjPQ0nPPvLgOUjEfTADhg.YT4MXW.FEPu.4SCMHb.9DPKAYStvHW.FDPF3CPWfDPiTDPHBQS.sCjC8hAJ0h.FUCG.UBhw7jbBdCfOATfdAYTsI3E.FEPAlEjRQVhEAnT.MXBP9jYDdFfOATDP1TVAVEfJAjCFATNCADL.ATgVAISO0vPpLPO2DARvbCfMATjpzCPlLDPYfDPAF.S.MXcP1zaB1EfMATf8.4SgIHD.9DPBpAjQQUhYUzKDDzKBfzKF3SJDVDfQATfGA4SkIXG.9DPAR.jMglfb.XS.EXPPxDRJ1GfLATfDfDPDDDPS3CPDTDP.7+K.."
+                      FileName="/Users/filo/Desktop/chords_midi_export.mid">
+              <TimeSignature NumBars="7.25" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="3259.nT6K8C19kzXY.niZfQgQvS2l.vZxhCKtXQ1Dov6V6DG3rXPb5DFJql.2DKVFW.ZzfAwIvjl0PGQaRnlHQtoMs+oTJSojI2Rh.1UdfcnCZCLDNYDzG.S.LE.MA7MK4GLWCruiAZxwl3uO5HTi8neQh9AA5OfELLWbYSFVVW2Lq9mkwgr01V6mrC+gwYp4elF893rSuK72n4dlF47ZZ8d+81sw10R6R2QylX7wXL9XLVhw2qliw2KG2jiii60ZsthzxBB1LLqMyxLm6bddu+yYGKrLWYkVpZdmo+WqfarffcC1865dW2CswFJjKgBkyf1XA0xmKfLM1fd1E1CC648iwfWXvMXYMGr+9yYRxNLIRmjoQORb1OQWXQav7zbQsmeOTiTuRRYmtRbBmkLM9ozeHpQuvss5rmfYeeeij1QnFwv33QyGYZrazuHQ+d7rxjTYnGhX75BeR0CQMtYC1mlGZZjK7GD0XC9+gZj9spCpRkgmKvg4jd7Oj+AkePLhKLxJIC3.3C3+v7gKLJ.IQuQTHEdFkOohSzoX7Tm3iSpNnbL0Oyk9Y2GERg1mGZ0JZ5w5fTUTRj9m.pw6DrgzPsrJHPOFee8AIGmfgnFqghrtGpJZ3IUcn0AQUUAEqhDqh9AoPJZvePmTMA864jJMO+YewvjTmvgd7M7TY31XEh3De7Sjux.7.JV4ACSfhrqmsxj6garhI3XAyqqpCvTfAlcWXmV1wgCGNqtRk0JvVprAvvVgqvDSVBE.CKWbhv00ECRvbkeIgvCfLnbkwABWxYJxbMa.GoTpgKLrKDLYAKkbGlXmyLaUCDAmrUbXNk+yUunMmqvfBpRJcRWcJ6e3EVlFyrV6pNU1Bk+aJxLu0YshBVcBa0t6UvjJSBMaojJ2iSiUbEupBoxGXDkMbGbtynA9VEgTY4VeASk0LlR2E2GmhLMdECRkyiO2iCzY.b+2+4Tjot0OUVEBHbBP9MxIP3m4Jrdu4aus8AimeDqe974czNzbmFH8yoULlBBDIFuWH.INyxwPozPgB0QxVq4X15bw+Aphpc9iOyuSam2oimVdZq4Fj0yin0ySxQaR+gJB4eeFLsq9l1cwh9KGym472WEacOppb9SEWzdd+0JsarLr1a289YcLtych1t208my+X7e2x3jpe7WjqiK7YnW3RR4NLoPQan3DzDJ3vsXUj9Oeh53YzWGOdJcwBQe99.897466qVAywHp6sRaa2PvtZs1LNe4c7MQguLeIGFJT+Rxd1yNLbqBUn+13xddsn2o6NeoffWEdbOdV.J5Wluzfxwz3Qf.M875CJ6nQEemObBsNWrvZAq1amigaBeFtZ3moyBVfBo3CWXF0XITiekHYcQTU4RmT4oj0Cop7BE8BeyR9utR5q5sYXbtnX0tJqe9bbmZTZXxCtk0+JqPWQwt246mIsUqcZsVOipRyjFlvAUsl3a4CmfRYo5hK2diVq0LoJ13szxThgkkgkioZaoTZ8MhVQ6UKrvRNlzZWoRo8WBRvZ0zdEy5szx+lMUr9WxQsKZPu0JkFuEiA4+HWk.7bzeFrE22Imr6YeqbjydqSIFVeobLyNsNFVWkRQZ1yx9kxeLr+qKwVrMsS7W2db35USSyVW0Mliy6dd0ZVcaaqS69r31VFm5mI28qyIU9JkduWqqocJUTrdozeMseoDHpvC5rVs2Vqk0pseUNVqs8cNSqVqUK6y4s6YsaqOmVaOiOqXL15UZNa86UTr6+6UV+mmTgMmwEO4DRfIPn4nNVA2VBYzHAPAII.SXSHXfxjmrt2aOa0.iOhEjBYf.KPHP....P.IDPfBJvnhO0a.+.oEnqyn1dztoCG0pcs.3nRYVowgY7MkHZKajqkWthiJKVEoAqwFzf0Jh6tK26lbK.lTAMmkJfkDKQrQ1EDHQGuFw.nhqWEozHHu3QXzz3Gcuf2g9f+f.kPVxBTdDllqGBFW9VvO18irfmLSaDVdsZrU.eSz7NE+xsa1G2E5Vz5vSpMbtRzSBA1D+zirrp7yRwcLiuHDE11KcRGrLx8yqJa1RLJlLdDGEzljrXZzniSUWlVioQpJQ7brX7TcKdMwm80Pl6eG9NbHngkTP2lSGUpif3zmkAHVA4vKL+CnI3KhD.zCb0OVgfVv6h+1Odqf0.HmhNihzNQZrD9VAbJV6uIpo9lS.C376VIYoQeOE9Pv+.3x7HPQV+0r27PUEXo+h3Z7rUhY8U0aZLWOQYHxpZIv2TwHuV8xlB.myx2PfDtrXFswxC4WZuUbvKQ0wHgUYzrOwQiRvJfIw.PnTC4Y1xqpyvcZ9fflyFM5KqA0z9DCocmJbJdQZD5l40FSZ1sZoBlmyvNxYD1wHujC4PH4Z3Vk8zYRoNb4lUjCM5hoc1iEhrzIIgKduXZIOllqHAxU2dZJ5oPk1rYMeNzQNI+XDyuWdLxXhTmnApTkmy7bbVnMG+SUfcN0gYaQllz2Sud7sXY9CaNQYG5BNFSwhIysylYqjgQAptEHYKpdzxgKfPacvB.X1LaF6gx7cdop.zUba8XXjnRkaGwv9mjp.0H3VxejOaDh7KIzUsQxmlamqayaNwi.QnFEniZrV.MqB+HDDv5F5jzBuz6N03af3LCySSlZ8rZemEAnDydcoxw+3sZFyL1n84nSKYwa8wf5pW9hbssG30CxPsyxSFW6SFmE991f45Ts6xU9BxRzwRPflFVXP9Om1bAJBAPgIspJNex7vFLJup7P8tLmIzNMN9HAhdSSFfIOCjIjiCdNFvefidBy0tECapaia7FcJyBnAs+D+9jZXwoYZoroHaAd9k9Glmmcbkzgov5MrxpJHi5THkqpxxBjA6XK0J8ESAFlQfqxVHNIqw2vu24nTnR0g56NeHmYM9Yr57JUfTD4f214ra+MmgAUXBc14swNnFosx35Ga9O8dm2MJ9xErDJ6cA3wBUQ5VJINHkzp6B8mv4lNgu57f97Jf6PEXzB2WO1+FkEUbVmN0Hj8NqWs1klFKy74xyo.H.U1.JaEP03BhFd5+sTqLEQNRun0OGmz5RSGSA6pWjuNqTSDFvw1Rwlrf9hedCUESc+AHgcPlG+4rD8AG5KN5cd5.KbEcvyi48zAEAaURSBtJkupahYtu.B+PP7mVpvrcN2dGcxDtPRhIhZjfTEMOc0FAoZQOtbjDtzrrv2CGccNuWqDvemt+xDgR+zaPeWB4Lw3lGqyb.30Uopsulf6a1w+nAwvFyMRUxyMFZMBmfeRyGl5Y+ZV5D8uOX5OOuBnEcxQ.Ur4nFXlhgU0l9kQILOR3zIXXh19jR+8HVOQzADhAkWaRN5R0LBgG3uRtjgOVaoFZ2.oU7CUQTcI+T7rvKrzKCcxO8wCfZi7lj8Ei5.M9.qu54Db2AnBggDEgzn1nVPbs+dXjWxICMcNLs3xaOj2vNccYU.Ib56I5zHq6G9QSebc4FRJ8jxZItq.hbktPt3a8yCb80hb+moHCn+PQBXaQU.VJ2E4g1NYlk+GBE1FGX9xYWoFXqyzP6JlJ43eFW4K6L5BrNaUAhgxWe.hoGciem5UNUILdvH5VOCXNze.KnpiPu1Jl+sdYOnizyxaRpRm8It9DLDeRHUupBGVn588WalhmT9rbtWqIXyTybBx7zHGOJJ9GkVs.7TXOSUBNUlorYUsxDvfLE2vXRQYkUYglTlWYJr7qmRItfcbCLHPZTsCSw+fxRUJW4D5szJG0VRPYK4i6D3s+EvYgV1BoOv6C6SpLKaoszUaFVqvbX6cFQpgHwpQ1MUpIECTShzk8f0L6L2TMWHvrwaZtfd.Pc1.+33TWeUwHIEpNRUYfVBlWCyeDy2oRwb92R3EyxuLWwMQNIaF73JXiddvqfT8moAEEUX6alt+XNZreH2cT9LxUPi73BYHs+TPpprH33UfWqwnzVp3y9gCG1z0LBRBxpr2+5hbBJI0vA+DMQolWHzUkIyQT3OiySgMZUbwW9t3XcpTas87Oe6Mcggy+VYdPDgW9qzl2deqRjYZdsRSO2JnMQwOCqWI5E9kyNt8shyrDT43dzm1quAFEQDYq7oJmslPb+SI3XJd2mjGGD.L9fFsCz5Ta3BfhFpDc4Vw6G4kFx494H+5HGioCL6yBKTMITyVyDBrradTSVEbxbMKHvJXi1hJm9Fcu21t44yaeYpMJ2trRtAEwbMgs7KxMjPYBnyYIgsoNkqVoQOP1ZONMzi6.B+HvzmiuUnj4vx4b5tFwGJWLpWOb6iGbb+S4BCjaVXC2Au5F1V3NzG1uEM6Kas3i01t4SwgYJiPxl9s0C6pHv5Vs1AENqCkgmcIQJPCU7nAmeEY+wSfiKdLbw3dE0sZ5IW7YNlP2jbZnOMtyq4G."
+                      FileName="/Users/filo/Desktop/bach_846.mid">
+              <TimeSignature NumBars="62.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="62.41002554650379"/>
+            </MidiFile>
+            <MidiFile ID="" Data="331.MQEZjA...X..A.P.miRSTI2Z..P.0P3aPhDZH51M5LPN47.OrXAMnjIY.RCPTjCPKbCPSvCPBVCR.Q3BPFEZEpGfQAjIPJ0UE5DfRATFPREVGVBRsjPQ0nPPvLgOUjEfTADhg.YT4MXW.FEPu.4SCMHb.9DPKAYStvHW.FDPF3CPWfDPiTDPHBQS.sCjC8hAJ0h.FUCG.UBhw7jbBdCfOATfdAYTsI3E.FEPAlEjRQVhEAnT.MXBP9jYDdFfOATDP1TVAVEfJAjCFATNCADL.ATgVAISO0vPpLPO2DARvbCfMATjpzCPlLDPYfDPAF.S.MXcP1zaB1EfMATf8.4SgIHD.9DPBpAjQQUhYUzKDDzKBfzKF3SJDVDfQATfGA4SkIXG.9DPAR.jMglfb.XS.EXPPxDRJ1GfLATfDfDPDDDPS3CPDTDP.7+K.."
+                      FileName="/Users/filo/Desktop/chords_midi_export.mid">
+              <TimeSignature NumBars="7.25" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="796.nT6K8CFJOTIF.X9FXECfGFSVkYC+444Yd9vqX63+g7DnCED.JmYb1KQhtTdyz9XuqxGSmv1u7MysTEahaMY.NA.R.XD.9BKrVLNLOaSBCOayhyDHo08e2oEP368eqwXJ0tc6NyKIFfxt1k4tYtaIsLIQprrV6emyBy9j.ox9rfbPBgPPBbXP.FjP..I.DB0vAbXDscYLkZ2tcmYpbWl6VRkTYq8uS5nRJ5AJ.k3ATDGfPmqogxhEr++LVCOL7rNbznADFiNJOdTJ2Yds1k4tc24ZZhQH78XLl20Cpc61clqycYt6YcVms1+tYcVQMPV.GRGMZ.gwnixiGkxc2Yds1k4tc24ZZhQH78XLIURkTIUJoRpj5LARZc+2cZAD9d+2BfR7.ZU7jbf4ACBDIjvkArH77nxhPhDJnvkzp3IRkUwkEi.nTt6Nyq0tL2s6NWSSLBguGiMqy5rNqyYcVmUmIPl+2cZAD9d+2Z6xXpPfOhZvPS..JR5AAJELVYZLxnZA.k.CBnEGlCIE.ifPEAM.3uXg4o4BelJqveRWZxgRhBRvPiCaDIbwxhESLzAb7CiuyVYfnbHHI4HCENRy0HmbVU6TuVnZ2PG8EfvZu5QM9KovBsfgBBB6YLybpwaZvrYX8SIi4xqLeJAQeBO.zlS1PVo.jMWAygWCysLCmsmOegyTWRarXPG4gyGotPVxuWwzaWlhJ2i8Z3OxFTs4ykY1TByVnwwOhDlXYwpINzQN9Afu01LfTVHznXogFGo4RjSuatcpWyTsani9BPXsW8nFO.UXoaAi9LtDl49BJTv7Aa8SIi4xqLeJAQeBO.zlS1PVo.BATiIxKwyc1gy6yGqzYJ.pMVLnTSDAL+v+eju.m1M3qWfuAnAwwCHz5dMILgXT1J5sjVvW9noPyAYuF9irAUa9bYlMkvrEZb7iHgIVVr5D+tFUyw4a7s1lIjxBgFEKMz3HMWhb5cysS8ZlpMDNJL89PfnpUqaS5XLZw3RXl6KnPCdElSaGsFSjv2R2THF2zSNjeWeblJSxlSVeSIIk8lMmmK.iR0LFwh1bvC"
+                      FileName="/Users/filo/Filo/VST-Project/HISE-Setup-Installers-Software/HISE-7728adc851ba0960315c64dccbd52f3d72e3d60f/tools/faust/share/faust/examples/physicalModeling/faust-stk/pd-patches/fancy/canon/pachelbel.mid">
+              <TimeSignature NumBars="33.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="32.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="2942.nT6K8CFsPT5V.nMqjAhRPjHBT....f.........D.fTD3TVOepNvemT5OfEnbBt1b7tRqbwKheGzEBS8agqv2hNB6eopNFR7VzfbipsVSXBDA2VK2hFfNoP5ALe.1GPJ+51fll+Ozmf9zhO85A8JV8H1DlKIMMWQiQV8XOksHDmp4RgqpUJE5alwH7TWC.2UUWPPottmPq5vF6UNt4UI7kta.AeUmOo3yrtHeWhvxjYhjo.eN5R4VA1xADU0oRK+gT9g9k9awtKO8BbIS1bNNfuly2t0VZ5iihoaL.S0xIP3e7WhWx4XfoORuLQ2b5rrBjRUB39w9hEllrplm.x4j9QrKSTaNUY4K71n4hVoGfasryle44eJ65.Lz2jXYYLxWetl7WdoaE3KOUs3G0blP7KN+QeC5YWRzdL6RmsEyxxejx4jveSds6IszyG2EX6VS0xS7LZD94EXJ9aWJ5LQrFHDex4eKh8n1TdZyybgvemOcy.V6wuobEiHSl32LK6Puk6.9W9Ivu0wOx.F3dKCB9yIhPyE6YeAo2xKfEge65AsiZvR34tVvzs7+bBgudAQyE+p4KbQP4+oEIVMwqkDdr6IcMaIrBbiEqdjZJKQJeJe8C7+i0Fh3zqCvcMRyd3WfNgzqH0iYSYKNMS3wbAQSylf+g9zUB3FSViOuT38X2T9YyoXB+ie51gwdrZJSgHd00BtoR6jjMzp7EN0MiMWT4Mvu5C3ec83phjM8UNNAOP.TAQJX.hQDXAxfAYA.PD.hTDiQMkjAKv0DakmNpiV8xKDmdaPiIpUYEwktT3SDdpoec6v28vH.klt0NJY2EsOFJsd6Pa4VIgB2UO1XwhcVxZ7YD17JzoMXyqLc.qwNZ9Ao7p7zKDdLV1JNcTP.Re8zXptYR4iF0pvf0udNlqLBrXXpu9sAT3EAB70tj787DW5RRKI+l7Xy0bdEjM2xkB6jjpI6pZVud8B8zhfVvlNl6ERgBSlgI2aNU9JEaNFtdzUkZfV.RfOlLv+p.xLBKFtQ.7RZwjo.909Ir0rtz0i9PVr7IcXq1FaJYihOopBHha4V6zhc0nUa50GdrNMoWUZsfgJhWumzg4zXxSb5EZDUprqVAuzELBrRQcE7YQWjKH9tjgv43RxEQbvxzhebzZZQpZllxuUly2P4R2F3Y8AmVBkuusOLAa8L4m7xxPv5ZU7cYBSSR476TAgYwCHATJaw0t0ONP61GTg+xS1knrMmIbospZxrZVir3kjeS9ewn5hDaKpkkKIDmC7a80tM.TJxxgRucACD94SzyPm9xj8PHd91Tukg17LSPg+H9lf1LYpHy+S+32DJWcukuvm2nP6Li4aWPrb4tv22S5s7DNTnFDt5rDBOGJedIo2p2pcF0bmrwVyZbQhYf+zxhJRdBud.3ick.9plMA+LbiIa4qWKXpSDwo25WM1yLCBMAP8715QXTxtN9EABJOKC7i5W44Y3cLtaXijfYwNPZZEOaFVMFMzon3HzTPesFZEXki20E3yMQc4zbP8bjnGh0mRf6H5UtQvFhC3HQ6DrkZZGWf6.9WZNWBfytjZbUde6wV4X2j8LjmOxFwvuoD3zwABQ5.ijgvFlSuhy6PivtiXWIOwFpvA7ulNW2kCHWUT2VrjpLHA+5tQIyXIUh9pxKvqtdXuttfXqxVB8fd67vodbonoYMnWJrkF04AJYtxVbJkRmWF.mMidRSmKccB8lwNonlZAneQBb0kHlEzzXhP4X2LrM5owltT+5mwLIMc0hLzZAp2tDuEd.980B9WheV.5qyVadzEOgeaNcTVJkOima5mCreralm1bInmABR.ay.YkxWX5SqlKpogn1TCNed6vfawNMDylYPv2BfOCEa9b5Z3lgwzPzZ9QXsvCXFJ17d6evCntyTvYC3Dp49sV2xS7Vymd.d6RA5i8zyUmcP345s5kD6z4iyjMXtHR7UEImAPz0bC7ICrfar3ybHkWefTCeD1Ijsl+oXLooSHzBpuxYgGygxlr9vjw7oFgmNQ3M.LIfzzG6DjMzprFmxBJrGUNAB6JRLA+KnScA9RfPvmtjThjlNpHzW4nMTno4pDvQ.qlc1zXNYrTiN8lgoUIcVw.RghOlD43BhdaXCRb.ugJWPf.TrVIE.aqNX3RupUKeixk.OG2M9nbrcViqQzgtaXaNltFefufxMf0if5HJ9QZdEvrrEOiIJjAFCXjqXIvcnq6ORoRZmOYWVmqCWujYdRf+HVe1cefIw4ytIj2Vzq5Ak3GwwCcGfv6HxdIogJgHTUSg61jVUQYL85zk5pQ5oQZNGfWCGqDTS4.5TnKmWAmyYqPTGmT6pBPux4awWw6DPEfN.Lk.xNv5I.FrcZpX2VOCqJHRuLIXjlthlNitgdKUAtKxNq3.9aRmPZkrmN8l0p5xwiKx6g7.S553RwD9lfToN7vPdA8wkO.4mQeqmxtRCCdBsSp06.Bb97ogZ0Ut573phguRBtka.Ko7JfRfAq7J1kc0nVR5QWdhCIgBkCMPoghNW+HaDHSOy6QduRzyH5X7bnaC5.Q1k4H.PNeQfcEPZF8wfRy7dBEkiWOYke6URsMocxgcI65MODI7GA5SMW5BhtPjfiTQ9NrxPGnzUtd9D5bSGMtO.8soLry0bD4CQivdN8NtfTxHQvPlRdcGL.Sqj6tbN2MCXpqmuJ42h17ZoG8JJWZ5TNuuU6crUPqjj24v6ZbovR8.1YKNzkBVIIvMGPTMfxUDVgmyAVAmNNGqq7EUH9MnW4A3S.xmQkyWEj8llrJNWHiLvQffhZbjXLGRoPy..LR.B.A.DGiPiCJorN.QD2iS7gyK1G56pVryjPNkQblN9mpil+GEUobvASbOFyy8rKbsBYVjumzHajQ0ye7jBzP0CZcZL5jHm0ZNZhmONc4NbBRJqdT0sjWoEntb6aOHcH0SGyYte5Bh21yzFzb6weayLvm2He.pIZyNFncKSmXxhN31At2T.td.e4ES.UApgRRnTXajnHPnwK2fMF877IlH8bTEzGYDJBByMx0aaBDIh3JYQYTqdoQOOKFtt0mxK.qQQaC4hsvjkGSrDoRkHpK0Uhh2FDNU6LQKDK2UaHDKhjYv7f832LGIMM2jOvpgGTGNBP7TiTcx7x7tH0UDWf0hrhbuolLZxqP3yF8RwTZVPLJSus2y3YoRRzoqz8pPCU0mW0QEYzm3cbM2kAeUXqRVDaByZuOh.kaK1Jx65CNdNe.YUoR5bmpxeAfR11TiYZQmFSjPz4CZ8bBDC6262dp+cMKC8BzxBUmDiVoiOu6y+TwucWw7KwU67sj7QquAd9FkavJovPuSgSs59Hq337AuJJaQLncI9QcLjkSO7XnatpmAUSYSugFkfT22BIIVE5N5TSKcSBdvKqno3xA5Vqxdt00XkjPu.IsU8+hAAiw8qp1R3ER0MYxqtQqP+43Qy+Zj.h7Gs2FjUPmIwvDpQ.4cYg5FoJbV.qdkfF+VZyNuzcLinBXkPAEeTlVs0QF05I5CDpJCuaaJj240GIKLprSLwmFfuuIhyBXHZU8Fg3LqDlRR1ToBSkupa0szofyla+XSPirYJE52nEABhvxudlCPJV0rUl7oXYPUYuKN2GE3b1PWrd8XFvx1Cl3aybcJSqOD8qqQA+501CYc7ZhQIusrEdYVRmI7S6MiClQxBwTjrAMvZXim43gMMeeROw.jE1SLzglmNPuvAIZnWLXDUnsVSoQVdMy28IKgLMBakqCif+ULRrWN5pPZeAFyVOj3YYIijCztjRU9s0ONS3zy40i.4MXtJ1OeBE.fH6vo3unjPDWOiGfRwf5cUgCnHfUKJhvSpfKZc0lE.7sXuU00lBAIYNI3GNLf9FRS8EX1akhjxnb2Buv52nP040jv+b1kb7lj3SOE6tFRo.pACw7B1o+1WRRJSBAnQg2unN"
+                      FileName="/Users/filo/Filo/VST-Project/HISE-Setup-Installers-Software/Faust-2.68.1/share/faust/examples/physicalModeling/faust-stk/pd-patches/fancy/turkish-march/turkish-march.mid">
+              <TimeSignature NumBars="48.5" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="260.00026000026"/>
+            </MidiFile>
+            <MidiFile ID="" Data="7998.nT6K8C1imUZ9.niaI+SUf6lYbT.LLmlulg4JBHCyf8XFjA5zJ.8C0P15eKZL0PH4DxKxyFYLQNeAWfiQlYjlTlQxdgj3WQpe6EJsjRhekUHldisloJYHEnEphSJxr0BlyShGeb7.hOvuCHtwsCbbfCpKfTp7UTI0UjILnUT4E1uRc+h5W7cILkkoMboPR9f.8SggnRQkjjiphi1PbM.8jfnjOHPVPOYsTH4+MhCeu3+wGD46i6H92OTsDGgVi6SJYDPxof0RaetPH8g6O1ss89r24PAeNQkYb6A946zY6G5eumQshyoq9ggmU430PisbP9V6VxNOwy5DUdGdNvgsc3qREKYT4+9FD7+74dOL74fCRxPHsn32gNTIhAEh4LIy7bhOsxg4znxAuOdO73sRFgC6QTokm29rb.OiUT4eY2w7IpbJvu99TWM5f.RX3GJDRc171XO3asO4Yq6GR88lvW7B7Kwm9UKY88arwV029zZoI5Sc+j2ywskEC5X995CJYDKvmp0RugJSWJvQe+fHWtiNLbzhhiFzGDoBznI+fHYH+vPHMCubotDr19f0RWfSY+u+dex5IDRaBmxyKFBoKq6SVKvm6seBV1m3d5+8EBIKf+WHjv7MFzG7qRFYptEnHHhCmkYd1K7r+dV97yyG9eyx42zvmdrHx0Y4F0uSToW26QTY0SGq179VKVl1Vm4EnLpF1lY1UmqLNaaZnQyrCmLrqoFqp4FrLNaav.owoC8CMPDUxAxCBTkXHlOQkX9dPQkUf+8ZkQbPfla9nC1.Z7wfBwYgPpKSS60xnPUSjRFEVCDEs29MNTvtIRgCEdCDksmCDEtNusss826GJYjIghyxMHBZVhAnLHCMKqDxiYIkGO4kfFj+Unnx4pk531pcnOkVZNJXohT3nvTPTneEDkZmoTKhLcVxs1S+tPHMo6InOg1We6yIYjJ3FC6UT+su9TIiHg9E0kr8z+52jLxDaOw0Sn0ROEURAZzDPilP9gFMIzSBhEfZLfDUdFRQkaERT4SODU9GhJu9Xz2JQFLC6RgDFvru0RXteHQkSgdxJQPQBxCLonROP9hh+8RJ9Vqki6uwFcVQkf1uq6ohJ6nfBw26CBxYqC2F4euYZabZDZdkQF58vCxOTn2CO9O93AADN3qnaFhO49YFOiPJKnPL3G9jgPZibqvs.+qnRJGrLNhh+33SR9gB8d3w+wGuGd7gBcE9FBZxv4xUC9JADUpI7EEUtQ7GEUhM9jhJ0H+PhJ2B8igPpZ7Eqklh+cT08ChL4dFh+3GFdlQRxvPq86KC3eGY49gg+XsDlw2ST4j2G9fhJm.dFgu3eqkx3dFwoJXpDNK+dAmkV.sHx2YYl6GNxR3K9AQrH9j0RXHeqnxIqITIBPj.tN.NDD.nfeEbK.6g.iPGcfBLH.L.3M3OD9PGcHfWFmuquLNMFuF0nibvweeYq46ye97bvwiQyrCmLrqoFqp4FrOYaaz5Dh1wFMNsNpB+68ewMczweuWWXXOVsTE6u.Q45w.QAqyZZ0RVsOCDkrGGeRxwwN5XqsSmNXCLN5x3TL5tB56805W7r1ZUSaaii6oilnes9ddOF1WoeW2XPoPyfiJiJkxwQoeczT865dq80zH+Pqv2HE2fuM.QvP7JFqktLRgLiPpouKSSTTvH7JtHNFWJ2L.oxHb5NAdYZhhhUTIHPmQFicxf7M3wQvZ7IIC6TI7E6TQ7G6TAyFwwOHxnLxPB8dPR4zCOI4CRR4FPegI9cXTVG9vQZb33ui1tO3nNf+mQbe9uQzueiQZrwU66YT0SWmjRIkZcc7nwANMFQ2XeuP1JA06SBMrfRP+tRPA031QCtwJ4VHMjCGsNgzVThNOJgl30XHItH8fDaBQJwFO.R4fjPijThNfBIgFjeHsGRnQnPH04w+QHjpe7fHYjN.x36AnPD5wifBw09f0QnA3ZXmiQvOd5tcPjCfeX3aVN1vqMZr59L1NWp5V7lpY3MFZfRu7MoBI0LPo3hONtKnAqcNNLnAN3HLTTDDHRxQaw34s1WT7CCeNFMgCwQSD+vvuOPv6MLTTjiLrPJY6gQS7PGilzwGJjG7PnPczwGe.BHXX33CC+N53CEBjGXOL9G48sVON99M1fB58uIpraCTH1yaTFuQWdqw9efr9dKHL6ee+mOOHXsiJQz8QmPONp822ddUhXMZzDZ48eei4c8gy3HmI3CBBB9ggyYyO1GeGgB0QHjv53+PxHZeDJz33l62m2ytO6do4lYMsGyarspLeVggZtY9r12ims7sod1EJ8+7oppVuYW551aOuw+uuP2pp688viCExCd36EDnvvvvmCNBCqpFClLQQaVUk0lc46CS133bvAlLRRLXxpp.AufASV08CE5ZoA+PZh4dAkv59IwEHHkugDUeabI7B3GFZIdQ7PP462.jEarEeOHnLfeeun3Y97efp78e.U4BZy8ymstOu5CGMC+EGUIVMC8rpZ7hXlMiO4HKj+3HKiUh0QLE0FeGz7cmN7z+9ccqcupVYBp8zPHMwVuBtmRWx1Wb8T5SbUeuea6o2UpZ7eRFgy2Yz3LccppW0YsNruijQpz4JXOm9e+DdO46Ine2UxHXbuhN6648E1kTeOumX6IpdgPZ58cg72GbzjISB+6ED7dCCEEGGGsWWFlWW1ddeX3eucHpjCc7YYhjjun3euhh+89V689V620Yoz2JvITHb4hge5vm7eC9NBfennxLBeB3eewZoLhmwEjG3wPHww32g.TXwWw226wijIr1LTAH3uwFU7QAkOLXxjwxZNutl+75qTYNX+11Wv7b9KRFoxkmbpknP4mHYjLSlCluBLpuTwqgY0UzPkJuk0WUMlDVemsrdrsuSGLrmv5Iac57Vrbooxx5ozdJcJssutoN0VG001scvI3N0sltglg6LzxX6ITYPkQFYtTAiIJVXL+sskL0tfaIZOcNohLAKMZ947oPQSlLWr9Kt3MapbQm1hlG07yxtZNmuUluJi1qoYog1XVby4YO05Tp0BtoXoVPqDAEJVZiAFZzdaaJKaJ8ssJUnpvzlyRsi1bZMc8DqeNeB1OmlOI60n4stdx5IZXvPgxawxSQ8Xv7YxnwZd8yqqOgmRnXtFttNCZucBtmfN8IUOddx9Zng8IbbWrMsgr47srBoCrEMsOKKCMKjfurlyY40Ty0mk8us8bbq8VVeQKyOo8TlPHslDJrXCVfgJxfEWglFpfS6Be1WCgjEpOEaYVdIRdZoBpuhmhZKUfAyO4wf44jIS1Ble6RXhsmXetYIEVt2NKov9GvcIbleCa3YFKW7V+EW7zxZVZwZKWbwEOE0WQxHanxiAijtkf9Zd0+5EpS5zz9pJqqqWiFJKqupZhh5ml9KtXSmmWsqBSeMPnbSWEnnXPDiUgq+FHTRgUAps2T2111vv9JU33ra6dJ8J5BoCr80zdikB6MdWO0km2igswhkUsjnRQkSsBgjFqmN8q0eMIiTQ0Z+BZuGOegttu.0DpiHCkwLC7X6eeOH+i8O2+HVIhEex+CPwAIGjO7.NNs9MdmvG8LtU0BogVS3lsPYDoDw7waQ7YH6WQ8qqmPehMJGKhug4HE4kPKLeSLXrnrD9F.sbeJRcu.ZcIDyEC3DCFqsjy4JbNLtsAb5z2V2epMdU3OH3cdePKru09F5xHZ4xFnXeJCvsVpt+uOHx2HGgczNQkhJuipei13aM.+KH58AAYA+v6WGwg5+MdmuZINBWCOZ2fe+z8mqGGOQOwQuwuOTn47YeRxyrddPflimu2KzYe2+iOlyMjWnMrdXNaToREKYTYbbPe7AkG7PkH.Ehtt2yi66oUNnwsxAuwWTjCCZAJJNlm5PTiuIjV1GTPBgTmMugABn03Sfe3lvW7Zuu29V1s33uum2Se+GIiL8oCSXXn3ON9hhidbbzjjiNTnQ6gGi9iOljWFotDrV79TH4asgbpPgltaM98Sv5FFZAS3X381WTxHVhOYEAQL2i7rPvCCevmbVRIeB9LbCuJXGsqMXYa+UlFUK7ua.mV1rZ8B6XlAOFHKjxKUP7.MPwBhP.DoiN77IBTNBUDZfkZIRXHDX.QBueJu.hPGhLBchbYDQPDPFT9I35EG3QnBz.fnVAGfIbIHxVPBzFvD3ZCJ.dPFHrVd8hINfHiJ4Arfq0Q7ADIrDsCDBfvDG35AvCjvnQTfhOtWH0.DAIPEunPpToNBmJAxH7gBPpBTnbZQ850HTJA7.RWyJgAt14CEtHgSoRhdtk.JnAHASvEK.QTI4JkRW2fzUPt.XvyGmPYkE3JnP3B9CivCDoDHpVPBrQmLPLn6BzwGd.CfYAXBngHv0QvALZAb0ZZ5pCDuxAgvUIcULT9D3AbcAP.JAAPtJRDttD358CQNnZQHjPD3NviFLBW+XBb8yAXN8f6UNTPAHIBnnAg3pGHBPTwfFx.fnN6.kWG.Vj.IPTAgRV.PTuvEHBufqZvMDbMCC.hZEPjqT3B.hpF.BtR.FADUT.UDL.NXpehZ5odOr9yzen9yEWn.rV7hq1zOZyMHs8n5vFSCrm+g8VErsurYapwXs80uOqchI0mXBsm3YhmJ5b5p0yPyBqyfxcAWcDVYhJyjQQo455JUlCmoX1B0yR643tRSSSidE10EUipAcLLvAs1tNPP61Kka2euagGF10EkqKLlyoLYFC64rREpJLqurzwZ6sW6utdh1S57XulFWV1iQe5qqeNon9LYdNwvdMseaaI+Stq6Irum2Sru09Dv+6uuGO2mbW2WqOk9bbZZOF1uswQeNtmRol5szdh5RS0E5STigYYIwhy7LyOGCaJwh07ZrXCVfgJxfEWAlFvtvWVfFx0zSAEOmxPkOCekJaICTUrEpI0yJ966Ie968O3y8+7YJtZ3qpdpgs5fMP00p0VSS6sr9LYl5LL0z1BTOFLmgr2xR6s1ozrYntErf88XgsyfmLzsEngjBJOyOes5Hxj4Ly4nkg5MLTmYsg5p00bp4bVQs1ThulP8zEkqq35CIqqmt.aITXeHoAro.aCTaAihrkPB0Wjk8gDFxFAPg.n9BYWfZIYF.pQ.ZevTu1GRRncEnjXpOj9.pof9RnbbOc9E1dBst0lPq9Ibs9DOI1uPmnQvddeU0Fk9Zzfos8UUVSKKJLWtf9EV0qclzAarKKnQg1UEWZz0FC66z4uHiq0NV19NcnvcAsV89Ncdxa6mnOYCC6I50UFnagqq0.cJ9RB8Kn8Ettvf1X35JnaOktEazInczvPmwv+ActC8OP6OnScDWoxXv7UU+uAScDaUuoAKq+5ZtIaaaZ5xEqLUpbgwxRSiiqVyr8ZnQlLalYvxvY64v4yx9qqqmi621vn8YvvvTmTJ8uNZV+6FU88sm220Mqp7tzkYiEKdUcytGyGRmQBNXrjXlYJgFqLSLIvbAR4WRbASTszWWS11pPCSLgBNbvvElXhIcTnUHghm2RlXsWpXhjttnnPnRewbA8vF0wTnoFH.....Lt0QPwkmlkEUhoFT.C.ZZS3iAxffNEvH.LfBD...A.DAQ...Bx.EQgYgD7jVYSTowRVMLbkV6D+d0Aw1aZgvCV8DEYrOdY2XNW6fXmGpKMImEeb.i3VqNJpBLkJL7T1A+yCJTcVWz0S5FuB3jT6aOzDeqWc0kBSK1t9eJfzNLPqZ6BSAQqSs.rx2E8RBT3OOr1.6xtFqnFAXFWLrkFBu+.ui7QZNicFmvLMULjM0OaEgsyP9SFLO6B3iguPKjGiXmhp2oTwVp2gywaCp+fHZukIDQrP4i1SFzyp3QoyFMNRzeCY1arCENpwt57b5ebaXFZs.AH25DUiX+AxlpMXrB26ut3gW7EyBbbJeRvJWNdLZpL6W1tietNeLU9cs49I+oHHAjIE8O2m5S5iQMaSzqsZhGs5XwPIlOAgQThn+.ovdCueH9ucAoIixb3Nr35JWD5JffnBmpEt41MuDyS+p+m6PqwGycjJdPzQsTN4NY8iB82PCJN0s546iAX.VMGeicz.hYFFBTTc9sOfkEGLAS5bXM7byR32PB3nBcXkc5DFFxpfu3.O7ZQaUnalAkwCfVUA459.fG2.mi7E6TivBSNuAFCRqbCzpjpDJTM0cBbDyYbO6+xPKJcOXMz9BwWdJIVkq.kROe9938hPaTu9HgFhYzMRVhXTufu5fxqxlSrXs9UWns+.JDMAxMMzBNLmp70luAOolVkaIJexkEJ0U0mDVL8EyhRp6AlSdW7h.J7eS1FFDcq18EpuTkHW3TCKO8bPNSn1heJwuc9xFb4boHafNI1HfrpdTVtfnTAZK8gbxUyPENZBNGNSdWki7Hz+.yjYElQLC.E991fpriXGuZ7NF2lJyrAfHpRR5wx3h.Ah89kcRf.vyQY0Pk2xQJvvRVO9cRkRjymhtXHKHwGHbx7btny3EDCTtte3OiWkSUg5wRT02uEL7kLyaKcqcAegfmp0oIZZfRvPXCHgpBYJUBM0GB+m8WUq90lO2TCQHQLqKmIIbwTJQOPUwpLECyIA5gr33DrZ0HV3dYKKIEYbx8uoQmLvEKl9QDwnJabCo96W6oPSYhiDoyNFOk7ToxHaBv2JVZynOfP7KDSaFzdDxzaI+unvToSbYwRBXPCgERXKpGs7b1oKr6ZC3lCHzFF.RP3H6WSVPLfCOE7v43ejD9L3mZPoPjVt9PRf39+QS.2Lndb97NTfpIUdcgJP1CCYLg.hQrQL7GDxJATB.Gx+0NQ4ijQOpGWQB+bXvVINQR46LgK0VYk2mXTrjvsQADpyMjplnKn2sPGUzwX9Nf1LDBnh7TlSd9Uw8yxfag40goOeo2MSQk9rGrW4enYd447dsbew2ACQCJJZ3dwaAfePQmwxCjggNxLGGmDr+uN5p.pSMCpn.If95LF7QSPOUMMYl64gvK3niilDVugkqGjV3btS80SEsCs28chzJ1jw24pKbSwRVjQlvnuu9.V+fNEr7bIhZJsPdRxRPB7qxkMa0omEA.CyEKm+9GzoEafFe8B95nrnseXm0mTAu5k1Qexs0QG3vWkyADPj0hWGX5aUWr9RMLNb2MvN8MH2jeoZn.II+Ha76dgwNOavIdpRJLvLzCGtZTN5lbO8fd2.8C4IscNZW6d4SF7nYeechz3wRmAVjKEP00TL7QCYxWh35jxNgLIHd.xXb+WRznANVcN3rnY.J0IHE.Gpiu4aoW1Pzm00KOLkwf.xq6oXrruebZHbCr5CsT85cjN8Mg6BGJTXpxOhHb91Yvfz5YKqjtrEogHWKAWGRzofr8KrnNVax4kBr5A2RVux+IbDCrP1R.gPGV3yhr7R24ZNyWq3VfNz3+.Kg4iSpxPN9xQbxnTS71E5CyOENWKTd53G6Bi2ot8McV6pqOQI7Q1SQVoCiVybkz5QdtIc8PGykyZJMVis0D+xvfWf3iRmwIzUAvA6qfmK440Suazcxoy5Q9t0AHMfthnsMpMct01TyRQFkKvNpoqjobDBvTrJe7vMm1bVsxsgVF1Dth8Ps0Xm3Kl+Jgh9htJ5uGru+f8+JAKezc47waqCFuavQ6R3PHwA.HIpE88WyWIYIGrt0SCrPRIFCJeb+v5EYZqCWMsZObgC2xXf+VDveHeoiJvnT+EuTwU4WO1lEhtTqc.5uz1dvcaPOUP4NYHFlgPwulSAchC.NZParEnd5BOnQ.U0qM8RN4TA3mLq0Hoza6nS49g2qLSMQdy265Vwu5GJ85321OGyxslDo8dGPd2Ien6clcEYfjUqzxVqinLFTjhIbxHpw1cOpo0Cve0LBMmVPm2sgcH4sv4yi3SRgbjH4ZZ3qQvnxyLhQkJdrBeDtW7dgK9joZcASA1AIDtbZaXU+6DDX7FbRjj8ztBCOw8VG6m8xLGA3jFUYMf8eU4ajsguHJAejUO+LvlLnzGw9Ax4crQPYBPI3McRCJIwlB0hPYSTWY3kSvTkWTzrbG9tybLnhwmdJX1fC4TZ6AT5C0L3I6LIcwDeLMqSEEziBDISxqPyjN2qRArJi1U+xm5WllSyw0KY2JzPW+XJHf4a48MDyQQE2Sg4MjgKUi..kWz64TIkBhZsU7eryQ24LFxWA5sN0Ddc7HbGtTUoRudfJvlXzQ8Bzg76cCzJkktwdfOloZuZofCsjmFs4jVrXuKFoKt1lNaVIndm0DuMoh4zoEjruxsRneqHboLHBmWLirqxnQiE.TTKbxurVuZdli4JYKGvrUZ6U7260XW2XyFiqWsVXH12fX2z3vLjZkaitZ+.edFNUB3nZFyOQoJL33dhlbU7xt9yR56JIZc36wC80Xxa9yYpICbLQO9DNx9nj4deUq5kAST2wR912GC2+A7rEHqMLWnnSGv82LhcP+zLziv87p.Uddb8FsI3c.aNhn5yWGsOCuCAntjcykGmzdSWSZzFZTrK2Tk8q+cnH7Fy75t5tXx439lv.6iRr+VInIHPurFsKGblYUzA8+uCzh3oNlyTmgJR0NlWfGUNpioGY6YhYVcqt.TNIs0UNcZZGvB2nh1G8oVsLu.BvBWwf7CDQM4fUv6RuSh8EY7fkYDgf+Xr.+90tYL9.1W3Hq++K1gdbxsiCZmrn4RrpMUvmBxbDjrYswFLpr.Xu5U0YqJoYv96by6SvgL.hUMVBD5NcznC1Vy4GhJrDeZ3jc6LjiDjsaIGYNttZtuIGwu+7Ou2rlOpsS.j.NInoaiAy12bJk0y3tEfnQg0+5VEAeZUgfFNEW59e.LoW4pQ7ANE70rDnLwk2sXDR22ct.tYRqGFf4dLEVw5CY8vmwfOvcrl6AhHMyPZlPCOK5qUPhRurMDpDrGCeTSqvTkeUnIfY9YK2JJGn+cIhNEAXsG0WEBpo7La+Fm3s5ZJYD9Y.ZGPUrSGJq94coNdIfEbh51v5vW160O4jYLFlP+fIOO2VcYAMJcP9jPxXr2ALs2WaTzBOoS3ifrJIDu.5VEcwd14Coqdy.v+a6dVyOpZUsys4pgnwsZF2xPdk7pwBRoPgfCtd0.mWkg30lDV6SvM2apPArobC7OP2B9rPDTbQLw3Rz.jA9jZRIwQ4gNLC1y+UMEigBqfQ36cu+YijumJJU81usPvjDFVrSwVi7XrhM7hD8D+Ooz4tDX2WdBJtAAwlVkrqlwibMNyiffHo385m0bqxCT6vIUASlO2ukPTpB2BEqj3pdhuXcMOEA1uhnK2HYepjcs8Vcu.mCtkBlj9H1iCuP3XPP8129vd2KgtKxFFChIZREDKlnc2UMVMfJAmkJGMTG67qvagiFzKIkMMH09T0WVnSpJkII8v9DObeXlfULoftDmzWbYUhVMBF0F.NuGJMjft5FGBJ2m6DTZ+D5XhJkhXMA0W1EknYtFu1Bhh7wod7wlV4fZYV9IhWHO4syKpnPq2mX0AvHVtKmkb2Qe0d84njv7HghciOkfaXgMiayiT2tTsibhtj30xWPgfFz3nAGPJRjw4z80NoN+YndMJIgUDS3OGjcha74SLBzTzgebF3VXvpY4JtNOnh3eGnADFRQKBjzUROCBgl3TWNC0EH8ZRpfNTwyB4S7cHic4Z3VkZgYgZQ36z3qxbxI68N3hDlcjnXyEgtHEFTtOESsgmb5NvDsFvVT70UkJAT6mgBMj3JGI1GA9sAJ4dS9ymZHsHc+uwRNzcXCN+SmudoC5uSr9AJ0qdIK39uYHxPt6RLl+1QbTYdJOzukfu.JMOaQ157lYIAsvS2ah2ilVCmoLlKtuiRzi65v8c4LFYZIcH7Q+ie24w5t26e47MWkG0sDkWM7.mxyw8TL.cw8rQHgUD6TYCPQS2DLaiTrNfSHRD10mYjoiNLRifgHq+lE3SssA7YpXVkv1vzcTCWWhYfUJmXnt+QldGnr0vswchbhjXzFImzG0LdEW27tNtedLfx2N+sFYeGlPQ21UQ8r.nfTcwIzJOLbgalwxyAB25HSCCN0iZqVoUauQEJRIyl+PzDULzudR6zMU5GpmJeIRcCHgm.xDQ.8kVR4yBJlQQE8LJZ0CJUejafTV6hU04lRpEUxnWGfdveFdy+mIBRSuNSmbLci78++4wklYnvnkN0ZQ7vSwQzUU8GGX79+V23ixmjMwS2zjsDJHNh.Y7znIstGldHOP5ZrS.+o2g.xMeLq6t56lRsjDs9wv0e2LbWpk7xHMT22Dh2Iy9Jhil4TSb.8inMv7eqP55TsooVESDOJ5wTOMOQspTByMjWM7tSFydOe6FqOlJ+i0md4LYT00JX.QtmhNG.rJOtOTX8UoXSkDrWXlN9NkTDQxSHpjednV6KAL3nYpvqC.KsvJ.rUuzJPCXmvsxahgJfZP1Pf26mK1aCqkfyNQ8STBcxGIZn9Kubzo.K7PQq1PZn5MLssbV1f0hygRf477iMwGSsB+az+pFxaQfNUvi41GQDCOD9TmjDw5vpSNcxp0X9J.B+rXp0J.wq+UUg8BfWFa53TUsjd26qcBKvOdjd43RMzAjd3.0GFxvgIIb9ZdWHFiDv0UNTmPyGzmc7lXto1bKKfch3.D58kK2VOKe1.h+r9fy7jJjtm2yrXe1aVvB8PI7JQpqB8k5wSxknlklYpld47jXSFQ6TryeXoY3XAJ1FrblM4ijRPBPCi5CQ4qcm7oT5FUhkLgehfnpIIKiwKl.LkV.KEIAh3CJJC0u1e3Tshpgf8AXnHA5E2Zms0lua9vHrfStHB8C"
+                      FileName="/Users/filo/Downloads/mz_311_3.mid">
+              <TimeSignature NumBars="276.6666666666667" Nominator="6.0" Denominator="8.0"
+                             LoopStart="0.0" LoopEnd="1.0" Tempo="123.300001233"/>
+            </MidiFile>
+            <MidiFile ID="" Data="331.MQEZjA...X..A.P.miRSTI2Z..P.0P3aPhDZH51M5LPN47.OrXAMnjIY.RCPTjCPKbCPSvCPBVCR.Q3BPFEZEpGfQAjIPJ0UE5DfRATFPREVGVBRsjPQ0nPPvLgOUjEfTADhg.YT4MXW.FEPu.4SCMHb.9DPKAYStvHW.FDPF3CPWfDPiTDPHBQS.sCjC8hAJ0h.FUCG.UBhw7jbBdCfOATfdAYTsI3E.FEPAlEjRQVhEAnT.MXBP9jYDdFfOATDP1TVAVEfJAjCFATNCADL.ATgVAISO0vPpLPO2DARvbCfMATjpzCPlLDPYfDPAF.S.MXcP1zaB1EfMATf8.4SgIHD.9DPBpAjQQUhYUzKDDzKBfzKF3SJDVDfQATfGA4SkIXG.9DPAR.jMglfb.XS.EXPPxDRJ1GfLATfDfDPDDDPS3CPDTDP.7+K.."
+                      FileName="/Users/filo/Desktop/chords_midi_export.mid">
+              <TimeSignature NumBars="7.25" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+          </MidiFiles>
+        </Processor>
+        <Processor Type="ScriptProcessor" ID="Interface" Bypassed="0">
+          <ChildProcessors/>
+          <Content>
+            <Control type="ScriptButton" id="PlayMIDISequence" value="0.0"/>
+            <Control type="ScriptButton" id="NextNote" value="0.0"/>
+            <Control type="ScriptButton" id="ReadMidiFile" value="0.0"/>
+            <Control type="ScriptButton" id="Clear MIDI Sequence" value="0.0"/>
+          </Content>
+          <UIData Source="markovLecturaMidi_V0.9.8_rompeFiloUIData"/>
+        </Processor>
+      </ChildProcessors>
+    </Processor>
+    <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
+      <ChildProcessors/>
+    </Processor>
+    <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="1" Intensity="0.0">
+      <ChildProcessors/>
+    </Processor>
+    <Processor Type="EffectChain" ID="FX" Bypassed="0">
+      <ChildProcessors>
+        <Processor Type="SimpleReverb" ID="Simple Reverb1" Bypassed="0" RoomSize="0.9100000262260437"
+                   Damping="0.6000000238418579" WetLevel="0.2000000029802322" DryLevel="0.800000011920929"
+                   Width="0.9900000095367432" FreezeMode="0.1000000014901161">
+          <ChildProcessors/>
+          <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+        </Processor>
+      </ChildProcessors>
+    </Processor>
+    <Processor Type="SineSynth" ID="Sine Wave Generator1" Bypassed="0" Gain="0.25"
+               Balance="0.0" VoiceLimit="256.0" KillFadeTime="20.0" IconColour="0"
+               OctaveTranspose="1.0" SemiTones="0.0" UseFreqRatio="0.0" CoarseFreqRatio="1.0"
+               FineFreqRatio="0.0" SaturationAmount="0.0">
+      <ChildProcessors>
+        <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
+          <ChildProcessors/>
+        </Processor>
+        <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
+          <ChildProcessors>
+            <Processor Type="AHDSR" ID="AHDSR Envelope1" Bypassed="0" Monophonic="0.0"
+                       Retrigger="0.0" Intensity="1.0" AttackCurve="0.3100000023841858"
+                       DecayCurve="0.1700000017881393" Attack="0.0" AttackLevel="0.0"
+                       Hold="0.0" Decay="7357.0" Sustain="-100.0" Release="2277.0" EcoMode="1.0">
+              <ChildProcessors>
+                <Processor Type="ModulatorChain" ID="Attack Time" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Attack Level" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Decay Time" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Sustain Level" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Release Time" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+              </ChildProcessors>
+            </Processor>
+            <Processor Type="Velocity" ID="Velocity Modulator1" Bypassed="0" Intensity="1.0"
+                       UseTable="0.0" Inverted="0.0" DecibelMode="0.0">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+        </Processor>
+        <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0.0">
+          <ChildProcessors/>
+        </Processor>
+        <Processor Type="EffectChain" ID="FX" Bypassed="0">
+          <ChildProcessors/>
+        </Processor>
+      </ChildProcessors>
+      <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+    </Processor>
+  </ChildProcessors>
+  <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+  <macro_controls>
+    <macro name="Macro 1" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 2" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 3" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 4" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 5" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 6" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 7" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 8" value="0.0" midi_cc="-1"/>
+  </macro_controls>
+  <MidiAutomation/>
+  <MPEData Enabled="0"/>
+</Processor>

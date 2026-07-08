@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptImage" id="BackgroundImage" x="0.0" y="0.0" fileName="{PROJECT_FOLDER}background02.png"
+             width="340.0" height="680.0">
+    <Component type="ScriptFloatingTile" id="FloatingTile1" x="10.0" y="90.0"
+               ContentType="MidiOverlayPanel" bgColour="620756992" itemColour="4287137928"
+               itemColour2="4282664004" Data="{&#10;  &quot;ProcessorId&quot;: &quot;MIDIPlayer&quot;,&#10;  &quot;Index&quot;: 0,&#10;  &quot;FollowWorkspace&quot;: false&#10;}"
+               width="320.0" height="170.0" parentComponent="BackgroundImage"/>
+  </Component>
+  <Component type="ScriptSlider" id="Knob1" x="118.0" y="481.0" height="100.0"
+             width="100.0" max="0.800000011920929" min="0.1000000014901161"
+             filmstripImage="{PROJECT_FOLDER}slider64.png" numStrips="64.0"
+             scaleFactor="0.2000000029802322" showTextBox="0"/>
+  <Component type="ScriptSlider" id="Knob2" x="215.0" y="481.0" height="100.0"
+             width="100.0" max="0.800000011920929" min="0.1000000014901161"
+             filmstripImage="{PROJECT_FOLDER}slider64.png" numStrips="64.0"
+             scaleFactor="0.2000000029802322" showTextBox="0"/>
+  <Component type="ScriptSlider" id="Knob4" x="21.0" y="481.0" height="100.0"
+             width="100.0" min="32.0" max="44.0" stepSize="0.1000000014901161"
+             filmstripImage="{PROJECT_FOLDER}slider64.png" numStrips="64.0"
+             scaleFactor="0.2000000029802322" showTextBox="0"/>
+  <Component type="ScriptLabel" id="Label1" x="148.0" y="575.0" text="FEAT 1"
+             alignment="left" width="50.0" height="20.0" fontName="Abel" fontSize="18.0"
+             textColour="4290427578"/>
+  <Component type="ScriptLabel" id="Label2" x="242.0" y="575.0" text="FEAT 2"
+             alignment="left" width="50.0" height="20.0" fontName="Abel" fontSize="18.0"
+             textColour="4290427578"/>
+  <Component type="ScriptLabel" id="Label5" x="56.0" y="575.0" text="BIAS"
+             alignment="left" width="50.0" height="20.0" fontName="Abel" fontSize="18.0"
+             textColour="4290427578"/>
+  <Component type="ScriptButton" id="bypassButton" x="130.0" y="419.0" filmstripImage="{PROJECT_FOLDER}boton.png"
+             scaleFactor="0.4000000059604645" width="76.0" height="34.0"/>
+  <Component type="ScriptLabel" id="Label3" x="196.0" y="424.0" text="TRANSFORM"
+             alignment="left" width="90.0" height="20.0" fontName="Abel" fontSize="18.0"
+             textColour="4290427578"/>
+  <Component type="ScriptLabel" id="Label6" x="75.0" y="424.0" text="BYPASS"
+             alignment="left" width="54.0" height="21.0" fontName="Abel" fontSize="18.0"
+             textColour="4290427578"/>
+  <Component type="ScriptButton" id="play" x="36.0" y="290.0"/>
+  <Component type="ScriptSlider" id="tempoSlider" x="40.0" y="320.0" stepSize="1.0"
+             min="40.0" max="240.0"/>
+</ContentProperties>

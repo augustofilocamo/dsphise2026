@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptAudioWaveform" id="AudioWaveform1" x="130.0" y="270.0"
+             processorId="Audio Loop Player2" itemColour3="671088639" itemColour="4078442520"
+             showFileName="0" sampleIndex="1"/>
+  <Component type="ScriptSlider" id="timeKnob1" x="40.0" y="30.0" max="2.0"
+             processorId="Script FX1" parameterId="timeratio1"/>
+  <Component type="ScriptSlider" id="pitchKnob1" x="40.0" y="190.0" processorId="Script FX1"
+             parameterId="pitch1" max="6.0" min="-6.0"/>
+  <Component type="ScriptSlider" id="minPitchKnob" x="40.0" y="80.0" width="160.0"
+             height="50.0" min="-6.0" max="6.0" middlePosition="0.0" stepSize="1.0"/>
+  <Component type="ScriptSlider" id="maxPitchKnob" x="40.0" y="130.0" width="150.0"
+             height="50.0" min="-6.0" max="6.0" middlePosition="0.0" stepSize="1.0"/>
+  <Component type="ScriptSlider" id="Pitch1" x="370.0" y="250.0" processorId="Stretcher"
+             parameterId="Pitch_1" min="-12.0" max="12.0" middlePosition="0.0"
+             suffix=" St"/>
+  <Component type="ScriptSlider" id="Pitch2" x="370.0" y="300.0" processorId="Stretcher"
+             parameterId="Pitch_2" min="-12.0" max="12.0" middlePosition="0.0"
+             suffix=" St"/>
+  <Component type="ScriptSlider" id="Pitch3" x="370.0" y="350.0" processorId="Stretcher"
+             parameterId="Pitch_3" min="-12.0" max="12.0" middlePosition="0.0"
+             suffix=" St"/>
+</ContentProperties>

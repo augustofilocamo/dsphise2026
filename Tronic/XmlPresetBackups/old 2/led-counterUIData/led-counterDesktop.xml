@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptImage" id="backgrtound_Image" x="0.0" y="0.0" fileName="{PROJECT_FOLDER}backgound-02.png"
+             width="1024.0" height="680.0"/>
+  <Component type="ScriptSliderPack" id="SliderPack1" x="300.0" y="260.0"
+             width="600.0" height="40.0" processorId="Arpeggiator1" SliderPackIndex="1"/>
+  <Component type="ScriptSliderPack" id="SliderPack3" x="320.0" y="560.0"
+             width="570.0" height="50.0" processorId="Arpeggiator1" max="24.0"/>
+  <Component type="ScriptButton" id="play1" x="111.0" y="523.0" width="58.0"
+             height="59.0" filmstripImage="{PROJECT_FOLDER}btnPLay.png" scaleFactor="0.300000011920929"/>
+  <Component type="ScriptSlider" id="tempo" x="65.0" y="349.0" min="-1.0"
+             max="300.0" filmstripImage="{PROJECT_FOLDER}btnTempo.png" numStrips="128.0"
+             scaleFactor="0.300000011920929" width="156.0" height="161.0"
+             showTextBox="0"/>
+  <Component type="ScriptLabel" id="Label1" x="80.0" y="280.0" text="7"/>
+  <Component type="ScriptSlider" id="ledKnob" x="310.0" y="440.0" filmstripImage="{PROJECT_FOLDER}leds.png"
+             numStrips="8.0" scaleFactor="0.3" width="591.0" height="44.0"
+             max="7.0" showTextBox="0"/>
+  <Component type="ScriptLabel" id="TEMPO" x="104.0" y="487.0" fontSize="15.0"
+             width="70.0" height="30.0" textColour="3321888767"/>
+  <Component type="ScriptLabel" id="STARSTOP" x="89.0" y="577.0" fontSize="15.0"
+             width="110.0" height="30.0" text="START / STOP" textColour="3321888767"/>
+  <Component type="ScriptSlider" id="veloKnob1" x="319.0" y="391.0" filmstripImage="{PROJECT_FOLDER}btnNote.png"
+             numStrips="64.0" scaleFactor="0.1599999964237213" width="45.0"
+             height="46.0" processorId="Arpeggiator1" max="127.0" showTextBox="0"/>
+  <Component type="ScriptSlider" id="veloKnob2" x="394.0" y="391.0" filmstripImage="{PROJECT_FOLDER}btnNote.png"
+             numStrips="64.0" scaleFactor="0.1599999964237213" width="45.0"
+             height="46.0" max="127.0" showTextBox="0"/>
+  <Component type="ScriptSlider" id="veloKnob3" x="470.0" y="393.0" filmstripImage="{PROJECT_FOLDER}btnNote.png"
+             numStrips="64.0" scaleFactor="0.1599999964237213" width="40.0"
+             height="40.0" max="127.0" showTextBox="0"/>
+  <Component type="ScriptSlider" id="veloKnob4" x="546.0" y="391.0" filmstripImage="{PROJECT_FOLDER}btnNote.png"
+             numStrips="64.0" scaleFactor="0.1599999964237213" width="45.0"
+             height="46.0" max="127.0" showTextBox="0"/>
+  <Component type="ScriptSlider" id="veloKnob5" x="622.0" y="391.0" filmstripImage="{PROJECT_FOLDER}btnNote.png"
+             numStrips="64.0" scaleFactor="0.1599999964237213" width="45.0"
+             height="46.0" max="127.0" showTextBox="0"/>
+  <Component type="ScriptSlider" id="veloKnob6" x="698.0" y="391.0" filmstripImage="{PROJECT_FOLDER}btnNote.png"
+             numStrips="64.0" scaleFactor="0.1599999964237213" width="45.0"
+             height="46.0" max="127.0" showTextBox="0"/>
+  <Component type="ScriptSlider" id="veloKnob7" x="774.0" y="391.0" filmstripImage="{PROJECT_FOLDER}btnNote.png"
+             numStrips="64.0" scaleFactor="0.1599999964237213" width="45.0"
+             height="46.0" max="127.0" showTextBox="0"/>
+  <Component type="ScriptSlider" id="veloKnob8" x="849.0" y="391.0" filmstripImage="{PROJECT_FOLDER}btnNote.png"
+             numStrips="64.0" scaleFactor="0.1599999964237213" width="45.0"
+             height="46.0" max="127.0" showTextBox="0"/>
+  <Component type="ScriptSlider" id="noteKnob1" x="319.0" y="490.0" filmstripImage="{PROJECT_FOLDER}btnNote.png"
+             numStrips="64.0" scaleFactor="0.1599999964237213" width="45.0"
+             height="46.0" max="24.0" showTextBox="0"/>
+  <Component type="ScriptSlider" id="noteKnob2" x="394.0" y="490.0" filmstripImage="{PROJECT_FOLDER}btnNote.png"
+             numStrips="64.0" scaleFactor="0.1599999964237213" width="45.0"
+             height="46.0" max="24.0" showTextBox="0"/>
+  <Component type="ScriptSlider" id="noteKnob3" x="470.0" y="490.0" filmstripImage="{PROJECT_FOLDER}btnNote.png"
+             numStrips="64.0" scaleFactor="0.1599999964237213" width="45.0"
+             height="46.0" max="24.0" showTextBox="0"/>
+  <Component type="ScriptSlider" id="noteKnob4" x="546.0" y="490.0" filmstripImage="{PROJECT_FOLDER}btnNote.png"
+             numStrips="64.0" scaleFactor="0.1599999964237213" width="45.0"
+             height="46.0" max="24.0" showTextBox="0"/>
+  <Component type="ScriptSlider" id="noteKnob5" x="622.0" y="490.0" filmstripImage="{PROJECT_FOLDER}btnNote.png"
+             numStrips="64.0" scaleFactor="0.1599999964237213" width="45.0"
+             height="46.0" max="24.0" showTextBox="0"/>
+  <Component type="ScriptSlider" id="noteKnob6" x="698.0" y="490.0" filmstripImage="{PROJECT_FOLDER}btnNote.png"
+             numStrips="64.0" scaleFactor="0.1599999964237213" width="45.0"
+             height="46.0" max="24.0" showTextBox="0"/>
+  <Component type="ScriptSlider" id="noteKnob7" x="774.0" y="490.0" filmstripImage="{PROJECT_FOLDER}btnNote.png"
+             numStrips="64.0" scaleFactor="0.1599999964237213" width="45.0"
+             height="46.0" max="24.0" showTextBox="0"/>
+  <Component type="ScriptSlider" id="noteKnob8" x="849.0" y="490.0" filmstripImage="{PROJECT_FOLDER}btnNote.png"
+             numStrips="64.0" scaleFactor="0.1599999964237213" width="45.0"
+             height="46.0" max="24.0" showTextBox="0"/>
+  <Component type="ScriptLabel" id="VELOCITY" x="310.0" y="356.0" fontSize="15.0"
+             width="90.0" height="30.0" textColour="3321888767"/>
+  <Component type="ScriptLabel" id="NOTE" x="318.0" y="580.0" fontSize="15.0"
+             width="60.0" height="30.0" textColour="3321888767"/>
+</ContentProperties>

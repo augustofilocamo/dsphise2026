@@ -1,0 +1,10 @@
+{
+  "clavi": [
+    "IsPolyphonic",
+    "AllowPolyphonic"
+  ],
+  "clavi_release": [
+    "IsPolyphonic",
+    "AllowPolyphonic"
+  ]
+}

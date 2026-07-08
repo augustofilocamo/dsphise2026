@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap CrossfadeGamma="1.0" ID="MICLAV2" RRGroupAmount="1.0" MicPositions=";"
+           SaveMode="2">
+  <sample Root="67" LoKey="67" HiKey="70" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Analysis-Hohner_Clavinet_G3.aiff" Duplicate="0"
+          Pitch="-11" SampleEnd="275112" MonolithOffset="0" MonolithLength="278528"
+          SampleRate="44100.0"/>
+  <sample Root="77" LoKey="77" HiKey="80" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Analysis-Hohner_Clavinet_F4.aiff" Duplicate="0"
+          Pitch="-11" SampleEnd="318308" MonolithOffset="278528" MonolithLength="319488"
+          SampleRate="44100.0"/>
+  <sample Root="64" LoKey="64" HiKey="66" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Analysis-Hohner_Clavinet_E3.aiff" Duplicate="0"
+          Pitch="-12" SampleEnd="329595" MonolithOffset="598016" MonolithLength="331776"
+          SampleRate="44100.0"/>
+  <sample Root="71" LoKey="71" HiKey="76" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Analysis-Hohner_Clavinet_B3.aiff" Duplicate="0"
+          SampleEnd="360507" MonolithOffset="929792" MonolithLength="364544"
+          SampleRate="44100.0"/>
+  <sample Root="93" LoKey="93" HiKey="123" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Analysis-Hohner_Clavinet_A5.aiff" Duplicate="0"
+          SampleEnd="165597" MonolithOffset="1294336" MonolithLength="167936"
+          SampleRate="44100.0"/>
+  <sample Root="81" LoKey="81" HiKey="83" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Analysis-Hohner_Clavinet_A4.aiff" Duplicate="0"
+          Pitch="-13" SampleEnd="202994" MonolithOffset="1462272" MonolithLength="204800"
+          SampleRate="44100.0"/>
+  <sample Root="57" LoKey="57" HiKey="63" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Analysis-Hohner_Clavinet_A2.aiff" Duplicate="0"
+          Pitch="-7" SampleEnd="393167" MonolithOffset="1667072" MonolithLength="393216"
+          SampleRate="44100.0"/>
+  <sample Root="45" LoKey="21" HiKey="51" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Analysis-Hohner_Clavinet_A1.aiff" Duplicate="0"
+          SampleEnd="238960" MonolithOffset="2060288" MonolithLength="241664"
+          SampleRate="44100.0"/>
+  <sample Root="52" LoKey="52" HiKey="56" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Analysis-Hohner_Clavinet_E2.aiff" Duplicate="0"
+          Pitch="-10" SampleEnd="180015" MonolithOffset="2301952" MonolithLength="180224"
+          SampleRate="44100.0"/>
+  <sample Root="84" LoKey="84" HiKey="92" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Analysis-Hohner_Clavinet_C5.aiff" Duplicate="0"
+          Pitch="-8" SampleEnd="97729" MonolithOffset="2482176" MonolithLength="98304"
+          SampleRate="44100.0"/>
+</samplemap>

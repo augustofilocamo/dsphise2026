@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptSliderPack" id="SliderPack1" x="300.0" y="390.0"
+             processorId="Arpeggiator1" min="-36.0" max="36.0" width="640.0"
+             height="80.0"/>
+  <Component type="ScriptSlider" id="vco_decay" x="30.0" y="50.0" min="0.009999999776482582"
+             processorId="Script Processor1" parameterId="vco_decay"/>
+  <Component type="ScriptSlider" id="vco1_eg_amount" x="220.0" y="40.0" width="140.0"
+             height="50.0" max="400.0" stepSize="1.0" processorId="Script Processor1"
+             parameterId="vco1_eg_amount"/>
+  <Component type="ScriptSlider" id="vco1_freq" x="380.0" y="40.0" width="140.0"
+             height="50.0" max="5000.0" stepSize="1.0" processorId="Script Processor1"
+             parameterId="vco1_freq"/>
+  <Component type="ScriptSlider" id="vco1_waveform" x="530.0" y="40.0" width="140.0"
+             height="50.0" stepSize="1.0" processorId="Script Processor1"
+             parameterId="vco1_waveform"/>
+  <Component type="ScriptSlider" id="vco1_level" x="690.0" y="40.0" min="-100.0"
+             mode="Decibel" max="0.0" processorId="Script Processor1" parameterId="vco1_level"
+             middlePosition="-18.0"/>
+  <Component type="ScriptSlider" id="fm_amount" x="230.0" y="180.0" width="140.0"
+             height="50.0" max="1000.0" stepSize="1.0" processorId="Script Processor1"
+             parameterId="fm_amount"/>
+  <Component type="ScriptSlider" id="vco2_eg_amount" x="220.0" y="100.0" width="140.0"
+             height="50.0" max="400.0" stepSize="1.0" processorId="Script Processor1"
+             parameterId="vco2_eg_amount"/>
+  <Component type="ScriptSlider" id="vco2_freq" x="380.0" y="100.0" width="140.0"
+             height="50.0" max="5000.0" stepSize="1.0" processorId="Script Processor1"
+             parameterId="vco2_freq"/>
+  <Component type="ScriptSlider" id="vco2_waveform" x="530.0" y="100.0" width="140.0"
+             height="50.0" stepSize="1.0" processorId="Script Processor1"
+             parameterId="vco2_waveform"/>
+  <Component type="ScriptSlider" id="vco2_level" x="690.0" y="100.0" min="-100.0"
+             mode="Decibel" max="0.0" processorId="Script Processor1" parameterId="vco2_level"
+             middlePosition="-18.0"/>
+  <Component type="ScriptSlider" id="hard_sync" x="230.0" y="240.0" width="140.0"
+             height="50.0" stepSize="1.0" processorId="Script Processor1"
+             parameterId="hard_sync"/>
+  <Component type="ScriptSlider" id="nosie_decay" x="690.0" y="220.0" width="140.0"
+             height="50.0" max="2.0" processorId="Script Processor1" parameterId="noise_decay"/>
+  <Component type="ScriptSlider" id="noise_level" x="690.0" y="160.0" min="-100.0"
+             mode="Decibel" max="0.0" processorId="Script Processor1" parameterId="noise_level"
+             middlePosition="-18.0"/>
+  <Component type="ScriptSlider" id="vca_decay" x="850.0" y="160.0" width="140.0"
+             height="50.0" max="5000.0" stepSize="1.0" processorId="Script Processor1"
+             parameterId="vca_decay"/>
+  <Component type="ScriptFloatingTile" id="FloatingTile1" x="110.0" y="430.0"
+             ContentType="Keyboard" bgColour="4284769380" itemColour="452984831"
+             itemColour2="4294967295" textColour="0" Data="{&#10;  &quot;KeyWidth&quot;: 94.0,&#10;  &quot;DisplayOctaveNumber&quot;: false,&#10;  &quot;LowKey&quot;: 48,&#10;  &quot;HiKey&quot;: 48,&#10;  &quot;CustomGraphics&quot;: false,&#10;  &quot;DefaultAppearance&quot;: true,&#10;  &quot;BlackKeyRatio&quot;: 0.699999988079071,&#10;  &quot;ToggleMode&quot;: true,&#10;  &quot;MidiChannel&quot;: 1,&#10;  &quot;UseVectorGraphics&quot;: true,&#10;  &quot;UseFlatStyle&quot;: false,&#10;  &quot;MPEKeyboard&quot;: false,&#10;  &quot;MPEStartChannel&quot;: 2,&#10;  &quot;MPEEndChannel&quot;: 16&#10;}"
+             width="90.0" height="60.0"/>
+  <Component type="ScriptSliderPack" id="SliderPack2" x="300.0" y="510.0"
+             processorId="Arpeggiator1" max="127.0" width="640.0" height="80.0"
+             SliderPackIndex="1" stepSize="1.0"/>
+<<<<<<< HEAD
+<<<<<<< HEAD
+  <Component type="ScriptSlider" id="freqCable" x="566.0" y="297.0" processorId="Script Processor1"
+             parameterId="freqSliderParameterId" max="13.0" min="-1.0" stepSize="1.0"/>
+  <Component type="ScriptSlider" id="veloCable" x="710.0" y="297.0" processorId="Script Processor1"
+=======
+  <Component type="ScriptSlider" id="freqCable" x="566" y="297" processorId="Script Processor1"
+             parameterId="freqSliderParameterId" max="13.0" min="-1.0" stepSize="1.0"/>
+  <Component type="ScriptSlider" id="veloCable" x="710" y="297" processorId="Script Processor1"
+>>>>>>> b8e74f4 (Guardado de valores de los knobs antes de cablear resuelto)
+=======
+  <Component type="ScriptSlider" id="freqCable" x="566.0" y="297.0" processorId="Script Processor1"
+             parameterId="freqSliderParameterId" max="13.0" min="-1.0" stepSize="1.0"/>
+  <Component type="ScriptSlider" id="veloCable" x="710.0" y="297.0" processorId="Script Processor1"
+>>>>>>> 9d40995 (Probando UI con primeros parametros)
+             parameterId="veloSliderParameterId" max="13.0" min="-1.0" stepSize="1.0"/>
+</ContentProperties>

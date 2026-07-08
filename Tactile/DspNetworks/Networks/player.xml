@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Network ID="player" Version="0.0.0">
+  <Node FactoryPath="container.chain" ID="player" Bypassed="0" Name="player"
+        ShowParameters="1">
+    <Nodes/>
+    <Parameters>
+      <Parameter ID="Gate" MinValue="0.0" MaxValue="1.0" StepSize="1.0" Value="0.0"
+                 DefaultValue="1.0">
+        <Connections/>
+      </Parameter>
+    </Parameters>
+  </Node>
+</Network>

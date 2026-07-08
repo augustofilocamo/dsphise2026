@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap ID="miClav" RRGroupAmount="1.0" MicPositions=";" CrossfadeGamma="1.0">
+  <sample Root="43" LoKey="34" HiKey="47" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}str_G1.wav" Duplicate="1"/>
+  <sample Root="62" LoKey="62" HiKey="66" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}str_D3.wav" Duplicate="1" Volume="0"
+          Pitch="0"/>
+  <sample Root="48" LoKey="48" HiKey="52" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}str_C2.wav" Duplicate="1"/>
+  <sample Root="67" LoKey="67" HiKey="78" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}str_G3.wav" Duplicate="1"/>
+  <sample Root="58" LoKey="58" HiKey="61" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}str_Bb2.wav" Duplicate="1"/>
+  <sample Root="53" LoKey="53" HiKey="57" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}str_F2.wav" Duplicate="1"/>
+</samplemap>

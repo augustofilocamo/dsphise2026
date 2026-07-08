@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptButton" id="StartButton" x="110.0" y="100.0"/>
+  <Component type="ScriptFloatingTile" id="FloatingTile1" x="260.0" y="30.0"
+             updateAfterInit="0" ContentType="MidiOverlayPanel" bgColour="620756992"
+             itemColour="4287137928" itemColour2="4282664004" Data="{&#10;  &quot;ProcessorId&quot;: &quot;MIDI Player1&quot;,&#10;  &quot;Index&quot;: 0,&#10;  &quot;FollowWorkspace&quot;: false&#10;}"
+             width="300.0" height="170.0"/>
+  <Component type="ScriptButton" id="PlayMidiClip" x="340.0" y="210.0"/>
+</ContentProperties>

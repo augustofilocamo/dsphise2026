@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Network ID="Reverb_Greyhole" Version="0.0.0">
+  <Node FactoryPath="container.chain" ID="Reverb_Greyhole" Bypassed="0"
+        ShowParameters="1">
+    <Nodes>
+      <Node ID="faust" FactoryPath="core.faust" Bypassed="0">
+        <Properties>
+          <Property ID="ClassId" Value="greyhole_reverb"/>
+          <Property ID="NumParameters" Value="0"/>
+        </Properties>
+        <Parameters>
+          <Parameter MinValue="0.001000000047497451" MaxValue="1.450000047683716"
+                     StepSize="0.00009999999747378752" ID="delayTime" Automated="1"/>
+          <Parameter MinValue="0.0" MaxValue="0.9900000095367432" StepSize="0.001000000047497451"
+                     ID="damping" Automated="1"/>
+          <Parameter MinValue="0.5" MaxValue="3.0" StepSize="0.00009999999747378752"
+                     ID="size" Automated="1"/>
+          <Parameter MinValue="0.0" MaxValue="0.9900000095367432" StepSize="0.00009999999747378752"
+                     ID="diffusion" Automated="1"/>
+          <Parameter MinValue="0.0" MaxValue="1.0" StepSize="0.009999999776482582"
+                     ID="feedback" Automated="1"/>
+          <Parameter MinValue="0.0" MaxValue="1.0" StepSize="0.001000000047497451"
+                     ID="modDepth" Automated="1"/>
+          <Parameter MinValue="0.0" MaxValue="9.999999776482582" StepSize="0.009999999776482582"
+                     ID="modFreq" Automated="1"/>
+        </Parameters>
+        <SwitchTargets/>
+      </Node>
+    </Nodes>
+    <Parameters>
+      <Parameter ID="Delay Time" MinValue="0.001000000047497451" MaxValue="1.450000047683716"
+                 StepSize="0.00009999999747378752" Value="1.0">
+        <Connections>
+          <Connection NodeId="faust" ParameterId="delayTime"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="Damping" MinValue="0.0" MaxValue="0.9900000095367432" StepSize="0.001000000047497451"
+                 Value="0.9900000095367432">
+        <Connections>
+          <Connection NodeId="faust" ParameterId="damping"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="Size" MinValue="0.5" MaxValue="3.0" StepSize="0.00009999999747378752"
+                 Value="1.0">
+        <Connections>
+          <Connection NodeId="faust" ParameterId="size"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="Diffusion" MinValue="0.0" MaxValue="0.9900000095367432" StepSize="0.00009999999747378752"
+                 Value="1.0">
+        <Connections>
+          <Connection NodeId="faust" ParameterId="diffusion"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="Feedback" MinValue="0.0" MaxValue="1.0" StepSize="0.009999999776482582"
+                 Value="1.0">
+        <Connections>
+          <Connection NodeId="faust" ParameterId="feedback"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="Mod Depth" MinValue="0.0" MaxValue="1.0" StepSize="0.001000000047497451"
+                 Value="1.0">
+        <Connections>
+          <Connection NodeId="faust" ParameterId="modDepth"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="Mod Freq" MinValue="0.0" MaxValue="9.999999776482582" StepSize="0.009999999776482582"
+                 Value="1.0">
+        <Connections>
+          <Connection NodeId="faust" ParameterId="modFreq"/>
+        </Connections>
+      </Parameter>
+    </Parameters>
+  </Node>
+</Network>

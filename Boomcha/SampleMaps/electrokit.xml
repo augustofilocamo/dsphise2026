@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap ID="electrokit" RRGroupAmount="1.0" MicPositions=";" CrossfadeGamma="1.0"
+           SaveMode="2">
+  <sample Root="36" LoKey="36" HiKey="36" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}electrokit/347166__dvbeats__kick-drum-1.wav"
+          Duplicate="1" Volume="-10" SampleEnd="11059" MonolithOffset="0"
+          MonolithLength="12288" SampleRate="44100.0"/>
+  <sample Root="37" LoKey="37" HiKey="37" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}electrokit/132418__sajmund__rimshot-sweet.aiff"
+          Duplicate="1" Volume="-10" SampleEnd="51500" MonolithOffset="12288"
+          MonolithLength="53248" SampleRate="48000.0"/>
+  <sample Root="38" LoKey="38" HiKey="38" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}electrokit/387186__alexiero-1__ai-snare-20.wav"
+          Duplicate="1" Volume="-10" SampleEnd="14175" MonolithOffset="65536"
+          MonolithLength="16384" SampleRate="44100.0"/>
+  <sample Root="39" LoKey="39" HiKey="39" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}electrokit/448221__toxicfilmzsrsounds__hip-hop-clap.wav"
+          Duplicate="1" Volume="-10" SampleEnd="3373" MonolithOffset="81920"
+          MonolithLength="4096" SampleRate="44100.0"/>
+  <sample Root="49" LoKey="49" HiKey="49" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}electrokit/104217__minorr__crash-zildian-a-custom-16-centr-f.wav"
+          Duplicate="1" Volume="-10" SampleEnd="249984" MonolithOffset="86016"
+          MonolithLength="253952" SampleRate="44100.0"/>
+  <sample Root="42" LoKey="42" HiKey="42" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}electrokit/439766__twentytwentymusic__electronic-closed-hat-9.wav"
+          Duplicate="1" Volume="-10" SampleEnd="10540" MonolithOffset="339968"
+          MonolithLength="12288" SampleRate="44100.0"/>
+</samplemap>

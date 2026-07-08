@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptAudioWaveform" id="AudioWaveform1" x="30.0" y="30.0"
+             width="320" height="150" processorId="Interface"/>
+</ContentProperties>

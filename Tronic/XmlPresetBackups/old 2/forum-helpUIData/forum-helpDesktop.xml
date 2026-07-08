@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptPanel" id="Panel1" x="221" y="90" width="30" height="10"
+             borderRadius="0.0" itemColour="4294901760" itemColour2="4294901760"/>
+  <Component type="ScriptSliderPack" id="SliderPack1" x="73.0" y="50.0" processorId="Arpeggiator1"
+             width="297.0" height="40.0" itemColour="16777215" itemColour2="16777215"
+             textColour="1442838262"/>
+  <Component type="ScriptButton" id="Button1" x="140.0" y="120.0" text="PLAY / STOP"
+             width="140.0" height="30.0"/>
+</ContentProperties>

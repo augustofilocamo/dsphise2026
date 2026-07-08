@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptSlider" id="BpmSlider" x="164.0" y="215.0" min="40.0"
+             max="240.0" stepSize="1.0"/>
+  <Component type="ScriptSlider" id="Knob1" x="40.0" y="40.0" stepSize="1.0"
+             min="1.0" max="8.0" filmstripImage="{PROJECT_FOLDER}leds.png"
+             scaleFactor="0.1500000059604645" numStrips="8.0" width="310.0"
+             height="30.0"/>
+  <Component type="ScriptFloatingTile" id="FloatingTile1" x="55" y="122" ContentType="Keyboard"
+             bgColour="4284769380" itemColour="452984831" itemColour2="4294967295"
+             textColour="0" Data="{&#10;  &quot;KeyWidth&quot;: 40,&#10;  &quot;DisplayOctaveNumber&quot;: false,&#10;  &quot;LowKey&quot;: 60,&#10;  &quot;HiKey&quot;: 60,&#10;  &quot;CustomGraphics&quot;: false,&#10;  &quot;DefaultAppearance&quot;: true,&#10;  &quot;BlackKeyRatio&quot;: 0.699999988079071,&#10;  &quot;ToggleMode&quot;: true,&#10;  &quot;MidiChannel&quot;: 1,&#10;  &quot;UseVectorGraphics&quot;: true,&#10;  &quot;UseFlatStyle&quot;: false,&#10;  &quot;MPEKeyboard&quot;: false,&#10;  &quot;MPEStartChannel&quot;: 2,&#10;  &quot;MPEEndChannel&quot;: 16&#10;}"
+             width="30" height="30"/>
+</ContentProperties>

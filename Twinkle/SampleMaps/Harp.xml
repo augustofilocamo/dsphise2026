@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap CrossfadeGamma="1.0" ID="Harp" RRGroupAmount="1.0" MicPositions=";"
+           SaveMode="2">
+  <sample Root="57" LoKey="57" HiKey="59" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Harp/KSHarp_A2_mf.wav" Duplicate="0"
+          Volume="10" SampleEnd="501906" MonolithOffset="0" MonolithLength="503808"
+          SampleRate="44100.0"/>
+  <sample Root="81" LoKey="81" HiKey="83" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Harp/KSHarp_A4_mf.wav" Duplicate="0"
+          Volume="10" SampleEnd="535893" MonolithOffset="503808" MonolithLength="536576"
+          SampleRate="44100.0"/>
+  <sample Root="105" LoKey="105" HiKey="106" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Harp/KSHarp_A6_mf.wav" Duplicate="0"
+          Volume="10" SampleEnd="159206" MonolithOffset="1040384" MonolithLength="159744"
+          SampleRate="44100.0"/>
+  <sample Root="47" LoKey="47" HiKey="49" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Harp/KSHarp_B1_mf.wav" Duplicate="0"
+          Volume="10" SampleEnd="570994" MonolithOffset="1200128" MonolithLength="573440"
+          SampleRate="44100.0"/>
+  <sample Root="71" LoKey="71" HiKey="73" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Harp/KSHarp_B3_mf.wav" Duplicate="0"
+          Volume="10" SampleEnd="495271" MonolithOffset="1773568" MonolithLength="495616"
+          SampleRate="44100.0"/>
+  <sample Root="95" LoKey="95" HiKey="97" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Harp/KSHarp_B5_mf.wav" Duplicate="0"
+          Volume="10" SampleEnd="194753" MonolithOffset="2269184" MonolithLength="196608"
+          SampleRate="44100.0"/>
+  <sample Root="107" LoKey="107" HiKey="109" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Harp/KSHarp_B6_mf.wav" Duplicate="0"
+          Volume="10" SampleEnd="120980" MonolithOffset="2465792" MonolithLength="122880"
+          SampleRate="44100.0"/>
+  <sample Root="60" LoKey="60" HiKey="63" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Harp/KSHarp_C3_mf.wav" Duplicate="0"
+          Volume="10" SampleEnd="395269" MonolithOffset="2588672" MonolithLength="397312"
+          SampleRate="44100.0"/>
+  <sample Root="84" LoKey="84" HiKey="87" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Harp/KSHarp_C5_mf.wav" Duplicate="0"
+          Volume="10" SampleEnd="309274" MonolithOffset="2985984" MonolithLength="311296"
+          SampleRate="44100.0"/>
+  <sample Root="50" LoKey="50" HiKey="52" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Harp/KSHarp_D2_mf.wav" Duplicate="0"
+          Volume="10" SampleEnd="435268" MonolithOffset="3297280" MonolithLength="438272"
+          SampleRate="44100.0"/>
+  <sample Root="74" LoKey="74" HiKey="76" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Harp/KSHarp_D4_mf.wav" Duplicate="0"
+          Volume="10" SampleEnd="480411" MonolithOffset="3735552" MonolithLength="483328"
+          SampleRate="44100.0"/>
+  <sample Root="98" LoKey="98" HiKey="100" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Harp/KSHarp_D6_mf.wav" Duplicate="0"
+          Volume="10" SampleEnd="171926" MonolithOffset="4218880" MonolithLength="172032"
+          SampleRate="44100.0"/>
+  <sample Root="110" LoKey="110" HiKey="112" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Harp/KSHarp_D7_f.wav" Duplicate="0"
+          Volume="10" SampleEnd="99022" MonolithOffset="4390912" MonolithLength="102400"
+          SampleRate="44100.0"/>
+  <sample Root="40" LoKey="20" HiKey="42" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Harp/KSHarp_E1_f.wav" Duplicate="0"
+          Volume="10" SampleEnd="1000286" MonolithOffset="4493312" MonolithLength="1003520"
+          SampleRate="44100.0"/>
+  <sample Root="64" LoKey="64" HiKey="66" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Harp/KSHarp_E3_mf.wav" Duplicate="0"
+          Volume="10" SampleEnd="615273" MonolithOffset="5496832" MonolithLength="618496"
+          SampleRate="44100.0"/>
+  <sample Root="88" LoKey="88" HiKey="90" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Harp/KSHarp_E5_mf.wav" Duplicate="0"
+          Volume="10" SampleEnd="292885" MonolithOffset="6115328" MonolithLength="294912"
+          SampleRate="44100.0"/>
+  <sample Root="53" LoKey="53" HiKey="56" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Harp/KSHarp_F2_mf.wav" Duplicate="0"
+          Volume="10" SampleEnd="771636" MonolithOffset="6410240" MonolithLength="774144"
+          SampleRate="44100.0"/>
+  <sample Root="77" LoKey="77" HiKey="80" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Harp/KSHarp_F4_mf.wav" Duplicate="0"
+          Volume="10" SampleEnd="478363" MonolithOffset="7184384" MonolithLength="479232"
+          SampleRate="44100.0"/>
+  <sample Root="101" LoKey="101" HiKey="104" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Harp/KSHarp_F6_mf.wav" Duplicate="0"
+          Volume="10" SampleEnd="103270" MonolithOffset="7663616" MonolithLength="106496"
+          SampleRate="44100.0"/>
+  <sample Root="113" LoKey="113" HiKey="125" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Harp/KSHarp_F7_f.wav" Duplicate="0"
+          Volume="10" SampleEnd="83109" MonolithOffset="7770112" MonolithLength="86016"
+          SampleRate="44100.0"/>
+  <sample Root="43" LoKey="43" HiKey="46" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Harp/KSHarp_G1_mp.wav" Duplicate="0"
+          Volume="10" SampleEnd="297461" MonolithOffset="7856128" MonolithLength="299008"
+          SampleRate="44100.0"/>
+  <sample Root="67" LoKey="67" HiKey="70" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Harp/KSHarp_G3_mf.wav" Duplicate="0"
+          Volume="10" SampleEnd="451707" MonolithOffset="8155136" MonolithLength="454656"
+          SampleRate="44100.0"/>
+  <sample Root="91" LoKey="91" HiKey="94" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Harp/KSHarp_G5_mf.wav" Duplicate="0"
+          Volume="10" SampleEnd="262433" MonolithOffset="8609792" MonolithLength="266240"
+          SampleRate="44100.0"/>
+</samplemap>

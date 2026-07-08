@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptImage" id="Image1" x="0.0" y="0.0" fileName="{PROJECT_FOLDER}background-15.png"
+             width="1024.0" height="680.0" locked="1"/>
+  <Component type="ScriptSlider" id="Pitch1" x="216.0" y="484.0" min="-12.0"
+             max="12.0" middlePosition="0.0" suffix=" Semitones" filmstripImage="{PROJECT_FOLDER}pingSlider128.png"
+             numStrips="128.0" scaleFactor="0.125" width="70.0" height="70.0"
+             showValuePopup="Above" tooltip="Pitch for Audio Generator 1"/>
+  <Component type="ScriptSlider" id="Pitch2" x="324.0" y="484.0" min="-12.0"
+             max="12.0" middlePosition="0.0" suffix=" Semitones" filmstripImage="{PROJECT_FOLDER}pingSlider128.png"
+             numStrips="128.0" scaleFactor="0.125" width="70.0" height="70.0"
+             showValuePopup="Above" tooltip="Pitch for Audio Generator 2"/>
+  <Component type="ScriptSlider" id="Pitch3" x="427.0" y="484.0" min="-12.0"
+             max="12.0" middlePosition="0.0" suffix=" Semitones" filmstripImage="{PROJECT_FOLDER}pingSlider128.png"
+             numStrips="128.0" scaleFactor="0.125" width="70.0" height="70.0"
+             showValuePopup="Above" tooltip="Pitch for Audio Generator 3"/>
+  <Component type="ScriptSlider" id="Speed1" x="539.0" y="484.0" max="0.05000000074505806"
+             middlePosition="0.02549999952316284" suffix=" Factor" filmstripImage="{PROJECT_FOLDER}pingSlider128.png"
+             numStrips="128.0" scaleFactor="0.125" width="70.0" height="70.0"
+             showValuePopup="Above" min="0.001000000047497451" stepSize="0.0001"
+             tooltip="Speed factor for Audio Generator 1"/>
+  <Component type="ScriptPanel" id="Panel1" x="160.0" y="213.0" width="720.0"
+             height="107.0" allowCallbacks="All Callbacks" bgColour="16777215"
+             itemColour="16777215" itemColour2="16777215" textColour="16777215"
+             locked="1">
+    <Component type="ScriptAudioWaveform" id="AudioWaveform1" x="30.0" y="58.0"
+               processorId="Interface" width="720.0" height="200.0" itemColour3="0"
+               enableRange="0" parentComponent="Panel1" itemColour2="4287266815"
+               enabled="0" showFileName="0" bgColour="4280295456" locked="1"/>
+  </Component>
+  <Component type="ScriptSlider" id="positionGranu" x="388.0" y="112.0" stepSize="0.009999999776482582"
+             processorId="Granulator" parameterId="granu_position" visible="0"/>
+  <Component type="ScriptPanel" id="blurPanel" x="90.0" y="240.0" width="870.0"
+             height="80.0" allowCallbacks="Clicks, Hover &amp; Dragging" enabled="0"
+             tooltip="Waveform from loaded file"/>
+  <Component type="ScriptPanel" id="pitchPanel1" x="500" y="180" width="50"
+             height="50" bgColour="4280295456" textColour="4293542020" itemColour2="1797267488"
+             itemColour="1797267488" borderRadius="50.0"/>
+  <Component type="ScriptPanel" id="pitchPanel2" x="200" y="180" borderRadius="50.0"
+             width="50" height="50" bgColour="4280295456" textColour="4292866400"
+             itemColour2="1797267488" itemColour="1797267488"/>
+  <Component type="ScriptPanel" id="pitchPanel3" x="800" y="180" borderRadius="50.0"
+             width="50" height="50" bgColour="4280295456" textColour="4284997857"
+             itemColour2="1797267488" itemColour="1797267488"/>
+  <Component type="ScriptPanel" id="speedPanel1" x="470" y="195" width="20"
+             height="20" bgColour="4280295456" textColour="4293542020" itemColour2="1797267488"
+             itemColour="1797267488" borderRadius="50.0" borderSize="10.0"/>
+  <Component type="ScriptPanel" id="speedPanel2" x="563" y="195" width="20"
+             height="20" bgColour="4280295456" textColour="4292866400" itemColour2="1797267488"
+             itemColour="1797267488" borderRadius="50.0" borderSize="10.0"/>
+  <Component type="ScriptPanel" id="speedPanel3" x="680" y="195" width="20"
+             height="20" bgColour="4280295456" textColour="4284997857" itemColour2="1797267488"
+             itemColour="1797267488" borderRadius="50.0" borderSize="10.0"/>
+  <Component type="ScriptButton" id="Button1" x="585.0" y="338.0" width="67.0"
+             height="27.0" text="Click to load" isMomentary="1" setValueOnClick="1"
+             enableMidiLearn="0" saveInPreset="0" filmstripImage="{PROJECT_FOLDER}browse2.png"
+             scaleFactor="0.5" locked="1"/>
+  <Component type="ScriptLabel" id="Label1" x="296.0" y="337.0" text="DROP AN AUDIO FILE (OGG, WAV OR AIFF) OR "
+             fontName="Abel" width="290.0" height="30.0" textColour="4287335307"
+             fontSize="21.0" locked="1"/>
+  <Component type="ScriptLabel" id="Label2" x="647.0" y="337.0" text="FOR ONE"
+             fontName="Abel" width="70.0" height="30.0" textColour="4287335307"
+             fontSize="21.0" locked="1"/>
+  <Component type="ScriptButton" id="Button5" x="91.0" y="486.0" filmstripImage="{PROJECT_FOLDER}playPauseBtn.png"
+             scaleFactor="0.25" width="60.0" height="60.0" saveInPreset="0"
+             tooltip="Start/Stop generators"/>
+  <Component type="ScriptImage" id="Image2" x="67.0" y="309.0" fileName="{PROJECT_FOLDER}hline.png"
+             width="903.0" height="20.0" locked="1"/>
+  <Component type="ScriptSlider" id="Speed2" x="647.0" y="484.0" max="0.05000000074505806"
+             middlePosition="0.02549999952316284" suffix=" Factor" filmstripImage="{PROJECT_FOLDER}pingSlider128.png"
+             numStrips="128.0" scaleFactor="0.125" width="70.0" height="70.0"
+             showValuePopup="Above" min="0.001000000047497451" stepSize="0.0001"
+             tooltip="Speed factor for Audio Generator 2"/>
+  <Component type="ScriptSlider" id="Speed3" x="746.0" y="484.0" max="0.05000000074505806"
+             middlePosition="0.02549999952316284" suffix=" Factor" filmstripImage="{PROJECT_FOLDER}pingSlider128.png"
+             numStrips="128.0" scaleFactor="0.125" width="70.0" height="70.0"
+             showValuePopup="Above" min="0.001000000047497451" stepSize="0.0001"
+             tooltip="Speed factor for Audio Generator 3"/>
+  <Component type="ScriptLabel" id="nameDisplay" x="375.0" y="34.0" text="INITIAL PRESET"
+             width="173.0" height="28.0" fontSize="20.0" fontName="Abel" editable="0"
+             textColour="4287137928"/>
+  <Component type="ScriptButton" id="btnNextPreset" x="563.0" y="34.0" width="28.0"
+             height="28.0" filmstripImage="{PROJECT_FOLDER}nextBtn.png" scaleFactor="0.1666660010814667"
+             saveInPreset="0"/>
+  <Component type="ScriptButton" id="btnPrevPreset" x="334.0" y="34.0" width="30.0"
+             height="30.0" filmstripImage="{PROJECT_FOLDER}prevBtn.png" scaleFactor="0.1666660010814667"
+             saveInPreset="0"/>
+  <Component type="ScriptPanel" id="presetsPanel" x="38.0" y="90.0" width="940.0"
+             height="320.0" itemColour="4279834905" itemColour2="4279834905"
+             borderRadius="8.0" borderSize="0.0" visible="0">
+    <Component type="ScriptFloatingTile" id="presetsFloatingTile" x="29.0" y="29.0"
+               parentComponent="presetsPanel" ContentType="PresetBrowser" bgColour="0"
+               itemColour="4289177511" itemColour2="4289177511" Data="{&#10;  &quot;ShowSaveButton&quot;: true,&#10;  &quot;ShowExpansionsAsColumn&quot;: false,&#10;  &quot;ShowFolderButton&quot;: true,&#10;  &quot;ShowNotes&quot;: true,&#10;  &quot;ShowEditButtons&quot;: true,&#10;  &quot;EditButtonOffset&quot;: 10,&#10;  &quot;ShowAddButton&quot;: true,&#10;  &quot;ShowRenameButton&quot;: true,&#10;  &quot;ShowDeleteButton&quot;: true,&#10;  &quot;ShowFavoriteIcon&quot;: false,&#10;  &quot;ButtonsInsideBorder&quot;: false,&#10;  &quot;NumColumns&quot;: 3,&#10;  &quot;ColumnWidthRatio&quot;: [&#10;    0.3333333333333333,&#10;    0.3333333333333333,&#10;    0.3333333333333333&#10;  ],&#10;  &quot;ListAreaOffset&quot;: [&#10;    0,&#10;    0,&#10;    0,&#10;    0&#10;  ],&#10;  &quot;ColumnRowPadding&quot;: [&#10;    0,&#10;    0,&#10;    0,&#10;    0&#10;  ],&#10;  &quot;SearchBarBounds&quot;: [&#10;    160,&#10;    7,&#10;    590,&#10;    30&#10;  ],&#10;  &quot;MoreButtonBounds&quot;: [],&#10;  &quot;SaveButtonBounds&quot;: [],&#10;  &quot;FavoriteButtonBounds&quot;: []&#10;}"
+               width="880.0" height="270.0" itemColour3="4294967295" FontSize="21.0"
+               textColour="4289835441" Font="Abel"/>
+  </Component>
+  <Component type="ScriptButton" id="presetsButton" x="608.0" y="33.0" width="102.0"
+             height="30.0" filmstripImage="{PROJECT_FOLDER}browseBtn.png"
+             scaleFactor="0.119999997317791" saveInPreset="0"/>
+  <Component type="ScriptButton" id="settingsButton" x="276.0" y="31.0" width="47.0"
+             height="34.0" filmstripImage="{PROJECT_FOLDER}settingsBtn2.png"
+             scaleFactor="0.119999997317791" saveInPreset="0"/>
+  <Component type="ScriptPanel" id="settingsPanel" x="38.0" y="90.0" width="940.0"
+             height="320.0" itemColour="4279834905" itemColour2="4279834905"
+             borderRadius="8.0" borderSize="0.0" visible="0">
+    <Component type="ScriptButton" id="cpuSaveButton" x="52.0" y="40.0" parentComponent="settingsPanel"
+               filmstripImage="{PROJECT_FOLDER}onOffBtn2.png" width="39.0" height="34.0"
+               scaleFactor="0.1500000059604645"/>
+    <Component type="ScriptLabel" id="saveCpuLabel" x="96.0" y="43.0" width="210.0"
+               height="30.0" parentComponent="settingsPanel" text="Disable Animation (saves CPU)"
+               fontName="Abel" fontSize="20.0" textColour="4289769648"/>
+  </Component>
+  <Component type="ScriptButton" id="effectsButton" x="718.0" y="34.0" width="56.0"
+             height="35.0" filmstripImage="{PROJECT_FOLDER}settingsBtn.png"
+             scaleFactor="0.119999997317791" saveInPreset="0"/>
+  <Component type="ScriptPanel" id="effectsPanel" x="38.0" y="90.0" width="940.0"
+             height="320.0" itemColour="4279900698" itemColour2="4279900698"
+             borderRadius="8.0" borderSize="1.0" bgColour="1435340173" locked="1"
+             visible="0">
+    <Component type="ScriptImage" id="Image6" x="22.0" y="29.0" width="350.0"
+               height="260.0" fileName="{PROJECT_FOLDER}diagram.png" parentComponent="effectsPanel"/>
+    <Component type="ScriptImage" id="Image3" x="478.0" y="30.0" fileName="{PROJECT_FOLDER}vertLine.png"
+               width="20.0" height="260.0" parentComponent="effectsPanel"/>
+    <Component type="ScriptLabel" id="WET LEVEL" x="625.0" y="150.0" fontName="Abel"
+               fontSize="16.0" textColour="4288519581" width="80.0" height="20.0"
+               parentComponent="effectsPanel"/>
+    <Component type="ScriptLabel" id="DAMPINB" x="715.0" y="150.0" fontName="Abel"
+               fontSize="16.0" textColour="4288519581" width="80.0" height="20.0"
+               text="DAMPING" parentComponent="effectsPanel"/>
+    <Component type="ScriptLabel" id="DAMPINB1" x="633.0" y="250.0" fontName="Abel"
+               fontSize="16.0" textColour="4288519581" width="80.0" height="20.0"
+               text="ROOM SIZE" parentComponent="effectsPanel"/>
+    <Component type="ScriptLabel" id="REVERB" x="657.0" y="43.0" fontName="Abel"
+               fontSize="23.0" textColour="4288519581" width="90.0" height="20.0"
+               parentComponent="effectsPanel"/>
+    <Component type="ScriptLabel" id="OUTPUT" x="822.0" y="43.0" fontName="Abel"
+               fontSize="23.0" textColour="4288519581" width="90.0" height="20.0"
+               parentComponent="effectsPanel"/>
+    <Component type="ScriptLabel" id="DAMPINB2" x="826.0" y="250.0" fontName="Abel"
+               fontSize="16.0" textColour="4288519581" width="80.0" height="20.0"
+               text="MAIN GAIN" parentComponent="effectsPanel"/>
+    <Component type="ScriptLabel" id="WIDTH" x="814.0" y="150.0" fontName="Abel"
+               fontSize="16.0" textColour="4288519581" width="100.0" height="20.0"
+               text="STEREO WIDTH" parentComponent="effectsPanel"/>
+    <Component type="ScriptLabel" id="LOWPASS" x="499.0" y="43.0" fontName="Abel"
+               fontSize="23.0" textColour="4288519581" width="90.0" height="20.0"
+               text="CUTOFF" parentComponent="effectsPanel"/>
+    <Component type="ScriptLabel" id="LOWPASS1" x="374.0" y="43.0" fontName="Abel"
+               fontSize="23.0" textColour="4288519581" width="90.0" height="20.0"
+               text="MIXER" parentComponent="effectsPanel"/>
+    <Component type="ScriptLabel" id="WET LEVEL2" x="381.0" y="150.0" fontName="Abel"
+               fontSize="16.0" textColour="4288519581" width="80.0" height="20.0"
+               text="TEXTURES" parentComponent="effectsPanel"/>
+    <Component type="ScriptLabel" id="WET LEVEL3" x="384.0" y="250.0" fontName="Abel"
+               fontSize="16.0" textColour="4288519581" width="80.0" height="20.0"
+               text="PARTICLES" parentComponent="effectsPanel"/>
+    <Component type="ScriptLabel" id="DAMPINB3" x="719.0" y="250.0" fontName="Abel"
+               fontSize="16.0" textColour="4288519581" width="80.0" height="20.0"
+               text="WIDTH" parentComponent="effectsPanel"/>
+    <Component type="ScriptSlider" id="fxBtn1" x="644.0" y="94.0" processorId="Simple Reverb1"
+               parameterId="WetLevel" middlePosition="0.5" suffix="%" filmstripImage="{PROJECT_FOLDER}fx-slider.png"
+               numStrips="128.0" scaleFactor="0.09000000357627869" width="50.0"
+               height="50.0" showValuePopup="Above" parentComponent="effectsPanel"
+               mode="NormalizedPercentage"/>
+    <Component type="ScriptSlider" id="fxBtn2" x="644.0" y="201.0" processorId="Simple Reverb1"
+               parameterId="RoomSize" middlePosition="0.5" suffix="%" filmstripImage="{PROJECT_FOLDER}fx-slider.png"
+               numStrips="128.0" scaleFactor="0.09000000357627869" width="50.0"
+               height="50.0" showValuePopup="Above" parentComponent="effectsPanel"
+               mode="NormalizedPercentage"/>
+    <Component type="ScriptSlider" id="fxBtn3" x="734.0" y="94.0" processorId="Simple Reverb1"
+               parameterId="Damping" middlePosition="0.5" suffix="%" filmstripImage="{PROJECT_FOLDER}fx-slider.png"
+               numStrips="128.0" scaleFactor="0.09000000357627869" width="50.0"
+               height="50.0" showValuePopup="Above" parentComponent="effectsPanel"
+               mode="NormalizedPercentage"/>
+    <Component type="ScriptSlider" id="fxBtn4" x="842.0" y="201.0" processorId="Simple Gain1"
+               parameterId="Gain" middlePosition="-18.0" suffix=" dB" filmstripImage="{PROJECT_FOLDER}fx-slider.png"
+               numStrips="128.0" scaleFactor="0.09000000357627869" width="50.0"
+               height="50.0" showValuePopup="Above" parentComponent="effectsPanel"
+               mode="Decibel" min="-100.0" max="0.0" stepSize="0.1000000014901161"/>
+    <Component type="ScriptSlider" id="fxBtn5" x="842.0" y="94.0" processorId="Simple Gain1"
+               parameterId="Width" filmstripImage="{PROJECT_FOLDER}fx-slider.png"
+               numStrips="128.0" scaleFactor="0.09000000357627869" width="50.0"
+               height="50.0" showValuePopup="Above" parentComponent="effectsPanel"
+               max="200.0" middlePosition="100.0"/>
+    <Component type="ScriptSlider" id="fxBtn6" x="528.0" y="94.0" processorId="Filter1"
+               parameterId="Frequency" middlePosition="1500.0" suffix=" Hz"
+               filmstripImage="{PROJECT_FOLDER}fx-slider.png" numStrips="128.0"
+               scaleFactor="0.09000000357627869" width="50.0" height="50.0"
+               showValuePopup="Above" parentComponent="effectsPanel" mode="Frequency"
+               min="20.0" max="20000.0" stepSize="1.0"/>
+    <Component type="ScriptSlider" id="fxBtn7" x="402.0" y="94.0" processorId="Simple Gain Stretchers"
+               parameterId="Gain" suffix=" Hz" filmstripImage="{PROJECT_FOLDER}fx-slider.png"
+               numStrips="128.0" scaleFactor="0.09000000357627869" width="50.0"
+               height="50.0" showValuePopup="Above" parentComponent="effectsPanel"
+               mode="Decibel" min="-50.0" max="0.0" middlePosition="-18.0"/>
+    <Component type="ScriptSlider" id="fxBtn10" x="402.0" y="201.0" processorId="Simple Gain Channel Level"
+               parameterId="Gain" suffix=" Hz" filmstripImage="{PROJECT_FOLDER}fx-slider.png"
+               numStrips="128.0" scaleFactor="0.09000000357627869" width="50.0"
+               height="50.0" showValuePopup="Above" parentComponent="effectsPanel"
+               mode="Decibel" min="-100.0" max="-15.0" middlePosition="-22.0"/>
+    <Component type="ScriptSlider" id="fxBtn8" x="734.0" y="201.0" processorId="Simple Reverb1"
+               parameterId="Width" middlePosition="0.5" suffix="%" filmstripImage="{PROJECT_FOLDER}fx-slider.png"
+               numStrips="128.0" scaleFactor="0.09000000357627869" width="50.0"
+               height="50.0" showValuePopup="Above" parentComponent="effectsPanel"
+               mode="NormalizedPercentage"/>
+    <Component type="ScriptImage" id="Image4" x="602.0" y="30.0" fileName="{PROJECT_FOLDER}vertLine.png"
+               width="20.0" height="260.0" parentComponent="effectsPanel"/>
+    <Component type="ScriptImage" id="Image5" x="797.0" y="30.0" fileName="{PROJECT_FOLDER}vertLine.png"
+               width="20.0" height="260.0" parentComponent="effectsPanel"/>
+    <Component type="ScriptSlider" id="fxBtn9" x="528.0" y="214.0" suffix=" Hz"
+               filmstripImage="{PROJECT_FOLDER}fx-slider.png" numStrips="128.0"
+               scaleFactor="0.09000000357627869" width="50.0" height="50.0"
+               showValuePopup="Above" parentComponent="effectsPanel" min="-5.0"
+               max="5.0"/>
+    <Component type="ScriptLabel" id="BASSBOOST" x="491.0" y="170.0" fontName="Abel"
+               fontSize="23.0" textColour="4288519581" width="120.0" height="20.0"
+               parentComponent="effectsPanel" text="BASS BOOST"/>
+    <Component type="ScriptImage" id="Image7" x="355.0" y="30.0" fileName="{PROJECT_FOLDER}vertLine.png"
+               width="20.0" height="260.0" parentComponent="effectsPanel"/>
+  </Component>
+  <Component type="ScriptPanel" id="alertPanel" x="250.0" y="114.0" width="530.0"
+             height="300.0" itemColour="4280295456" itemColour2="4280295456"
+             visible="0">
+    <Component type="ScriptButton" id="Button3" x="162.0" y="194.0" text="Got it (Kind of..)"
+               width="231.0" height="73.0" filmstripImage="{PROJECT_FOLDER}gotchaBtn.png"
+               scaleFactor="0.1500000059604645" parentComponent="alertPanel"/>
+    <Component type="ScriptLabel" id="AlertLAbel" x="79.0" y="38.0" parentComponent="alertPanel"
+               editable="0" text="Audio Sanity Check Failed!" width="380.0"
+               height="40.0" fontName="Abel" fontSize="38.0" textColour="4293263462"/>
+    <Component type="ScriptLabel" id="alertText2" x="78.0" y="95.0" parentComponent="alertPanel"
+               text="Your audio file must be under 20 MB, less than 3 minutes, and avoid low volume (-50dB)."
+               width="390.0" height="90.0" fontName="Abel" fontSize="23.0" multiline="1"/>
+  </Component>
+  <Component type="ScriptPanel" id="alertPanelNoAudio" x="250.0" y="114.0"
+             width="530.0" height="300.0" text="The file loaded wasn&#180;t found! ">
+    <Component type="ScriptLabel" id="Label_NoAudio" x="110.0" y="86.0" parentComponent="alertPanelNoAudio"
+               text="The audio was not found! Please load a new file." width="310"
+               height="50"/>
+    <Component type="ScriptButton" id="ButtonNoAudio" x="160.0" y="176.0" width="230.0"
+               height="70.0" parentComponent="alertPanelNoAudio" text="Ok"/>
+  </Component>
+  <Component type="ScriptComboBox" id="ComboBox1" x="839.0" y="552.0" max="5"
+             width="130.0" height="30.0" items="Every 5 seconds&#10;Every 10 seconds&#10;Every 1 minute&#10;Every 5 minutes&#10;Every 10 minutes"
+             text="Ocurrence" fontSize="21.0" useCustomPopup="1" tooltip="Ocurrence timeframe for particles"/>
+  <Component type="ScriptFloatingTile" id="FloatingTile2" x="0.0" y="641.0"
+             ContentType="TooltipPanel" bgColour="3684408" itemColour="0"
+             itemColour2="0" textColour="3431105154" width="250.0" height="21.0"
+             Font="Abel" FontSize="18.0"/>
+  <Component type="ScriptPanel" id="hiddenPanel" x="10.0" y="0.0" width="530.0"
+             height="450.0" visible="0">
+    <Component type="ScriptAudioWaveform" id="AudioWaveform2" x="30.0" y="20.0"
+               width="290.0" height="70.0" processorId="Stretcher" parentComponent="hiddenPanel"/>
+    <Component type="ScriptAudioWaveform" id="AudioWaveform3" x="30.0" y="120.0"
+               width="290.0" height="70.0" processorId="Stretcher" sampleIndex="1"
+               parentComponent="hiddenPanel"/>
+    <Component type="ScriptAudioWaveform" id="AudioWaveform4" x="30.0" y="220.0"
+               width="290.0" height="70.0" processorId="Stretcher" sampleIndex="2"
+               parentComponent="hiddenPanel"/>
+    <Component type="ScriptSlider" id="applyGainKnob" x="30.0" y="310.0" mode="Decibel"
+               min="-40.0" max="40.0" stepSize="0.1000000014901161" suffix=" dB"
+               middlePosition="-18.0" processorId="Stretcher" parameterId="stretchMainGain"
+               parentComponent="hiddenPanel"/>
+  </Component>
+</ContentProperties>

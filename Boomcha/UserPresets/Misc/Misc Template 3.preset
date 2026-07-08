@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Preset Version="1.0.0">
+  <Content Processor="Interface">
+    <Control type="ScriptButton" id="bd12t" value="0.0"/>
+    <Control type="ScriptButton" id="bd11t" value="0.0"/>
+    <Control type="ScriptButton" id="bd10t" value="0.0"/>
+    <Control type="ScriptButton" id="bd9t" value="1.0"/>
+    <Control type="ScriptButton" id="bd8t" value="0.0"/>
+    <Control type="ScriptButton" id="bd7t" value="1.0"/>
+    <Control type="ScriptButton" id="bd6t" value="1.0"/>
+    <Control type="ScriptButton" id="bd5t" value="1.0"/>
+    <Control type="ScriptButton" id="bd4t" value="0.0"/>
+    <Control type="ScriptButton" id="bd3t" value="1.0"/>
+    <Control type="ScriptButton" id="bd2t" value="0.0"/>
+    <Control type="ScriptButton" id="bd1t" value="1.0"/>
+    <Control type="ScriptButton" id="sd12t" value="0.0"/>
+    <Control type="ScriptButton" id="sd11t" value="0.0"/>
+    <Control type="ScriptButton" id="sd10t" value="1.0"/>
+    <Control type="ScriptButton" id="sd9t" value="0.0"/>
+    <Control type="ScriptButton" id="sd8t" value="0.0"/>
+    <Control type="ScriptButton" id="sd7t" value="0.0"/>
+    <Control type="ScriptButton" id="sd6t" value="0.0"/>
+    <Control type="ScriptButton" id="sd5t" value="0.0"/>
+    <Control type="ScriptButton" id="sd4t" value="1.0"/>
+    <Control type="ScriptButton" id="sd3t" value="0.0"/>
+    <Control type="ScriptButton" id="sd2t" value="0.0"/>
+    <Control type="ScriptButton" id="sd1t" value="0.0"/>
+    <Control type="ScriptButton" id="sd1" value="0.0"/>
+    <Control type="ScriptButton" id="sd2" value="0.0"/>
+    <Control type="ScriptButton" id="sd3" value="0.0"/>
+    <Control type="ScriptButton" id="sd4" value="0.0"/>
+    <Control type="ScriptButton" id="sd5" value="1.0"/>
+    <Control type="ScriptButton" id="sd6" value="0.0"/>
+    <Control type="ScriptButton" id="sd7" value="0.0"/>
+    <Control type="ScriptButton" id="sd8" value="1.0"/>
+    <Control type="ScriptButton" id="sd9" value="0.0"/>
+    <Control type="ScriptButton" id="sd10" value="1.0"/>
+    <Control type="ScriptButton" id="sd11" value="0.0"/>
+    <Control type="ScriptButton" id="sd12" value="0.0"/>
+    <Control type="ScriptButton" id="sd13" value="1.0"/>
+    <Control type="ScriptButton" id="sd14" value="0.0"/>
+    <Control type="ScriptButton" id="sd15" value="0.0"/>
+    <Control type="ScriptButton" id="sd16" value="0.0"/>
+    <Control type="ScriptButton" id="bd1" value="1.0"/>
+    <Control type="ScriptButton" id="bd2" value="0.0"/>
+    <Control type="ScriptButton" id="bd3" value="1.0"/>
+    <Control type="ScriptButton" id="bd4" value="0.0"/>
+    <Control type="ScriptButton" id="bd5" value="0.0"/>
+    <Control type="ScriptButton" id="bd6" value="0.0"/>
+    <Control type="ScriptButton" id="bd7" value="1.0"/>
+    <Control type="ScriptButton" id="bd8" value="0.0"/>
+    <Control type="ScriptButton" id="bd9" value="0.0"/>
+    <Control type="ScriptButton" id="bd10" value="0.0"/>
+    <Control type="ScriptButton" id="bd11" value="1.0"/>
+    <Control type="ScriptButton" id="bd12" value="0.0"/>
+    <Control type="ScriptButton" id="bd13" value="1.0"/>
+    <Control type="ScriptButton" id="bd14" value="0.0"/>
+    <Control type="ScriptButton" id="bd15" value="0.0"/>
+    <Control type="ScriptButton" id="bd16" value="0.0"/>
+    <Control type="ScriptSlider" id="Tempo" value="90.0"/>
+    <Control type="ScriptButton" id="exportGridButton" value="0.0"/>
+    <Control type="ScriptButton" id="playStop1" value="0.0"/>
+    <Control type="ScriptButton" id="playStop2" value="0.0"/>
+    <Control type="ScriptButton" id="playStop3" value="0.0"/>
+    <Control type="ScriptButton" id="playStop4" value="0.0"/>
+    <Control type="ScriptButton" id="btnTernary" value="0.0"/>
+    <Control type="ScriptButton" id="trash" value="0.0"/>
+    <Control type="ScriptButton" id="expandAButton" value="0.0"/>
+    <Control type="ScriptButton" id="dawAButton" value="1.0"/>
+    <Control type="ScriptButton" id="dawAButton1" value="0.0"/>
+    <Control type="ScriptButton" id="expandBButton" value="0.0"/>
+    <Control type="ScriptButton" id="dawAButton2" value="0.0"/>
+    <Control type="ScriptButton" id="expandCButton" value="0.0"/>
+    <Control type="ScriptSlider" id="Temperature" value="0.3900000154972076"/>
+  </Content>
+  <MidiAutomation/>
+  <MPEData Enabled="0"/>
+</Preset>

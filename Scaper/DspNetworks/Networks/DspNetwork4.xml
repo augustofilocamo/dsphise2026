@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Network ID="DspNetwork4" Version="0.0.0">
+  <Node FactoryPath="container.chain" ID="DspNetwork4" Bypassed="0" ShowParameters="1"
+        Name="DspNetwork4">
+    <Nodes>
+      <Node ID="split" FactoryPath="container.split" Bypassed="0" Name="split">
+        <Nodes>
+          <Node ID="chain" FactoryPath="container.chain" Bypassed="0" Name="chain">
+            <Nodes>
+              <Node ID="neural" FactoryPath="math.neural" Bypassed="0" Name="neural">
+                <Properties>
+                  <Property ID="Model" Value="Sine"/>
+                </Properties>
+                <Parameters/>
+              </Node>
+              <Node ID="stretch_player" FactoryPath="core.stretch_player" Bypassed="0"
+                    Name="stretch_player">
+                <ComplexData>
+                  <AudioFiles>
+                    <AudioFile Index="-1" EmbeddedData="{PROJECT_FOLDER}strings2.wav" MinValue="0"
+                               MaxValue="118272"/>
+                  </AudioFiles>
+                </ComplexData>
+                <Parameters>
+                  <Parameter MinValue="0.0" MaxValue="1.0" StepSize="1.0" ID="Gate" Value="1.0"/>
+                  <Parameter MinValue="0.5" MaxValue="2.0" SkewFactor="0.6309297680854797"
+                             ID="TimeRatio" Value="0.8384237424733069"/>
+                  <Parameter MinValue="-12.0" MaxValue="12.0" ID="Pitch" Value="-0.8710898437499992"/>
+                  <Parameter MinValue="0.0" MaxValue="1.0" StepSize="1.0" ID="Enable" Value="1.0"/>
+                  <Parameter MinValue="0.0" MaxValue="1.0" StepSize="1.0" ID="ClockSync" Value="0.0"/>
+                </Parameters>
+              </Node>
+              <Node ID="stretch_player1" FactoryPath="core.stretch_player" Bypassed="0"
+                    Name="stretch_player1">
+                <ComplexData>
+                  <AudioFiles>
+                    <AudioFile Index="0" EmbeddedData="{PROJECT_FOLDER}BKCtbss_Pizz_A1_v1_rr2.wav"
+                               MinValue="0" MaxValue="0"/>
+                  </AudioFiles>
+                </ComplexData>
+                <Parameters>
+                  <Parameter MinValue="0.0" MaxValue="1.0" StepSize="1.0" ID="Gate" Value="1.0"/>
+                  <Parameter MinValue="0.0" MaxValue="0.3" SkewFactor="1" ID="TimeRatio" Automated="1"/>
+                  <Parameter MinValue="-12.0" MaxValue="12.0" ID="Pitch" Automated="1"/>
+                  <Parameter MinValue="0.0" MaxValue="1.0" StepSize="1.0" ID="Enable" Value="1.0"/>
+                  <Parameter MinValue="0.0" MaxValue="1.0" StepSize="1.0" ID="ClockSync" Value="0.0"/>
+                </Parameters>
+              </Node>
+              <Node ID="jpanner" FactoryPath="jdsp.jpanner" Bypassed="0" Name="jpanner">
+                <Parameters>
+                  <Parameter MinValue="-1.0" MaxValue="1.0" ID="Pan" Value="-0.3793205685731149"/>
+                  <Parameter MinValue="0.0" MaxValue="6.0" StepSize="1.0" ID="Rule" Value="1.0"/>
+                </Parameters>
+              </Node>
+              <Node ID="gain3" FactoryPath="core.gain" Bypassed="1" Name="gain3">
+                <Parameters>
+                  <Parameter MinValue="-100.0" MaxValue="0.0" StepSize="0.1000000014901161"
+                             SkewFactor="5.422270774841309" ID="Gain" Value="-2.199998542666449"/>
+                  <Parameter MinValue="0.0" MaxValue="1000.0" StepSize="0.1000000014901161"
+                             SkewFactor="0.3010300099849701" ID="Smoothing" Value="20.0"/>
+                  <Parameter MinValue="-100.0" MaxValue="0.0" StepSize="0.1000000014901161"
+                             SkewFactor="5.422270774841309" ID="ResetValue" Value="0.0"/>
+                </Parameters>
+              </Node>
+            </Nodes>
+            <Parameters/>
+          </Node>
+          <Node ID="chain1" FactoryPath="container.chain" Bypassed="0" Name="chain1">
+            <Nodes>
+              <Node ID="stretch_player2" FactoryPath="core.stretch_player" Bypassed="0"
+                    Name="stretch_player2">
+                <ComplexData>
+                  <AudioFiles>
+                    <AudioFile Index="1" EmbeddedData="{PROJECT_FOLDER}BKCtbss_Pizz_A1_v1_rr2.wav"
+                               MinValue="0" MaxValue="0"/>
+                  </AudioFiles>
+                </ComplexData>
+                <Parameters>
+                  <Parameter MinValue="0.0" MaxValue="1.0" StepSize="1.0" ID="Gate" Value="1.0"/>
+                  <Parameter MinValue="0.0" MaxValue="0.3" SkewFactor="1" ID="TimeRatio" Automated="1"/>
+                  <Parameter MinValue="-12.0" MaxValue="12.0" ID="Pitch" Automated="1"/>
+                  <Parameter MinValue="0.0" MaxValue="1.0" StepSize="1.0" ID="Enable" Value="1.0"/>
+                  <Parameter MinValue="0.0" MaxValue="1.0" StepSize="1.0" ID="ClockSync" Value="0.0"/>
+                </Parameters>
+              </Node>
+              <Node ID="jpanner1" FactoryPath="jdsp.jpanner" Bypassed="0" Name="jpanner1">
+                <Parameters>
+                  <Parameter MinValue="-1.0" MaxValue="1.0" ID="Pan" Value="0.4011425781250002"/>
+                  <Parameter MinValue="0.0" MaxValue="6.0" StepSize="1.0" ID="Rule" Value="1.0"/>
+                </Parameters>
+              </Node>
+              <Node ID="gain4" FactoryPath="core.gain" Bypassed="1" Name="gain4">
+                <Parameters>
+                  <Parameter MinValue="-100.0" MaxValue="0.0" StepSize="0.1000000014901161"
+                             SkewFactor="5.422270774841309" ID="Gain" Value="-0.7999985218048238"/>
+                  <Parameter MinValue="0.0" MaxValue="1000.0" StepSize="0.1000000014901161"
+                             SkewFactor="0.3010300099849701" ID="Smoothing" Value="20.0"/>
+                  <Parameter MinValue="-100.0" MaxValue="0.0" StepSize="0.1000000014901161"
+                             SkewFactor="5.422270774841309" ID="ResetValue" Value="0.0"/>
+                </Parameters>
+              </Node>
+            </Nodes>
+            <Parameters/>
+          </Node>
+          <Node ID="chain3" FactoryPath="container.chain" Bypassed="0" Name="chain3">
+            <Nodes>
+              <Node ID="stretch_player3" FactoryPath="core.stretch_player" Bypassed="0"
+                    Name="stretch_player3">
+                <ComplexData>
+                  <AudioFiles>
+                    <AudioFile Index="2" EmbeddedData="{PROJECT_FOLDER}BKCtbss_Pizz_A1_v1_rr2.wav"
+                               MinValue="0" MaxValue="0"/>
+                  </AudioFiles>
+                </ComplexData>
+                <Parameters>
+                  <Parameter MinValue="0.0" MaxValue="1.0" StepSize="1.0" ID="Gate" Value="1.0"/>
+                  <Parameter MinValue="0.0" MaxValue="0.3" SkewFactor="1" ID="TimeRatio" Automated="1"/>
+                  <Parameter MinValue="-12.0" MaxValue="12.0" ID="Pitch" Value="0.02289278793335114"/>
+                  <Parameter MinValue="0.0" MaxValue="1.0" StepSize="1.0" ID="Enable" Value="1.0"/>
+                  <Parameter MinValue="0.0" MaxValue="1.0" StepSize="1.0" ID="ClockSync" Value="0.0"/>
+                </Parameters>
+              </Node>
+              <Node ID="jpanner2" FactoryPath="jdsp.jpanner" Bypassed="0" Name="jpanner2">
+                <Parameters>
+                  <Parameter MinValue="-1.0" MaxValue="1.0" ID="Pan" Value="0.14521337890625"/>
+                  <Parameter MinValue="0.0" MaxValue="6.0" StepSize="1.0" ID="Rule" Value="1.0"/>
+                </Parameters>
+              </Node>
+              <Node ID="gain5" FactoryPath="core.gain" Bypassed="1" Name="gain5">
+                <Parameters>
+                  <Parameter MinValue="-100.0" MaxValue="0.0" StepSize="0.1000000014901161"
+                             SkewFactor="5.422270774841309" ID="Gain" Value="-0.8999985232949399"/>
+                  <Parameter MinValue="0.0" MaxValue="1000.0" StepSize="0.1000000014901161"
+                             SkewFactor="0.3010300099849701" ID="Smoothing" Value="20.0"/>
+                  <Parameter MinValue="-100.0" MaxValue="0.0" StepSize="0.1000000014901161"
+                             SkewFactor="5.422270774841309" ID="ResetValue" Value="0.0"/>
+                </Parameters>
+              </Node>
+            </Nodes>
+            <Parameters/>
+          </Node>
+          <Node ID="chain2" FactoryPath="container.chain" Bypassed="0" Name="chain2">
+            <Nodes>
+              <Node ID="file_analyser" FactoryPath="control.file_analyser" Bypassed="0"
+                    Name="file_analyser">
+                <Properties>
+                  <Property ID="Mode" Value="Peak"/>
+                </Properties>
+                <ModulationTargets>
+                  <Connection NodeId="global_cable" ParameterId="Value"/>
+                </ModulationTargets>
+                <ComplexData>
+                  <AudioFiles>
+                    <AudioFile Index="3" EmbeddedData="{PROJECT_FOLDER}guitar.wav" MinValue="0"
+                               MaxValue="2359163"/>
+                  </AudioFiles>
+                </ComplexData>
+                <Parameters/>
+              </Node>
+              <Node ID="global_cable" FactoryPath="routing.global_cable" Bypassed="0"
+                    NodeColour="4282884018" Name="global_cable">
+                <Properties>
+                  <Property ID="Connection" Value="global_cable"/>
+                </Properties>
+                <Parameters>
+                  <Parameter MinValue="0.0" MaxValue="1.0" ID="Value" Automated="1"/>
+                </Parameters>
+              </Node>
+            </Nodes>
+            <Parameters/>
+          </Node>
+        </Nodes>
+        <Parameters/>
+      </Node>
+      <Node ID="gain" FactoryPath="core.gain" Bypassed="0" Name="gain">
+        <Parameters>
+          <Parameter MinValue="-40.0" MaxValue="40.0" StepSize="0.0001" SkewFactor="1"
+                     ID="Gain" Automated="1"/>
+          <Parameter MinValue="0.0" MaxValue="1000.0" StepSize="0.1000000014901161"
+                     SkewFactor="0.3010300099849701" ID="Smoothing" Value="1000.0"/>
+          <Parameter MinValue="-100.0" MaxValue="0.0" StepSize="0.1000000014901161"
+                     SkewFactor="5.422270774841309" ID="ResetValue" Value="0.0"/>
+        </Parameters>
+      </Node>
+    </Nodes>
+    <Parameters>
+      <Parameter ID="Pitch_1" MinValue="-12.0" MaxValue="12.0" Value="12.0">
+        <Connections>
+          <Connection NodeId="stretch_player1" ParameterId="Pitch"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="Pitch_2" MinValue="-12.0" MaxValue="12.0" Value="3.531770507812496">
+        <Connections>
+          <Connection NodeId="stretch_player2" ParameterId="Pitch"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="Pitch_3" MinValue="-12.0" MaxValue="12.0" Value="1.1882490234375">
+        <Connections/>
+      </Parameter>
+      <Parameter ID="speed1" MinValue="0.0" MaxValue="0.3" Value="0.005482745361328084">
+        <Connections>
+          <Connection NodeId="stretch_player1" ParameterId="TimeRatio"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="speed2" MinValue="0.0" MaxValue="0.3" Value="0.02096698608398438">
+        <Connections>
+          <Connection NodeId="stretch_player2" ParameterId="TimeRatio"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="speed3" MinValue="0.0" MaxValue="0.3" Value="0.04863915710449215">
+        <Connections>
+          <Connection NodeId="stretch_player3" ParameterId="TimeRatio"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="stretchMainGain" MinValue="-40.0" MaxValue="40.0" StepSize="0.0001"
+                 Value="0.0">
+        <Connections>
+          <Connection NodeId="gain" ParameterId="Gain"/>
+        </Connections>
+      </Parameter>
+    </Parameters>
+  </Node>
+</Network>

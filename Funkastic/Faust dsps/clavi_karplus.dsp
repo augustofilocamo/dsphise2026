@@ -1,0 +1,42 @@
+declare name "KS_Minimal_Pluck";
+declare author "you";
+declare license "MIT";
+
+import("stdfaust.lib");
+
+// -------- Controles simples --------
+freq   = hslider("freq[unit:Hz]", 110, 27.5, 1760, 0.01);
+bright = hslider("brightness[unit:Hz]", 3000, 300, 20000, 1); // LP en el lazo
+decay  = hslider("decay", 0.996, 0.90, 0.9999, 0.0001);       // ganancia del lazo
+gain   = hslider("gain", 0.8, 0, 1, 0.001);
+gate   = button("gate");
+
+// -------- Parámetros básicos --------
+sr = ma.SR;
+L  = sr/freq;                       // longitud del delay (muestras)
+
+// Scaling: notas agudas tienen menos filtrado
+freqFactor = min(1.0, max(0.0, (freq - 100) / 900));  // 0 en 100Hz, 1 en 1000Hz+
+brightScaled = bright * (1.0 + freqFactor * 5.0);     // en agudas hasta 6x más cutoff
+
+// -------- Excitación (ruido breve con envolvente AR) --------
+exc = no.noise
+    : fi.lowpass(1, 18000)
+    : *( en.adsr(0.008*gain, 0.0, 0.0, 0.25, gate) * gain );
+
+// -------- Lazo KS: delay fraccionario + LP + atenuación --------
+// Compensación de fase del filtro lowpass de 2do orden
+omega = 2.0 * ma.PI * freq;
+omega_c = 2.0 * ma.PI * (brightScaled * gain);
+phaseDelay = atan(omega / omega_c) / omega * sr * 2.0; // x2 por ser orden 2
+L_compensated = L - phaseDelay;
+
+loop = de.fdelay(48000, L_compensated)
+     : fi.lowpass(2, brightScaled * gain)
+     : *(decay);
+
+// -------- Ecuación: y = x + y(loop) --------
+sig = exc : + ~ (loop);
+
+// -------- Salida estéreo --------
+process = sig <: _,_;

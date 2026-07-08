@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptImage" id="backgroundImage" x="0.0" y="0.0" width="1024.0"
+             height="680.0" fileName="{PROJECT_FOLDER}background-03.png"/>
+  <Component type="ScriptSlider" id="Pitch1" x="137.0" y="506.0" processorId="Stretcher"
+             parameterId="Pitch_1" min="-12.0" max="12.0" middlePosition="0.0"
+             suffix=" St" filmstripImage="{PROJECT_FOLDER}reverbBtn.png" numStrips="128"
+             scaleFactor=".28" width="90.0" height="90.0"/>
+  <Component type="ScriptSlider" id="Pitch2" x="271.0" y="506.0" processorId="Stretcher"
+             parameterId="Pitch_2" min="-12.0" max="12.0" middlePosition="0.0"
+             suffix=" St" filmstripImage="{PROJECT_FOLDER}reverbBtn.png" numStrips="128"
+             scaleFactor=".28" width="90.0" height="90.0"/>
+  <Component type="ScriptSlider" id="Pitch3" x="406.0" y="506.0" processorId="Stretcher"
+             parameterId="Pitch_3" min="-12.0" max="12.0" middlePosition="0.0"
+             suffix=" St" filmstripImage="{PROJECT_FOLDER}reverbBtn.png" numStrips="128"
+             scaleFactor=".28" width="90" height="90.0"/>
+  <Component type="ScriptAudioWaveform" id="AudioWaveform1" x="208.0" y="265.0"
+             processorId="Interface" width="597" height="47" bgColour="5592405"
+             itemColour2="4287266815" itemColour="0" itemColour3="16711680"
+             showFileName="0" opaque="0" textColour="0"/>
+  <Component type="ScriptLabel" id="PITCH " x="141.0" y="578.0" fontName="Abel"
+             fontSize="18.0" textColour="4291677645" width="54" height="27"/>
+  <Component type="ScriptLabel" id="PITCH 1" x="280" y="578.0" fontName="Abel"
+             fontSize="18.0" textColour="4291677645" width="54" height="27"
+             text="PITCH "/>
+  <Component type="ScriptLabel" id="PITCH 2" x="420" y="578.0" fontName="Abel"
+             fontSize="18.0" textColour="4291677645" width="54" height="27"
+             text="PITCH "/>
+</ContentProperties>

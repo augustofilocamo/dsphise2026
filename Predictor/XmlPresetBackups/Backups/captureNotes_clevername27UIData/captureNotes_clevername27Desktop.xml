@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptPanel" id="panel_LAYER_INPUT_POPUP_ProgramSelector_Window_ART"
+             x="10.0" y="50.0" height="230.0" width="580.0" visible="0" enabled="0">
+    <Component type="ScriptLabel" id="panel_LAYER_INPUT_POPUP_ProgramSelector_Title_ART"
+               x="180.0" y="0.0" height="30.0" width="200.0" text="2D MIDI VALUE SELECTOR"
+               parentComponent="panel_LAYER_INPUT_POPUP_ProgramSelector_Window_ART"/>
+    <Component type="ScriptButton" id="panel_LAYER_INPUT_POPUP_ProgramSelector_CloseBox_GUI"
+               x="551.0" y="6.0" height="20.0" width="20.0" text="" isMomentary="1"
+               parentComponent="panel_LAYER_INPUT_POPUP_ProgramSelector_Window_ART"
+               itemColour2="4218318446" itemColour="1718776434"/>
+    <Component type="ScriptPanel" id="panel_LAYER_INPUT_POPUP_ProgramSelector_Frame_ART"
+               x="10.0" y="30.0" height="190.0" width="560.0" parentComponent="panel_LAYER_INPUT_POPUP_ProgramSelector_Window_ART">
+      <Component type="ScriptPanel" id="panel_LAYER_INPUT_POPUP_ProgramSelector_Menu_GUI"
+                 x="10.0" y="10.0" height="170.0" width="540.0" parentComponent="panel_LAYER_INPUT_POPUP_ProgramSelector_Frame_ART"
+                 allowCallbacks="Clicks &amp; Hover"/>
+    </Component>
+  </Component>
+  <Component type="ScriptButton" id="btn_DumpCapture" x="260.0" y="125.0"
+             text="Dump MIDI" isMomentary="1"/>
+</ContentProperties>

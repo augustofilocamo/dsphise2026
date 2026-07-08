@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptPanel" id="panelBuf2" x="390.0" y="0.0" width="280.0"
+             height="280.0" allowCallbacks="All Callbacks" popupOnRightClick="0"
+             isPluginParameter="1" pluginParameterName="PackedXY" itemColour="4294901866"/>
+  <Component type="ScriptPanel" id="panelBuf3" x="700.0" y="0.0" width="320.0"
+             height="300.0" allowCallbacks="All Callbacks" popupOnRightClick="0"
+             isPluginParameter="1" pluginParameterName="PackedXY" itemColour="4294901866"/>
+  <Component type="ScriptPanel" id="panelBuf1" x="0.0" y="0.0" width="370.0"
+             height="290.0" allowCallbacks="All Callbacks" popupOnRightClick="0"
+             isPluginParameter="1" pluginParameterName="PackedXY" itemColour="4294901866"/>
+  <Component type="ScriptLabel" id="Label1" x="100.0" y="560.0" width="410.0"
+             height="50.0" text="Pack&#8594;0.453 X:0.45 Y:0.3" itemColour="16711768"
+             itemColour2="4227792975"/>
+  <Component type="ScriptPanel" id="XYPadPnl" x="0.0" y="470.0" width="1020.0"
+             height="210.0" allowCallbacks="All Callbacks" popupOnRightClick="0"
+             isPluginParameter="1" pluginParameterName="PackedXY" itemColour="16777215"
+             itemColour2="16777215" borderRadius="0.0"/>
+  <Component type="ScriptButton" id="loadButton1" x="110.0" y="320.0"/>
+  <Component type="ScriptButton" id="loadButton2" x="440.0" y="320.0"/>
+  <Component type="ScriptButton" id="loadButton3" x="750.0" y="320.0"/>
+</ContentProperties>

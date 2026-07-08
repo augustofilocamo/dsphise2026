@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Processor Type="SynthChain" ID="V1.2 - Agregado ScriptFX2 para probar objetos"
+           Bypassed="0" Gain="1.0" Balance="0.0" VoiceLimit="64.0" KillFadeTime="20.0"
+           IconColour="0" packageName="" BuildVersion="650">
+  <ChildProcessors>
+    <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
+      <ChildProcessors>
+        <Processor Type="ScriptProcessor" ID="Interface" Bypassed="0">
+          <ChildProcessors/>
+          <Content>
+            <Control type="ScriptSlider" id="Knob1" value="0.09000000357627869"/>
+          </Content>
+          <UIData Source="V1.2 - Agregado ScriptFX2 para probar objetosUIData"/>
+        </Processor>
+      </ChildProcessors>
+    </Processor>
+    <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
+      <ChildProcessors/>
+    </Processor>
+    <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="1" Intensity="0.0">
+      <ChildProcessors/>
+    </Processor>
+    <Processor Type="EffectChain" ID="FX" Bypassed="0">
+      <ChildProcessors>
+        <Processor Type="ScriptFX" ID="Procesos" Bypassed="0" NumAudioFiles="1"
+                   NumDisplayBuffers="2">
+          <ChildProcessors/>
+          <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+          <Content/>
+          <Networks>
+            <Network ID="script_fx1" Version="0.0.0"/>
+          </Networks>
+          <UIData>
+            <ContentProperties DeviceType="Desktop"/>
+          </UIData>
+        </Processor>
+        <Processor Type="ScriptFX" ID="Testeo Objetos" Bypassed="0" NumFilters="1">
+          <ChildProcessors/>
+          <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+          <Content/>
+          <Networks>
+            <Network ID="testeo_objetos" Version="0.0.0">
+              <Node FactoryPath="container.chain" ID="testeo_objetos" Bypassed="0">
+                <Nodes>
+                  <Node ID="stretch_player" FactoryPath="core.stretch_player" Bypassed="0">
+                    <ComplexData>
+                      <AudioFiles>
+                        <AudioFile Index="-1" EmbeddedData="{PROJECT_FOLDER}Dise&#241;o sonoro raro.wav"
+                                   MinValue="0" MaxValue="110250"/>
+                      </AudioFiles>
+                    </ComplexData>
+                    <Parameters>
+                      <Parameter MinValue="0.0" MaxValue="1.0" StepSize="1.0" ID="Gate" Value="1.0"/>
+                      <Parameter MinValue="0.0" MaxValue="2.0" SkewFactor="0.6309297680854797"
+                                 ID="TimeRatio" Value="0.0"/>
+                      <Parameter MinValue="-12.0" MaxValue="12.0" ID="Pitch" Value="0.0"/>
+                      <Parameter MinValue="0.0" MaxValue="1.0" StepSize="1.0" ID="Enable" Value="1.0"/>
+                      <Parameter MinValue="0.0" MaxValue="1.0" StepSize="1.0" ID="ClockSync" Value="0.0"/>
+                    </Parameters>
+                  </Node>
+                  <Node ID="freq_split4" FactoryPath="container.split" ShowParameters="1"
+                        Bypassed="0">
+                    <Parameters>
+                      <Parameter MinValue="20.0" MaxValue="500.0" SkewFactor="0.8214907995986044"
+                                 ID="Crossover Low" Value="441.8353473054241">
+                        <Connections>
+                          <Connection NodeId="lr1_1" ParameterId="Frequency"/>
+                          <Connection NodeId="lr2_1" ParameterId="Frequency"/>
+                        </Connections>
+                      </Parameter>
+                      <Parameter MinValue="20.0" MaxValue="20000.0" SkewFactor="0.2299045584686382"
+                                 ID="Band 2" Value="21.26307387711575">
+                        <Connections>
+                          <Connection NodeId="lr2_2" ParameterId="Frequency"/>
+                          <Connection NodeId="lr3_2" ParameterId="Frequency"/>
+                        </Connections>
+                      </Parameter>
+                    </Parameters>
+                    <Nodes>
+                      <Node ID="band1" FactoryPath="container.chain" Bypassed="0">
+                        <Nodes>
+                          <Node ID="lr1_1" FactoryPath="jdsp.jlinkwitzriley" NodeColour="4288255079"
+                                Bypassed="0">
+                            <ComplexData>
+                              <Filters>
+                                <Filter Index="-1" EmbeddedData=""/>
+                              </Filters>
+                            </ComplexData>
+                            <Parameters>
+                              <Parameter MinValue="20.0" MaxValue="500.0" SkewFactor="0.8555596625042767"
+                                         ID="Frequency" Automated="1"/>
+                              <Parameter MinValue="0.0" MaxValue="2.0" StepSize="1.0" ID="Type" Value="0.0"/>
+                            </Parameters>
+                          </Node>
+                          <Node ID="gain" FactoryPath="core.gain" Bypassed="0">
+                            <Parameters>
+                              <Parameter MinValue="-100.0" MaxValue="12.0" StepSize="0.1000000014901161"
+                                         SkewFactor="5.422270774841309" ID="Gain" Value="12.0"/>
+                              <Parameter MinValue="0.0" MaxValue="1000.0" StepSize="0.1000000014901161"
+                                         SkewFactor="0.3010300099849701" ID="Smoothing" Value="20.0"/>
+                              <Parameter MinValue="-100.0" MaxValue="0.0" StepSize="0.1000000014901161"
+                                         SkewFactor="5.422270774841309" ID="ResetValue" Value="0.0"/>
+                            </Parameters>
+                          </Node>
+                        </Nodes>
+                        <Parameters/>
+                      </Node>
+                      <Node ID="band2" FactoryPath="container.chain" Bypassed="0">
+                        <Nodes>
+                          <Node ID="lr2_1" FactoryPath="jdsp.jlinkwitzriley" NodeColour="4288059751"
+                                Bypassed="0">
+                            <ComplexData>
+                              <Filters>
+                                <Filter Index="-1" EmbeddedData=""/>
+                              </Filters>
+                            </ComplexData>
+                            <Parameters>
+                              <Parameter MinValue="20.0" MaxValue="500.0" SkewFactor="0.868004030549308"
+                                         ID="Frequency" Automated="1"/>
+                              <Parameter MinValue="0.0" MaxValue="2.0" StepSize="1.0" ID="Type" Value="1.0"/>
+                            </Parameters>
+                          </Node>
+                          <Node ID="lr2_2" FactoryPath="jdsp.jlinkwitzriley" NodeColour="4288059751"
+                                Bypassed="0">
+                            <ComplexData>
+                              <Filters>
+                                <Filter Index="-1" EmbeddedData=""/>
+                              </Filters>
+                            </ComplexData>
+                            <Parameters>
+                              <Parameter MinValue="1000.0" MaxValue="20000.0" SkewFactor="0.2299045622348785"
+                                         ID="Frequency" Automated="1"/>
+                              <Parameter MinValue="0.0" MaxValue="2.0" StepSize="1.0" ID="Type" Value="0.0"/>
+                            </Parameters>
+                          </Node>
+                          <Node ID="gain1" FactoryPath="core.gain" Bypassed="0">
+                            <Parameters>
+                              <Parameter MinValue="-100.0" MaxValue="12.0" StepSize="0.1000000014901161"
+                                         SkewFactor="5.422270774841309" ID="Gain" Value="-20.29999881237745"/>
+                              <Parameter MinValue="0.0" MaxValue="1000.0" StepSize="0.1000000014901161"
+                                         SkewFactor="0.3010300099849701" ID="Smoothing" Value="20.0"/>
+                              <Parameter MinValue="-100.0" MaxValue="0.0" StepSize="0.1000000014901161"
+                                         SkewFactor="5.422270774841309" ID="ResetValue" Value="0.0"/>
+                            </Parameters>
+                          </Node>
+                        </Nodes>
+                        <Parameters/>
+                      </Node>
+                      <Node ID="band3" FactoryPath="container.chain" Bypassed="0">
+                        <Nodes>
+                          <Node ID="lr3_2" FactoryPath="jdsp.jlinkwitzriley" NodeColour="4284979599"
+                                Bypassed="0">
+                            <ComplexData>
+                              <Filters>
+                                <Filter Index="-1" EmbeddedData=""/>
+                              </Filters>
+                            </ComplexData>
+                            <Parameters>
+                              <Parameter MinValue="1000.0" MaxValue="20000.0" SkewFactor="0.2299045622348785"
+                                         ID="Frequency" Automated="1"/>
+                              <Parameter MinValue="0.0" MaxValue="2.0" StepSize="1.0" ID="Type" Value="1.0"/>
+                            </Parameters>
+                          </Node>
+                          <Node ID="gain2" FactoryPath="core.gain" Bypassed="0">
+                            <Parameters>
+                              <Parameter MinValue="-100.0" MaxValue="12.0" StepSize="0.1000000014901161"
+                                         SkewFactor="5.422270774841309" ID="Gain" Value="-13.99999871850014"/>
+                              <Parameter MinValue="0.0" MaxValue="1000.0" StepSize="0.1000000014901161"
+                                         SkewFactor="0.3010300099849701" ID="Smoothing" Value="20.0"/>
+                              <Parameter MinValue="-100.0" MaxValue="0.0" StepSize="0.1000000014901161"
+                                         SkewFactor="5.422270774841309" ID="ResetValue" Value="0.0"/>
+                            </Parameters>
+                          </Node>
+                        </Nodes>
+                        <Parameters/>
+                      </Node>
+                    </Nodes>
+                  </Node>
+                  <Node ID="gain3" FactoryPath="core.gain" Bypassed="0">
+                    <Parameters>
+                      <Parameter MinValue="-100.0" MaxValue="8.0" StepSize="0.1000000014901161"
+                                 SkewFactor="5.422270774841309" ID="Gain" Value="-100.0"/>
+                      <Parameter MinValue="0.0" MaxValue="1000.0" StepSize="0.1000000014901161"
+                                 SkewFactor="0.3010300099849701" ID="Smoothing" Value="20.0"/>
+                      <Parameter MinValue="-100.0" MaxValue="0.0" StepSize="0.1000000014901161"
+                                 SkewFactor="5.422270774841309" ID="ResetValue" Value="0.0"/>
+                    </Parameters>
+                  </Node>
+                </Nodes>
+                <Parameters/>
+              </Node>
+            </Network>
+          </Networks>
+          <UIData>
+            <ContentProperties DeviceType="Desktop"/>
+          </UIData>
+        </Processor>
+      </ChildProcessors>
+    </Processor>
+  </ChildProcessors>
+  <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+  <macro_controls>
+    <macro name="Macro 1" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 2" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 3" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 4" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 5" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 6" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 7" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 8" value="0.0" midi_cc="-1"/>
+  </macro_controls>
+  <MidiAutomation/>
+  <MPEData Enabled="0"/>
+</Processor>

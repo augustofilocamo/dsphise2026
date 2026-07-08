@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptImage" id="Image1" x="0.0" y="0.0" fileName="{PROJECT_FOLDER}backgound-03.png"
+             width="1024.0" height="680.0"/>
+  <Component type="ScriptFloatingTile" id="FloatingTile1" x="100.0" y="530.0"
+             ContentType="Keyboard" bgColour="4284762698" itemColour="452984831"
+             itemColour2="4294967295" textColour="0" Data="{&#10;  &quot;KeyWidth&quot;: 54.0,&#10;  &quot;DisplayOctaveNumber&quot;: false,&#10;  &quot;LowKey&quot;: 36,&#10;  &quot;HiKey&quot;: 36,&#10;  &quot;CustomGraphics&quot;: false,&#10;  &quot;DefaultAppearance&quot;: true,&#10;  &quot;BlackKeyRatio&quot;: 0.699999988079071,&#10;  &quot;ToggleMode&quot;: true,&#10;  &quot;MidiChannel&quot;: 1,&#10;  &quot;UseVectorGraphics&quot;: true,&#10;  &quot;UseFlatStyle&quot;: false,&#10;  &quot;MPEKeyboard&quot;: false,&#10;  &quot;MPEStartChannel&quot;: 2,&#10;  &quot;MPEEndChannel&quot;: 16&#10;}"
+             width="50.0" height="60.0"/>
+  <Component type="ScriptSliderPack" id="SliderPack2" x="250.0" y="550.0"
+             processorId="Arpeggiator1" stepSize="1.0" SliderPackIndex="2"
+             itemColour="16777215" itemColour2="16711680" textColour="16711680"
+             width="640" height="10"/>
+</ContentProperties>

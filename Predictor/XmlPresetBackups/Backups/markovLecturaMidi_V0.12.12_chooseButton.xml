@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Processor Type="SynthChain" ID="markovLecturaMidi_V0.12.12_chooseButton"
+           Bypassed="0" Gain="1.0" Balance="0.0" VoiceLimit="64.0" KillFadeTime="20.0"
+           IconColour="0" packageName="" BuildVersion="650">
+  <ChildProcessors>
+    <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
+      <ChildProcessors>
+        <Processor Type="MidiPlayer" ID="MIDI Player1" Bypassed="0" CurrentSequence="1.0"
+                   CurrentTrack="2.0" LoopEnabled="1.0" PlaybackSpeed="1.0">
+          <ChildProcessors/>
+          <MidiFiles>
+            <MidiFile ID="" Data="8235.nT6K8C1Ri1P.AnntguDU.CGPrT.J7+ltJ5x13eEEEcUzUwF1PBBEYny1mGfHj7XYYPTRDkDR+zaLjtgmsH.UgrxhXa3VZRRqmj4I1FtRhsD9kV.j9.pRDBkcedZ7eWYeV0d.kQfgD.JAGh607eeGRi22oyg3v4Pec9xxC0447llGhSITWVBU42TgBcHyTPlzKRzgHwwGJznbH5IQ5SQgdN3XyPkuHQ+oz7CEZOlkkC1gyahsJZtGm26AAWz6+9vPq5mldH0MPGcizWU8yTzeiM1DMM8OdP2yGNevVE+7eu09b+lCQkyCBAOxzZHzCMREUiQU8bh9oGxWCrUSM1jT7im+3gbOghXqbDqrBGhsJFt0KT7FJNxoiGRsRnD0.2Ls9scyj40z9Lsd+.6dOSqgdOnoUQvWzz5n36wyWZZkS4eZZsy4Ud.wGUBKjhdpXITKVBklm0DW6PzDWyZeTxE+Vz9dO36wydf648eO4ImOL7EuoJIuTbuuG7G+xaJOkaG2B9hO4adSIZ9F4ah+464+P+67LOmI9lO5uQ8Ky2f9EY4OZzckmeZ5ZNA8nXqZnqAZ7OwVyNOaryCBa8BzWc96MkF4Z2umDacC4a97dOXqcdtyC7GwV0LtFv6KhstI91c6AwVy.dlsJqvb+EaE6NF2akvBV1uyz5X2OlBhnwu6zmt2dZz9aN8s48Nw48emz782SZtO3INvO7jlvW7jFwe7jlwmyoMNemSacdOm177jmzH+Omz97kmxT9ljYLePiY.8miYNeMFynwiNlg9oiYoenwrPYh9QoXid0TL0eiTrMRwp1.fbXgVcAyolV8rhRS+ReQoWQuZJn5SJMjzqd5S8GcZynWsxC.pdMAaVoNFlUiFiyuL5KNwdjoUuQu5IOUON44wS5jGomiSdbbkGnRpRdboSP3y2iIfHfD73NNePeG2Tczwc.5MeNLsJhiSMOEjRfzjP4M0kOoapMH8Fk+meiapzMN8ylVKU2yyn83QBKLZKdtgIeU0wP9d9Qitxio047gBsENe36wYzPMM7w5y8c5L52naFkqANW9c4lK07eZdNofThyg9NzlCo4u+lW6EMsRBhad2bylZlVW7QKgRCcKheS0vieZ5XFewGE8JQSqC9mmaA78to7d6aOAvQsitMZVCer5A3kcWtcY128ae1ClBRIvC0cnsCk8flVIAPSqCZc9DvuoZXwG8i0NzwH9f+YJHZNuBzz5+8ldPHPybK+UBk026Uk4kATaTC36kgy6+xz88fYrfuXFOweLy2324jXmm7jH4WdRr7MOIZ9mmDOEQESeQm.E8om9RezSaP+zJOfZZITO9j+YITcNmibtwW7IeP2TefNi7LwW7KuozJ+hHHmAC+rK7Nl2Qr7MNuYI+J7KNkPs2W9hlVoP7IkSg2adHdb1K7RSyOriUMgKZtXYJH2xyv4LgQlriUNxwDNFNe3y4Iy.4cv4NBuo19h+2MUDeag3QX+wCI6rwwuqi0L5Fy3XDSAIS7JdWoKxfcrZA58fP.vKAuKgtapapJ79gtWygX8sk8IZhr1a+uNVs7sE6Wz8dofX48jtmnYZ8hcLz9qW6sifzVPEJgWvmfcTsQuFAeQ.+gA3EL.PFrHnWBTATOw3FH.F.bA3+CHf5YW90oz7xN6U9mma270Pi2Leqye9hD0oyWfe4Y+uuKsO33kf+lMWFdYm+ymKG2yi4Vxsg+m+77sOuM9oo+YZgE+EW7YjwSgxWwz5VEMsKW9pp25JKSKCG2us8ZZcccu05448eefffhZc57iiunnGOddRxLkYJKeSyyyyEI5SSeTTMMsrLSqpYLsl4wlV4HMGoSYHkllNpizcid0tLbbJiGOGm33XN0mz6wgHxiEQZiuCr0yN9biSR6cBBz4IHPfWPLs6WB0DWfwEMs+xkqqpprLKSqYXg4wv9MSqSr8XLshAlRntqDprtyt71HWYqp7hrkm0eQ956ZvHm0wZEX1msXj0D0dLxaia2IxbcrhoC2akQFYKo8ux7Ixa9r40z.E4Kn6uscFYvSvQirHp3mA6zHOlNhcnHyIDGrrH2oiULQlV45z4EIZrNhK9nniIdn2z3wPMdRjdTCzeiM1Cs70Piske9TV9U3mOeQLLTSjyGJzXbDGK7apPz2DE8PGSL70.aUTi2B8.M18l56CBzi2RntiRnR63QzObr2fdKnvPuA5KwMyuvgSjC1pFmJqvWr0M2+6Pl3aGzrCYrulCQB6Rn46NDJhSwcJ59u+BmuH7K9dPGBFnqHdkqEmsBuKS3el+YK+RirD4pbVcwN2TR57EkKQTyrg+XkR3WleoUtkF9iULxqDdkOHmCNyQ3M0M0EbNhv+dHZcVSbK2uyGqVc1R7IgOmTPz3rkvs30vdu3GqWhWw68dtW6EEmCu4faNzdqcRZtcum2YnaRYu5G5IcHm.oOgPeBpOYIyKQpdHYP8LXBlaBo.5o.GeHcXdGhOGO5gfBniBbPhzajl9ppOJE8EIZQnjjedTzS+7lliD2n7MdD4iVTTmEsMz3graREOcinuQlcthiiiigiWPvPQNgiWuKXX3cCo2bjiGMCE+wwmjbRmmCmuSmmj7KKeSyQAA5OOeTzOUjnwPxh5OZzE0JNdOLshwimCSqUb7jLsZgzywMkGGXqgPAQ5OM8OOSs6gG+ppeZpnGDH6czAn8xx+wwGDzz5f5PcUyWCOlV23w9Hr0RXzWQcl14.a0CN16b6jvVIAR+84i8M1XRR6pXqanl0g676zwtHrUUQWbz3vwdHr0zPmgDyn8Tr0xzEEsihsRh9SR9ff1OwV8b9SZZ8B4eMsR4ZGD1pHnIe+3XFe1MwVCMslY9lRnPhLTTg3Rjvx7k.QDP3.FL+uuWzz5Ch+moUQ3ygMvTbgKjwEt.okNXqVct5rggQl44IMs1Q9jmxPpQ9kku4IMyu7zVolKGWWYoFPf.MJ5idZTzSVQeZ5KRzSRVUgAyyw8WWZNsXZ8KlV+b42Jg5b6wTB0GLZ9347+rc7yeNdBb7zge+3Md2bwgQqx1Ne97eN8mOhmuFZ7iigeWUp7jjWVRRt4adZSy+77OO84ooUwS1zWiSVMdMJgBTiOsDJuztC29rYZrXKeyRn37nwatsCDXE9LeMjvBlZ7cNA14zgmlV+ZZZcuNlV+lwz5axLsN2ko0sXZUyxEFMabkP0w8VZdt2yK12FYwNagn8Me32oyYgeYbems62bITYimkYSj27ffawlssiL3ONtEfW54h72GRhxhvs3qDpJbRRAa4mnDJMK1MZ2OuMarcbZ1zxjgcYIxSXYh2fgHKAFj3MZ2OuMarcUjTQxUEI1MZ2OuMarcbZ1zxjgcQIxQPwzJlJQVRGTnrUD+KQRIRvfk.i72asa8Y08dda0EYu2x6o7ZkPoosFEtIXfAMJaxD4IYLsZm71tsHWoi0tMSqbUdMZzhLkNV2zLstQ40NKxYjkwcrpccwesUjsvxhJKXfBFUtjokcYg4xEKX3pHWQGlVqTgEFYKg0RP4lZsaJsselo0rcvdK3wIjSwno0E+RSqSJmBwC4aJyrMur4mr2T8UmrsUaMlslpqpByVqZKUlxeobkOiD0W1YWFCUv1th0U31Fi0Xt7aaew5KW1565dR1TXUg2Pj8aT38CaKBYdd6fli.wOYxiPDwSgxiQHwiAL7nDOnsHf8XzzNB1J.Lq.rXI6s9K+FIJGx9Cr9CtDYJ9KWdjhJ9ppGqvh2hDUHqGsXB6Nrcjs2RhRB6LfsW.Wu1yQhRB2L.sCgKRTVWigK9IdKGhpkUmvlscl8K3WYuhaM2+xaJdxj4xWIT2YZkht2dHfVL66kBBlWj+5XECe+WZKTBejtttlfKbE4rrWKEDJZVr8aosvIr8ULs5QkTPV6lRDxbHWjohTPxnhqmxewWwWk1BgptCk6bwcpnDH5K6.6ec8Cv18Zu0mUBEore.c+.zljkHJ5nhiBljOmOrDJxQ4LZnDVXyG.GgNELa.pGx7PjTmzbRx2TcSyujuYG04Lsi1lgd1VmaExVTtjwk.9Uw7K78MkkyunBcLvjdFi2TVQa67dpiEBI5jfVciI+zva74i0Kn+9ATJHjpuA8MfdC4CpSnn0.sVGxG8MuojX9EnKg7PzzRa3zOVo34qzuJeTzs7XmWwyUJ8bQ4Q34HLMWy7iUKys37jv+X8h7JbtR3q4y7cFzLoLmASNNjLvwYv7Pl.4lv2lPJXdJndJX+P5f7N9tC6adHnf4nf5n.4n2nL8QnK57PifNUzi9LsZZcCOugmo0wGsHwEYZMD3g1LsZZM8dpH6HxNWwwwwwvwKHXnHmvwq2ELL7tYzn5ijeeOHnkwIheX3KJ5wyew7yGKWvLFtTgASkkQbpgH+I+6sVq8+9dqEzn+yyurz7QQeSyMjH8ml9mm18vieTzGDH6czwkk1IQxiGOdrOZj0lg0NI1ZH4lVy97ejPgDY9Pwl+ZZsh6uYiDIj.QDP3f8gGDgISrLYRpFlVsbQCrKWkoBCFMKqutNwzfgkkZyjIyF0eiSZarlZnPanenPhVi5K5jFQuHQfbbciFEJzpu5oUUI8jNMIRVNNY434fi2COdTTOppOGb7nm.QOcHoqpG58ZiEWkFk83gCmPxxxu7zkkl+44KJlkccYYQgxOZj56gGX74UU8SSGDnRNtsMMspp8j9maIO+zzm7DH4oCQumdj2sMZlVMsVB0WXzr08VqUWITeHmj7+7gr77Rx8.8nnaAssye9oouc9F4i9pp+gdF4K9jjeI908AuzKry64G8zW1A+s.zvafO.JPfIQPB3FBO49wAf7DjAVS.c7.gJYfDrfBiM.JRnRIWvJf4ApUVKsDBdgXfHef.t.gfFPLQCS.CaHJTAHTCBA+JLYGf5qFnhrhPvhQnBGJ8AFV.w1cx.eyz.BvxAKZv56DGFc.CLDfHRPsB3c8.PvxDQt.E.LfGTk.l.fzgEFjNAV5fLv.PCXBv.3fuQHECNDU3pAJ7ATfF.wYAJsBx.LfjEVLXRGjp3.bAFgNB.GfRR9CnB2SePE3ZvWHPjwQQUBse3vX.ZvWSXBDNf0Iv2aHXFvA9Z0wCr.rfuN.BTgaFN4ATgaA.juffH36AnhEURMDvl7AqvWtLvGj5D7sBXJBzgDD36kC.OHbnhIJAQEtWf0uUFKAey.b.U3VgB9NA5.pvMAXC1.eeAiR.nb4EWVwdTYwSojhKi3RK1CJZZ1+60fl4Sv9I7MplSXxm.DuFf9XV9grij+NtYySyWFLKTv3LJ59grevhxPDwM0Y2TSj8UXGBsgn5snaIZKw50tovv9DZOw0CdSMAbJrSQl1u82aJr6UrWQ6sO3OdSoMtEvsX+CgTb6cK21sFl6iUt2xINl6Xr+l2R7I2mr466AODK.aXPvWT7GG8.UvcSrosvU+0gndsmIqVsJF9PSdrSTrhmxk1WW95xqQhxRaqKaggxmAlrwTMlpppqxtxJiux1Wp9R0usskpsbU4qh70asW4p50hbWm1m448Va1GYq8qdn5qtttpznrpVFYjQF1e3gJpvzphJdhKWtXmBJnPgBkpJNNNtKpPqhk2xCRXwCXXPfAKRb3peXhQvAQPxHb8Qp7dD5zFguGAHd36GrT.w2PDw2QTw1eI4aIa99tdtHuAiLJ.mhJ.uhIYeeZQ1ySaKxV61asRRAW81Rn3ryU8lHiYClsQtxV81tNNMZ11prVlFkqKVVx33hrENKmIyjKYX.iail010sFMaaYXh7EvbAsbvS4BwWQEOEuHEeDkP4wQiG2VlLYVUXWrzlXhHjPhHf3mLYLf3gOiLFiGx3yxFiLvnBaLv.i1YPwxyUBkE2SrTB0Xt1LELZZccdl.HC9wZFv2ya6mk8VV+kKeUEH3eumk8YxfcFY7SlbMAKVBkFwOL7u2GD7s1eylGqDJLrOK6p5wTBkFlpypfaJqwsELXzdNtwPyxxx5svh+r731xjIypB6RlcJqY2x0klJ6XnQ6paJjn9vzz51hVjwdLHQ8g8Z731xjIypB6RFVjwniUKLSqZXbSEBTbHh.ENb4Ph3hDce2gbSYYwfYBoPycMAVv0vVL30vejf2MECv62bHS1zvZZulTPvflFl6i0K3dK9I9zVvCJCxhAMwfxjYOStzklxgnRYOSNjxI6AgkRD1JRrVlvVUg0JxVXYwltvNQq3EukKtur9x54HQYwsk0VXr7UvrMlqwbcQhp55psqxp7UWre45KWukDkE6Vt1xWQVqx2UztdtH64w8af+22S.t8VQwm36u3utV8hHh35ut7LwpVjvBK4qTBkZk8HQiaCDEJ1i.a0LBqJUpXWB1JojJKYVrXehItrWA1ZmJnXgwxxtEXqiWttreA1Z3EigLSqSxrmA15WFXPAa0RYKpfsxUICsu50zraAacyBEaWTwl8JrUsJLOlGjvhGf.CXj3vWOLwH3fHH40LsNBZeDNtH6s..eA3UBECfKBwiPh3Rrf62j.bIl.7IxX6JDuBQRTWP7K70cktmCLxiOI4VLBFjXRnRfAaohDbBQwfNGpFgfzD.vj2IgCtGFE5Pz4AP2KgX3Bw.HfjhC.BX..EfX..FB...g.LAi.vPlD.XzbvEr6oLjcyFLnNu57Id3b1jPjlzI+nmQl09m0wqOTQwTtVGctHNJqAz2VvhdgQVDfTNj3rO0rQIb9NjVMuK8H+bvlMlroNfVHdPhfRhvZxLyMXIsNKILjK.nLmRgXHCjL5RX1HmkEUUuFhR5beXTSquOtlbe1xDDnYC0rZjgiqxsLAVSrQSR9i0MUwKbG7vYrF1NZrggTX9HWxwZqGy7oE.msTzs97ugPP4jDVGZ4LbwQwRRfkLWFEXFwwzHflXbsFHkNkD7YmmIMF2LJ0c.y1jkbWPKMaD4jiMMGuwVtmRcEGmTGsQa7L3YClMwjd4Hzc3f2aO2PmyGcQNIkvHiTR+GcNwKBvuZRfIzw2qtw9mhCOoF0ey5M5bXS3M0GIUhnMiM8CqV4Xe.iF+kxR.LZRH48g6AT0yuJNjgknVkXEsUemdUYvUT+uJyVgeA6w9uQaFJVam9OQXR6w3UGPQT+ndXfrKOP.5SV51v427yIzHkTQ1pX+D6lM1srBmNR1wUctgu1weZnsZIlncaFTGHdvVr5ENKqYkx4lr3Oot2Te5lyQPj82mZ912z+t2BzLto4qhIakruGAaJVMnr4eNYo37fIORcpwlCYDjQBFhep.ozGSifHQORskfvK12odKCyi2Hd8+d9uwu.yVPPC1lE43oJE8ZbKBcb0xc8HirfF3hqXz.3T80kKEwOsXXRF5BUaMtR2t9nHPE1+YZ.4wmRDqWkxBqNjXXX.hBe2iWSqMGqBg6JPOKOgFMf6AA9rVwOoAKE0077rdQ+fv3Jf5ygJUDwnOcA2wFapyLc6TMiguyD0DQtWJNKch6i0QlKRD1BbWvx51VgVfUFra.Tb+whg7dT+mczT4g.uJAJBhKyD6zbRCJkIufh1j4XD8pJb+aTqKEdTut1IzOCWjEUWe+WWYZPs5bA9G4zX6UaA1U6zQNjBUbttLMpsx7kfoFsRggFBph8F06e+0da1hvTnw1ttLC73qtnakg98aAlL5w4OBJuWA9qP5sjzDXB.rERJu652urgoThf86pSgpDALAFXFSzsAdPJ9EygpmFH.ju0P2XjGAqZHeOuD9nYFMjApoAydjmhuPAIObcbCQ4WEo5CN2cTHQqwrbyvv66doLTFqlzK2zIxTBI5OtTMmr6tDzjiwDB0AQoRMHQ56crhdCjuzpMjff2zp3amK6Fp3zTGcDxsSxNrgBOqPhWPEnSpjyCjfGjJ8Xkgx0LrwUl+mGosont8.xJdaIA4aLSayzjN63BLx04eNCmO9+0y1uRilBxNvk6rCSM7re3vJ+Ytb6kdarw1anlQbj1cCo6s8kQuYXwKPkayQOYJKbgkQKG0wTZfQSgwtAgzjWgD01ft8I06O6W+M1VMQ6H+.8Vj7VFIpHIKRlohcD2B3n4VGFIzMjfI10WQgpNXXUelHZUoJ0yKhIkVq26z87NLrwoM7OkRvx3nVZypwXUtVOg0ta6Juk4myVp.8NOLXtftjK51NCPDWQWylkTh8Q8tANqpkTIECtw.GPMLEKxhLvvhXTunI8YyWTC7HXO1iqjjJBYg+ga3u+Rh9kNdRpV0bT.KT4QCbEusaDIlt4JQrqexL0.8PM0hX0btWwWUwEBWwBqGu35El2uQnV62yPppidteu6rlVoyYZc24dVp5ChC9zk.kq4nymnYT.Mt2nFgSqX9utb7Ii1dDen24jBzRXhO06ehcIGs+8IbYoyuQZlGfr1eCaK5FUtpSimO5KNRgq2Kz26HYdRXSzvq5fJVGNq50qjOCW2+X79RfD1GpU6ROPUkz+1VfnL16vH+LyhJgHcdWz1bKyFFy8vKLA79I+vlvOkow8v2zqgdqzKc1.wDJu57porrjjxABqTwvV3L5ecziQqEx1btlvlG5SzoquLiVSn9bxyiY31b99WCZrRKL0Bk+gQzNAqD2TqxlelcevmA3DinrnfHgn+N9yJh0v9Sr3JDfHBATzw9K5jIoo6oaCcMxEZ6xdr08SkdWDzDSYNiYg2GxA8aTqRREWt.Qz5kkC8oeEgRJ.LX4VGfzdo3DSw8FMbNCzb+k.jlu.xuReuXaI9g4CqCF+S.2VXN3.gh0NEHNIrXM3.EcoKT.uE59Yje7a+itJ7FGsYb4evbENnmuDCvrE1hxayBwGKHFw1.6kP5HlfY+o2nOBxHRCvZSfN8CSsqGX09FfgzHHK0gmawfv9wk.jU5Lp4LgbQV8XpRRlb44ImE+60Af9DyIm45tqGpCKQ.o1jzRbmrTF5d6HC6PFSNw0drjahukaC+vpODVAWanVdnqMW6ziOhYtmscG61dxnTfV5Huks70Y+M9WnIj8Hel3L+qG5BotmjTJAZmoar+sDKnZdrbUVJ..oO3xvpJewKx3ccpEwkS4aJNPDKx2K2R8PGUkm.MdeSwPfH8kcOZ55+tyUD8GTxjN9KOGfjIK9BUkej3c1AgYJxnAqnKx3+yEsB.ljAsvv1079JVpUQ+hXPUClvWyekrrT1TD2cxqqrJzWAq8rPfcYgU3aO1+jm5w3cy6EWGyLt0hpNnoyqXGyNXrIax013lZTbyvEP6R.a2DGRtnkvALQrObdOO+iU0c1gBNvUgrJRKUm.ZYj9OBD83GKrp5QfyDiXvZXFLlpvAWY5.nTPBXTfGePMFppJMa.bO21N7Y.jJCDJcZkZi4zUbgkFx5iczL5rbjtepcetvriZTqJ5.nDaH5onYL+zCY8tVG4s1EUy9mcOMhKtAjMMRZ+97Gw1FxsdeBdZllbC8aP5v0rFdKwXhI0948qmcM+JQKuePr487iGC+yVCl7KCPMwPP7vfFwkwp1ASFv1P.TqkcdSwRzf8AA5yuDCGjqBQ4iQDFA.uXADkmGTs+J.rhjYMTf6BKv8pw.9yD0FMa5wZPi2NKMhTATnP3UZxiimLMwILPIFSJj+izJkxHzfP5GRoQCZha4Sk3oVf6ESdwN+FQZE87fAGSCqzyoQMQv8xqz1N5iF09atZFS48mKiXS9AIiwqYH8Nm+9uLtJlHvlE3gh3Y0qn71Qq8oY7WBctNwoPwvRkaKUN3jptIFxBWsK5u+8Xo+H2Vv9bRnRXsbRb8JOl1lDCT5yaAEUpQ8kHDpULwdXS82LFJjGp++N5RX+t5LoVgA7zrvne.PoUE4zzVpIsyR8uN+ICeD0dBe9+wSBXogmpTcirEOLuSbm4E0ytoRk1bCoqtPqVrBuOzNjMZ3Fk8DuaNq3sFGhgXfvwjSJCNQ6AWs7Hr5Uxid+VEjwfZ2g7CXS0uY7jP0+Hq2CtRkn8RTVJo8.ITzBtXNlAVcTnin1jWYoF5.pKaXp203Fl+RRXAPcPovPclyJBDjwztig42G7RBIsAIvbJ4vSFfscmiSst6cNWakjIwrQeHol+jqVsKDSIRuZA.sx.SPXZ18a8WTpM2HiUQw8TNkeBLTVBWQdMZS32tIviu9HX.m0FaBQsAdSGdmEHCsdkqHbrQ3fQKU.p.2O4abu2SNjw4jx0x9ScTW0e2BShooWZZ12tVbAkXp3laosK+dfyn5no.0B1hVDQhMrvtLs+O5mF88Gpe2DeBgl75n8.9uZ+7cO5hH5YHD2fWeuW+OwnrzsG+V6JsVz34ruF2j1YBKYF6WG+4QYQN84OguG6zPzrHDPjROpO8NBPY7vAGtk9ihpFPO.TXMYxGmMucMMj5tb4X78zQVBbSRnES+q43JxJBYa5Dz48c+Nql5vfPnDhL3MTChZ09LGzZKQrAZL.aFLtApF67pXCXYbuXTw3AzV6IKV8UdERekVgWpr6wFWwZQEHZbazaSDgVM11+GxnHzZbjw9uBbZK.QMcyw97isI+8CytZKQGdysbB1iAXzCWtZH9jMy7Rwzl0Q5nK54srvajInXHBAN9FgPGUhASGiqJOG7ROv7Iw7.lCMcU89+jFzQPt7z4U0pugDDaoMdL8MaA7o89DKmGJuokaS8.h6pP5n.hKbYJ504wjj3M5pCOfhEOEdYbkn0Xc3Sw9SWt7khY4TNkSVlPy9oXH57+mqG.ekKk9C0XU4s8j3lUPA3RVyewy02to00kI74y2y1cAd+y5xB7QBXzviRTkXHLJSfxmbIXN319zSPDdfdLqBh9KmzckoH1Tdizkl2OvjCCq+HN.8XT0V+0izU+7Ec21Ld8iRV8v+ex7+cl7yEFo6KAEWOwlyiHFW3CbwUoeOHNK5xAvUrYpcLvcV5UnIHkPVA83p+gNjkn13M3vqOC8B2dD6G75+Bm+pq3wtpB5jMOBjq7WtCBs23Hc2bYV7UrLfA8wA.8fURtykyB6Z0FJvSZU29UIYFMgQ45YZTvKx2JspTR82hvIfdsf9lDNPZodUIdwkl4yKseyY0vV047wQ8lOcuSRtIZVJi864cy8XXhIExMkxmVKNPK88pe07NC0AaulvODLF4g8G"
+                      FileName="/Users/filo/Desktop/pathetique_1.mid">
+              <TimeSignature NumBars="485.5" Nominator="4.0" Denominator="8.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="140.00014000014"/>
+            </MidiFile>
+          </MidiFiles>
+        </Processor>
+        <Processor Type="MidiPlayer" ID="MIDI Player2" Bypassed="0" CurrentSequence="1.0"
+                   CurrentTrack="1.0" LoopEnabled="1.0" PlaybackSpeed="1.0">
+          <ChildProcessors/>
+          <MidiFiles>
+            <MidiFile ID="" Data="112.nT6K8Cxc8L..jUPSTgFY....F.P..Dv4nzDUxsF...PXcRGjq7E.vnB.y.Smy.3J...L..vL.DnEPJiJ..iK.XSGh5jL...L.XC.BJ.j2jF.rzF.3vBpobCK.fC..7+K.T..HUVJJxkPkW+LIYZMgB"
+                      FileName="">
+              <TimeSignature NumBars="8.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+          </MidiFiles>
+        </Processor>
+        <Processor Type="MidiPlayer" ID="MIDI Player Metronome" Bypassed="1" CurrentSequence="31.0"
+                   CurrentTrack="1.0" LoopEnabled="1.0" PlaybackSpeed="1.0">
+          <ChildProcessors/>
+          <MidiFiles>
+            <MidiFile ID="" Data="23.nT6K8ChCwA..MQEZjA...X..A...miB" FileName="/Users/filo/Desktop/midi_export.mid">
+              <TimeSignature NumBars="1.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="23.nT6K8ChCwA..MQEZjA...X..A...miB" FileName="">
+              <TimeSignature NumBars="1.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="61.nT6K8CROkF..TKPSTgFY....F.P..Dv4nzDUxsF...vI..IOfEGf7.fgOAILfMGfv.fgMAv+u.P..DhTJC"
+                      FileName="">
+              <TimeSignature NumBars="1.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="23.nT6K8ChCwA..MQEZjA...X..A...miB" FileName="">
+              <TimeSignature NumBars="1.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="23.nT6K8ChCwA..MQEZjA...X..A...miB" FileName="">
+              <TimeSignature NumBars="1.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="23.nT6K8ChCwA..MQEZjA...X..A...miB" FileName="">
+              <TimeSignature NumBars="1.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="23.nT6K8ChCwA..MQEZjA...X..A...miB" FileName="">
+              <TimeSignature NumBars="1.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="23.nT6K8ChCwA..MQEZjA...X..A...miB" FileName="">
+              <TimeSignature NumBars="1.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="23.nT6K8ChCwA..MQEZjA...X..A...miB" FileName="">
+              <TimeSignature NumBars="1.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="23.nT6K8ChCwA..MQEZjA...X..A...miB" FileName="">
+              <TimeSignature NumBars="1.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="23.nT6K8ChCwA..MQEZjA...X..A...miB" FileName="/Users/filo/Desktop/midi_export.mid">
+              <TimeSignature NumBars="1.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="61.nT6K8CROkF..TKPSTgFY....F.P..Dv4nzDUxsF...vI..IOfEGf7.fgOAILfMGfv.fgMAv+u.P..DhTJC"
+                      FileName="/Users/filo/Desktop/midi_export.mid">
+              <TimeSignature NumBars="1.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="23.nT6K8ChCwA..MQEZjA...X..A...miB" FileName="/Users/filo/Desktop/midi_export.mid">
+              <TimeSignature NumBars="1.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="23.nT6K8ChCwA..MQEZjA...X..A...miB" FileName="">
+              <TimeSignature NumBars="1.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="23.nT6K8ChCwA..MQEZjA...X..A...miB" FileName="">
+              <TimeSignature NumBars="1.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="61.nT6K8CROkF..TKPSTgFY....F.P..Dv4nzDUxsF...vI..IOfEGf7.fgOAILfMGfv.fgMAv+u.P..DhTJC"
+                      FileName="">
+              <TimeSignature NumBars="1.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="23.nT6K8ChCwA..MQEZjA...X..A...miB" FileName="">
+              <TimeSignature NumBars="1.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="61.nT6K8CROkF..TKPSTgFY....F.P..Dv4nzDUxsF...vI..IOfEGf7.fgOAILfMGfv.fgMAv+u.P..DhTJC"
+                      FileName="">
+              <TimeSignature NumBars="1.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="23.nT6K8ChCwA..MQEZjA...X..A...miB" FileName="">
+              <TimeSignature NumBars="1.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="23.nT6K8ChCwA..MQEZjA...X..A...miB" FileName="">
+              <TimeSignature NumBars="1.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="23.nT6K8ChCwA..MQEZjA...X..A...miB" FileName="">
+              <TimeSignature NumBars="1.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="23.nT6K8ChCwA..MQEZjA...X..A...miB" FileName="">
+              <TimeSignature NumBars="1.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="23.nT6K8ChCwA..MQEZjA...X..A...miB" FileName="">
+              <TimeSignature NumBars="1.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="23.nT6K8ChCwA..MQEZjA...X..A...miB" FileName="">
+              <TimeSignature NumBars="1.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="23.nT6K8ChCwA..MQEZjA...X..A...miB" FileName="">
+              <TimeSignature NumBars="1.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="23.nT6K8ChCwA..MQEZjA...X..A...miB" FileName="">
+              <TimeSignature NumBars="1.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="23.nT6K8ChCwA..MQEZjA...X..A...miB" FileName="">
+              <TimeSignature NumBars="1.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="23.nT6K8ChCwA..MQEZjA...X..A...miB" FileName="">
+              <TimeSignature NumBars="1.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="23.nT6K8ChCwA..MQEZjA...X..A...miB" FileName="">
+              <TimeSignature NumBars="1.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="23.nT6K8ChCwA..MQEZjA...X..A...miB" FileName="">
+              <TimeSignature NumBars="1.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="23.nT6K8ChCwA..MQEZjA...X..A...miB" FileName="">
+              <TimeSignature NumBars="1.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+          </MidiFiles>
+        </Processor>
+        <Processor Type="Arpeggiator" ID="Arpeggiator1" Bypassed="0">
+          <ChildProcessors/>
+          <Content>
+            <Control type="ScriptButton" id="BypassButton" value="0.0"/>
+            <Control type="ScriptButton" id="ResetButton" value="1.0"/>
+            <Control type="ScriptSlider" id="NumStepSlider" value="4.0"/>
+            <Control type="ScriptSlider" id="StepReset" value="0.0"/>
+            <Control type="ScriptSlider" id="StepSkipSlider" value="1.0"/>
+            <Control type="ScriptButton" id="SortKeysButton" value="0.0"/>
+            <Control type="ScriptSlider" id="SpeedKnob" value="5.0"/>
+            <Control type="ScriptComboBox" id="SequenceComboBox" value="1.0"/>
+            <Control type="ScriptSlider" id="OctaveRange" value="0.0"/>
+            <Control type="ScriptSlider" id="Shuffle" value="0.0"/>
+            <Control type="ScriptButton" id="EnableTie" value="1.0"/>
+            <Control type="ScriptSliderPack" id="SemiToneSliderPack" value="1.0" data="16....v.A................"/>
+            <Control type="ScriptSliderPack" id="VelocitySliderPack" value="3.0" data="16...f+BA..9KD..3uP..f+BA"/>
+            <Control type="ScriptSliderPack" id="LengthSliderPack" value="-1.0" data="16...fkBA..VJD..XoP..fkBA"/>
+            <Control type="ScriptComboBox" id="ChannelSelector" value="3.0"/>
+            <Control type="ScriptComboBox" id="OutputChannelSelector" value="3.0"/>
+            <Control type="ScriptComboBox" id="MPEStartChannel" value="2.0"/>
+            <Control type="ScriptComboBox" id="MPEEndChannel" value="16.0"/>
+            <Control type="ScriptButton" id="Hold" value="1.0"/>
+          </Content>
+        </Processor>
+        <Processor Type="ScriptProcessor" ID="Interface" Bypassed="0">
+          <ChildProcessors/>
+          <Content>
+            <Control type="ScriptButton" id="Record" value="0.0"/>
+            <Control type="ScriptButton" id="Play" value="0"/>
+            <Control type="ScriptSlider" id="transposeKnob" value="0.0"/>
+            <Control type="ScriptButton" id="Clear" value="1.0"/>
+            <Control type="ScriptButton" id="PlayMIDISequence" value="0.0"/>
+            <Control type="ScriptButton" id="ReadMidiFile" value="0.0"/>
+            <Control type="ScriptButton" id="Clear MIDI Sequence" value="0.0"/>
+            <Control type="ScriptButton" id="qwertyPlayButton" value="0"/>
+            <Control type="ScriptButton" id="midiPlayButton" value="0"/>
+            <Control type="ScriptButton" id="clickPlayButton" value="1"/>
+            <Control type="ScriptButton" id="Next3Notes" value="0.0"/>
+            <Control type="ScriptButton" id="NextNote" value="0.0"/>
+            <Control type="ScriptButton" id="chooseButton" value="0"/>
+            <Control type="ScriptComboBox" id="tracksComboBox" value="1.0"/>
+            <Control type="ScriptButton" id="metronomeButton" value="0.0"/>
+            <Control type="ScriptButton" id="hostSyncButton" value="0"/>
+            <Control type="ScriptButton" id="pianoButton" value="1.0"/>
+            <Control type="ScriptButton" id="stringButton" value="0.0"/>
+            <Control type="ScriptButton" id="synthButton" value="1.0"/>
+            <Control type="ScriptButton" id="autoplayButton" value="0.0"/>
+            <Control type="ScriptButton" id="settingsButton" value="0.0"/>
+            <Control type="ScriptComboBox" id="signatureComboBox" value="4.0"/>
+            <Control type="ScriptSlider" id="bpmKnob" value="126.0"/>
+            <Control type="ScriptSlider" id="veloKnob" value="1.179999947547913"/>
+            <Control type="ScriptSlider" id="SIMILKnob" value="-4.0"/>
+            <Control type="ScriptButton" id="octaveButton" value="0.0"/>
+            <Control type="ScriptSlider" id="matroVolKnob" value="30.0"/>
+            <Control type="ScriptSlider" id="reverbKnob" value="0.25"/>
+          </Content>
+          <UIData Source="markovLecturaMidi_V0.12.12_chooseButtonUIData"/>
+        </Processor>
+        <Processor Type="ScriptProcessor" ID="Script Processor1" Bypassed="1">
+          <ChildProcessors/>
+          <Content/>
+          <UIData>
+            <ContentProperties DeviceType="Desktop"/>
+          </UIData>
+        </Processor>
+        <Processor Type="ScriptProcessor" ID="Recorder1" Bypassed="1">
+          <ChildProcessors/>
+          <Content>
+            <Control type="ScriptButton" id="Record" value="1.0"/>
+            <Control type="ScriptButton" id="Play" value="0.0"/>
+          </Content>
+          <UIData>
+            <ContentProperties DeviceType="Desktop">
+              <Component type="ScriptButton" id="Record" x="10" y="10" text="Stop Recording"/>
+              <Component type="ScriptButton" id="Play" x="150" y="10"/>
+            </ContentProperties>
+          </UIData>
+        </Processor>
+      </ChildProcessors>
+    </Processor>
+    <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
+      <ChildProcessors/>
+    </Processor>
+    <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="1" Intensity="0.0">
+      <ChildProcessors/>
+    </Processor>
+    <Processor Type="EffectChain" ID="FX" Bypassed="0">
+      <ChildProcessors>
+        <Processor Type="SimpleReverb" ID="Simple Reverb1" Bypassed="0" RoomSize="0.8299999833106995"
+                   Damping="0.7699999809265137" WetLevel="0.25" DryLevel="0.75"
+                   Width="1.0" FreezeMode="0.1000000014901161">
+          <ChildProcessors/>
+          <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+        </Processor>
+      </ChildProcessors>
+    </Processor>
+    <Processor Type="SineSynth" ID="Sine Wave Generator Metronome" Bypassed="0"
+               Gain="0.25" Balance="0.0" VoiceLimit="256.0" KillFadeTime="20.0"
+               IconColour="0" OctaveTranspose="2.0" SemiTones="-1.0" UseFreqRatio="0.0"
+               CoarseFreqRatio="1.0" FineFreqRatio="0.0" SaturationAmount="0.5199999809265137">
+      <ChildProcessors>
+        <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
+          <ChildProcessors>
+            <Processor Type="ChannelFilter" ID="MIDI Channel Filter1" Bypassed="0">
+              <ChildProcessors/>
+              <Content>
+                <Control type="ScriptSlider" id="channelNumber" value="2.0"/>
+                <Control type="ScriptSlider" id="mpeStart" value="0.0"/>
+                <Control type="ScriptSlider" id="mpeEnd" value="16.0"/>
+              </Content>
+            </Processor>
+          </ChildProcessors>
+        </Processor>
+        <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
+          <ChildProcessors>
+            <Processor Type="AHDSR" ID="AHDSR Envelope1" Bypassed="0" Monophonic="0.0"
+                       Retrigger="0.0" Intensity="1.0" AttackCurve="0.3100000023841858"
+                       DecayCurve="0.1700000017881393" Attack="0.0" AttackLevel="0.0"
+                       Hold="0.0" Decay="158.0" Sustain="-100.0" Release="220.0" EcoMode="1.0">
+              <ChildProcessors>
+                <Processor Type="ModulatorChain" ID="Attack Time" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Attack Level" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Decay Time" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Sustain Level" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Release Time" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+              </ChildProcessors>
+            </Processor>
+            <Processor Type="Velocity" ID="Velocity Modulator1" Bypassed="0" Intensity="1.0"
+                       UseTable="0.0" Inverted="0.0" DecibelMode="0.0">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+        </Processor>
+        <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0.0">
+          <ChildProcessors/>
+        </Processor>
+        <Processor Type="EffectChain" ID="FX" Bypassed="0">
+          <ChildProcessors/>
+        </Processor>
+      </ChildProcessors>
+      <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+    </Processor>
+    <Processor Type="StreamingSampler" ID="Sampler1" Bypassed="1" Gain="1.0"
+               Balance="0.0" VoiceLimit="256.0" KillFadeTime="20.0" IconColour="0"
+               PreloadSize="8192.0" BufferSize="4096.0" VoiceAmount="256.0"
+               SamplerRepeatMode="3.0" RRGroupAmount="1.0" PitchTracking="1.0"
+               OneShot="0.0" CrossfadeGroups="0.0" Purged="0.0" Reversed="0.0"
+               NumChannels="1" UseStaticMatrix="0.0" Group0Table="" Group1Table=""
+               Group2Table="" Group3Table="" Group4Table="" Group5Table="" Group6Table=""
+               Group7Table="" SampleMapID="uprPiano">
+      <ChildProcessors>
+        <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
+          <ChildProcessors>
+            <Processor Type="Transposer" ID="Transposer1" Bypassed="0" TransposeAmount="24.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ChannelFilter" ID="MIDI Channel Filter2" Bypassed="0">
+              <ChildProcessors/>
+              <Content>
+                <Control type="ScriptSlider" id="channelNumber" value="1.0"/>
+                <Control type="ScriptSlider" id="mpeStart" value="0.0"/>
+                <Control type="ScriptSlider" id="mpeEnd" value="16.0"/>
+              </Content>
+            </Processor>
+          </ChildProcessors>
+        </Processor>
+        <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
+          <ChildProcessors>
+            <Processor Type="SimpleEnvelope" ID="DefaultEnvelope1" Bypassed="0" Monophonic="0.0"
+                       Retrigger="1.0" Intensity="1.0" Attack="0.0" Release="424.0"
+                       LinearMode="1.0">
+              <ChildProcessors>
+                <Processor Type="ModulatorChain" ID="Attack Time Modulation" Bypassed="0"
+                           Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+              </ChildProcessors>
+            </Processor>
+            <Processor Type="Velocity" ID="Velocity Modulator2" Bypassed="0" Intensity="1.0"
+                       UseTable="0.0" Inverted="0.0" DecibelMode="0.0">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+        </Processor>
+        <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0.0">
+          <ChildProcessors/>
+        </Processor>
+        <Processor Type="EffectChain" ID="FX" Bypassed="0">
+          <ChildProcessors/>
+        </Processor>
+        <Processor Type="ModulatorChain" ID="Sample Start" Bypassed="0" Intensity="1.0">
+          <ChildProcessors/>
+        </Processor>
+        <Processor Type="ModulatorChain" ID="Group Fade" Bypassed="0" Intensity="1.0">
+          <ChildProcessors/>
+        </Processor>
+      </ChildProcessors>
+      <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+      <channels>
+        <channelData enabled="1" level="0.0" suffix=""/>
+      </channels>
+    </Processor>
+    <Processor Type="StreamingSampler" ID="Sampler2" Bypassed="0" Gain="1.0"
+               Balance="0.3400000035762787" VoiceLimit="256.0" KillFadeTime="20.0"
+               IconColour="0" PreloadSize="8192.0" BufferSize="4096.0" VoiceAmount="256.0"
+               SamplerRepeatMode="3.0" RRGroupAmount="1.0" PitchTracking="1.0"
+               OneShot="0.0" CrossfadeGroups="0.0" Purged="0.0" Reversed="0.0"
+               NumChannels="1" UseStaticMatrix="0.0" Group0Table="" Group1Table=""
+               Group2Table="" Group3Table="" Group4Table="" Group5Table="" Group6Table=""
+               Group7Table="" SampleMapID="Violas">
+      <ChildProcessors>
+        <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
+          <ChildProcessors>
+            <Processor Type="Transposer" ID="Transposer2" Bypassed="0" TransposeAmount="0.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ChannelFilter" ID="MIDI Channel Filter3" Bypassed="0">
+              <ChildProcessors/>
+              <Content>
+                <Control type="ScriptSlider" id="channelNumber" value="1.0"/>
+                <Control type="ScriptSlider" id="mpeStart" value="0.0"/>
+                <Control type="ScriptSlider" id="mpeEnd" value="16.0"/>
+              </Content>
+            </Processor>
+          </ChildProcessors>
+        </Processor>
+        <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
+          <ChildProcessors>
+            <Processor Type="Velocity" ID="Velocity Modulator3" Bypassed="0" Intensity="1.0"
+                       UseTable="0.0" Inverted="0.0" DecibelMode="0.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="AHDSR" ID="AHDSR Envelope2" Bypassed="0" Monophonic="0.0"
+                       Retrigger="1.0" Intensity="1.0" AttackCurve="0.0" DecayCurve="0.0"
+                       Attack="3.0" AttackLevel="0.0" Hold="10.0" Decay="300.0" Sustain="0.0"
+                       Release="3132.0" EcoMode="1.0">
+              <ChildProcessors>
+                <Processor Type="ModulatorChain" ID="Attack Time" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Attack Level" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Decay Time" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Sustain Level" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Release Time" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+              </ChildProcessors>
+            </Processor>
+          </ChildProcessors>
+        </Processor>
+        <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0.0">
+          <ChildProcessors/>
+        </Processor>
+        <Processor Type="EffectChain" ID="FX" Bypassed="0">
+          <ChildProcessors>
+            <Processor Type="SimpleGain" ID="Simple Gain1" Bypassed="0" Gain="14.48999977111816"
+                       Delay="0.0" Width="100.0" Balance="0.0" InvertPolarity="0.0">
+              <ChildProcessors>
+                <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+              </ChildProcessors>
+              <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+            </Processor>
+          </ChildProcessors>
+        </Processor>
+        <Processor Type="ModulatorChain" ID="Sample Start" Bypassed="0" Intensity="1.0">
+          <ChildProcessors/>
+        </Processor>
+        <Processor Type="ModulatorChain" ID="Group Fade" Bypassed="0" Intensity="1.0">
+          <ChildProcessors/>
+        </Processor>
+      </ChildProcessors>
+      <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+      <channels>
+        <channelData enabled="1" level="0.0" suffix=""/>
+      </channels>
+    </Processor>
+    <Processor Type="StreamingSampler" ID="Sampler3" Bypassed="0" Gain="1.0"
+               Balance="-0.2800000011920929" VoiceLimit="256.0" KillFadeTime="20.0"
+               IconColour="0" PreloadSize="8192.0" BufferSize="4096.0" VoiceAmount="256.0"
+               SamplerRepeatMode="3.0" RRGroupAmount="1.0" PitchTracking="1.0"
+               OneShot="0.0" CrossfadeGroups="0.0" Purged="0.0" Reversed="0.0"
+               NumChannels="1" UseStaticMatrix="0.0" Group0Table="" Group1Table=""
+               Group2Table="" Group3Table="" Group4Table="" Group5Table="" Group6Table=""
+               Group7Table="" SampleMapID="cellosSusVib2">
+      <ChildProcessors>
+        <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
+          <ChildProcessors>
+            <Processor Type="Transposer" ID="Transposer3" Bypassed="0" TransposeAmount="0.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ChannelFilter" ID="MIDI Channel Filter4" Bypassed="0">
+              <ChildProcessors/>
+              <Content>
+                <Control type="ScriptSlider" id="channelNumber" value="1.0"/>
+                <Control type="ScriptSlider" id="mpeStart" value="0.0"/>
+                <Control type="ScriptSlider" id="mpeEnd" value="16.0"/>
+              </Content>
+            </Processor>
+          </ChildProcessors>
+        </Processor>
+        <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
+          <ChildProcessors>
+            <Processor Type="Velocity" ID="Velocity Modulator4" Bypassed="0" Intensity="1.0"
+                       UseTable="0.0" Inverted="0.0" DecibelMode="0.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="AHDSR" ID="AHDSR Envelope3" Bypassed="0" Monophonic="0.0"
+                       Retrigger="1.0" Intensity="1.0" AttackCurve="0.0" DecayCurve="0.0"
+                       Attack="20.0" AttackLevel="0.0" Hold="10.0" Decay="300.0" Sustain="0.0"
+                       Release="918.0" EcoMode="1.0">
+              <ChildProcessors>
+                <Processor Type="ModulatorChain" ID="Attack Time" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Attack Level" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Decay Time" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Sustain Level" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Release Time" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+              </ChildProcessors>
+            </Processor>
+          </ChildProcessors>
+        </Processor>
+        <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0.0">
+          <ChildProcessors/>
+        </Processor>
+        <Processor Type="EffectChain" ID="FX" Bypassed="0">
+          <ChildProcessors>
+            <Processor Type="SimpleGain" ID="Simple Gain2" Bypassed="0" Gain="8.930000305175781"
+                       Delay="0.0" Width="100.0" Balance="0.0" InvertPolarity="0.0">
+              <ChildProcessors>
+                <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+              </ChildProcessors>
+              <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+            </Processor>
+          </ChildProcessors>
+        </Processor>
+        <Processor Type="ModulatorChain" ID="Sample Start" Bypassed="0" Intensity="1.0">
+          <ChildProcessors/>
+        </Processor>
+        <Processor Type="ModulatorChain" ID="Group Fade" Bypassed="0" Intensity="1.0">
+          <ChildProcessors/>
+        </Processor>
+      </ChildProcessors>
+      <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+      <channels>
+        <channelData enabled="1" level="0.0" suffix=""/>
+      </channels>
+    </Processor>
+    <Processor Type="SynthGroup" ID="Synthesiser Group1" Bypassed="1" Gain="0.3589219450950623"
+               Balance="0.0" VoiceLimit="36.0" KillFadeTime="20.0" IconColour="0"
+               EnableFM="0.0" CarrierIndex="-1.0" ModulatorIndex="-1.0" UnisonoVoiceAmount="7.0"
+               UnisonoDetune="0.1800000071525574" UnisonoSpread="2.0" KillSecondVoices="1.0">
+      <ChildProcessors>
+        <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
+          <ChildProcessors/>
+        </Processor>
+        <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
+          <ChildProcessors>
+            <Processor Type="SimpleEnvelope" ID="DefaultEnvelope" Bypassed="0" Monophonic="0.0"
+                       Retrigger="1.0" Intensity="1.0" Attack="6.0" Release="910.0"
+                       LinearMode="0.0">
+              <ChildProcessors>
+                <Processor Type="ModulatorChain" ID="Attack Time Modulation" Bypassed="0"
+                           Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+              </ChildProcessors>
+            </Processor>
+            <Processor Type="Velocity" ID="Velocity Modulator5" Bypassed="0" Intensity="1.0"
+                       UseTable="1.0" Inverted="0.0" DecibelMode="0.0" VelocityTableData="36...............vO7Pla9HhHh7C...vO...f+....9C...vO">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+        </Processor>
+        <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0.0">
+          <ChildProcessors/>
+        </Processor>
+        <Processor Type="EffectChain" ID="FX" Bypassed="0">
+          <ChildProcessors>
+            <Processor Type="PolyphonicFilter" ID="Filter1" Bypassed="0" Gain="0.0"
+                       Frequency="1540.160034179688" Q="0.7200000286102295" Mode="15.0"
+                       Quality="0.0" BipolarIntensity="0.3300000131130219">
+              <ChildProcessors>
+                <Processor Type="ModulatorChain" ID="Frequency Modulation" Bypassed="0"
+                           Intensity="1.0">
+                  <ChildProcessors>
+                    <Processor Type="AHDSR" ID="AHDSR Envelope2" Bypassed="0" Monophonic="0.0"
+                               Retrigger="1.0" Intensity="1.0" AttackCurve="0.0" DecayCurve="0.0"
+                               Attack="708.0" AttackLevel="0.0" Hold="0.0" Decay="20000.0" Sustain="-12.32999992370605"
+                               Release="14021.0" EcoMode="1.0">
+                      <ChildProcessors>
+                        <Processor Type="ModulatorChain" ID="Attack Time" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors>
+                            <Processor Type="Velocity" ID="Velocity Modulator5" Bypassed="0" Intensity="1.0"
+                                       UseTable="0.0" Inverted="0.0" DecibelMode="0.0">
+                              <ChildProcessors/>
+                            </Processor>
+                          </ChildProcessors>
+                        </Processor>
+                        <Processor Type="ModulatorChain" ID="Attack Level" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                        <Processor Type="ModulatorChain" ID="Decay Time" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                        <Processor Type="ModulatorChain" ID="Sustain Level" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                        <Processor Type="ModulatorChain" ID="Release Time" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                      </ChildProcessors>
+                    </Processor>
+                  </ChildProcessors>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Bipolar Freq Modulation" Bypassed="0"
+                           Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Q Modulation" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+              </ChildProcessors>
+            </Processor>
+          </ChildProcessors>
+        </Processor>
+        <Processor Type="ModulatorChain" ID="Detune Mod" Bypassed="0" Intensity="1.0">
+          <ChildProcessors/>
+        </Processor>
+        <Processor Type="ModulatorChain" ID="Spread Mod" Bypassed="0" Intensity="1.0">
+          <ChildProcessors/>
+        </Processor>
+        <Processor Type="WaveSynth" ID="Waveform Generator1" Bypassed="0" Gain="0.25"
+                   Balance="0.0" VoiceLimit="256.0" KillFadeTime="20.0" IconColour="0"
+                   OctaveTranspose1="0.0" SemiTones1="0.0" OctaveTranspose2="0.0"
+                   SemiTones2="0.0" Detune1="0.0" Detune2="0.0" WaveForm1="3.0"
+                   WaveForm2="3.0" Pan1="0.0" Pan2="0.0" Mix="0.5" EnableSecondOscillator="1.0"
+                   PulseWidth1="0.5" PulseWidth2="0.5" HardSync="0.0">
+          <ChildProcessors>
+            <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors>
+                <Processor Type="Velocity" ID="Velocity Modulator7" Bypassed="0" Intensity="1.0"
+                           UseTable="0.0" Inverted="0.0" DecibelMode="0.0">
+                  <ChildProcessors/>
+                </Processor>
+              </ChildProcessors>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="EffectChain" ID="FX" Bypassed="0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Mix Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Osc2 Pitch Modulation" Bypassed="0"
+                       Intensity="0.0">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+          <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+        </Processor>
+      </ChildProcessors>
+      <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+    </Processor>
+  </ChildProcessors>
+  <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+  <macro_controls>
+    <macro name="Macro 1" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 2" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 3" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 4" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 5" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 6" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 7" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 8" value="0.0" midi_cc="-1"/>
+  </macro_controls>
+  <MidiAutomation/>
+  <MPEData Enabled="0"/>
+</Processor>

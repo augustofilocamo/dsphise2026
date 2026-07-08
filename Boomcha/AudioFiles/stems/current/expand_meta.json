@@ -1,0 +1,916 @@
+{
+  "exports": [
+    {
+      "source_path": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/e-gmd-v1.0.0/drummer3/session1/1_rock_105_beat_4-4_18.midi",
+      "bar_start": 14,
+      "n_bars": 8,
+      "bpm": 105.0,
+      "output_bpm": 105.0,
+      "source_type": "groove",
+      "mid_path": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/AudioFiles/stems/current/closest_1bar_1.mid",
+      "velocity": 100,
+      "query": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "source_path": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/e-gmd-v1.0.0/drummer1/session3/8_rock_135_beat_4-4_10.midi",
+      "bar_start": 14,
+      "n_bars": 8,
+      "bpm": 135.0,
+      "output_bpm": 105.0,
+      "source_type": "groove",
+      "mid_path": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/AudioFiles/stems/current/closest_1bar_2.mid",
+      "velocity": 100,
+      "query": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "source_path": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/e-gmd-v1.0.0/drummer7/session1/1_rock_86_beat_4-4_14.midi",
+      "bar_start": 60,
+      "n_bars": 8,
+      "bpm": 86.0,
+      "output_bpm": 105.0,
+      "source_type": "groove",
+      "mid_path": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/AudioFiles/stems/current/closest_1bar_3.mid",
+      "velocity": 100,
+      "query": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "source_path": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/e-gmd-v1.0.0/drummer1/session3/9_rock_135_beat_4-4_1.midi",
+      "bar_start": 33,
+      "n_bars": 8,
+      "bpm": 135.0,
+      "output_bpm": 105.0,
+      "source_type": "groove",
+      "mid_path": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/AudioFiles/stems/current/closest_1bar_4.mid",
+      "velocity": 100,
+      "query": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "source_path": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/e-gmd-v1.0.0/drummer1/session2/181_rock_115_beat_4-4_8.midi",
+      "bar_start": 35,
+      "n_bars": 8,
+      "bpm": 115.0,
+      "output_bpm": 105.0,
+      "source_type": "groove",
+      "mid_path": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/AudioFiles/stems/current/closest_1bar_5.mid",
+      "velocity": 100,
+      "query": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "source_path": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/e-gmd-v1.0.0/drummer9/session1/7_rock_100_beat_4-4_25.midi",
+      "bar_start": 5,
+      "n_bars": 8,
+      "bpm": 100.0,
+      "output_bpm": 105.0,
+      "source_type": "groove",
+      "mid_path": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/AudioFiles/stems/current/closest_1bar_6.mid",
+      "velocity": 100,
+      "query": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "source_path": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/e-gmd-v1.0.0/drummer9/session1/3_rock_100_beat_4-4_56.midi",
+      "bar_start": 15,
+      "n_bars": 8,
+      "bpm": 100.0,
+      "output_bpm": 105.0,
+      "source_type": "groove",
+      "mid_path": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/AudioFiles/stems/current/closest_1bar_7.mid",
+      "velocity": 100,
+      "query": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "source_path": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/e-gmd-v1.0.0/drummer8/session1/2_funk_95_beat_4-4_44.midi",
+      "bar_start": 21,
+      "n_bars": 8,
+      "bpm": 95.0,
+      "output_bpm": 105.0,
+      "source_type": "groove",
+      "mid_path": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/AudioFiles/stems/current/closest_1bar_8.mid",
+      "velocity": 100,
+      "query": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "source_path": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/e-gmd-v1.0.0/drummer5/session1/1_latin-brazilian-bossa_127_beat_4-4_53.midi",
+      "bar_start": 130,
+      "n_bars": 8,
+      "bpm": 127.0,
+      "output_bpm": 105.0,
+      "source_type": "groove",
+      "mid_path": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/AudioFiles/stems/current/closest_1bar_9.mid",
+      "velocity": 100,
+      "query": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "source_path": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/e-gmd-v1.0.0/drummer8/session1/13_latin_118_beat_4-4_24.midi",
+      "bar_start": 35,
+      "n_bars": 8,
+      "bpm": 118.0,
+      "output_bpm": 105.0,
+      "source_type": "groove",
+      "mid_path": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/AudioFiles/stems/current/closest_1bar_10.mid",
+      "velocity": 100,
+      "query": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "source_path": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/e-gmd-v1.0.0/drummer8/eval_session/4_soul-groove4_80_beat_4-4_8.midi",
+      "bar_start": 13,
+      "n_bars": 8,
+      "bpm": 80.0,
+      "output_bpm": 105.0,
+      "source_type": "groove",
+      "mid_path": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/AudioFiles/stems/current/closest_1bar_11.mid",
+      "velocity": 100,
+      "query": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "source_path": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/e-gmd-v1.0.0/drummer3/session1/7_rock_105_beat_4-4_5.midi",
+      "bar_start": 1,
+      "n_bars": 8,
+      "bpm": 105.0,
+      "output_bpm": 105.0,
+      "source_type": "groove",
+      "mid_path": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/AudioFiles/stems/current/closest_1bar_12.mid",
+      "velocity": 100,
+      "query": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    }
+  ]
+}

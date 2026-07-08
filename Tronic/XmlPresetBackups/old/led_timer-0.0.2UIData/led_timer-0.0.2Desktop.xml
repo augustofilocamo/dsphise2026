@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptButton" id="Button1" x="0.0" y="0.0"/>
+  <Component type="ScriptLabel" id="Label1" x="100.0" y="90.0" width="90"
+             height="140" text="3" fontSize="88.0"/>
+  <Component type="ScriptSlider" id="ledKnob" x="116" y="444" max="7.0" filmstripImage="{PROJECT_FOLDER}leds.png"
+             numStrips="8" scaleFactor=".5" width="670" height="70"/>
+</ContentProperties>

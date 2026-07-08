@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Preset Version="1.0.0">
+  <Content Processor="Interface">
+    <Control type="ScriptComboBox" id="leftScalesComboBox" value="12.0"/>
+    <Control type="ScriptComboBox" id="noteLeftComboBox" value="11.0"/>
+    <Control type="ScriptComboBox" id="rightScalesComboBox" value="15.0"/>
+    <Control type="ScriptComboBox" id="noteRightComboBox" value="8.0"/>
+    <Control type="ScriptButton" id="Record" value="0.0"/>
+    <Control type="ScriptButton" id="Play" value="0.0"/>
+    <Control type="ScriptButton" id="Clear" value="1.0"/>
+    <Control type="ScriptButton" id="metronomeButton" value="1.0"/>
+    <Control type="ScriptComboBox" id="divisionComboBox" value="4.0"/>
+    <Control type="ScriptComboBox" id="instrComboBox" value="1.0"/>
+    <Control type="ScriptSlider" id="mainGainKnob" value="0.0"/>
+    <Control type="ScriptSlider" id="reverbKnob" value="0.1400000005960464"/>
+    <Control type="ScriptComboBox" id="patternComboBox" value="2.0"/>
+  </Content>
+  <MidiAutomation>
+    <Controller Controller="71" Channel="-1" Processor="Interface" MacroIndex="-1"
+                Start="0.0" End="1.0" FullStart="0.0" FullEnd="1.0" Skew="1.0"
+                Interval="0.01" Converter="37.nT6K8CBGgC..VEFa0U1Pu4lckIGckIG.ADPXiQWZ1UF.ADv..."
+                Attribute="notesImage" Inverted="0"/>
+    <Controller Controller="74" Channel="-1" Processor="Interface" MacroIndex="-1"
+                Start="0.0" End="1.0" FullStart="0.0" FullEnd="1.0" Skew="1.0"
+                Interval="0.01" Converter="37.nT6K8CBGgC..VEFa0U1Pu4lckIGckIG.ADPXiQWZ1UF.ADv..."
+                Attribute="notesImage" Inverted="0"/>
+    <Controller Controller="91" Channel="-1" Processor="Interface" MacroIndex="-1"
+                Start="0.0" End="1.0" FullStart="0.0" FullEnd="1.0" Skew="1.0"
+                Interval="0.01" Converter="37.nT6K8CBGgC..VEFa0U1Pu4lckIGckIG.ADPXiQWZ1UF.ADv..."
+                Attribute="Label1" Inverted="0"/>
+    <Controller Controller="93" Channel="-1" Processor="Interface" MacroIndex="-1"
+                Start="0.0" End="1.0" FullStart="0.0" FullEnd="1.0" Skew="1.0"
+                Interval="0.01" Converter="37.nT6K8CBGgC..VEFa0U1Pu4lckIGckIG.ADPXiQWZ1UF.ADv..."
+                Attribute="notesImage" Inverted="0"/>
+  </MidiAutomation>
+  <MPEData Enabled="0"/>
+</Preset>

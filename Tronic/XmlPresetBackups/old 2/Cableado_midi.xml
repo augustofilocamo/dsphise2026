@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Processor Type="SynthChain" ID="Cableado_midi" Bypassed="0" Gain="1.0"
+           Balance="0.0" VoiceLimit="64.0" KillFadeTime="20.0" IconColour="0"
+           packageName="" BuildVersion="650">
+  <ChildProcessors>
+    <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
+      <ChildProcessors>
+        <Processor Type="ScriptProcessor" ID="Interface" Bypassed="0">
+          <ChildProcessors/>
+          <Content>
+            <Control type="ScriptSliderPack" id="SliderPack1" value="0.0" data="32....DBC...CL...Lv...DBC..fEL...Vv...XAC...9K"/>
+            <Control type="ScriptSlider" id="vco_decay" value="0.1500000059604645"/>
+            <Control type="ScriptSlider" id="vco1_eg_amount" value="0.0"/>
+            <Control type="ScriptSlider" id="vco1_freq" value="0.0"/>
+            <Control type="ScriptSlider" id="vco1_waveform" value="0.0"/>
+            <Control type="ScriptSlider" id="vco1_level" value="-100.0"/>
+            <Control type="ScriptSlider" id="fm_amount" value="0.0"/>
+            <Control type="ScriptSlider" id="vco2_eg_amount" value="281.0"/>
+            <Control type="ScriptSlider" id="vco2_freq" value="0.0"/>
+            <Control type="ScriptSlider" id="vco2_waveform" value="0.0"/>
+            <Control type="ScriptSlider" id="vco2_level" value="0.0"/>
+            <Control type="ScriptSlider" id="hard_sync" value="0.0"/>
+            <Control type="ScriptSlider" id="nosie_decay" value="0.1299999952316284"/>
+            <Control type="ScriptSlider" id="noise_level" value="-41.93999862670898"/>
+            <Control type="ScriptSlider" id="vca_decay" value="1816.0"/>
+            <Control type="ScriptSliderPack" id="SliderPack2" value="4.0" data="32...f+BA..fDD........YBA..9KD........SBA..DHD"/>
+            <Control type="ScriptSlider" id="freqCable" value="-1.0"/>
+            <Control type="ScriptSlider" id="veloCable" value="-1.0"/>
+          </Content>
+          <UIData Source="Cableado_midiUIData"/>
+        </Processor>
+        <Processor Type="Arpeggiator" ID="Arpeggiator1" Bypassed="0">
+          <ChildProcessors/>
+          <Content>
+            <Control type="ScriptButton" id="BypassButton" value="0.0"/>
+            <Control type="ScriptButton" id="ResetButton" value="0.0"/>
+            <Control type="ScriptSlider" id="NumStepSlider" value="8.0"/>
+            <Control type="ScriptSlider" id="StepReset" value="0.0"/>
+            <Control type="ScriptSlider" id="StepSkipSlider" value="1.0"/>
+            <Control type="ScriptButton" id="SortKeysButton" value="0.0"/>
+            <Control type="ScriptSlider" id="SpeedKnob" value="8.0"/>
+            <Control type="ScriptComboBox" id="SequenceComboBox" value="1.0"/>
+            <Control type="ScriptSlider" id="OctaveRange" value="0.0"/>
+            <Control type="ScriptSlider" id="Shuffle" value="0.0"/>
+            <Control type="ScriptButton" id="EnableTie" value="1.0"/>
+            <Control type="ScriptSliderPack" id="SemiToneSliderPack" value="0.0" data="32....DBC...CL...Lv...DBC..fEL...Vv...XAC...9K"/>
+            <Control type="ScriptSliderPack" id="VelocitySliderPack" value="4.0" data="32...f+BA..fDD........YBA..9KD........SBA..DHD"/>
+            <Control type="ScriptSliderPack" id="LengthSliderPack" value="4.0" data="32...fkBA..VJD...iP..fkBA..FKD...nP...NBA..VJD"/>
+            <Control type="ScriptComboBox" id="ChannelSelector" value="1.0"/>
+            <Control type="ScriptComboBox" id="OutputChannelSelector" value="1.0"/>
+            <Control type="ScriptComboBox" id="MPEStartChannel" value="2.0"/>
+            <Control type="ScriptComboBox" id="MPEEndChannel" value="16.0"/>
+            <Control type="ScriptButton" id="Hold" value="0.0"/>
+          </Content>
+        </Processor>
+      </ChildProcessors>
+    </Processor>
+    <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
+      <ChildProcessors/>
+    </Processor>
+    <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="1" Intensity="0.0">
+      <ChildProcessors/>
+    </Processor>
+    <Processor Type="EffectChain" ID="FX" Bypassed="0">
+      <ChildProcessors/>
+    </Processor>
+    <Processor Type="SynthChain" ID="Container1" Bypassed="0" Gain="1.0" Balance="0.0"
+               VoiceLimit="256.0" KillFadeTime="20.0" IconColour="0">
+      <ChildProcessors>
+        <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
+          <ChildProcessors>
+            <Processor Type="ScriptProcessor" ID="Script Processor1" Bypassed="0">
+              <ChildProcessors/>
+              <Content>
+<<<<<<< HEAD
+<<<<<<< HEAD
+                <Control type="ScriptSlider" id="veloSliderParameterId" value="-1.0"/>
+                <Control type="ScriptSlider" id="freqSliderParameterId" value="7.0"/>
+=======
+                <Control type="ScriptSlider" id="veloSliderParameterId" value="4.0"/>
+                <Control type="ScriptSlider" id="freqSliderParameterId" value="-1.0"/>
+>>>>>>> b8e74f4 (Guardado de valores de los knobs antes de cablear resuelto)
+                <Control type="ScriptSlider" id="vco_decay" value="0.8899999856948853"/>
+=======
+                <Control type="ScriptSlider" id="veloSliderParameterId" value="-1.0"/>
+                <Control type="ScriptSlider" id="freqSliderParameterId" value="-1.0"/>
+                <Control type="ScriptSlider" id="vco_decay" value="0.1500000059604645"/>
+>>>>>>> 9d40995 (Probando UI con primeros parametros)
+                <Control type="ScriptSlider" id="vco1_eg_amount" value="0.0"/>
+                <Control type="ScriptSlider" id="vco1_freq" value="0.0"/>
+                <Control type="ScriptSlider" id="vco1_waveform" value="0.0"/>
+                <Control type="ScriptSlider" id="vco1_level" value="-100.0"/>
+                <Control type="ScriptSlider" id="fm_amount" value="0.0"/>
+                <Control type="ScriptSlider" id="vco2_eg_amount" value="281.0"/>
+                <Control type="ScriptSlider" id="vco2_freq" value="0.0"/>
+                <Control type="ScriptSlider" id="vco2_waveform" value="0.0"/>
+                <Control type="ScriptSlider" id="vco2_level" value="0.0"/>
+                <Control type="ScriptSlider" id="noise_level" value="-41.93999862670898"/>
+                <Control type="ScriptSlider" id="noise_decay" value="0.1299999952316284"/>
+                <Control type="ScriptSlider" id="vca_decay" value="1816.0"/>
+                <Control type="ScriptSlider" id="hard_sync" value="0.0"/>
+              </Content>
+              <UIData>
+                <ContentProperties DeviceType="Desktop">
+                  <Component type="ScriptSlider" id="veloSliderParameterId" x="730.0" y="20.0"
+                             max="13.0" stepSize="1.0" min="-1.0" processorId="HardcodedMasterFX1"/>
+                  <Component type="ScriptSlider" id="freqSliderParameterId" x="880.0" y="20.0"
+<<<<<<< HEAD
+                             max="13.0" stepSize="1.0" min="-1.0"/>
+                  <Component type="ScriptSlider" id="vco_decay" x="30.0" y="80.0" processorId="HardcodedMasterFX2"
+<<<<<<< HEAD
+                             parameterId="vco_decay" min="0.05000000074505806"/>
+=======
+                             parameterId="vco_decay" min="0.05"/>
+>>>>>>> b8e74f4 (Guardado de valores de los knobs antes de cablear resuelto)
+                  <Component type="ScriptSlider" id="vco1_eg_amount" x="170.0" y="80.0" processorId="HardcodedMasterFX2"
+=======
+                             max="13.0" stepSize="1.0" min="-1.0" processorId="HardcodedMasterFX1"/>
+                  <Component type="ScriptSlider" id="vco_decay" x="30.0" y="80.0" processorId="HardcodedMasterFX1"
+                             parameterId="vco_decay" min="0.05000000074505806"/>
+                  <Component type="ScriptSlider" id="vco1_eg_amount" x="170.0" y="80.0" processorId="HardcodedMasterFX1"
+>>>>>>> 9d40995 (Probando UI con primeros parametros)
+                             parameterId="vco1_eg_amount" max="400.0" stepSize="1.0"/>
+                  <Component type="ScriptSlider" id="vco1_freq" x="300.0" y="80.0" processorId="HardcodedMasterFX1"
+                             parameterId="vco1_freq" max="5000.0" stepSize="1.0"/>
+<<<<<<< HEAD
+                  <Component type="ScriptSlider" id="vco1_waveform" x="440.0" y="80.0" processorId="HardcodedMasterFX2"
+<<<<<<< HEAD
+                             parameterId="vco1_waveform" stepSize="1.0" width="128.0" height="48.0"/>
+=======
+                             parameterId="vco1_waveform" stepSize="1.0" width="128" height="48"/>
+>>>>>>> b8e74f4 (Guardado de valores de los knobs antes de cablear resuelto)
+                  <Component type="ScriptSlider" id="vco1_level" x="570.0" y="80.0" processorId="HardcodedMasterFX2"
+=======
+                  <Component type="ScriptSlider" id="vco1_waveform" x="440.0" y="80.0" processorId="HardcodedMasterFX1"
+                             parameterId="vco1_waveform" stepSize="1.0" width="128.0" height="48.0"/>
+                  <Component type="ScriptSlider" id="vco1_level" x="570.0" y="80.0" processorId="HardcodedMasterFX1"
+>>>>>>> 9d40995 (Probando UI con primeros parametros)
+                             parameterId="vco1_level" mode="Decibel" min="-100.0" max="0.0"
+                             middlePosition="-18.0"/>
+                  <Component type="ScriptSlider" id="fm_amount" x="30.0" y="200.0" processorId="HardcodedMasterFX1"
+                             parameterId="fm_amount" stepSize="1.0" max="1000.0"/>
+                  <Component type="ScriptSlider" id="vco2_eg_amount" x="170.0" y="140.0" processorId="HardcodedMasterFX1"
+                             parameterId="vco2_eg_amount" max="400.0" stepSize="1.0"/>
+                  <Component type="ScriptSlider" id="vco2_freq" x="300.0" y="140.0" processorId="HardcodedMasterFX1"
+                             parameterId="vco2_freq" max="5000.0" stepSize="1.0"/>
+                  <Component type="ScriptSlider" id="vco2_waveform" x="440.0" y="140.0" processorId="HardcodedMasterFX1"
+                             parameterId="vco2_waveform" stepSize="1.0"/>
+                  <Component type="ScriptSlider" id="vco2_level" x="570.0" y="140.0" processorId="HardcodedMasterFX1"
+                             parameterId="vco2_level" mode="Decibel" min="-100.0" max="0.0"
+                             middlePosition="-18.0"/>
+                  <Component type="ScriptSlider" id="noise_level" x="570.0" y="200.0" processorId="HardcodedMasterFX1"
+                             parameterId="noise_level" mode="Decibel" min="-100.0" max="0.0"
+                             middlePosition="-18.0"/>
+<<<<<<< HEAD
+                  <Component type="ScriptSlider" id="noise_decay" x="440.0" y="200.0" processorId="HardcodedMasterFX2"
+<<<<<<< HEAD
+                             parameterId="noise_decay" max="2.0" min="0.001000000047497451"/>
+=======
+                             parameterId="noise_decay" max="2.0" min="0.001"/>
+>>>>>>> b8e74f4 (Guardado de valores de los knobs antes de cablear resuelto)
+                  <Component type="ScriptSlider" id="vca_decay" x="570.0" y="270.0" processorId="HardcodedMasterFX2"
+=======
+                  <Component type="ScriptSlider" id="noise_decay" x="440.0" y="200.0" processorId="HardcodedMasterFX1"
+                             parameterId="noise_decay" max="2.0" min="0.001000000047497451"/>
+                  <Component type="ScriptSlider" id="vca_decay" x="570.0" y="270.0" processorId="HardcodedMasterFX1"
+>>>>>>> 9d40995 (Probando UI con primeros parametros)
+                             parameterId="vca_decay" stepSize="1.0" max="5000.0"/>
+                  <Component type="ScriptSlider" id="hard_sync" x="30.0" y="250.0" processorId="HardcodedMasterFX1"
+                             parameterId="hard_sync" stepSize="1.0"/>
+                </ContentProperties>
+              </UIData>
+            </Processor>
+          </ChildProcessors>
+        </Processor>
+        <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
+          <ChildProcessors/>
+        </Processor>
+        <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="1" Intensity="0.0">
+          <ChildProcessors/>
+        </Processor>
+        <Processor Type="EffectChain" ID="FX" Bypassed="0">
+          <ChildProcessors>
+            <Processor Type="Hardcoded Master FX" ID="HardcodedMasterFX1" Bypassed="0"
+                       Network="DspNetwork_filo2" vco_decay="0.1500000059604645" vco1_eg_amount="0.0"
+                       vco1_freq="0.0" vco1_waveform="0.0" vco1_level="-100.0" fm_amount="0.0"
+                       vco2_eg_amount="281.0" vco2_freq="0.0" vco2_waveform="0.0" vco2_level="0.0"
+                       hard_sync="0.0" noise_decay="0.1299999952316284" noise_level="-41.93999862670898"
+                       vca_decay="1816.0">
+              <ChildProcessors/>
+              <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+            </Processor>
+          </ChildProcessors>
+        </Processor>
+      </ChildProcessors>
+      <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+    </Processor>
+  </ChildProcessors>
+  <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+  <macro_controls>
+    <macro name="Macro 1" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 2" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 3" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 4" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 5" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 6" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 7" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 8" value="0.0" midi_cc="-1"/>
+  </macro_controls>
+  <MidiAutomation/>
+  <MPEData Enabled="0"/>
+</Processor>

@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptPanel" id="backgroundPanel" x="0.0" y="0.0" width="1024.0"
+             height="680.0" borderSize="0.0" borderRadius="0.0" itemColour="4280689957"
+             itemColour2="4280689957" locked="1"/>
+  <Component type="ScriptImage" id="Image5" x="370.0" y="240.0" fileName="{PROJECT_FOLDER}lineaVert.png"
+             width="10.0" height="60.0"/>
+  <Component type="ScriptImage" id="Image6" x="667.0" y="240.0" fileName="{PROJECT_FOLDER}lineaVert.png"
+             width="10.0" height="60.0"/>
+  <Component type="ScriptPanel" id="viewersPanel" x="40.0" y="300.0" width="950.0"
+             height="280.0" borderSize="0.5" borderRadius="10.0" itemColour="4280032285"
+             itemColour2="4280032285"/>
+  <Component type="ScriptPanel" id="gridPanel" x="38.0" y="95.0" width="950.0"
+             height="150.0" borderSize="0.5" borderRadius="10.0" itemColour="4280032285"
+             itemColour2="4280032285" bgColour="4289572269">
+    <Component type="ScriptImage" id="gridBinaryImage" x="82.0" y="9.0" width="860.0"
+               height="150.0" fileName="{PROJECT_FOLDER}grid-boom-cha.png" parentComponent="gridPanel"/>
+    <Component type="ScriptPanel" id="ternaryPanel" x="82.0" y="5.0" width="866.0"
+               height="138.0" parentComponent="gridPanel" borderSize="0.0" borderRadius="0.0"
+               itemColour="0" bgColour="0" itemColour2="0" textColour="0" visible="0">
+      <Component type="ScriptButton" id="bd12t" x="813.0" y="81.0" width="25.0"
+                 height="25.0" parentComponent="ternaryPanel"/>
+      <Component type="ScriptButton" id="bd11t" x="749.0" y="81.0" width="25.0"
+                 height="25.0" parentComponent="ternaryPanel"/>
+      <Component type="ScriptButton" id="bd10t" x="671.0" y="68.0" width="50.0"
+                 height="50.0" parentComponent="ternaryPanel"/>
+      <Component type="ScriptButton" id="bd9t" x="613.0" y="81.0" width="25.0"
+                 height="25.0" parentComponent="ternaryPanel"/>
+      <Component type="ScriptButton" id="bd8t" x="546.0" y="81.0" width="25.0"
+                 height="25.0" parentComponent="ternaryPanel"/>
+      <Component type="ScriptButton" id="bd7t" x="470.0" y="68.0" width="50.0"
+                 height="50.0" parentComponent="ternaryPanel"/>
+      <Component type="ScriptButton" id="bd6t" x="413.0" y="81.0" width="25.0"
+                 height="25.0" parentComponent="ternaryPanel"/>
+      <Component type="ScriptButton" id="bd5t" x="346.0" y="81.0" width="25.0"
+                 height="25.0" parentComponent="ternaryPanel"/>
+      <Component type="ScriptButton" id="bd4t" x="270.0" y="68.0" width="50.0"
+                 height="50.0" parentComponent="ternaryPanel"/>
+      <Component type="ScriptButton" id="bd3t" x="213.0" y="81.0" width="25.0"
+                 height="25.0" parentComponent="ternaryPanel"/>
+      <Component type="ScriptButton" id="bd2t" x="146.0" y="81.0" width="25.0"
+                 height="25.0" parentComponent="ternaryPanel"/>
+      <Component type="ScriptButton" id="bd1t" x="69.0" y="68.0" width="50.0"
+                 height="50.0" parentComponent="ternaryPanel"/>
+      <Component type="ScriptButton" id="sd12t" x="811.0" y="30.0" width="25.0"
+                 height="25.0" parentComponent="ternaryPanel"/>
+      <Component type="ScriptButton" id="sd11t" x="749.0" y="30.0" width="25.0"
+                 height="25.0" parentComponent="ternaryPanel"/>
+      <Component type="ScriptButton" id="sd10t" x="671.0" y="17.0" width="50.0"
+                 height="50.0" parentComponent="ternaryPanel"/>
+      <Component type="ScriptButton" id="sd9t" x="613.0" y="30.0" width="25.0"
+                 height="25.0" parentComponent="ternaryPanel"/>
+      <Component type="ScriptButton" id="sd8t" x="547.0" y="30.0" width="25.0"
+                 height="25.0" parentComponent="ternaryPanel"/>
+      <Component type="ScriptButton" id="sd7t" x="471.0" y="17.0" width="50.0"
+                 height="50.0" parentComponent="ternaryPanel"/>
+      <Component type="ScriptButton" id="sd6t" x="413.0" y="30.0" width="25.0"
+                 height="25.0" parentComponent="ternaryPanel"/>
+      <Component type="ScriptButton" id="sd5t" x="346.0" y="30.0" width="25.0"
+                 height="25.0" parentComponent="ternaryPanel"/>
+      <Component type="ScriptButton" id="sd4t" x="271.0" y="17.0" width="50.0"
+                 height="50.0" parentComponent="ternaryPanel"/>
+      <Component type="ScriptButton" id="sd3t" x="214.0" y="30.0" width="25.0"
+                 height="25.0" parentComponent="ternaryPanel"/>
+      <Component type="ScriptButton" id="sd2t" x="147.0" y="30.0" width="25.0"
+                 height="25.0" parentComponent="ternaryPanel"/>
+      <Component type="ScriptButton" id="sd1t" x="69.0" y="17.0" width="50.0"
+                 height="50.0" parentComponent="ternaryPanel"/>
+    </Component>
+    <Component type="ScriptPanel" id="binaryPanel" x="82.0" y="5.0" parentComponent="gridPanel"
+               width="860.0" height="130.0" borderSize="0.0" borderRadius="0.0"
+               itemColour="0" bgColour="0" itemColour2="0" textColour="0">
+      <Component type="ScriptButton" id="sd1" x="69.0" y="17.0" width="50.0" height="50.0"
+                 parentComponent="binaryPanel"/>
+      <Component type="ScriptButton" id="sd2" x="128.0" y="31.0" width="25.0"
+                 height="25.0" parentComponent="binaryPanel"/>
+      <Component type="ScriptButton" id="sd3" x="177.0" y="31.0" width="25.0"
+                 height="25.0" parentComponent="binaryPanel"/>
+      <Component type="ScriptButton" id="sd4" x="226.0" y="31.0" width="25.0"
+                 height="25.0" parentComponent="binaryPanel"/>
+      <Component type="ScriptButton" id="sd5" x="263.0" y="17.0" width="50.0"
+                 height="50.0" parentComponent="binaryPanel"/>
+      <Component type="ScriptButton" id="sd6" x="323.0" y="31.0" width="25.0"
+                 height="25.0" parentComponent="binaryPanel"/>
+      <Component type="ScriptButton" id="sd7" x="371.0" y="31.0" width="25.0"
+                 height="25.0" parentComponent="binaryPanel"/>
+      <Component type="ScriptButton" id="sd8" x="420.0" y="31.0" width="25.0"
+                 height="25.0" parentComponent="binaryPanel"/>
+      <Component type="ScriptButton" id="sd9" x="458.0" y="17.0" width="50.0"
+                 height="50.0" parentComponent="binaryPanel"/>
+      <Component type="ScriptButton" id="sd10" x="518.0" y="31.0" width="25.0"
+                 height="25.0" parentComponent="binaryPanel"/>
+      <Component type="ScriptButton" id="sd11" x="566.0" y="31.0" width="25.0"
+                 height="25.0" parentComponent="binaryPanel"/>
+      <Component type="ScriptButton" id="sd12" x="615.0" y="31.0" width="25.0"
+                 height="25.0" parentComponent="binaryPanel"/>
+      <Component type="ScriptButton" id="sd13" x="653.0" y="17.0" width="50.0"
+                 height="50.0" parentComponent="binaryPanel"/>
+      <Component type="ScriptButton" id="sd14" x="712.0" y="31.0" width="25.0"
+                 height="25.0" parentComponent="binaryPanel"/>
+      <Component type="ScriptButton" id="sd15" x="761.0" y="31.0" width="25.0"
+                 height="25.0" parentComponent="binaryPanel"/>
+      <Component type="ScriptButton" id="sd16" x="810.0" y="31.0" width="25.0"
+                 height="25.0" parentComponent="binaryPanel"/>
+      <Component type="ScriptButton" id="bd1" x="69.0" y="68.0" width="50.0" height="50.0"
+                 parentComponent="binaryPanel"/>
+      <Component type="ScriptButton" id="bd2" x="128.0" y="82.0" width="25.0"
+                 height="25.0" parentComponent="binaryPanel"/>
+      <Component type="ScriptButton" id="bd3" x="177.0" y="82.0" width="25.0"
+                 height="25.0" parentComponent="binaryPanel"/>
+      <Component type="ScriptButton" id="bd4" x="226.0" y="82.0" width="25.0"
+                 height="25.0" parentComponent="binaryPanel"/>
+      <Component type="ScriptButton" id="bd5" x="263.0" y="68.0" width="50.0"
+                 height="50.0" parentComponent="binaryPanel"/>
+      <Component type="ScriptButton" id="bd6" x="323.0" y="82.0" width="25.0"
+                 height="25.0" parentComponent="binaryPanel"/>
+      <Component type="ScriptButton" id="bd7" x="371.0" y="82.0" width="25.0"
+                 height="25.0" parentComponent="binaryPanel"/>
+      <Component type="ScriptButton" id="bd8" x="420.0" y="82.0" width="25.0"
+                 height="25.0" parentComponent="binaryPanel"/>
+      <Component type="ScriptButton" id="bd9" x="458.0" y="68.0" width="50.0"
+                 height="50.0" parentComponent="binaryPanel"/>
+      <Component type="ScriptButton" id="bd10" x="518.0" y="82.0" width="25.0"
+                 height="25.0" parentComponent="binaryPanel"/>
+      <Component type="ScriptButton" id="bd11" x="566.0" y="82.0" width="25.0"
+                 height="25.0" parentComponent="binaryPanel"/>
+      <Component type="ScriptButton" id="bd12" x="615.0" y="82.0" width="25.0"
+                 height="25.0" parentComponent="binaryPanel"/>
+      <Component type="ScriptButton" id="bd13" x="653.0" y="68.0" width="50.0"
+                 height="50.0" parentComponent="binaryPanel"/>
+      <Component type="ScriptButton" id="bd14" x="712.0" y="82.0" width="25.0"
+                 height="25.0" parentComponent="binaryPanel"/>
+      <Component type="ScriptButton" id="bd15" x="761.0" y="82.0" width="25.0"
+                 height="25.0" parentComponent="binaryPanel"/>
+      <Component type="ScriptButton" id="bd16" x="810.0" y="82.0" width="25.0"
+                 height="25.0" parentComponent="binaryPanel"/>
+    </Component>
+  </Component>
+  <Component type="ScriptImage" id="Image1" x="20.0" y="81.0" fileName="{PROJECT_FOLDER}linesPlay.png"
+             width="119.0" height="165.0"/>
+  <Component type="ScriptSlider" id="Tempo" x="861.0" y="262.0" min="-1.0"
+             max="300.0" stepSize="1.0" width="25.0" height="25.0" filmstripImage="{PROJECT_FOLDER}simple-knob.png"
+             numStrips="31.0" scaleFactor="0.07999999821186066" middlePosition="100.0"
+             showTextBox="0" saveInPreset="0"/>
+  <Component type="ScriptButton" id="exportGridButton" x="360.0" y="620.0"
+             visible="0"/>
+  <Component type="ScriptButton" id="sendToServerButton" x="405.0" y="247.0"
+             width="280.0" height="50.0" text="" saveInPreset="0"/>
+  <Component type="ScriptButton" id="metronomeBtn" x="57.0" y="181.0" width="38.0"
+             scaleFactor="0.699999988079071" height="47.0" filmstripImage="{PROJECT_FOLDER}metronome.png"/>
+  <Component type="ScriptButton" id="playStop1" x="58.0" y="115.0" width="50.0"
+             filmstripImage="{PROJECT_FOLDER}btnPlayStop.png" scaleFactor="0.5"
+             height="50.0"/>
+  <Component type="ScriptButton" id="playStop2" x="60.0" y="327.0" width="40.0"
+             filmstripImage="{PROJECT_FOLDER}btnPlayStop.png" height="40.0"
+             scaleFactor="0.5"/>
+  <Component type="ScriptButton" id="playStop3" x="60.0" y="420.0" width="40.0"
+             filmstripImage="{PROJECT_FOLDER}btnPlayStop.png" height="40.0"
+             scaleFactor="0.5"/>
+  <Component type="ScriptButton" id="playStop4" x="60.0" y="511.0" width="40.0"
+             filmstripImage="{PROJECT_FOLDER}btnPlayStop.png" height="40.0"
+             scaleFactor="0.5"/>
+  <Component type="ScriptButton" id="btnTernary" x="705.0" y="260.0" width="40.0"
+             height="30.0" filmstripImage="{PROJECT_FOLDER}onOffBtn4.png"
+             scaleFactor="0.1500000059604645"/>
+  <Component type="ScriptImage" id="Image2" x="825.0" y="26.0" fileName="{PROJECT_FOLDER}logoSampleson.png"
+             width="180.0" height="40.0"/>
+  <Component type="ScriptPanel" id="playerAMidiViewer" x="113.0" y="309.0"
+             width="680.0" height="80.0" bgColour="16777215" itemColour="16777215"
+             itemColour2="16777215" textColour="16777215"/>
+  <Component type="ScriptPanel" id="playerBMidiViewer" x="113.0" y="399.0"
+             width="680.0" height="80.0" bgColour="16777215" itemColour="16777215"
+             itemColour2="16777215" textColour="16777215"/>
+  <Component type="ScriptPanel" id="playerCMidiViewer" x="113.0" y="492.0"
+             width="680.0" height="80.0" bgColour="16777215" itemColour="16777215"
+             itemColour2="16777215" textColour="16777215"/>
+  <Component type="ScriptImage" id="Image3" x="40.0" y="384.0" fileName="{PROJECT_FOLDER}linesHoriz.png"
+             width="950.0" height="30.0"/>
+  <Component type="ScriptImage" id="Image4" x="40.0" y="475.0" fileName="{PROJECT_FOLDER}linesHoriz.png"
+             width="950.0" height="30.0"/>
+  <Component type="ScriptButton" id="expandAButton" x="806.0" y="316.0" width="68.0"
+             height="68.0" filmstripImage="{PROJECT_FOLDER}btnExpand.png"
+             scaleFactor="0.550000011920929" visible="0"/>
+  <Component type="ScriptButton" id="dawAButton" x="879.0" y="316.0" width="100.0"
+             height="80.0" filmstripImage="{PROJECT_FOLDER}btnDaw.png" scaleFactor="0.550000011920929"/>
+  <Component type="ScriptButton" id="dawAButton1" x="879.0" y="407.0" width="100.0"
+             height="80.0" filmstripImage="{PROJECT_FOLDER}btnDaw.png" scaleFactor="0.550000011920929"/>
+  <Component type="ScriptButton" id="expandBButton" x="806.0" y="407.0" width="70.0"
+             height="63.0" filmstripImage="{PROJECT_FOLDER}btnExpand.png"
+             scaleFactor="0.550000011920929" visible="0"/>
+  <Component type="ScriptButton" id="dawAButton2" x="879.0" y="498.0" width="100.0"
+             height="80.0" filmstripImage="{PROJECT_FOLDER}btnDaw.png" scaleFactor="0.550000011920929"/>
+  <Component type="ScriptButton" id="expandCButton" x="806.0" y="498.0" width="71.0"
+             height="70.0" filmstripImage="{PROJECT_FOLDER}btnExpand.png"
+             scaleFactor="0.550000011920929" visible="0"/>
+  <Component type="ScriptLabel" id="labelTempo" x="893.0" y="257.0" fontName="Tuffy"
+             fontSize="22" textColour="4288387995" alignment="left" width="80.0"
+             height="30.0" editable="0" text="Tempo"/>
+  <Component type="ScriptLabel" id="teranryLabel" x="733.0" y="257.0" fontName="Tuffy"
+             fontSize="22.0" textColour="4288387995" alignment="left" width="70.0"
+             height="30.0" text="Ternary" editable="0"/>
+  <Component type="ScriptImage" id="Image7" x="197.0" y="240.0" fileName="{PROJECT_FOLDER}lineaVert.png"
+             width="10.0" height="60.0"/>
+  <Component type="ScriptFloatingTile" id="dragAFloatingTile" x="883.0" y="314.0"
+             ContentType="MidiOverlayPanel" bgColour="0" itemColour="0" itemColour2="0"
+             Data="{&#10;  &quot;ProcessorId&quot;: &quot;MIDI Player2&quot;,&#10;  &quot;Index&quot;: 0,&#10;  &quot;FollowWorkspace&quot;: false&#10;}"
+             width="80.0" height="70.0" textColour="0"/>
+  <Component type="ScriptSlider" id="Temperature" x="232.0" y="264.0" max="8.0"
+             width="25.0" height="25.0" filmstripImage="{PROJECT_FOLDER}simple-knob.png"
+             numStrips="31.0" scaleFactor="0.07999999821186066" middlePosition="4.5"
+             showTextBox="0" min="1.0"/>
+  <Component type="ScriptLabel" id="labelTemperature" x="257.0" y="257.0"
+             fontName="Tuffy" fontSize="22" textColour="4288387995" alignment="left"
+             width="100.0" height="30.0" editable="0" text="Temperature"/>
+  <Component type="ScriptImage" id="Image8" x="829.0" y="240.0" fileName="{PROJECT_FOLDER}lineaVert.png"
+             width="10.0" height="60.0"/>
+  <Component type="ScriptFloatingTile" id="dragBFloatingTile" x="883.0" y="400.0"
+             ContentType="MidiOverlayPanel" bgColour="0" itemColour="0" itemColour2="0"
+             Data="{&#10;  &quot;ProcessorId&quot;: &quot;MIDI Player3&quot;,&#10;  &quot;Index&quot;: 0,&#10;  &quot;FollowWorkspace&quot;: false&#10;}"
+             width="80.0" height="70.0" textColour="0"/>
+  <Component type="ScriptFloatingTile" id="dragCFloatingTile" x="883.0" y="500.0"
+             ContentType="MidiOverlayPanel" bgColour="0" itemColour="0" itemColour2="0"
+             Data="{&#10;  &quot;ProcessorId&quot;: &quot;MIDI Player4&quot;,&#10;  &quot;Index&quot;: 0,&#10;  &quot;FollowWorkspace&quot;: false&#10;}"
+             width="80.0" height="70.0" textColour="0"/>
+  <Component type="ScriptImage" id="reGeneratePlaceholderLabel" x="407.0"
+             y="320.0" fileName="{PROJECT_FOLDER}regenerate-warning.png" width="230.0"
+             height="240.0" text="Re-generate" visible="0"/>
+  <Component type="ScriptLabel" id="tipsLabel" x="50.0" y="609.0" width="574.0"
+             height="32.0" text="&#9432; Too many hits can make matches less consistent."
+             fontName="Tuffy" fontSize="22.0" textColour="4287466893" alignment="left"
+             editable="0"/>
+  <Component type="ScriptImage" id="Image9" x="41.0" y="615.0" fileName="{PROJECT_FOLDER}imgInfo.png"
+             scale="0.75" width="24.0" height="24.0"/>
+  <Component type="ScriptLabel" id="linkUrl" x="817.0" y="610.0" width="131.0"
+             height="27.0" text="More Instuments" fontName="Tuffy" fontSize="22.0"
+             textColour="4287466893" alignment="left" editable="0"/>
+  <Component type="ScriptImage" id="Image10" x="934.0" y="612.0" fileName="{PROJECT_FOLDER}imgLink.png"
+             width="30.0" height="30.0"/>
+  <Component type="ScriptPanel" id="linkPanel" x="790.0" y="630.0" width="176.0"
+             height="50.0" borderSize="0.0" borderRadius="0.0" itemColour="0"
+             itemColour2="0" textColour="0" allowCallbacks="Clicks Only"/>
+  <Component type="ScriptPanel" id="presetsPanel" x="38.0" y="95.0" width="950.0"
+             height="150.0" itemColour="4280032285" itemColour2="4280032285"
+             borderSize="1.0" borderRadius="10.0" visible="0">
+    <Component type="ScriptLabel" id="fclechita" x="372.0" y="55.0" text="&gt;&gt;"
+               fontName="Tuffy" fontSize="33.0" textColour="4285822068" width="60.0"
+               height="40.0" parentComponent="presetsPanel"/>
+    <Component type="ScriptLabel" id="templatesInfoLabel" x="80.0" y="25.0"
+               fontName="Tuffy" fontSize="22.0" textColour="4287072135" text="Pick a grid template. Then click on Re-match to get the grid matched with real drummer's performances."
+               width="340.0" height="100.0" alignment="left" parentComponent="presetsPanel"
+               editable="0"/>
+    <Component type="ScriptImage" id="Image11" x="51.0" y="46.0" fileName="{PROJECT_FOLDER}imgInfo.png"
+               scale="0.75" width="24.0" height="24.0" parentComponent="presetsPanel"/>
+    <Component type="ScriptFloatingTile" id="presetsFloatingTile" x="492.0"
+               y="21.0" ContentType="PresetBrowser" bgColour="0" itemColour="4287927444"
+               itemColour2="0" Data="{&#10;  &quot;ShowSaveButton&quot;: false,&#10;  &quot;ShowExpansionsAsColumn&quot;: false,&#10;  &quot;ShowFolderButton&quot;: false,&#10;  &quot;ShowNotes&quot;: false,&#10;  &quot;ShowEditButtons&quot;: false,&#10;  &quot;EditButtonOffset&quot;: 10,&#10;  &quot;ShowAddButton&quot;: true,&#10;  &quot;ShowRenameButton&quot;: false,&#10;  &quot;ShowDeleteButton&quot;: false,&#10;  &quot;ShowSearchBar&quot;: false,&#10;  &quot;FavoriteIconOffset&quot;: 0,&#10;  &quot;ShowFavoriteIcon&quot;: false,&#10;  &quot;FullPathFavorites&quot;: false,&#10;  &quot;ButtonsInsideBorder&quot;: false,&#10;  &quot;NumColumns&quot;: 2,&#10;  &quot;ColumnWidthRatio&quot;: [&#10;    0.3333333333333333,&#10;    0.3333333333333333,&#10;    0.3333333333333333&#10;  ],&#10;  &quot;ListAreaOffset&quot;: [&#10;    0,&#10;    0,&#10;    0,&#10;    0&#10;  ],&#10;  &quot;ColumnRowPadding&quot;: [&#10;    0,&#10;    0,&#10;    0,&#10;    0&#10;  ],&#10;  &quot;SearchBarBounds&quot;: [],&#10;  &quot;MoreButtonBounds&quot;: [],&#10;  &quot;SaveButtonBounds&quot;: [],&#10;  &quot;FavoriteButtonBounds&quot;: []&#10;}"
+               width="430.0" height="110.0" parentComponent="presetsPanel" Font="Tuffy"
+               textColour="4287730065" FontSize="12.0"/>
+  </Component>
+  <Component type="ScriptFloatingTile" id="FloatingTile1" x="60.0" y="260.0"
+             ContentType="PresetBrowser" bgColour="4143972352" itemColour="4287692721"
+             itemColour2="0" Data="{&#10;  &quot;ShowSaveButton&quot;: true,&#10;  &quot;ShowExpansionsAsColumn&quot;: false,&#10;  &quot;ShowFolderButton&quot;: true,&#10;  &quot;ShowNotes&quot;: true,&#10;  &quot;ShowEditButtons&quot;: true,&#10;  &quot;EditButtonOffset&quot;: 10,&#10;  &quot;ShowAddButton&quot;: true,&#10;  &quot;ShowRenameButton&quot;: true,&#10;  &quot;ShowDeleteButton&quot;: true,&#10;  &quot;ShowSearchBar&quot;: true,&#10;  &quot;FavoriteIconOffset&quot;: 0,&#10;  &quot;ShowFavoriteIcon&quot;: true,&#10;  &quot;FullPathFavorites&quot;: false,&#10;  &quot;ButtonsInsideBorder&quot;: false,&#10;  &quot;NumColumns&quot;: 3,&#10;  &quot;ColumnWidthRatio&quot;: [&#10;    0.3333333333333333,&#10;    0.3333333333333333,&#10;    0.3333333333333333&#10;  ],&#10;  &quot;ListAreaOffset&quot;: [&#10;    0,&#10;    0,&#10;    0,&#10;    0&#10;  ],&#10;  &quot;ColumnRowPadding&quot;: [&#10;    0,&#10;    0,&#10;    0,&#10;    0&#10;  ],&#10;  &quot;SearchBarBounds&quot;: [],&#10;  &quot;MoreButtonBounds&quot;: [],&#10;  &quot;SaveButtonBounds&quot;: [],&#10;  &quot;FavoriteButtonBounds&quot;: []&#10;}"
+             width="530.0" height="370.0" visible="0"/>
+  <Component type="ScriptButton" id="templatesButton" x="56.0" y="254.0" filmstripImage="{PROJECT_FOLDER}btnTemplates.png"
+             scaleFactor="0.5" width="125.0" height="38.0" saveInPreset="0"/>
+  <Component type="ScriptButton" id="settingsButton" x="739.0" y="611.0" filmstripImage="{PROJECT_FOLDER}settingsBtn2.png"
+             scaleFactor="0.1000000014901161" width="40.0" height="30.0"/>
+  <Component type="ScriptLabel" id="settingsLabel" x="671.0" y="610.0" width="73.0"
+             height="25.0" text="Settings" fontName="Tuffy" fontSize="22.0"
+             textColour="4287466893" alignment="left" editable="0"/>
+  <Component type="ScriptPanel" id="settingsPanel" x="40.0" y="300.0" width="950.0"
+             height="280.0" borderSize="1.0" itemColour="4280032285" itemColour2="4280032285"
+             bgColour="1434090106" textColour="592597586" borderRadius="20.0"
+             visible="0">
+    <Component type="ScriptButton" id="btnAccoustic" x="683.0" y="50.0" filmstripImage="{PROJECT_FOLDER}onOffBtn3.png"
+               scaleFactor="0.1500000059604645" width="30.0" height="30.0" parentComponent="settingsPanel"
+               saveInPreset="0"/>
+    <Component type="ScriptButton" id="btnElectronic" x="803.0" y="50.0" filmstripImage="{PROJECT_FOLDER}onOffBtn3.png"
+               scaleFactor="0.1500000059604645" width="30.0" height="30.0" parentComponent="settingsPanel"
+               saveInPreset="0"/>
+    <Component type="ScriptImage" id="Image12" x="536.0" y="44.0" width="20.0"
+               height="190.0" fileName="{PROJECT_FOLDER}hline2.png" parentComponent="settingsPanel"/>
+    <Component type="ScriptPanel" id="standaloneSettingPnl" x="14.0" y="30.0"
+               width="530.0" height="220.0" itemColour="0" itemColour2="0" textColour="0"
+               bgColour="0" borderSize="0.0" borderRadius="0.0" parentComponent="settingsPanel">
+      <Component type="ScriptFloatingTile" id="FloatingTile2" x="7.0" y="20.0"
+                 ContentType="CustomSettings" bgColour="4278190080" itemColour="0"
+                 itemColour2="0" Data="{&#10;  &quot;Driver&quot;: true,&#10;  &quot;Device&quot;: true,&#10;  &quot;Output&quot;: true,&#10;  &quot;BufferSize&quot;: false,&#10;  &quot;SampleRate&quot;: false,&#10;  &quot;GlobalBPM&quot;: false,&#10;  &quot;StreamingMode&quot;: false,&#10;  &quot;ScaleFactor&quot;: true,&#10;  &quot;VoiceAmountMultiplier&quot;: false,&#10;  &quot;ClearMidiCC&quot;: false,&#10;  &quot;SampleLocation&quot;: false,&#10;  &quot;DebugMode&quot;: false,&#10;  &quot;UseOpenGL&quot;: false,&#10;  &quot;ScaleFactorList&quot;: [&#10;    0.5,&#10;    0.75,&#10;    1.0,&#10;    1.25,&#10;    1.5,&#10;    2.0&#10;  ]&#10;}"
+                 width="300.0" height="170.0" Font="Tuffy" FontSize="20.0" textColour="4285822068"
+                 parentComponent="standaloneSettingPnl"/>
+      <Component type="ScriptFloatingTile" id="FloatingTile3" x="302.0" y="27.0"
+                 ContentType="MidiSources" bgColour="4278190080" itemColour="0"
+                 itemColour2="0" width="180.0" height="170.0" Font="Tuffy" FontSize="20.0"
+                 parentComponent="standaloneSettingPnl" textColour="4290164406"/>
+    </Component>
+    <Component type="ScriptComboBox" id="batchSizeComboBox" x="672.0" y="98.0"
+               max="5" parentComponent="settingsPanel" items="6&#10;9&#10;12&#10;15&#10;24"
+               fontName="Tuffy" fontSize="22.0" width="55.0" height="32.0" saveInPreset="0"/>
+    <Component type="ScriptLabel" id="rowsizeLabel" x="590.0" y="99.0" fontName="Tuffy"
+               fontSize="22.0" textColour="4286874756" text="Batch Size" width="90.0"
+               height="30.0" editable="0" alignment="left" parentComponent="settingsPanel"/>
+    <Component type="ScriptLabel" id="rowsizeLabel1" x="590.0" y="133.0" fontName="Tuffy"
+               fontSize="22.0" textColour="4286874756" text="Batch Size is the number of MIDI matches processed per batch. Expand Size is the number of bars generated in expanded mode. Larger values increase generation time."
+               width="330.0" height="110.0" alignment="left" editable="0" parentComponent="settingsPanel"/>
+    <Component type="ScriptPanel" id="instrumentSettingPnl" x="42.0" y="30.0"
+               width="530.0" height="220.0" itemColour="0" itemColour2="0" textColour="0"
+               bgColour="0" borderSize="0.0" borderRadius="0.0" parentComponent="settingsPanel"
+               visible="0">
+      <Component type="ScriptFloatingTile" id="FloatingTile4" x="-6.0" y="20.0"
+                 ContentType="CustomSettings" bgColour="4278190080" itemColour="0"
+                 itemColour2="0" Data="{&#10;  &quot;Driver&quot;: false,&#10;  &quot;Device&quot;: false,&#10;  &quot;Output&quot;: false,&#10;  &quot;BufferSize&quot;: false,&#10;  &quot;SampleRate&quot;: false,&#10;  &quot;GlobalBPM&quot;: false,&#10;  &quot;StreamingMode&quot;: false,&#10;  &quot;ScaleFactor&quot;: true,&#10;  &quot;VoiceAmountMultiplier&quot;: false,&#10;  &quot;ClearMidiCC&quot;: false,&#10;  &quot;SampleLocation&quot;: false,&#10;  &quot;DebugMode&quot;: false,&#10;  &quot;UseOpenGL&quot;: false,&#10;  &quot;ScaleFactorList&quot;: [&#10;    0.5,&#10;    0.75,&#10;    1.0,&#10;    1.25,&#10;    1.5,&#10;    2.0&#10;  ]&#10;}"
+                 width="290.0" height="80.0" Font="Tuffy" FontSize="20.0" textColour="4285822068"
+                 parentComponent="instrumentSettingPnl"/>
+      <Component type="ScriptFloatingTile" id="FloatingTile5" x="296.0" y="27.0"
+                 ContentType="MidiSources" bgColour="4278190080" itemColour="0"
+                 itemColour2="0" width="200.0" height="170.0" Font="Tuffy" FontSize="20.0"
+                 parentComponent="instrumentSettingPnl" textColour="4290164406"/>
+    </Component>
+    <Component type="ScriptLabel" id="expandSize" x="745.0" y="99.0" fontName="Tuffy"
+               fontSize="22.0" textColour="4286874756" text="Expand Size" width="90.0"
+               height="30.0" editable="0" alignment="left" parentComponent="settingsPanel"/>
+    <Component type="ScriptComboBox" id="expandSizeComboBox" x="833.0" y="99.0"
+               max="2" parentComponent="settingsPanel" items="8&#10;16" fontName="Tuffy"
+               fontSize="22.0" width="55.0" height="32.0" saveInPreset="0"/>
+    <Component type="ScriptLabel" id="rowsizeLabel2" x="590.0" y="50.0" fontName="Tuffy"
+               fontSize="22.0" textColour="4286874756" text="Preview Kit" width="90.0"
+               height="30.0" editable="0" alignment="left" parentComponent="settingsPanel"/>
+    <Component type="ScriptLabel" id="labelAccoustic" x="713.0" y="50.0" fontName="Tuffy"
+               fontSize="22.0" textColour="4286874756" width="90.0" height="30.0"
+               editable="0" alignment="left" parentComponent="settingsPanel"
+               text="Accoustic"/>
+    <Component type="ScriptLabel" id="labelElectric" x="833.0" y="50.0" fontName="Tuffy"
+               fontSize="22.0" textColour="4286874756" width="90.0" height="30.0"
+               editable="0" alignment="left" parentComponent="settingsPanel"
+               text="Electric"/>
+  </Component>
+  <Component type="ScriptPanel" id="cristalPanel" x="30.0" y="70.0" width="970.0"
+             height="580.0" itemColour="0" itemColour2="0" textColour="0"
+             borderSize="0.0" borderRadius="0.0" visible="0"/>
+  <Component type="ScriptPanel" id="AuthorisationDialogue" x="213.0" y="112.0"
+             width="590.0" height="351.0" itemColour="4029360939" itemColour2="4029360939"
+             borderRadius="2.0" borderSize="1.0" visible="0">
+    <Component type="ScriptLabel" id="TitleLabel" x="31.0" y="39.0" parentComponent="AuthorisationDialogue"
+               width="521.0" height="53.0" text="Enter your License Key" fontName="Tuffy"
+               fontSize="48.0" bgColour="16777215" editable="0"/>
+    <Component type="ScriptLabel" id="Description" x="90.0" y="90.0" width="406.0"
+               height="49.0" parentComponent="AuthorisationDialogue" text="Type or paste your license key"
+               multiline="1" fontSize="24.0" editable="0" textColour="4291414473"
+               fontName="Tuffy"/>
+    <Component type="ScriptLabel" id="SerialInput" x="142.0" y="154.0" width="318.0"
+               height="41.0" parentComponent="AuthorisationDialogue" text=""
+               fontName="Source Code Pro" fontSize="26.0" bgColour="1174405119"
+               textColour="4279440147"/>
+    <Component type="ScriptButton" id="SubmitButton" x="142.0" y="220.0" parentComponent="AuthorisationDialogue"
+               bgColour="16777215" itemColour="4281479730" text="Submit" itemColour2="4214634038"
+               width="318.0" isMomentary="1" saveInPreset="0" height="47.0"
+               filmstripImage="{PROJECT_FOLDER}authorise-btn.png" scaleFactor="0.25"/>
+  </Component>
+  <Component type="ScriptImage" id="Image13" x="34.0" y="25.0" fileName="{PROJECT_FOLDER}logo.png"
+             width="170.0" height="40.0"/>
+</ContentProperties>

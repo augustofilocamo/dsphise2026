@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Processor Type="SynthChain" ID="markovLecturaMidi_V0.10.0_hangNotesFixed"
+           Bypassed="0" Gain="1.0" Balance="0.0" VoiceLimit="64.0" KillFadeTime="20.0"
+           IconColour="0" packageName="" BuildVersion="650">
+  <ChildProcessors>
+    <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
+      <ChildProcessors>
+        <Processor Type="MidiPlayer" ID="MIDI Player1" Bypassed="0" CurrentSequence="6.0"
+                   CurrentTrack="1.0" LoopEnabled="1.0" PlaybackSpeed="1.0">
+          <ChildProcessors/>
+          <MidiFiles>
+            <MidiFile ID="" Data="299.nT6K8CVdAzPB.HAyojBnkX.iX0B.nAAA0KS4QyHT5IIkj76+cua2VDWlS8.fpqkfBjpxxc+6AbBV.g.ETiJTvHxnQCGx0rJepEVaVkKGJn77TwX7g5DSaURPEVrwjIsEbMqNTOqxyrZPB2zN26PRUBlDs8cns8ctskQTtAhl0dVSTtQIc+hawbrdsrZaKg11N41VVQ4FF08Ab3+8Ceb9I7G.mQ73NC+Gfvhz.Jfbje3+OlEo9fZLrUOKnPcF1N.nlnyzMDJIpyiozTm167hu5A7+m74q6nGc1jOkWsIqjrDqWk1LMYFr.YLzn7Fu67LGDAadSBLJwUi3aUiXatpN3joIh85bvkLW3sJ.51Mu8kVlfUH9jQTAckBfb6A8UR9KTfUCoH62pFwqZUE"
+                      FileName="{PROJECT_FOLDER}Ghosthack MIDI Melody D# 1.mid">
+              <TimeSignature NumBars="8.25" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="130.00013000013"/>
+            </MidiFile>
+            <MidiFile ID="" Data="86.nT6K8CBlsI..jMPSTgFY....F.P..Dv4nzDUxsF...ff..IRh4I..hDP..IRsU1g.kUXmA2ffMUaYMFVmk1+u.PCnBAxAq+2C.d0A.AMAePyvibztkA"
+                      FileName="/Users/filo/Desktop/1_midi_export.mid">
+              <TimeSignature NumBars="4.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="86.nT6K8CBlsI..jMPSTgFY....F.P..Dv4nzDUxsF...ff..IRh4I..hDP..IRsU1g.kUXmA2ffMUaYMFVmk1+u.PCnBAxAq+2C.d0A.AMAePyvibztkA"
+                      FileName="/Users/filo/Desktop/38_midi_export.mid">
+              <TimeSignature NumBars="4.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="331.MQEZjA...X..A.P.miRSTI2Z..P.0P3aPhDZH51M5LPN47.OrXAMnjIY.RCPTjCPKbCPSvCPBVCR.Q3BPFEZEpGfQAjIPJ0UE5DfRATFPREVGVBRsjPQ0nPPvLgOUjEfTADhg.YT4MXW.FEPu.4SCMHb.9DPKAYStvHW.FDPF3CPWfDPiTDPHBQS.sCjC8hAJ0h.FUCG.UBhw7jbBdCfOATfdAYTsI3E.FEPAlEjRQVhEAnT.MXBP9jYDdFfOATDP1TVAVEfJAjCFATNCADL.ATgVAISO0vPpLPO2DARvbCfMATjpzCPlLDPYfDPAF.S.MXcP1zaB1EfMATf8.4SgIHD.9DPBpAjQQUhYUzKDDzKBfzKF3SJDVDfQATfGA4SkIXG.9DPAR.jMglfb.XS.EXPPxDRJ1GfLATfDfDPDDDPS3CPDTDP.7+K.."
+                      FileName="/Users/filo/Desktop/chords_midi_export.mid">
+              <TimeSignature NumBars="7.25" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="1282.nT6K8C15KT7I.nHSz0fO.01FE7LutmEuY6Y8cNmLAw9NiEGsgRH78AuozZ6EWZDmTlT1xe9S+KR4WYscWaKusjVxOtj0qRXyFR75.s+w.PL.FC.8LWyoh5JTR1klKIWCp3aPwNE5TtFiPUPI71O6ey+9n+4pBRAp6g7w9m4ejUPQw6g3c2it2UEDBT+g8.fL2ECifxN0bJ42MBm3Z3x95tQtX+B8KWS8biXQ8ktvOpgGQ2HS1mlOIeJTXEvGciDiGEE9TU.OzMxFipfR1knKccLTEbAYXOi4YfQjJ7iu8mu7dHTrSYNEYEzhX3S81m9W2CYh8IzmbUAY.U3UP.mg.eYBe86vIdTbJLvegM.APRp..CfCveEr.D.Ex2r4MR5R4RMKmw+lz5zqoUSwL2mCh+o6aD1Xx23Ui6MRCzMBmHoFHs3ae1TAy.H+ce.H1L8REzF07WnzoxoZld4SbPX9XsKqd10YUmgYMuNeQY2maDr5XWiUsl2MhMtmOge8wd4eQlG2MhrtDao7stJH1E2wE9zW9c7wLe35EjHjPWhbIcTAoD2vXaLniwUETRJr5ktGhjqkTE5xgARqf5jI6Szmt7b4bYxWgltGhkcq4VxvA.N2kS1zadlmgFmiUF6YBvgcNlyg1zdTYuZdkU7LYVragtkq2vgZNldRi3TRQnyd27NQ1EQWzDBYOz7Pe7IBaXei4anI9kMLI0ah2fLhOMIYh8IymHwdFVX2h4VP4B6WP+hwDo+2sZBMLqUYs3Utq1qzcP0WA6.frmBJwa2HfpFTkEwsn5hv9yKTyKk.vs2nkt8ZqlqaVtUPK5VxsrvIsk8AStm1mymx895HMG2Wk9P4lVmNeTmzi7HpKydF0Ct4j6nay917MQWNeS6QnZ11Vo4Dcsg9lrkUncEy0JWi2wcm1cz67Ed.PJ.H64AR7VjpePk+f6Op+A1PvK7k3PHViSjNU5U4UKbzlZ1Ne2n06yMV4tVuh81GnazCo693cii.ElfXl1YXmIuyCzUCdRW0E9bulkaq1V5VYnnPngNosfr1dS5NsLzyHOylyfocc8r5Il05hGxaVeh8TNG13cd5P6NvtC4cxh2kUQuRd0lq5bQ+R9klu3h+oVudcs5JlybvkUcqqsp1lE2CqGbt3NxmD2lr3ZKnjFAZXWC5ZfEfciZnzTFIBXHf.zPBXD..mHglwMfzXhQhi2IfXPFiAJ.zkV.Mj.dzKyt7tL0wY1U5ZxxMuPCckYJfDtG9NHkE29Lm6xvm2GX0ohXAtrm0SQ8kHkBLpQjsjj4v7MmsneoXodzG7nsgdT78T+dZcDxVC8q8C5zmvZReL80.l+ae5OhxuL5YQMNgEDv.WdZyVU08NqDD+H2BTng3ouE71iLC.B.Ny1mwikj4OZX9Bzxf3QIF4I3H8I37FlJo.p3ESjuc+HDncsfzUlKnSzHAkpsgABC9XnzWXygSdMeNGPxDbkGyxqlCFEKP2tHJcypWKa9XCbVfN4dmhb0ZKtRRIcrfw7ShDH9iyyTvO7.c1kGYpJ1JsAg1Jpf4.oVPTB1EwGORsOWJyq9IEkT3ANhawrYgS4URTZk+zlklAQ1Z6DeJQyH00oXXoBPK4xJYk5dZ40IabfHufqAP2vo.k636jsdDmN2s3jAY91jmF0N71O1eTngwXOirVGXp2rEEjNP3WNB6DgA9ucisR40spQRJa8ga20daIkO2A."
+                      FileName="/Users/filo/Downloads/Midi files/satie_gymnopedie_no1.mid">
+              <TimeSignature NumBars="78.33333333333333" Nominator="3.0" Denominator="4.0"
+                             LoopStart="0.0" LoopEnd="1.0" Tempo="60.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="1283.nT6K8C15Kz7I.nGSv0vO.01FE7LutmEuY6Y8cNmLAw9NiEGsgRH78Auoz0cu8Ri3jxjxV9ye5eQt+Jqs6Za4skzR9QirdUBaTPfVGn8AGC.w.PL.ugCF6Xni45MVUSoZ9jbMphuAcLt9hPUPH71O6ey+9n+4pBJgp6i7w9m4ejUPQw6i3Y2it20sBFR0fXOfHycsPHprWMuR9ck1DOCW1W2UxhcKzsbM0yUhS0V5B+nFdDcknrSMmRNUnPJfO5JEiGEE9UT.OzUZiQUvI6SzmtNFpBtfLrmw7LtHVE9w29yWdeDLriwbLjUvJhge0ae5ecejI1mPexUEjAUgOAALFBrkH70eCk3Mwmv.eExPHflPA.F.Gf+IPgP.ETy11NMmnKMz0HWil0HoKkKyrbF+aRqSulZM8xbeNH9mtuQXiIWiWMt2HMPWINQRMPZw29noBdAQ969gGzL0REzFy7VnzoxoYlZ4SbPW9XsKqd10YVmcYMuNeQY2mqDVcrqwrVy6JYi64S3WerW9Vj4wckj0kXKku0UAwr3N5K+N9HlNb8BBDRnKQtjNpfXD2tX6KnewUEbZJbqe59HRtVhUn6FFLsBpSnSc44twxjuBQceDN14LmiLb.fyc2jQ8lm4Xnw.cMv3vNGy4PiZOrraM2hSbLYUrWgdkq0roZNnlRi3USOnyd27NQ1EQWTDBYOz7Pf7fMruw7MxD2xFlrZMwaPFwonjLw9j4SjXOiJrWw7JvvB6VP2hubj9e2JIztrFk0hW4tZuR2Aegu0SA6.hrmBFwaWIPVChxh3VTcQX+4El4mR.31azR2dsMy0sqbqfbnyQNmJbSyw9wj6o847obuuNSyw80e9SenbSqSmOpa5QdD0kYOi5A2bxczsYea9ln6lOp8HT.WIEZWubkx03cb2ocG8NegGPjBHxdbPDuIck9v5OnLHbCRcPvNDuveRCeXsMRcpzqxqU1nM0rc9tQq2marxcsdE6sOP2nGS28w6FGAJLAwLsyvNSdmGnKF7l1pK74dMK2VsszsxPQe.CcSaAwY6so6zvPGibLZFCl100SqmWVqKdHuY8I1S4bXi24oCs6.6Nj2IKdWlEcK4VZ1pyE8K4WY9hK9mZ850UqqWNyAWbpy4ZNVayh6g0iMVbG4ShaTUbcEUSi.MrqQ.X2nFKKkAh.FBJ.yPB...uI.DZF2HLtPjz.ZBHFjwXNAftzBngDfG8xzJuKS8INS6tYWtdWY5EUfW.WKer7QmOcWl37zzlivyCbhh1yDEjh7GXTOHaIHyEy2t2xxUUULyW5Qqs17BR+v6OmWPV8bADRQFps6ERehhI97Y.88Zfa84QTTiQEXcI3B4YZ.nCDe0FhieH.Exvc5W0mRRFaNjDm2e4hEIT3G14eIZ+q.nTDdGyRenbWT4IoqIch3ImcuRPVJG+FWY5fNZJhpcfztGSSu.lbA2sejwtbIZEPX8+nfxbKsnTRpdQr3CJtYAcxneJBT0XwURnRBK3A+lrIfenA60OfOd3bAAkNQVouHr9xW1GHW4LSIoXPwqt50aR7tKjhbTNDNFgmYd6d3NuTLN+XnKgweqycTyk.kdAPpXfTAvjLqJ5kT6X0qEXjdRRR+Zb75lAG.wwmga024w9BFXo1WA6+DkLPbh11wWyY+c6w5AJz.+2eFr+OA4g6IEorAGxY1nHGy+sXr0ku.K9HN7M7iwtO8zRvAqC"
+                      FileName="/Users/filo/Library/Caches/HISE/temp.mid">
+              <TimeSignature NumBars="58.75" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+          </MidiFiles>
+        </Processor>
+        <Processor Type="ScriptProcessor" ID="Interface" Bypassed="0">
+          <ChildProcessors/>
+          <Content>
+            <Control type="ScriptButton" id="PlayMIDISequence" value="0.0"/>
+            <Control type="ScriptButton" id="NextNote" value="0.0"/>
+            <Control type="ScriptButton" id="ReadMidiFile" value="0.0"/>
+            <Control type="ScriptButton" id="Clear MIDI Sequence" value="0.0"/>
+          </Content>
+          <UIData Source="markovLecturaMidi_V0.10.0_hangNotesFixedUIData"/>
+        </Processor>
+        <Processor Type="ScriptProcessor" ID="Script Processor1" Bypassed="0">
+          <ChildProcessors/>
+          <Content/>
+          <UIData>
+            <ContentProperties DeviceType="Desktop"/>
+          </UIData>
+        </Processor>
+      </ChildProcessors>
+    </Processor>
+    <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
+      <ChildProcessors/>
+    </Processor>
+    <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="1" Intensity="0.0">
+      <ChildProcessors/>
+    </Processor>
+    <Processor Type="EffectChain" ID="FX" Bypassed="0">
+      <ChildProcessors/>
+    </Processor>
+    <Processor Type="SineSynth" ID="Sine Wave Generator1" Bypassed="0" Gain="0.25"
+               Balance="0.0" VoiceLimit="256.0" KillFadeTime="20.0" IconColour="0"
+               OctaveTranspose="1.0" SemiTones="0.0" UseFreqRatio="0.0" CoarseFreqRatio="1.0"
+               FineFreqRatio="0.0" SaturationAmount="0.0">
+      <ChildProcessors>
+        <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
+          <ChildProcessors/>
+        </Processor>
+        <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
+          <ChildProcessors>
+            <Processor Type="AHDSR" ID="AHDSR Envelope1" Bypassed="0" Monophonic="0.0"
+                       Retrigger="0.0" Intensity="1.0" AttackCurve="0.3100000023841858"
+                       DecayCurve="0.1700000017881393" Attack="0.0" AttackLevel="-12.53364944458008"
+                       Hold="0.0" Decay="1735.0" Sustain="-21.51000022888184" Release="220.0"
+                       EcoMode="1.0">
+              <ChildProcessors>
+                <Processor Type="ModulatorChain" ID="Attack Time" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Attack Level" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Decay Time" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Sustain Level" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Release Time" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+              </ChildProcessors>
+            </Processor>
+          </ChildProcessors>
+        </Processor>
+        <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0.0">
+          <ChildProcessors/>
+        </Processor>
+        <Processor Type="EffectChain" ID="FX" Bypassed="0">
+          <ChildProcessors/>
+        </Processor>
+      </ChildProcessors>
+      <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+    </Processor>
+  </ChildProcessors>
+  <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+  <macro_controls>
+    <macro name="Macro 1" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 2" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 3" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 4" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 5" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 6" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 7" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 8" value="0.0" midi_cc="-1"/>
+  </macro_controls>
+  <MidiAutomation/>
+  <MPEData Enabled="0"/>
+</Processor>

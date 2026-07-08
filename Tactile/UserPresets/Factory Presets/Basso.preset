@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Preset Version="1.0.0">
+  <Content Processor="Interface">
+    <Control type="ScriptButton" id="loadButton1" value="0"/>
+    <Control type="ScriptButton" id="loadButton2" value="0.0"/>
+    <Control type="ScriptButton" id="ButtonOn1" value="1.0"/>
+    <Control type="ScriptSlider" id="Knob1" value="-2.200000047683716"/>
+    <Control type="ScriptLabel" id="LabelLayer1" value="analog_bass-"/>
+    <Control type="ScriptLabel" id="LabelLayer2" value="tibetan_monk"/>
+    <Control type="ScriptSlider" id="Knob2" value="0.0"/>
+    <Control type="ScriptButton" id="ButtonOn2" value="0.0"/>
+    <Control type="ScriptSlider" id="KnobGain" value="6.000001430511475"/>
+    <Control type="ScriptSlider" id="KnobReverb" value="-44.79999923706055"/>
+    <Control type="ScriptAudioWaveform" id="AudioWaveform1" value="0.0" data="{PROJECT_FOLDER}analog_bass-1.wav"
+             rangeStart="133884" rangeEnd="222084"/>
+    <Control type="ScriptAudioWaveform" id="AudioWaveform2" value="0.0" data="{PROJECT_FOLDER}tibetan_monk.mp3"
+             rangeStart="0" rangeEnd="0"/>
+    <Control type="ScriptAudioWaveform" id="AudioWaveform3" value="0.0" data="{PROJECT_FOLDER}doorcracks.mp3"
+             rangeStart="0" rangeEnd="0"/>
+    <Control type="ScriptLabel" id="presetFileLabel1" value="/Users/filo/Filo/VST-Project/dsphise/Friction/AudioFiles/analog_bass-1.wav"/>
+    <Control type="ScriptLabel" id="presetFileLabel2" value="/Users/filo/Filo/VST-Project/dsphise/Friction/AudioFiles/tibetan_monk.mp3"/>
+    <Control type="ScriptAudioWaveform" id="AudioWaveform4" value="0.0" data="{PROJECT_FOLDER}recordings/Rec_1749044418024.wav"
+             rangeStart="0" rangeEnd="0"/>
+    <Control type="ScriptButton" id="Record" value="0.0"/>
+    <Control type="ScriptButton" id="Play" value="0.0"/>
+    <Control type="ScriptButton" id="Clear" value="0"/>
+    <Control type="ScriptAudioWaveform" id="AudioWaveformRange1" value="0.0"
+             data="{PROJECT_FOLDER}analog_bass-1.wav" rangeStart="133884"
+             rangeEnd="222084"/>
+    <Control type="ScriptAudioWaveform" id="AudioWaveformRange2" value="0.0"
+             data="{PROJECT_FOLDER}tibetan_monk.mp3" rangeStart="0" rangeEnd="0"/>
+  </Content>
+  <MidiAutomation>
+    <Controller Controller="71" Channel="-1" Processor="Interface" MacroIndex="-1"
+                Start="0.0" End="1.0" FullStart="0.0" FullEnd="1.0" Skew="1.0"
+                Interval="0.01" Converter="37.nT6K8CBGgC..VEFa0U1Pu4lckIGckIG.ADPXiQWZ1UF.ADv..."
+                Attribute="backgroundPanel" Inverted="0"/>
+    <Controller Controller="74" Channel="-1" Processor="Interface" MacroIndex="-1"
+                Start="0.0" End="1.0" FullStart="0.0" FullEnd="1.0" Skew="1.0"
+                Interval="0.01" Converter="37.nT6K8CBGgC..VEFa0U1Pu4lckIGckIG.ADPXiQWZ1UF.ADv..."
+                Attribute="backgroundPanel" Inverted="0"/>
+    <Controller Controller="91" Channel="-1" Processor="Interface" MacroIndex="-1"
+                Start="0.0" End="1.0" FullStart="0.0" FullEnd="1.0" Skew="1.0"
+                Interval="0.01" Converter="37.nT6K8CBGgC..VEFa0U1Pu4lckIGckIG.ADPXiQWZ1UF.ADv..."
+                Attribute="panelBuf2" Inverted="0"/>
+    <Controller Controller="93" Channel="-1" Processor="Interface" MacroIndex="-1"
+                Start="0.0" End="1.0" FullStart="0.0" FullEnd="1.0" Skew="1.0"
+                Interval="0.01" Converter="37.nT6K8CBGgC..VEFa0U1Pu4lckIGckIG.ADPXiQWZ1UF.ADv..."
+                Attribute="backgroundPanel" Inverted="0"/>
+  </MidiAutomation>
+  <MPEData Enabled="0"/>
+</Preset>

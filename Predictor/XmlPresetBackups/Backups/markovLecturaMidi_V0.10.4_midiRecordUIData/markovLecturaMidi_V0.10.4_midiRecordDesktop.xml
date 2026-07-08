@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptFloatingTile" id="FloatingTile1" x="50.0" y="50.0"
+             ContentType="MidiOverlayPanel" bgColour="620756992" itemColour="4287137928"
+             itemColour2="4282664004" Data="{&#10;  &quot;ProcessorId&quot;: &quot;MIDI Player1&quot;,&#10;  &quot;Index&quot;: 0,&#10;  &quot;FollowWorkspace&quot;: false&#10;}"
+             width="930.0" height="140.0"/>
+  <Component type="ScriptFloatingTile" id="FloatingTile2" x="210.0" y="210.0"
+             ContentType="MidiOverlayPanel" bgColour="0" itemColour="4291952850"
+             itemColour2="4294901760" Data="{&#10;  &quot;ProcessorId&quot;: &quot;MIDI Player1&quot;,&#10;  &quot;Index&quot;: 1,&#10;  &quot;FollowWorkspace&quot;: false&#10;}"
+             width="760" height="80" textColour="4291821568"/>
+  <Component type="ScriptButton" id="PlayMIDISequence" x="30.0" y="550.0"
+             width="140.0" height="40.0" text="Play MIDI Sequence"/>
+  <Component type="ScriptButton" id="Next3Notes" x="30.0" y="250.0" width="170"
+             height="30" isMomentary="1" text="generate 3 notes"/>
+  <Component type="ScriptButton" id="ReadMidiFile" x="30.0" y="210.0" isMomentary="1"
+             width="170" height="30"/>
+  <Component type="ScriptButton" id="Clear MIDI Sequence" x="30.0" y="600.0"
+             width="150.0" height="40.0" isMomentary="1"/>
+  <Component type="ScriptFloatingTile" id="FloatingTile3" x="680.0" y="560.0"
+             ContentType="CustomSettings" bgColour="4278190080" itemColour="0"
+             itemColour2="0" Data="{&#10;  &quot;Driver&quot;: true,&#10;  &quot;Device&quot;: true,&#10;  &quot;Output&quot;: true,&#10;  &quot;BufferSize&quot;: true,&#10;  &quot;SampleRate&quot;: true,&#10;  &quot;GlobalBPM&quot;: true,&#10;  &quot;StreamingMode&quot;: true,&#10;  &quot;ScaleFactor&quot;: true,&#10;  &quot;VoiceAmountMultiplier&quot;: true,&#10;  &quot;ClearMidiCC&quot;: true,&#10;  &quot;SampleLocation&quot;: true,&#10;  &quot;DebugMode&quot;: true,&#10;  &quot;UseOpenGL&quot;: true,&#10;  &quot;ScaleFactorList&quot;: [&#10;    0.5,&#10;    0.75,&#10;    1.0,&#10;    1.25,&#10;    1.5,&#10;    2.0&#10;  ]&#10;}"
+             width="320" height="90"/>
+  <Component type="ScriptButton" id="NextNote" x="30.0" y="290.0" width="170"
+             height="30" isMomentary="1" text="generate 1 note"/>
+  <Component type="ScriptButton" id="Record" x="220.0" y="360.0"/>
+  <Component type="ScriptButton" id="Play" x="350.0" y="360.0"/>
+  <Component type="ScriptFloatingTile" id="FloatingTile4" x="390" y="560.0"
+             ContentType="MidiSources" bgColour="4278190080" itemColour="0"
+             itemColour2="0" width="320" height="90"/>
+  <Component type="ScriptFloatingTile" id="FloatingTile5" x="220.0" y="400.0"
+             ContentType="MidiOverlayPanel" bgColour="3523222661" itemColour="4287137928"
+             itemColour2="4294901760" Data="{&#10;  &quot;ProcessorId&quot;: &quot;MIDI Player2&quot;,&#10;  &quot;Index&quot;: 0,&#10;  &quot;FollowWorkspace&quot;: false&#10;}"
+             width="90" height="50" textColour="16777215" itemColour3="4293525504"/>
+  <Component type="ScriptFloatingTile" id="FloatingTile6" x="320" y="400.0"
+             ContentType="MidiOverlayPanel" bgColour="620756992" itemColour="4294901760"
+             itemColour2="16711680" Data="{&#10;  &quot;ProcessorId&quot;: &quot;MIDI Player2&quot;,&#10;  &quot;Index&quot;: 1,&#10;  &quot;FollowWorkspace&quot;: false&#10;}"
+             width="270" height="50" textColour="16777215"/>
+  <Component type="ScriptLabel" id="Label1" x="220.0" y="450.0" text="Drag to DAW"
+             width="90" height="30"/>
+</ContentProperties>

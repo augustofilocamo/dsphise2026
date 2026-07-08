@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap CrossfadeGamma="1.0" ID="tubasSus" RRGroupAmount="1.0" MicPositions=";"
+           SaveMode="2">
+  <sample Root="53" LoKey="53" HiKey="57" LoVel="0" HiVel="30" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Tuba/sus/Tuba3_sus_F2_v1_rr1_Mid.wav"
+          Duplicate="0" SampleEnd="755177" MonolithOffset="0" MonolithLength="757760"
+          SampleRate="44100.0"/>
+  <sample Root="41" LoKey="41" HiKey="45" LoVel="0" HiVel="30" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Tuba/sus/Tuba3_sus_F1_v1_rr1_Mid.wav"
+          Duplicate="0" SampleEnd="427996" MonolithOffset="757760" MonolithLength="430080"
+          SampleRate="44100.0"/>
+  <sample Root="29" LoKey="29" HiKey="33" LoVel="0" HiVel="30" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Tuba/sus/Tuba3_sus_F0_v1_rr1_Mid.wav"
+          Duplicate="0" SampleEnd="175454" MonolithOffset="1187840" MonolithLength="176128"
+          SampleRate="44100.0"/>
+  <sample Root="62" LoKey="62" HiKey="85" LoVel="0" HiVel="30" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Tuba/sus/Tuba3_sus_D3_v1_rr1_Mid.wav"
+          Duplicate="0" SampleEnd="423168" MonolithOffset="1363968" MonolithLength="425984"
+          SampleRate="44100.0"/>
+  <sample Root="50" LoKey="50" HiKey="52" LoVel="0" HiVel="30" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Tuba/sus/Tuba3_sus_D2_v1_rr1_Mid.wav"
+          Duplicate="0" SampleEnd="559464" MonolithOffset="1789952" MonolithLength="561152"
+          SampleRate="44100.0"/>
+  <sample Root="39" LoKey="39" HiKey="40" LoVel="0" HiVel="30" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Tuba/sus/Tuba3_sus_D#1_v1_rr1_Mid.wav"
+          Duplicate="0" SampleEnd="347113" MonolithOffset="2351104" MonolithLength="348160"
+          SampleRate="44100.0"/>
+  <sample Root="58" LoKey="58" HiKey="61" LoVel="0" HiVel="30" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Tuba/sus/Tuba3_sus_A#2_v1_rr1_Mid.wav"
+          Duplicate="0" SampleEnd="316038" MonolithOffset="2699264" MonolithLength="319488"
+          SampleRate="44100.0"/>
+  <sample Root="46" LoKey="46" HiKey="49" LoVel="0" HiVel="30" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Tuba/sus/Tuba3_sus_A#1_v1_rr1_Mid.wav"
+          Duplicate="0" SampleEnd="437639" MonolithOffset="3018752" MonolithLength="438272"
+          SampleRate="44100.0"/>
+  <sample Root="34" LoKey="34" HiKey="38" LoVel="0" HiVel="30" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Tuba/sus/Tuba3_sus_A#0_v1_rr1_Mid.wav"
+          Duplicate="0" SampleEnd="354117" MonolithOffset="3457024" MonolithLength="356352"
+          SampleRate="44100.0"/>
+  <sample Root="53" LoKey="53" HiKey="57" LoVel="31" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Tuba/sus/Tuba3_sus_F2_v2_rr1_Mid.wav"
+          Duplicate="0" SampleEnd="516315" MonolithOffset="3813376" MonolithLength="520192"
+          SampleRate="44100.0"/>
+  <sample Root="41" LoKey="41" HiKey="45" LoVel="31" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Tuba/sus/Tuba3_sus_F1_v2_rr1_Mid.wav"
+          Duplicate="0" SampleEnd="291664" MonolithOffset="4333568" MonolithLength="294912"
+          SampleRate="44100.0"/>
+  <sample Root="50" LoKey="50" HiKey="52" LoVel="31" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Tuba/sus/Tuba3_sus_D2_v2_rr1_Mid.wav"
+          Duplicate="0" SampleEnd="540363" MonolithOffset="4628480" MonolithLength="540672"
+          SampleRate="44100.0"/>
+  <sample Root="39" LoKey="39" HiKey="40" LoVel="31" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Tuba/sus/Tuba3_sus_D#1_v2_rr1_Mid.wav"
+          Duplicate="0" SampleEnd="281423" MonolithOffset="5169152" MonolithLength="282624"
+          SampleRate="44100.0"/>
+  <sample Root="58" LoKey="58" HiKey="85" LoVel="31" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Tuba/sus/Tuba3_sus_A#2_v2_rr1_Mid.wav"
+          Duplicate="0" SampleEnd="431669" MonolithOffset="5451776" MonolithLength="434176"
+          SampleRate="44100.0"/>
+  <sample Root="46" LoKey="46" HiKey="49" LoVel="31" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Tuba/sus/Tuba3_sus_A#1_v2_rr1_Mid.wav"
+          Duplicate="0" SampleEnd="355782" MonolithOffset="5885952" MonolithLength="356352"
+          SampleRate="44100.0"/>
+  <sample Root="34" LoKey="29" HiKey="38" LoVel="31" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Tuba/sus/Tuba3_sus_A#0_v2_rr1_Mid.wav"
+          Duplicate="0" SampleEnd="328484" MonolithOffset="6242304" MonolithLength="331776"
+          SampleRate="44100.0"/>
+  <sample Root="53" LoKey="53" HiKey="57" LoVel="91" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Tuba/sus/Tuba3_sus_F2_v3_rr1_Mid.wav"
+          Duplicate="0" SampleEnd="159877" MonolithOffset="6574080" MonolithLength="163840"
+          SampleRate="44100.0"/>
+  <sample Root="41" LoKey="41" HiKey="45" LoVel="91" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Tuba/sus/Tuba3_sus_F1_v3_rr1_Mid.wav"
+          Duplicate="0" SampleEnd="142274" MonolithOffset="6737920" MonolithLength="143360"
+          SampleRate="44100.0"/>
+  <sample Root="50" LoKey="50" HiKey="52" LoVel="91" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Tuba/sus/Tuba3_sus_D2_v3_rr1_Mid.wav"
+          Duplicate="0" SampleEnd="200940" MonolithOffset="6881280" MonolithLength="204800"
+          SampleRate="44100.0"/>
+  <sample Root="39" LoKey="39" HiKey="40" LoVel="91" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Tuba/sus/Tuba3_sus_D#1_v3_rr1_Mid.wav"
+          Duplicate="0" SampleEnd="152122" MonolithOffset="7086080" MonolithLength="155648"
+          SampleRate="44100.0"/>
+  <sample Root="58" LoKey="58" HiKey="85" LoVel="91" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Tuba/sus/Tuba3_sus_A#2_v3_rr1_Mid.wav"
+          Duplicate="0" SampleEnd="243337" MonolithOffset="7241728" MonolithLength="245760"
+          SampleRate="44100.0"/>
+  <sample Root="46" LoKey="46" HiKey="49" LoVel="91" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Tuba/sus/Tuba3_sus_A#1_v3_rr1_Mid.wav"
+          Duplicate="0" SampleEnd="191154" MonolithOffset="7487488" MonolithLength="192512"
+          SampleRate="44100.0"/>
+  <sample Root="34" LoKey="29" HiKey="38" LoVel="91" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Tuba/sus/Tuba3_sus_A#0_v3_rr1_Mid.wav"
+          Duplicate="0" SampleEnd="178090" MonolithOffset="7680000" MonolithLength="180224"
+          SampleRate="44100.0"/>
+</samplemap>

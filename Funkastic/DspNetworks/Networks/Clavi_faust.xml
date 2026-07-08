@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Network ID="Clavi_faust" AllowPolyphonic="1" Version="0.0.0" AllowCompilation="1">
+  <Node FactoryPath="container.chain" ID="Clavi_faust" Bypassed="0" Name="Clavi_faust"
+        ShowParameters="1">
+    <Nodes>
+      <Node ID="faust" FactoryPath="core.faust" Bypassed="0" Name="faust">
+        <Properties>
+          <Property ID="ClassId" Value="clavi"/>
+          <Property ID="NumParameters" Value="0"/>
+        </Properties>
+        <Parameters>
+          <Parameter MinValue="300.0" MaxValue="20000.0" StepSize="1.0" ID="brightness"
+                     Automated="1"/>
+          <Parameter MinValue="0.8999999761581421" MaxValue="0.9998999834060669" StepSize="0.00009999999747378752"
+                     ID="decay" Automated="1"/>
+          <Parameter MinValue="27.5" MaxValue="1760.0" StepSize="0.009999999776482582"
+                     ID="freq" Value="110.0"/>
+          <Parameter MinValue="0.0" MaxValue="1.0" StepSize="0.001000000047497451"
+                     ID="gain" Value="0.800000011920929"/>
+          <Parameter MinValue="0.0" MaxValue="1.0" StepSize="1.0" ID="gate" Value="0.0"/>
+        </Parameters>
+        <SwitchTargets/>
+      </Node>
+      <Node ID="silent_killer" FactoryPath="envelope.silent_killer" Bypassed="0"
+            Name="silent_killer">
+        <Parameters>
+          <Parameter MinValue="-120.0" MaxValue="-60.0" StepSize="1.0" ID="Threshold"
+                     Value="-100.0"/>
+          <Parameter MinValue="0.0" MaxValue="1.0" StepSize="1.0" ID="Active" Value="1.0"/>
+        </Parameters>
+      </Node>
+    </Nodes>
+    <Parameters>
+      <Parameter ID="bright" MinValue="300.0" MaxValue="20000.0" StepSize="1.0"
+                 Value="10129.0" DefaultValue="1.0">
+        <Connections>
+          <Connection NodeId="faust" ParameterId="brightness"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="decay" MinValue="0.8999999761581421" MaxValue="0.9998999834060669"
+                 StepSize="0.00009999999747378752" Value="0.987099973957811" DefaultValue="1.0">
+        <Connections>
+          <Connection NodeId="faust" ParameterId="decay"/>
+        </Connections>
+      </Parameter>
+    </Parameters>
+  </Node>
+</Network>

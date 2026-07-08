@@ -1,0 +1,12 @@
+------------------------------
+
+HISE 4.1.0 incluido en el repo /HISE
+
+------------------------------
+
+
+Installers Win
+HISE Multipage creator
+
+Installer Mac
+Packages 1.2.10

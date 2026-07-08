@@ -1,0 +1,347 @@
+{
+  "StyleData": {
+    "Font": "Lato Regular",
+    "BoldFont": "Lato Regular",
+    "FontSize": 18.0,
+    "bgColour": 4281545523,
+    "codeBgColour": 864585864,
+    "linkBgColour": 8947967,
+    "textColour": 4294967295,
+    "codeColour": 4294967295,
+    "linkColour": 4289374975,
+    "tableHeaderBgColour": 864059520,
+    "tableLineColour": 864059520,
+    "tableBgColour": 864059520,
+    "headlineColour": 4287692721,
+    "UseSpecialBoldFont": true
+  },
+  "Properties": {
+    "Header": "Funkastic Installer",
+    "Subtitle": "",
+    "ProjectName": "Funkastic",
+    "Company": "Sampleson",
+    "Version": "1.0.1",
+    "BinaryName": "Funkastic Win Installer",
+    "UseGlobalAppData": false,
+    "Icon": "${icon}"
+  },
+  "LayoutData": {
+    "StyleSheet": "Dark",
+    "Style": "#content\n{\n\tpadding-left: 80px;\n\tpadding-right: 80px;\n\t\n}\n",
+    "UseViewport": true,
+    "ConfirmClose": true,
+    "CloseMessage": "Do you want to close this popup?",
+    "DialogWidth": 800,
+    "DialogHeight": 600
+  },
+  "GlobalState": {
+    "company": "Sampleson",
+    "product": "Funkastic",
+    "version": "1.0.1",
+    "WINDOWS": true,
+    "MAC_OS": false,
+    "LINUX": false,
+    "NOT_WINDOWS": false,
+    "NOT_MAC_OS": true,
+    "NOT_LINUX": true,
+    "OS": 1,
+    "OS_String": "WIN",
+    "LINK_FILENAME": "LinkWindows",
+    "vstDirectory": "C:\\Program Files\\VSTPlugins",
+    "vst3Directory": "C:\\Program Files\\Common Files\\VST3",
+    "aaxDirectory": "C:\\Program Files\\Common Files\\Avid\\Audio\\Plug-Ins",
+    "programFilesDirectory": "C:\\Program Files\\Sampleson\\Funkify",
+    "appdataDirectory": "C:\\Users\\Winfo4545\\AppData\\Roaming\\Sampleson\\Funkify"
+  },
+  "Children": [
+    {
+      "Type": "List",
+      "Children": [
+        {
+          "Type": "ProjectInfo"
+        },
+        {
+          "Type": "MarkdownText",
+          "Text": "Welcome to the installer of the $product $version.\n\n> This installer will guide you through the installation of the plug-in and standalone versions and necessary and assets.",
+          "Style": "gap: 10px;"
+        }
+      ],
+      "Text": ""
+    },
+    {
+      "Type": "List",
+      "Children": [
+        {
+          "Type": "MarkdownText",
+          "Text": "Please read and accept the TOC\n\n"
+        },
+        {
+          "Type": "TextInput",
+          "ID": "eula",
+          "InitValue": "${eula}",
+          "UseInitValue": true,
+          "NoLabel": true,
+          "Height": "200",
+          "Multiline": true,
+          "Enabled": false,
+          "Text": "",
+          "Style": "color: #222; background: white;"
+        },
+        {
+          "Type": "Button",
+          "Text": "I have read and accepted the TOC",
+          "ID": "ButtonId",
+          "NoLabel": true,
+          "Required": true,
+          "InitValue": "0",
+          "UseInitValue": true
+        }
+      ],
+      "Text": "",
+      "Style": "gap: 10px;"
+    },
+    {
+      "Type": "List",
+      "Children": [
+        {
+          "Type": "ProjectInfo"
+        },
+        {
+          "Type": "OperatingSystem"
+        },
+        {
+          "Type": "Branch",
+          "ID": "OS",
+          "Children": [
+            {
+              "Type": "List",
+              "Children": []
+            },
+            {
+              "Type": "List",
+              "Children": [
+                {
+                  "Type": "MarkdownText",
+                  "Text": "Please select the destination where you want to install the VST3 plugin:"
+                },
+                {
+                  "Type": "PluginDirectories"
+                },
+                {
+                  "Type": "RelativeFileLoader",
+                  "ID": "programFilesDirectory",
+                  "SpecialLocation": "globalApplicationsDirectory",
+                  "RelativePath": "$company\\\\$product"
+                },
+                {
+                  "Type": "RelativeFileLoader",
+                  "ID": "appdataDirectory",
+                  "SpecialLocation": "projectAppDataDirectory"
+                },
+                {
+                  "Type": "FileSelector",
+                  "ID": "vst3Directory",
+                  "UseInitValue": "",
+                  "Text": "Vst3 Location"
+                },
+                {
+                  "Type": "UnzipTask",
+                  "Text": "Progress",
+                  "ID": "UnzipLink",
+                  "Source": "${linkWin}",
+                  "Target": "$appdataDirectory",
+                  "Overwrite": true,
+                  "Visibility": "Hidden"
+                },
+                {
+                  "Type": "CopyAsset",
+                  "Text": "Vst3",
+                  "ID": "extractVST3",
+                  "EventTrigger": "OnSubmit",
+                  "Overwrite": true,
+                  "Source": "${vst3Windows}",
+                  "Target": "$vst3Directory"
+                },
+                {
+                  "Type": "CopyAsset",
+                  "ID": "CopyAssetViolas",
+                  "Source": "${cellos}",
+                  "Target": "$programFilesDirectory/Samples",
+                  "Visibility": "Hidden",
+                  "EventTrigger": "OnSubmit"
+                },
+                {
+                  "Type": "CopyAsset",
+                  "ID": "CopyAssetSmpclv",
+                  "Source": "${smpclv}",
+                  "Target": "$programFilesDirectory/Samples",
+                  "Visibility": "Hidden",
+                  "EventTrigger": "OnSubmit"
+                },
+                {
+                  "Type": "CopyAsset",
+                  "Text": "App",
+                  "ID": "copyApp",
+                  "Overwrite": true,
+                  "Source": "${appWindows}",
+                  "Target": "$programFilesDirectory",
+                  "Visibility": "Default",
+                  "EventTrigger": "OnSubmit"
+                },
+                {
+                  "Type": "CopyAsset",
+                  "ID": "CopyAssetPiano",
+                  "Source": "${piano}",
+                  "Target": "$programFilesDirectory/Samples",
+                  "Visibility": "Hidden",
+                  "EventTrigger": "OnSubmit"
+                },
+                {
+                  "Type": "CopyAsset",
+                  "ID": "CopyAssetMid",
+                  "Source": "${middat}",
+                  "Target": "$appdataDirectory",
+                  "Visibility": "Hidden",
+                  "EventTrigger": "OnSubmit"
+                },
+                {
+                  "Type": "CopyAsset",
+                  "ID": "CopyAssetAud",
+                  "Source": "${auddat}",
+                  "Target": "$appdataDirectory",
+                  "Visibility": "Hidden",
+                  "EventTrigger": "OnSubmit"
+                }
+              ],
+              "Text": "",
+              "ID": "Windows"
+            },
+            {
+              "Type": "List",
+              "ID": "macOS",
+              "Style": "gap: 10px;",
+              "Children": [],
+              "Text": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "List",
+      "Children": [
+        {
+          "Type": "ProjectInfo"
+        },
+        {
+          "Type": "MarkdownText",
+          "Text": "Thanks for installing $product."
+        },
+        {
+          "Type": "Branch",
+          "Children": [
+            {
+              "Type": "List",
+              "Children": [],
+              "Text": ""
+            },
+            {
+              "Type": "List",
+              "Children": [],
+              "ID": "Windows",
+              "Text": ""
+            },
+            {
+              "Type": "List",
+              "Children": [],
+              "ID": "macOS",
+              "Text": ""
+            }
+          ],
+          "ID": "OS"
+        }
+      ],
+      "Style": "gap: 10px;",
+      "Text": ""
+    }
+  ],
+  "Assets": [
+    {
+      "Type": 3,
+      "ID": "eula",
+      "RelativePath": true,
+      "OperatingSystem": 0,
+      "Filename": "EULA.txt"
+    },
+    {
+      "Type": 0,
+      "ID": "icon",
+      "RelativePath": true,
+      "OperatingSystem": 0,
+      "Filename": "icon_macos.png"
+    },
+    {
+      "Type": 1,
+      "ID": "vst3Windows",
+      "RelativePath": false,
+      "OperatingSystem": 0,
+      "Filename": "C:\\Filo\\Twinkle\\Installer\\Win\\Funkastic.vst3"
+    },
+    {
+      "Type": 1,
+      "ID": "appWindows",
+      "RelativePath": false,
+      "OperatingSystem": 0,
+      "Filename": "C:\\Filo\\Twinkle\\Installer\\Win\\Funkastic.exe"
+    },
+    {
+      "Type": 1,
+      "ID": "piano",
+      "RelativePath": true,
+      "OperatingSystem": 0,
+      "Filename": "uprPiano.ch1"
+    },
+    {
+      "Type": 1,
+      "ID": "violas",
+      "RelativePath": true,
+      "OperatingSystem": 0,
+      "Filename": "Violas.ch1"
+    },
+    {
+      "Type": 1,
+      "ID": "cellos",
+      "RelativePath": true,
+      "OperatingSystem": 0,
+      "Filename": "cellosSusVib2.ch1"
+    },
+    {
+      "Type": 5,
+      "ID": "linkWin",
+      "RelativePath": true,
+      "OperatingSystem": 0,
+      "Filename": "LinkWindows.zip"
+    },
+    {
+      "Type": 1,
+      "ID": "smpclv",
+      "RelativePath": false,
+      "OperatingSystem": 0,
+      "Filename": "C:\\Filo\\Twinkle\\Installer\\Win\\clv2.ch1"
+    },
+    {
+      "Type": 1,
+      "ID": "middat",
+      "RelativePath": true,
+      "OperatingSystem": 0,
+      "Filename": "MidiFiles.dat"
+    },
+    {
+      "Type": 1,
+      "ID": "auddat",
+      "RelativePath": true,
+      "OperatingSystem": 0,
+      "Filename": "AudioResources.dat"
+    }
+  ]
+}

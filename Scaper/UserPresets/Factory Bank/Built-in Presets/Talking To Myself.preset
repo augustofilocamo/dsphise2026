@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Preset Version="1.0.0">
+  <Content Processor="Interface">
+    <Control type="ScriptSlider" id="Pitch1" value="2.490000009536743"/>
+    <Control type="ScriptSlider" id="Pitch2" value="-8.770000457763672"/>
+    <Control type="ScriptSlider" id="Pitch3" value="8.350000381469727"/>
+    <Control type="ScriptSlider" id="Speed1" value="0.04699999839067459"/>
+    <Control type="ScriptAudioWaveform" id="AudioWaveform1" value="0.0" data="{PROJECT_FOLDER}baila.wav"
+             rangeStart="0" rangeEnd="1960143"/>
+    <Control type="ScriptSlider" id="positionGranu" value="0.9471098780632019"/>
+    <Control type="ScriptSlider" id="Speed2" value="0.0348999984562397"/>
+    <Control type="ScriptSlider" id="Speed3" value="0.01130000036209822"/>
+    <Control type="ScriptButton" id="cpuSaveButton" value="1.0"/>
+    <Control type="ScriptButton" id="cpuSaveButton1" value="1.0"/>
+    <Control type="ScriptSlider" id="fxBtn1" value="0.6100000143051147"/>
+    <Control type="ScriptSlider" id="fxBtn2" value="0.7300000190734863"/>
+    <Control type="ScriptSlider" id="fxBtn3" value="0.25"/>
+    <Control type="ScriptSlider" id="fxBtn4" value="0.0"/>
+    <Control type="ScriptSlider" id="fxBtn5" value="200.0"/>
+    <Control type="ScriptSlider" id="fxBtn6" value="20000.0"/>
+    <Control type="ScriptSlider" id="fxBtn7" value="0.0"/>
+    <Control type="ScriptSlider" id="fxBtn10" value="-15.14999961853027"/>
+    <Control type="ScriptSlider" id="fxBtn8" value="0.949999988079071"/>
+    <Control type="ScriptSlider" id="fxBtn9" value="1.450000047683716"/>
+    <Control type="ScriptButton" id="Button3" value="1.0"/>
+    <Control type="ScriptComboBox" id="ComboBox1" value="1.0"/>
+    <Control type="ScriptAudioWaveform" id="AudioWaveform2" value="0.0" data="{PROJECT_FOLDER}baila.wav"
+             rangeStart="326690" rangeEnd="1960143"/>
+    <Control type="ScriptAudioWaveform" id="AudioWaveform3" value="0.0" data="{PROJECT_FOLDER}baila.wav"
+             rangeStart="980071" rangeEnd="1960143"/>
+    <Control type="ScriptAudioWaveform" id="AudioWaveform4" value="0.0" data="{PROJECT_FOLDER}baila.wav"
+             rangeStart="653381" rangeEnd="1960143"/>
+    <Control type="ScriptSlider" id="applyGainKnob" value="-1.451020221886982"/>
+    <Control type="ScriptSlider" id="applyGainAudioLoop" value="-1.451020221886982"/>
+    <Control type="ScriptAudioWaveform" id="AudioWaveform5" value="0.0" data="{PROJECT_FOLDER}baila.wav"
+             rangeStart="0" rangeEnd="1960143"/>
+  </Content>
+  <MidiAutomation/>
+  <MPEData Enabled="0"/>
+</Preset>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptButton" id="Generate" x="230.0" y="280.0" width="180.0"
+             height="40.0"/>
+  <Component type="ScriptFloatingTile" id="FloatingTile1" x="160.0" y="40.0"
+             ContentType="MidiOverlayPanel" bgColour="620756992" itemColour="4287137928"
+             itemColour2="4282664004" Data="{&#10;  &quot;ProcessorId&quot;: &quot;MIDI Player1&quot;,&#10;  &quot;Index&quot;: 1,&#10;  &quot;FollowWorkspace&quot;: false&#10;}"
+             width="390.0" height="110.0"/>
+  <Component type="ScriptFloatingTile" id="FloatingTile2" x="160.0" y="150.0"
+             ContentType="MidiOverlayPanel" bgColour="620756992" itemColour="4287137928"
+             itemColour2="4282664004" Data="{&#10;  &quot;ProcessorId&quot;: &quot;MIDI Player1&quot;,&#10;  &quot;Index&quot;: 0,&#10;  &quot;FollowWorkspace&quot;: false&#10;}"
+             width="390.0" height="40.0"/>
+  <Component type="ScriptButton" id="Play" x="40.0" y="90.0" width="100.0"
+             height="40.0" text="Play / Stop"/>
+  <Component type="ScriptComboBox" id="TypesComboBox" x="14.0" y="230.0" max="4"
+             items="base&#10;b5&#10;penta&#10;M7"/>
+  <Component type="ScriptComboBox" id="TonesComboBox" x="160.0" y="230.0"
+             items="E&#10;F&#10;F#&#10;G&#10;G#&#10;A&#10;A#&#10;B&#10;C&#10;C#&#10;D&#10;D#"
+             max="12"/>
+  <Component type="ScriptComboBox" id="ModesComboBox" x="300.0" y="230.0"
+             max="3" items="dorian&#10;ionian&#10;mixololydian"/>
+  <Component type="ScriptComboBox" id="DensityComboBox" x="440.0" y="230.0"
+             max="3" items="low&#10;high&#10;medium"/>
+  <Component type="ScriptSlider" id="VelocityKnob" x="176.0" y="399.0" max="2.0"/>
+  <Component type="ScriptComboBox" id="QuantizeComboBox" x="330.0" y="400.0"
+             max="10" items="Off&#10;1/4&#10;1/8&#10;1/8 Swing 54%&#10;1/8 Swing 58%&#10;1/8 Swing 62%&#10;1/8 Swing 66%&#10;1/16&#10;1/16 Swing 66%&#10;1/32"/>
+</ContentProperties>

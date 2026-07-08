@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptPanel" id="XYPadPnl" x="10.0" y="70.0" width="1000.0"
+             height="430.0" allowCallbacks="All Callbacks" popupOnRightClick="0"
+             isPluginParameter="1" pluginParameterName="PackedXY"/>
+  <Component type="ScriptLabel" id="Label1" x="100.0" y="20.0" width="410.0"
+             height="50.0" text="Decoded &#8594; X:0.5 Y:0.0 Pack:0.5"/>
+</ContentProperties>

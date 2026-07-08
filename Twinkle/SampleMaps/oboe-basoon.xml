@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap CrossfadeGamma="1.0" ID="oboe-basoon" RRGroupAmount="1.0" MicPositions=";"
+           SaveMode="2">
+  <sample Root="89" LoKey="89" HiKey="89" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Oboe/Sus/Oboe_Sus_F5_v3_Main.wav" Duplicate="0"
+          SampleEnd="430642" MonolithOffset="0" MonolithLength="434176"
+          SampleRate="44100.0"/>
+  <sample Root="77" LoKey="77" HiKey="81" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Oboe/Sus/Oboe_Sus_F4_v3_Main.wav" Duplicate="0"
+          SampleEnd="363066" MonolithOffset="434176" MonolithLength="364544"
+          SampleRate="44100.0"/>
+  <sample Root="65" LoKey="65" HiKey="67" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Oboe/Sus/Oboe_Sus_F3_v3_Main.wav" Duplicate="0"
+          SampleEnd="429262" MonolithOffset="798720" MonolithLength="430080"
+          SampleRate="44100.0"/>
+  <sample Root="86" LoKey="86" HiKey="88" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Oboe/Sus/Oboe_Sus_D5_v3_Main.wav" Duplicate="0"
+          SampleEnd="412712" MonolithOffset="1228800" MonolithLength="413696"
+          SampleRate="44100.0"/>
+  <sample Root="74" LoKey="74" HiKey="76" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Oboe/Sus/Oboe_Sus_D4_v3_Main.wav" Duplicate="0"
+          SampleEnd="424809" MonolithOffset="1642496" MonolithLength="425984"
+          SampleRate="44100.0"/>
+  <sample Root="62" LoKey="62" HiKey="62" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Oboe/Sus/Oboe_Sus_D3_v3_Main.wav" Duplicate="0"
+          SampleEnd="554953" MonolithOffset="2068480" MonolithLength="557056"
+          SampleRate="44100.0"/>
+  <sample Root="82" LoKey="82" HiKey="85" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Oboe/Sus/Oboe_Sus_A#4_v3_Main.wav"
+          Duplicate="0" SampleEnd="386643" MonolithOffset="2625536" MonolithLength="389120"
+          SampleRate="44100.0"/>
+  <sample Root="70" LoKey="70" HiKey="71" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Oboe/Sus/Oboe_Sus_A#3_v3_Main.wav"
+          Duplicate="0" SampleEnd="448372" MonolithOffset="3014656" MonolithLength="450560"
+          SampleRate="44100.0"/>
+  <sample Root="58" LoKey="58" HiKey="59" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Oboe/Sus/Oboe_Sus_A#2_v3_Main.wav"
+          Duplicate="0" SampleEnd="594244" MonolithOffset="3465216" MonolithLength="598016"
+          SampleRate="44100.0"/>
+  <sample Root="55" LoKey="55" HiKey="57" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Bassoon/sus/PSBassoon_G2_v1_1.wav"
+          Duplicate="0" SampleEnd="377400" MonolithOffset="4063232" MonolithLength="380928"
+          SampleRate="44100.0"/>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Bassoon/sus/PSBassoon_G#3_v1_1.wav"
+          Duplicate="0" SampleEnd="351320" MonolithOffset="4444160" MonolithLength="352256"
+          SampleRate="44100.0"/>
+  <sample Root="41" LoKey="41" HiKey="44" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Bassoon/sus/PSBassoon_F1_v1_1.wav"
+          Duplicate="0" SampleEnd="437890" MonolithOffset="4796416" MonolithLength="438272"
+          SampleRate="44100.0"/>
+  <sample Root="63" LoKey="63" HiKey="64" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Bassoon/sus/PSBassoon_D#3_v1_1.wav"
+          Duplicate="0" SampleEnd="380998" MonolithOffset="5234688" MonolithLength="385024"
+          SampleRate="44100.0"/>
+  <sample Root="72" LoKey="72" HiKey="73" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Bassoon/sus/PSBassoon_C4_v1_1.wav"
+          Duplicate="0" SampleEnd="492358" MonolithOffset="5619712" MonolithLength="495616"
+          SampleRate="44100.0"/>
+  <sample Root="60" LoKey="60" HiKey="61" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Bassoon/sus/PSBassoon_C3_v1_1.wav"
+          Duplicate="0" SampleEnd="385125" MonolithOffset="6115328" MonolithLength="389120"
+          SampleRate="44100.0"/>
+  <sample Root="48" LoKey="48" HiKey="54" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Bassoon/sus/PSBassoon_C2_v1_1.wav"
+          Duplicate="0" SampleEnd="280340" MonolithOffset="6504448" MonolithLength="282624"
+          SampleRate="44100.0"/>
+  <sample Root="37" LoKey="37" HiKey="40" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Bassoon/sus/PSBassoon_C#1_v1_1.wav"
+          Duplicate="0" SampleEnd="272698" MonolithOffset="6787072" MonolithLength="274432"
+          SampleRate="44100.0"/>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Bassoon/sus/PSBassoon_A3_v1_1.wav"
+          Duplicate="0" SampleEnd="428309" MonolithOffset="7061504" MonolithLength="430080"
+          SampleRate="44100.0"/>
+  <sample Root="45" LoKey="45" HiKey="45" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Bassoon/sus/PSBassoon_A1_v1_1.wav"
+          Duplicate="0" SampleEnd="397529" MonolithOffset="7491584" MonolithLength="401408"
+          SampleRate="44100.0"/>
+  <sample Root="46" LoKey="46" HiKey="47" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Bassoon/sus/PSBassoon_A#1_v1_1.wav"
+          Duplicate="0" SampleEnd="326478" MonolithOffset="7892992" MonolithLength="327680"
+          SampleRate="44100.0"/>
+  <sample Root="34" LoKey="34" HiKey="36" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Bassoon/sus/PSBassoon_A#0_v1_1.wav"
+          Duplicate="0" SampleEnd="401073" MonolithOffset="8220672" MonolithLength="401408"
+          SampleRate="44100.0"/>
+</samplemap>

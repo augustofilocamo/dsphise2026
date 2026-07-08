@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Preset Version="1.0.0">
+  <Content Processor="Interface">
+    <Control type="ScriptSlider" id="Pitch1" value="-7.300000190734863"/>
+    <Control type="ScriptSlider" id="Pitch2" value="-6.46999979019165"/>
+    <Control type="ScriptSlider" id="Pitch3" value="-5.570000171661377"/>
+    <Control type="ScriptSlider" id="Speed1" value="0.01820000074803829"/>
+    <Control type="ScriptAudioWaveform" id="AudioWaveform1" value="0.0" data="{PROJECT_FOLDER}rand2.wav"
+             rangeStart="0" rangeEnd="2359163"/>
+    <Control type="ScriptSlider" id="positionGranu" value="0.9471098780632019"/>
+    <Control type="ScriptSlider" id="Speed2" value="0.03880000114440918"/>
+    <Control type="ScriptSlider" id="Speed3" value="0.01400000043213367"/>
+    <Control type="ScriptButton" id="cpuSaveButton" value="1.0"/>
+    <Control type="ScriptButton" id="cpuSaveButton1" value="1.0"/>
+    <Control type="ScriptSlider" id="fxBtn1" value="0.6100000143051147"/>
+    <Control type="ScriptSlider" id="fxBtn2" value="0.7300000190734863"/>
+    <Control type="ScriptSlider" id="fxBtn3" value="0.25"/>
+    <Control type="ScriptSlider" id="fxBtn4" value="0.0"/>
+    <Control type="ScriptSlider" id="fxBtn5" value="200.0"/>
+    <Control type="ScriptSlider" id="fxBtn6" value="20000.0"/>
+    <Control type="ScriptSlider" id="fxBtn7" value="0.0"/>
+    <Control type="ScriptSlider" id="fxBtn10" value="-15.14999961853027"/>
+    <Control type="ScriptSlider" id="fxBtn8" value="0.949999988079071"/>
+    <Control type="ScriptSlider" id="fxBtn9" value="1.450000047683716"/>
+    <Control type="ScriptButton" id="Button3" value="1.0"/>
+    <Control type="ScriptComboBox" id="ComboBox1" value="1.0"/>
+    <Control type="ScriptAudioWaveform" id="AudioWaveform2" value="0.0" data="{PROJECT_FOLDER}rand2.wav"
+             rangeStart="393193" rangeEnd="2359163"/>
+    <Control type="ScriptAudioWaveform" id="AudioWaveform3" value="0.0" data="{PROJECT_FOLDER}rand2.wav"
+             rangeStart="1179581" rangeEnd="2359163"/>
+    <Control type="ScriptAudioWaveform" id="AudioWaveform4" value="0.0" data="{PROJECT_FOLDER}rand2.wav"
+             rangeStart="786387" rangeEnd="2359163"/>
+    <Control type="ScriptSlider" id="applyGainKnob" value="-1.899488422650363"/>
+    <Control type="ScriptSlider" id="applyGainAudioLoop" value="-1.899488422650363"/>
+    <Control type="ScriptAudioWaveform" id="AudioWaveform5" value="0.0" data="{PROJECT_FOLDER}rand2.wav"
+             rangeStart="0" rangeEnd="2359163"/>
+  </Content>
+  <MidiAutomation/>
+  <MPEData Enabled="0"/>
+</Preset>

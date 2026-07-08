@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap CrossfadeGamma="1.0" ID="sinebdsd" RRGroupAmount="1.0" MicPositions=";">
+  <sample Root="38" LoKey="38" HiKey="39" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}sdsine.wav" Duplicate="1"/>
+  <sample Root="36" LoKey="36" HiKey="37" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bdsine.wav" Duplicate="1"/>
+</samplemap>

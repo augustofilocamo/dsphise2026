@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptButton" id="Record" x="140.0" y="120.0" width="300.0"
+             height="300.0"/>
+</ContentProperties>

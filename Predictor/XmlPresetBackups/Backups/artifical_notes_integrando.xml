@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Processor Type="SynthChain" ID="artifical_notes_integrando" Bypassed="0"
+           Gain="1.0" Balance="0.0" VoiceLimit="64.0" KillFadeTime="20.0"
+           IconColour="0" packageName="" BuildVersion="650">
+  <ChildProcessors>
+    <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
+      <ChildProcessors>
+        <Processor Type="MidiPlayer" ID="MIDI Player1" Bypassed="0" CurrentSequence="5.0"
+                   CurrentTrack="1.0" LoopEnabled="1.0" PlaybackSpeed="1.0">
+          <ChildProcessors/>
+          <MidiFiles>
+            <MidiFile ID="" Data="299.nT6K8CVdAzPB.HAyojBnkX.iX0B.nAAA0KS4QyHT5IIkj76+cua2VDWlS8.fpqkfBjpxxc+6AbBV.g.ETiJTvHxnQCGx0rJepEVaVkKGJn77TwX7g5DSaURPEVrwjIsEbMqNTOqxyrZPB2zN26PRUBlDs8cns8ctskQTtAhl0dVSTtQIc+hawbrdsrZaKg11N41VVQ4FF08Ab3+8Ceb9I7G.mQ73NC+Gfvhz.Jfbje3+OlEo9fZLrUOKnPcF1N.nlnyzMDJIpyiozTm167hu5A7+m74q6nGc1jOkWsIqjrDqWk1LMYFr.YLzn7Fu67LGDAadSBLJwUi3aUiXatpN3joIh85bvkLW3sJ.51Mu8kVlfUH9jQTAckBfb6A8UR9KTfUCoH62pFwqZUE"
+                      FileName="{PROJECT_FOLDER}Ghosthack MIDI Melody D# 1.mid">
+              <TimeSignature NumBars="8.25" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="130.00013000013"/>
+            </MidiFile>
+            <MidiFile ID="" Data="86.nT6K8CBlsI..jMPSTgFY....F.P..Dv4nzDUxsF...ff..IRh4I..hDP..IRsU1g.kUXmA2ffMUaYMFVmk1+u.PCnBAxAq+2C.d0A.AMAePyvibztkA"
+                      FileName="/Users/filo/Desktop/1_midi_export.mid">
+              <TimeSignature NumBars="4.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="86.nT6K8CBlsI..jMPSTgFY....F.P..Dv4nzDUxsF...ff..IRh4I..hDP..IRsU1g.kUXmA2ffMUaYMFVmk1+u.PCnBAxAq+2C.d0A.AMAePyvibztkA"
+                      FileName="/Users/filo/Desktop/38_midi_export.mid">
+              <TimeSignature NumBars="4.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="331.MQEZjA...X..A.P.miRSTI2Z..P.0P3aPhDZH51M5LPN47.OrXAMnjIY.RCPTjCPKbCPSvCPBVCR.Q3BPFEZEpGfQAjIPJ0UE5DfRATFPREVGVBRsjPQ0nPPvLgOUjEfTADhg.YT4MXW.FEPu.4SCMHb.9DPKAYStvHW.FDPF3CPWfDPiTDPHBQS.sCjC8hAJ0h.FUCG.UBhw7jbBdCfOATfdAYTsI3E.FEPAlEjRQVhEAnT.MXBP9jYDdFfOATDP1TVAVEfJAjCFATNCADL.ATgVAISO0vPpLPO2DARvbCfMATjpzCPlLDPYfDPAF.S.MXcP1zaB1EfMATf8.4SgIHD.9DPBpAjQQUhYUzKDDzKBfzKF3SJDVDfQATfGA4SkIXG.9DPAR.jMglfb.XS.EXPPxDRJ1GfLATfDfDPDDDPS3CPDTDP.7+K.."
+                      FileName="/Users/filo/Desktop/chords_midi_export.mid">
+              <TimeSignature NumBars="7.25" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="120.0"/>
+            </MidiFile>
+            <MidiFile ID="" Data="3259.nT6K8C19kzXY.niZfQgQvS2l.vZxhCKtXQ1Dov6V6DG3rXPb5DFJql.2DKVFW.ZzfAwIvjl0PGQaRnlHQtoMs+oTJSojI2Rh.1UdfcnCZCLDNYDzG.S.LE.MA7MK4GLWCruiAZxwl3uO5HTi8neQh9AA5OfELLWbYSFVVW2Lq9mkwgr01V6mrC+gwYp4elF893rSuK72n4dlF47ZZ8d+81sw10R6R2QylX7wXL9XLVhw2qliw2KG2jiii60ZsthzxBB1LLqMyxLm6bddu+yYGKrLWYkVpZdmo+WqfarffcC1865dW2CswFJjKgBkyf1XA0xmKfLM1fd1E1CC648iwfWXvMXYMGr+9yYRxNLIRmjoQORb1OQWXQav7zbQsmeOTiTuRRYmtRbBmkLM9ozeHpQuvss5rmfYeeeij1QnFwv33QyGYZrazuHQ+d7rxjTYnGhX75BeR0CQMtYC1mlGZZjK7GD0XC9+gZj9spCpRkgmKvg4jd7Oj+AkePLhKLxJIC3.3C3+v7gKLJ.IQuQTHEdFkOohSzoX7Tm3iSpNnbL0Oyk9Y2GERg1mGZ0JZ5w5fTUTRj9m.pw6DrgzPsrJHPOFee8AIGmfgnFqghrtGpJZ3IUcn0AQUUAEqhDqh9AoPJZvePmTMA864jJMO+YewvjTmvgd7M7TY31XEh3De7Sjux.7.JV4ACSfhrqmsxj6garhI3XAyqqpCvTfAlcWXmV1wgCGNqtRk0JvVprAvvVgqvDSVBE.CKWbhv00ECRvbkeIgvCfLnbkwABWxYJxbMa.GoTpgKLrKDLYAKkbGlXmyLaUCDAmrUbXNk+yUunMmqvfBpRJcRWcJ6e3EVlFyrV6pNU1Bk+aJxLu0YshBVcBa0t6UvjJSBMaojJ2iSiUbEupBoxGXDkMbGbtynA9VEgTY4VeASk0LlR2E2GmhLMdECRkyiO2iCzY.b+2+4Tjot0OUVEBHbBP9MxIP3m4Jrdu4aus8AimeDqe974czNzbmFH8yoULlBBDIFuWH.INyxwPozPgB0QxVq4X15bw+Aphpc9iOyuSam2oimVdZq4Fj0yin0ySxQaR+gJB4eeFLsq9l1cwh9KGym472WEacOppb9SEWzdd+0JsarLr1a289YcLtych1t208my+X7e2x3jpe7WjqiK7YnW3RR4NLoPQan3DzDJ3vsXUj9Oeh53YzWGOdJcwBQe99.897466qVAywHp6sRaa2PvtZs1LNe4c7MQguLeIGFJT+Rxd1yNLbqBUn+13xddsn2o6NeoffWEdbOdV.J5Wluzfxwz3Qf.M875CJ6nQEemObBsNWrvZAq1amigaBeFtZ3moyBVfBo3CWXF0XITiekHYcQTU4RmT4oj0Cop7BE8BeyR9utR5q5sYXbtnX0tJqe9bbmZTZXxCtk0+JqPWQwt246mIsUqcZsVOipRyjFlvAUsl3a4CmfRYo5hK2diVq0LoJ13szxThgkkgkioZaoTZ8MhVQ6UKrvRNlzZWoRo8WBRvZ0zdEy5szx+lMUr9WxQsKZPu0JkFuEiA4+HWk.7bzeFrE22Imr6YeqbjydqSIFVeobLyNsNFVWkRQZ1yx9kxeLr+qKwVrMsS7W2db35USSyVW0Mliy6dd0ZVcaaqS69r31VFm5mI28qyIU9JkduWqqocJUTrdozeMseoDHpvC5rVs2Vqk0pseUNVqs8cNSqVqUK6y4s6YsaqOmVaOiOqXL15UZNa86UTr6+6UV+mmTgMmwEO4DRfIPn4nNVA2VBYzHAPAII.SXSHXfxjmrt2aOa0.iOhEjBYf.KPHP....P.IDPfBJvnhO0a.+.oEnqyn1dztoCG0pcs.3nRYVowgY7MkHZKajqkWthiJKVEoAqwFzf0Jh6tK26lbK.lTAMmkJfkDKQrQ1EDHQGuFw.nhqWEozHHu3QXzz3Gcuf2g9f+f.kPVxBTdDllqGBFW9VvO18irfmLSaDVdsZrU.eSz7NE+xsa1G2E5Vz5vSpMbtRzSBA1D+zirrp7yRwcLiuHDE11KcRGrLx8yqJa1RLJlLdDGEzljrXZzniSUWlVioQpJQ7brX7TcKdMwm80Pl6eG9NbHngkTP2lSGUpif3zmkAHVA4vKL+CnI3KhD.zCb0OVgfVv6h+1Odqf0.HmhNihzNQZrD9VAbJV6uIpo9lS.C376VIYoQeOE9Pv+.3x7HPQV+0r27PUEXo+h3Z7rUhY8U0aZLWOQYHxpZIv2TwHuV8xlB.myx2PfDtrXFswxC4WZuUbvKQ0wHgUYzrOwQiRvJfIw.PnTC4Y1xqpyvcZ9fflyFM5KqA0z9DCocmJbJdQZD5l40FSZ1sZoBlmyvNxYD1wHujC4PH4Z3Vk8zYRoNb4lUjCM5hoc1iEhrzIIgKduXZIOllqHAxU2dZJ5oPk1rYMeNzQNI+XDyuWdLxXhTmnApTkmy7bbVnMG+SUfcN0gYaQllz2Sud7sXY9CaNQYG5BNFSwhIysylYqjgQAptEHYKpdzxgKfPacvB.X1LaF6gx7cdop.zUba8XXjnRkaGwv9mjp.0H3VxejOaDh7KIzUsQxmlamqayaNwi.QnFEniZrV.MqB+HDDv5F5jzBuz6N03af3LCySSlZ8rZemEAnDydcoxw+3sZFyL1n84nSKYwa8wf5pW9hbssG30CxPsyxSFW6SFmE991f45Ts6xU9BxRzwRPflFVXP9Om1bAJBAPgIspJNex7vFLJup7P8tLmIzNMN9HAhdSSFfIOCjIjiCdNFvefidBy0tECapaia7FcJyBnAs+D+9jZXwoYZoroHaAd9k9Glmmcbkzgov5MrxpJHi5THkqpxxBjA6XK0J8ESAFlQfqxVHNIqw2vu24nTnR0g56NeHmYM9Yr57JUfTD4f214ra+MmgAUXBc14swNnFosx35Ga9O8dm2MJ9xErDJ6cA3wBUQ5VJINHkzp6B8mv4lNgu57f97Jf6PEXzB2WO1+FkEUbVmN0Hj8NqWs1klFKy74xyo.H.U1.JaEP03BhFd5+sTqLEQNRun0OGmz5RSGSA6pWjuNqTSDFvw1Rwlrf9hedCUESc+AHgcPlG+4rD8AG5KN5cd5.KbEcvyi48zAEAaURSBtJkupahYtu.B+PP7mVpvrcN2dGcxDtPRhIhZjfTEMOc0FAoZQOtbjDtzrrv2CGccNuWqDvemt+xDgR+zaPeWB4Lw3lGqyb.30Uopsulf6a1w+nAwvFyMRUxyMFZMBmfeRyGl5Y+ZV5D8uOX5OOuBnEcxQ.Ur4nFXlhgU0l9kQILOR3zIXXh19jR+8HVOQzADhAkWaRN5R0LBgG3uRtjgOVaoFZ2.oU7CUQTcI+T7rvKrzKCcxO8wCfZi7lj8Ei5.M9.qu54Db2AnBggDEgzn1nVPbs+dXjWxICMcNLs3xaOj2vNccYU.Ib56I5zHq6G9QSebc4FRJ8jxZItq.hbktPt3a8yCb80hb+moHCn+PQBXaQU.VJ2E4g1NYlk+GBE1FGX9xYWoFXqyzP6JlJ43eFW4K6L5BrNaUAhgxWe.hoGciem5UNUILdvH5VOCXNze.KnpiPu1Jl+sdYOnizyxaRpRm8It9DLDeRHUupBGVn588WalhmT9rbtWqIXyTybBx7zHGOJJ9GkVs.7TXOSUBNUlorYUsxDvfLE2vXRQYkUYglTlWYJr7qmRItfcbCLHPZTsCSw+fxRUJW4D5szJG0VRPYK4i6D3s+EvYgV1BoOv6C6SpLKaoszUaFVqvbX6cFQpgHwpQ1MUpIECTShzk8f0L6L2TMWHvrwaZtfd.Pc1.+33TWeUwHIEpNRUYfVBlWCyeDy2oRwb92R3EyxuLWwMQNIaF73JXiddvqfT8moAEEUX6alt+XNZreH2cT9LxUPi73BYHs+TPpprH33UfWqwnzVp3y9gCG1z0LBRBxpr2+5hbBJI0vA+DMQolWHzUkIyQT3OiySgMZUbwW9t3XcpTas87Oe6Mcggy+VYdPDgW9qzl2deqRjYZdsRSO2JnMQwOCqWI5E9kyNt8shyrDT43dzm1quAFEQDYq7oJmslPb+SI3XJd2mjGGD.L9fFsCz5Ta3BfhFpDc4Vw6G4kFx494H+5HGioCL6yBKTMITyVyDBrradTSVEbxbMKHvJXi1hJm9Fcu21t44yaeYpMJ2trRtAEwbMgs7KxMjPYBnyYIgsoNkqVoQOP1ZONMzi6.B+HvzmiuUnj4vx4b5tFwGJWLpWOb6iGbb+S4BCjaVXC2Au5F1V3NzG1uEM6Kas3i01t4SwgYJiPxl9s0C6pHv5Vs1AENqCkgmcIQJPCU7nAmeEY+wSfiKdLbw3dE0sZ5IW7YNlP2jbZnOMtyq4G."
+                      FileName="/Users/filo/Desktop/bach_846.mid">
+              <TimeSignature NumBars="62.0" Nominator="4.0" Denominator="4.0" LoopStart="0.0"
+                             LoopEnd="1.0" Tempo="62.41002554650379"/>
+            </MidiFile>
+          </MidiFiles>
+        </Processor>
+        <Processor Type="ScriptProcessor" ID="Interface" Bypassed="0">
+          <ChildProcessors/>
+          <Content>
+            <Control type="ScriptButton" id="PlayMIDISequence" value="0.0"/>
+            <Control type="ScriptButton" id="NextNote" value="0.0"/>
+            <Control type="ScriptButton" id="ReadMidiFile" value="0.0"/>
+            <Control type="ScriptButton" id="Clear MIDI Sequence" value="0.0"/>
+          </Content>
+          <UIData Source="artifical_notes_integrandoUIData"/>
+        </Processor>
+      </ChildProcessors>
+    </Processor>
+    <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
+      <ChildProcessors/>
+    </Processor>
+    <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="1" Intensity="0.0">
+      <ChildProcessors/>
+    </Processor>
+    <Processor Type="EffectChain" ID="FX" Bypassed="0">
+      <ChildProcessors/>
+    </Processor>
+    <Processor Type="SineSynth" ID="Sine Wave Generator1" Bypassed="0" Gain="0.25"
+               Balance="0.0" VoiceLimit="256.0" KillFadeTime="20.0" IconColour="0"
+               OctaveTranspose="1.0" SemiTones="0.0" UseFreqRatio="0.0" CoarseFreqRatio="1.0"
+               FineFreqRatio="0.0" SaturationAmount="0.0">
+      <ChildProcessors>
+        <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
+          <ChildProcessors/>
+        </Processor>
+        <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
+          <ChildProcessors>
+            <Processor Type="AHDSR" ID="AHDSR Envelope1" Bypassed="0" Monophonic="0.0"
+                       Retrigger="0.0" Intensity="1.0" AttackCurve="0.3100000023841858"
+                       DecayCurve="0.1700000017881393" Attack="0.0" AttackLevel="-12.53364944458008"
+                       Hold="1120.0" Decay="1735.0" Sustain="-100.0" Release="220.0"
+                       EcoMode="1.0">
+              <ChildProcessors>
+                <Processor Type="ModulatorChain" ID="Attack Time" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Attack Level" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Decay Time" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Sustain Level" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Release Time" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+              </ChildProcessors>
+            </Processor>
+          </ChildProcessors>
+        </Processor>
+        <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0.0">
+          <ChildProcessors/>
+        </Processor>
+        <Processor Type="EffectChain" ID="FX" Bypassed="0">
+          <ChildProcessors/>
+        </Processor>
+      </ChildProcessors>
+      <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+    </Processor>
+  </ChildProcessors>
+  <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+  <macro_controls>
+    <macro name="Macro 1" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 2" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 3" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 4" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 5" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 6" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 7" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 8" value="0.0" midi_cc="-1"/>
+  </macro_controls>
+  <MidiAutomation/>
+  <MPEData Enabled="0"/>
+</Processor>

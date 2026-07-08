@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptPanel" id="XYPadPnl" x="150.0" y="150.0" width="300.0"
+             height="300.0" allowCallbacks="All Callbacks" popupOnRightClick="0"
+             isPluginParameter="1" pluginParameterName="My Parameter"/>
+  <Component type="ScriptSlider" id="Knob1" x="460.0" y="268.0" mode="NormalizedPercentage"
+             middlePosition="0.5" defaultValue="0.5" suffix="%"/>
+  <Component type="ScriptSlider" id="Knob2" x="245.0" y="87.0" mode="NormalizedPercentage"
+             middlePosition="0.5" defaultValue="0.5" suffix="%" processorId="Script FX1"
+             parameterId="Position2"/>
+  <Component type="ScriptSlider" id="Knob3" x="245.0" y="461.0" mode="NormalizedPercentage"
+             middlePosition="0.5" defaultValue="0.5" suffix="%"/>
+  <Component type="ScriptSlider" id="Knob4" x="10.0" y="268.0" mode="NormalizedPercentage"
+             middlePosition="0.5" defaultValue="0.5" suffix="%" processorId="Script FX1"
+             parameterId="Position1"/>
+  <Component type="ScriptLabel" id="Label1" x="100.0" y="20.0" width="410"
+             height="50" text="Panel value: 0.7670000195503235"/>
+</ContentProperties>

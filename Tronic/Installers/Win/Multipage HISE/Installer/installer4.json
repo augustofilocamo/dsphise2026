@@ -1,0 +1,279 @@
+{
+  "StyleData": {
+    "Font": "Lato Regular",
+    "BoldFont": "Lato Regular",
+    "FontSize": 18.0,
+    "bgColour": 4281545523,
+    "codeBgColour": 864585864,
+    "linkBgColour": 8947967,
+    "textColour": 4294967295,
+    "codeColour": 4294967295,
+    "linkColour": 4289374975,
+    "tableHeaderBgColour": 864059520,
+    "tableLineColour": 864059520,
+    "tableBgColour": 864059520,
+    "headlineColour": 4294967295,
+    "UseSpecialBoldFont": true
+  },
+  "Properties": {
+    "Header": "Tronic Installer",
+    "Subtitle": "",
+    "ProjectName": "Tronic",
+    "Company": "Sampleson",
+    "Version": "1.0.1",
+    "BinaryName": "Tronic",
+    "UseGlobalAppData": false,
+    "Icon": "${icon}"
+  },
+  "LayoutData": {
+    "StyleSheet": "Dark",
+    "Style": "#content\n{\n\tpadding-left: 80px;\n\tpadding-right: 80px;\n\t\n}\n",
+    "UseViewport": true,
+    "ConfirmClose": true,
+    "CloseMessage": "Do you want to close this popup?",
+    "DialogWidth": 800,
+    "DialogHeight": 600
+  },
+  "GlobalState": {
+    "vst3Directory": "C:\\Program Files\\Common Files\\VST3",
+    "appDirectory": "C:\\Program Files\\Sampleson",
+    "company": "Sampleson",
+    "product": "Tronic",
+    "version": "1.0.1",
+    "WINDOWS": true,
+    "MAC_OS": false,
+    "LINUX": false,
+    "NOT_WINDOWS": false,
+    "NOT_MAC_OS": true,
+    "NOT_LINUX": true,
+    "OS": 1,
+    "OS_String": "WIN",
+    "LINK_FILENAME": "LinkWindows",
+    "vstDirectory": "C:\\Program Files\\VSTPlugins",
+    "aaxDirectory": "C:\\Program Files\\Common Files\\Avid\\Audio\\Plug-Ins",
+    "installAU": "1",
+    "installVST": "1",
+    "eula": "END USER LICENSE AGREEMENT\n\n1. LICENSE\n\nThe Licensor hereby grants to the User a non-exclusive license to: (a)\nInstall 2 copies of the Software; (b) Use 10 instances of the Software.\n\n1.2. The User shall be responsible for the security of copies of the\nSoftware supplied to the User under this EULA and shall use all\nreasonable endeavors (including all reasonable security measures) to\nensure that access to such copies is restricted to persons authorized to\nuse them under this EULA.\n\n1.3. Nothing in this EULA shall give to the User or any other person any\nright to access or use the Source Code or constitute any license of the\nSource Code.\n\n2. COPYRIGHT.\n\nAll title and copyrights in and to the SOFTWARE PRODUCT (including but\nnot limited to any images, photographs, clipart, libraries, and examples\nincorporated into the SOFTWARE PRODUCT), the accompanying printed\nmaterials, and any copies of the SOFTWARE PRODUCT are owned by the\nAuthor of this Software. The SOFTWARE PRODUCT is protected by copyright\nlaws and international treaty provisions. Therefore, you must treat the\nSOFTWARE PRODUCT like any other copyrighted material.\n\n2.1 The licensed users or licensed company CAN USE: all functions,\nsounds and effects in the SOFTWARE PRODUCT to create new music\nproduction, live music performances, create recordings to release\ncommercially that contain a performance using the instruments, use\nvirtual instruments in combination with other sounds within music\ncompositions/productions and release the final product (music) commercially.\n\n2.2 The licensed users are NOT ALLOWED TO: distribute copies of the\nSoftware to others. Rent, lease or grant sub-licenses or other rights to\nthe Software without the prior written consent of Sampleson. Resampling\nOR soundpacking Sampleson\u2019s Virtual Instruments or any sound generated\nby them. Reverse engineering to source code. Translate or otherwise\nalter the Software without the prior written consent of Sampleson\n\n3. NO WARRANTIES. The Author of this Software expressly disclaims any\nwarranty for the SOFTWARE PRODUCT. The SOFTWARE PRODUCT and any related\ndocumentation is provided without warranty of any kind, either express\nor implied, including, without limitation, the implied warranties of\nmerchantability, fitness for a particular purpose, or noninfringement.\nThe entire risk arising out of use or performance of the SOFTWARE\nPRODUCT remains with you.\n\n4. NO LIABILITY FOR DAMAGES.\n\nIn no event shall the author of this Software be liable for any special,\nconsequential, incidental or indirect damages whatsoever (including,\nwithout limitation, damages for loss of business profits, business\ninterruption, loss of business information, or any other pecuniary loss)\narising out of the use of or inability to use this product, even if the\nAuthor of this Software is aware of the possibility of such damages and\nknown defects.\n\n",
+    "ButtonId": true
+  },
+  "Children": [
+    {
+      "Type": "List",
+      "Children": [
+        {
+          "Type": "ProjectInfo"
+        },
+        {
+          "Type": "MarkdownText",
+          "Text": "Welcome to the installer of the $product.\n\n> This installer will install vst3 and App files into your system.\n",
+          "Style": "gap: 10px;"
+        }
+      ],
+      "Text": ""
+    },
+    {
+      "Type": "List",
+      "Children": [
+        {
+          "Type": "MarkdownText",
+          "Text": "Please read and accept the EULA\n"
+        },
+        {
+          "Type": "TextInput",
+          "ID": "eula",
+          "InitValue": "${eula}",
+          "UseInitValue": true,
+          "NoLabel": true,
+          "Height": "200",
+          "Multiline": true,
+          "Enabled": false,
+          "Text": "",
+          "Style": "color: #222; background: white;"
+        },
+        {
+          "Type": "Button",
+          "Text": "I have read and accepted the EULA",
+          "ID": "ButtonId",
+          "NoLabel": true,
+          "Required": true,
+          "InitValue": "0",
+          "UseInitValue": true
+        }
+      ],
+      "Text": "",
+      "Style": "gap: 10px;"
+    },
+    {
+      "Type": "List",
+      "Children": [
+        {
+          "Type": "ProjectInfo"
+        },
+        {
+          "Type": "OperatingSystem"
+        },
+        {
+          "Type": "Branch",
+          "ID": "OS",
+          "Children": [
+            {
+              "Type": "List",
+              "Children": []
+            },
+            {
+              "Type": "List",
+              "Children": [
+                {
+                  "Type": "MarkdownText",
+                  "Text": "Choose the locations for installing Vst3 plugins and App in your System. If you are not shure, leave the default values."
+                },
+                {
+                  "Type": "PluginDirectories"
+                },
+                {
+                  "Type": "FileSelector",
+                  "Text": "",
+                  "ID": "vst3Directory",
+                  "UseInitValue": true,
+                  "Directory": true
+                },
+                {
+                  "Type": "CopyAsset",
+                  "Text": "Vst3",
+                  "ID": "extractVST3",
+                  "EventTrigger": "OnSubmit",
+                  "Overwrite": true,
+                  "Source": "${vst3Windows}",
+                  "Target": "$vst3Directory"
+                },
+                {
+                  "Type": "FileSelector",
+                  "Text": "",
+                  "ID": "appDirectory",
+                  "InitValue": "C:\\Program Files\\Sampleson\\Tronic",
+                  "UseInitValue": true,
+                  "Directory": true
+                },
+                {
+                  "Type": "CopyAsset",
+                  "Text": "App",
+                  "ID": "extractApp",
+                  "EventTrigger": "OnSubmit",
+                  "Overwrite": true,
+                  "Source": "${appWindows}",
+                  "Target": "$appDirectory"
+                }
+              ],
+              "Text": "",
+              "ID": "Windows"
+            },
+            {
+              "Type": "List",
+              "ID": "macOS",
+              "Style": "gap: 10px;",
+              "Children": [
+                {
+                  "Type": "RelativeFileLoader",
+                  "ID": "auLoader",
+                  "SpecialLocation": "parentDirectory",
+                  "RelativePath": "$product.component"
+                },
+                {
+                  "Type": "RelativeFileLoader",
+                  "ID": "vstLoader",
+                  "SpecialLocation": "parentDirectory",
+                  "RelativePath": "$product.vst3"
+                },
+                {
+                  "Type": "PluginDirectories"
+                },
+                {
+                  "Type": "MarkdownText",
+                  "Text": "Please select the plugins you want to install:"
+                },
+                {
+                  "Type": "Button",
+                  "Text": "Install AU Plugin",
+                  "ID": "installAU",
+                  "InitValue": "1",
+                  "UseInitValue": true,
+                  "NoLabel": true
+                },
+                {
+                  "Type": "CopySiblingFile",
+                  "Text": "Installing AU",
+                  "ID": "installAU",
+                  "EventTrigger": "OnSubmit",
+                  "Overwrite": true,
+                  "Target": "$auDirectory",
+                  "Source": "$auLoader"
+                },
+                {
+                  "Type": "Button",
+                  "Text": "Install VST Plugin",
+                  "ID": "installVST",
+                  "InitValue": "1",
+                  "UseInitValue": true,
+                  "NoLabel": true
+                },
+                {
+                  "Type": "CopySiblingFile",
+                  "Text": "Installing VST3",
+                  "ID": "installVST",
+                  "EventTrigger": "OnSubmit",
+                  "Overwrite": true,
+                  "Source": "$vstLoader",
+                  "Target": "$vst3Directory"
+                }
+              ],
+              "Text": ""
+            },
+            {
+              "Type": "FileSelector",
+              "ID": "FileSelectorId"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "List",
+      "Children": [
+        {
+          "Type": "MarkdownText",
+          "Text": "The installation was complete and the samples have been extracted to the location you specified. \n\nPress finish in order to close the installer."
+        }
+      ]
+    }
+  ],
+  "Assets": [
+    {
+      "Type": 3,
+      "ID": "eula",
+      "RelativePath": false,
+      "OperatingSystem": 0,
+      "Filename": "C:\\Filo\\Tronic\\Installers\\Win\\Multipage HISE\\Installer\\EULA.txt"
+    },
+    {
+      "Type": 0,
+      "ID": "icon",
+      "RelativePath": true,
+      "OperatingSystem": 0,
+      "Filename": "icon_macos.png"
+    },
+    {
+      "Type": 1,
+      "ID": "vst3Windows",
+      "RelativePath": false,
+      "OperatingSystem": 0,
+      "Filename": "C:\\Filo\\Tronic\\Installers\\Win\\Multipage HISE\\Installer\\Tronic.vst3"
+    },
+    {
+      "Type": 1,
+      "ID": "appWindows",
+      "RelativePath": false,
+      "OperatingSystem": 0,
+      "Filename": "C:\\Filo\\Tronic\\Installers\\Win\\Multipage HISE\\Installer\\Tronic.exe"
+    }
+  ]
+}

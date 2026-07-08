@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptButton" id="WriteRequest" x="20" y="20" text="Write request JSON"
+             width="180" height="32"/>
+  <Component type="ScriptButton" id="ReadResponse" x="20" y="55" text="Read response"
+             width="180" height="32"/>
+</ContentProperties>

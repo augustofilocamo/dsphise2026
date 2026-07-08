@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptImage" id="Image1" x="0.0" y="0.0" fileName="{PROJECT_FOLDER}background-01.png"
+             width="1024.0" height="680.0"/>
+  <Component type="ScriptSlider" id="Knob1" x="122.0" y="270.0" filmstripImage="{PROJECT_FOLDER}main-slider.png"
+             numStrips="64.0" width="800.0" height="130.0" scaleFactor="1.5"
+             dragDirection="Horizontal" mouseSensitivity="2.0" processorId="Script FX1"
+             parameterId="time" max="0.2000000029802322"/>
+</ContentProperties>

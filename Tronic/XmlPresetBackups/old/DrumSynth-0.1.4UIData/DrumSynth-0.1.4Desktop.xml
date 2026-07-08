@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptImage" id="backgrtound_Image" x="0.0" y="0.0" fileName="{PROJECT_FOLDER}backgound-02.png"
+             width="1024.0" height="680.0"/>
+  <Component type="ScriptSliderPack" id="SliderPack1" x="340.0" y="140.0"
+             width="400.0" height="45.0" processorId="Arpeggiator1" SliderPackIndex="1"
+             visible="0"/>
+  <Component type="ScriptSliderPack" id="SliderPack3" x="340.0" y="192.0"
+             width="400.0" height="45.0" processorId="Arpeggiator1" max="12.0"
+             min="-12.0" visible="0"/>
+  <Component type="ScriptButton" id="play1" x="111.0" y="523.0" width="58.0"
+             height="59.0" filmstripImage="{PROJECT_FOLDER}btnPLay.png" scaleFactor="0.300000011920929"/>
+  <Component type="ScriptSlider" id="tempo" x="65.0" y="349.0" min="-1.0"
+             max="300.0" filmstripImage="{PROJECT_FOLDER}btnTempo.png" numStrips="128.0"
+             scaleFactor="0.300000011920929" width="156.0" height="161.0"/>
+  <Component type="ScriptSlider" id="cutoffKnob" x="300.0" y="320.0" processorId="HardcodedMasterFX Lowpass"
+             parameterId="cutoff" mode="Frequency" min="20.0" max="18000.0"
+             suffix=" Hz" middlePosition="100.0"/>
+  <Component type="ScriptLabel" id="Label1" x="80.0" y="280.0" text="5"/>
+  <Component type="ScriptSlider" id="ledKnob" x="310.0" y="484.0" filmstripImage="{PROJECT_FOLDER}leds.png"
+             numStrips="8.0" scaleFactor="0.449999988079071" width="591.0"
+             height="44.0" max="7.0"/>
+  <Component type="ScriptLabel" id="TEMPO" x="104.0" y="487.0" fontSize="15.0"
+             width="70.0" height="30.0" textColour="3321888767"/>
+  <Component type="ScriptLabel" id="STARSTOP" x="89.0" y="577.0" fontSize="15.0"
+             width="110.0" height="30.0" text="START / STOP" textColour="3321888767"/>
+  <Component type="ScriptSlider" id="veloKnob1" x="319.0" y="435.0" filmstripImage="{PROJECT_FOLDER}btnNote.png"
+             numStrips="64.0" scaleFactor="0.1599999964237213" width="45.0"
+             height="46.0" processorId="Arpeggiator1" max="127.0"/>
+  <Component type="ScriptSlider" id="veloKnob2" x="394.0" y="435.0" filmstripImage="{PROJECT_FOLDER}btnNote.png"
+             numStrips="64.0" scaleFactor="0.1599999964237213" width="45.0"
+             height="46.0" max="127.0"/>
+  <Component type="ScriptSlider" id="veloKnob3" x="470.0" y="435.0" filmstripImage="{PROJECT_FOLDER}btnNote.png"
+             numStrips="64.0" scaleFactor="0.1599999964237213" width="45.0"
+             height="46.0" max="127.0"/>
+  <Component type="ScriptSlider" id="veloKnob4" x="546.0" y="435.0" filmstripImage="{PROJECT_FOLDER}btnNote.png"
+             numStrips="64.0" scaleFactor="0.1599999964237213" width="45.0"
+             height="46.0" max="127.0"/>
+  <Component type="ScriptSlider" id="veloKnob5" x="622.0" y="435.0" filmstripImage="{PROJECT_FOLDER}btnNote.png"
+             numStrips="64.0" scaleFactor="0.1599999964237213" width="45.0"
+             height="46.0" max="127.0"/>
+  <Component type="ScriptSlider" id="veloKnob6" x="698.0" y="435.0" filmstripImage="{PROJECT_FOLDER}btnNote.png"
+             numStrips="64.0" scaleFactor="0.1599999964237213" width="45.0"
+             height="46.0" max="127.0"/>
+  <Component type="ScriptSlider" id="veloKnob7" x="774.0" y="435.0" filmstripImage="{PROJECT_FOLDER}btnNote.png"
+             numStrips="64.0" scaleFactor="0.1599999964237213" width="45.0"
+             height="46.0" max="127.0"/>
+  <Component type="ScriptSlider" id="veloKnob8" x="849.0" y="435.0" filmstripImage="{PROJECT_FOLDER}btnNote.png"
+             numStrips="64.0" scaleFactor="0.1599999964237213" width="45.0"
+             height="46.0" max="127.0"/>
+  <Component type="ScriptSlider" id="noteKnob1" x="319.0" y="534.0" filmstripImage="{PROJECT_FOLDER}btnNote.png"
+             numStrips="64.0" scaleFactor="0.1599999964237213" width="45.0"
+             height="46.0" min="-12.0" max="12.0"/>
+  <Component type="ScriptSlider" id="noteKnob2" x="394.0" y="534.0" filmstripImage="{PROJECT_FOLDER}btnNote.png"
+             numStrips="64.0" scaleFactor="0.1599999964237213" width="45.0"
+             height="46.0" min="-12.0" max="12.0"/>
+  <Component type="ScriptSlider" id="noteKnob3" x="470.0" y="534.0" filmstripImage="{PROJECT_FOLDER}btnNote.png"
+             numStrips="64.0" scaleFactor="0.1599999964237213" width="45.0"
+             height="46.0" min="-12.0" max="12.0"/>
+  <Component type="ScriptSlider" id="noteKnob4" x="546.0" y="534.0" filmstripImage="{PROJECT_FOLDER}btnNote.png"
+             numStrips="64.0" scaleFactor="0.1599999964237213" width="45.0"
+             height="46.0" min="-12.0" max="12.0"/>
+  <Component type="ScriptSlider" id="noteKnob5" x="622.0" y="534.0" filmstripImage="{PROJECT_FOLDER}btnNote.png"
+             numStrips="64.0" scaleFactor="0.1599999964237213" width="45.0"
+             height="46.0" min="-12.0" max="12.0"/>
+  <Component type="ScriptSlider" id="noteKnob6" x="698.0" y="534.0" filmstripImage="{PROJECT_FOLDER}btnNote.png"
+             numStrips="64.0" scaleFactor="0.1599999964237213" width="45.0"
+             height="46.0" min="-12.0" max="12.0"/>
+  <Component type="ScriptSlider" id="noteKnob7" x="774.0" y="534.0" filmstripImage="{PROJECT_FOLDER}btnNote.png"
+             numStrips="64.0" scaleFactor="0.1599999964237213" width="45.0"
+             height="46.0" min="-12.0" max="12.0"/>
+  <Component type="ScriptSlider" id="noteKnob8" x="849.0" y="534.0" filmstripImage="{PROJECT_FOLDER}btnNote.png"
+             numStrips="64.0" scaleFactor="0.1599999964237213" width="45.0"
+             height="46.0" min="-12.0" max="12.0"/>
+  <Component type="ScriptLabel" id="VELOCITY" x="310.0" y="400.0" fontSize="15.0"
+             width="90.0" height="30.0" textColour="3321888767"/>
+  <Component type="ScriptLabel" id="NOTE" x="318.0" y="580.0" fontSize="15.0"
+             width="60.0" height="30.0" textColour="3321888767"/>
+  <Component type="ScriptSlider" id="attackKnob" x="310.0" y="80.0" max="0.05000000074505806"
+             processorId="Hardcoded Polyphonic FX redo7" parameterId="attack"
+             stepSize="0.0001"/>
+  <Component type="ScriptSlider" id="clickKnob" x="465.0" y="80.0" max="0.5"
+             processorId="Hardcoded Polyphonic FX redo7" parameterId="click"
+             stepSize="0.00009999999747378752"/>
+  <Component type="ScriptSlider" id="decayKnob" x="618.0" y="80.0" max="1.5"
+             processorId="Hardcoded Polyphonic FX redo7" parameterId="decay"
+             stepSize="0.00009999999747378752"/>
+  <Component type="ScriptSlider" id="driveKnob" x="768.0" y="80.0" max="10.0"
+             processorId="Hardcoded Polyphonic FX redo7" parameterId="drive"
+             stepSize="0.00009999999747378752"/>
+  <Component type="ScriptSlider" id="freqOsc1Knob" x="310.0" y="135.0" max="500.0"
+             processorId="Hardcoded Polyphonic FX redo7" parameterId="fixedFreqOsc1"
+             stepSize="0.00009999999747378752" min="20.0"/>
+  <Component type="ScriptSlider" id="freqOsc2Knob" x="465.0" y="143.0" max="500.0"
+             processorId="Hardcoded Polyphonic FX redo7" parameterId="fixedFreqOsc2"
+             stepSize="0.00009999999747378752" min="20.0"/>
+  <Component type="ScriptSlider" id="fmGainKnob" x="618.0" y="134.0" processorId="Hardcoded Polyphonic FX redo7"
+             parameterId="fmGain" stepSize="0.00009999999747378752"/>
+  <Component type="ScriptButton" id="freqCableButton" x="771.0" y="149.0"
+             processorId="Hardcoded Polyphonic FX redo7" parameterId="freqCable"/>
+  <Component type="ScriptSlider" id="freqFmKnob" x="310.0" y="190.0" processorId="Hardcoded Polyphonic FX redo7"
+             parameterId="freqFm" stepSize="0.00009999999747378752" min="4.0"
+             max="50.0"/>
+  <Component type="ScriptButton" id="gainCableButton" x="465.0" y="206.0"
+             processorId="Hardcoded Polyphonic FX redo7" parameterId="gainCable"/>
+  <Component type="ScriptSlider" id="indicesFmKnob" x="618.0" y="189.0" processorId="Hardcoded Polyphonic FX redo7"
+             parameterId="indicesFm" stepSize="0.00009999999747378752" min="2.0"
+             max="4000.0"/>
+  <Component type="ScriptSlider" id="noiseGainKnob" x="770.0" y="189.0" processorId="Hardcoded Polyphonic FX redo7"
+             parameterId="noiseGain" stepSize="0.00009999999747378752" max="20.0"/>
+  <Component type="ScriptSlider" id="rampKnob" x="311.0" y="250.0" processorId="Hardcoded Polyphonic FX redo7"
+             parameterId="ramp" stepSize="0.00009999999747378752" max="20.0"
+             min="0.1000000014901161"/>
+  <Component type="ScriptSlider" id="sineGainKnob" x="465.0" y="250.0" processorId="Hardcoded Polyphonic FX redo7"
+             parameterId="sineGain" stepSize="0.00009999999747378752"/>
+  <Component type="ScriptSlider" id="squareGainKnob" x="630.0" y="250.0" processorId="Hardcoded Polyphonic FX redo7"
+             parameterId="squareGain" stepSize="0.00009999999747378752"/>
+  <Component type="ScriptSlider" id="qKnob" x="450.0" y="320.0" processorId="HardcodedMasterFX Lowpass"
+             parameterId="q" min="0.7099999785423279" max="25.0" suffix=" "
+             middlePosition="12.85499954223633"/>
+  <Component type="ScriptSlider" id="qKnob1" x="630" y="320.0" processorId="HardcodedMasterFX Lowpass"
+             parameterId="decay" min="0.01" max="1.5" suffix=" " middlePosition="0.755"/>
+</ContentProperties>

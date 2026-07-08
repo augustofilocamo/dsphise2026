@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Preset Version="1.0.0">
+  <Content Processor="Interface">
+    <Control type="ScriptSlider" id="KnobCue" value="1.0"/>
+    <Control type="ScriptSlider" id="KnobFreezeAmount" value="0.93"/>
+    <Control type="ScriptSlider" id="KnobPhaseRandom" value="1.0"/>
+    <Control type="ScriptSlider" id="KnobSmear" value="0.32"/>
+    <Control type="ScriptButton" id="recButton" value="0.0"/>
+    <Control type="ScriptButton" id="playButton" value="0.0"/>
+    <Control type="ScriptSlider" id="loopFreezeKnob" value="0.7"/>
+    <Control type="ScriptSlider" id="decayLoopKnob" value="0.8"/>
+    <Control type="ScriptButton" id="clearButton" value="0.0"/>
+    <Control type="ScriptButton" id="freezeButton" value="0.0"/>
+    <Control type="ScriptButton" id="settingsButton" value="0.0"/>
+    <Control type="ScriptSlider" id="makeupKnob" value="3.900000333786011"/>
+    <Control type="ScriptSlider" id="panKnob" value="-25.0"/>
+    <Control type="ScriptButton" id="signalButton" value="1.0"/>
+  </Content>
+  <MidiAutomation/>
+  <MPEData Enabled="0"/>
+</Preset>

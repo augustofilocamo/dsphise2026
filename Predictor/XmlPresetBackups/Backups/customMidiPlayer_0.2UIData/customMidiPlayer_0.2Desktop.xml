@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptButton" id="patternPlayButton" x="0" y="0" text="Play"/>
+  <Component type="ScriptButton" id="PlayButton" x="0" y="0" text="Play"/>
+  <Component type="ScriptSlider" id="Knob1" x="30.0" y="70.0" stepSize="1.0"
+             min="40.0" max="300.0"/>
+</ContentProperties>

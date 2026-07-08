@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap CrossfadeGamma="1.0" ID="Violas" RRGroupAmount="1.0" MicPositions=";"
+           SaveMode="2">
+  <sample Root="69" LoKey="69" HiKey="71" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}ViolasEns/ViolaEns_susvib_A3_v1_1.wav"
+          Duplicate="1" SampleEnd="415218" MonolithOffset="0" MonolithLength="417792"
+          SampleRate="44100.0"/>
+  <sample Root="59" LoKey="59" HiKey="61" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}ViolasEns/ViolaEns_susvib_B2_v1_1.wav"
+          Duplicate="1" SampleEnd="476911" MonolithOffset="417792" MonolithLength="479232"
+          SampleRate="44100.0"/>
+  <sample Root="83" LoKey="83" HiKey="85" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}ViolasEns/ViolaEns_susvib_B4_v1_1.wav"
+          Duplicate="1" SampleEnd="367179" MonolithOffset="897024" MonolithLength="368640"
+          SampleRate="44100.0"/>
+  <sample Root="48" LoKey="34" HiKey="49" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}ViolasEns/ViolaEns_susvib_C2_v1_1.wav"
+          Duplicate="1" SampleEnd="440386" MonolithOffset="1265664" MonolithLength="442368"
+          SampleRate="44100.0"/>
+  <sample Root="72" LoKey="72" HiKey="75" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}ViolasEns/ViolaEns_susvib_C4_v1_1.wav"
+          Duplicate="1" SampleEnd="381602" MonolithOffset="1708032" MonolithLength="385024"
+          SampleRate="44100.0"/>
+  <sample Root="50" LoKey="50" HiKey="51" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}ViolasEns/ViolaEns_susvib_D2_v1_1.wav"
+          Duplicate="1" SampleEnd="393309" MonolithOffset="2093056" MonolithLength="397312"
+          SampleRate="44100.0"/>
+  <sample Root="62" LoKey="62" HiKey="64" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}ViolasEns/ViolaEns_susvib_D3_v1_1.wav"
+          Duplicate="1" SampleEnd="464934" MonolithOffset="2490368" MonolithLength="466944"
+          SampleRate="44100.0"/>
+  <sample Root="86" LoKey="86" HiKey="97" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}ViolasEns/ViolaEns_susvib_D5_v1_1.wav"
+          Duplicate="1" SampleEnd="347959" MonolithOffset="2957312" MonolithLength="348160"
+          SampleRate="44100.0"/>
+  <sample Root="52" LoKey="52" HiKey="54" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}ViolasEns/ViolaEns_susvib_E2_v1_1.wav"
+          Duplicate="1" SampleEnd="420000" MonolithOffset="3305472" MonolithLength="421888"
+          SampleRate="44100.0"/>
+  <sample Root="76" LoKey="76" HiKey="78" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}ViolasEns/ViolaEns_susvib_E4_v1_1.wav"
+          Duplicate="1" SampleEnd="340719" MonolithOffset="3727360" MonolithLength="344064"
+          SampleRate="44100.0"/>
+  <sample Root="65" LoKey="65" HiKey="68" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}ViolasEns/ViolaEns_susvib_F3_v1_1.wav"
+          Duplicate="1" SampleEnd="414629" MonolithOffset="4071424" MonolithLength="417792"
+          SampleRate="44100.0"/>
+  <sample Root="55" LoKey="55" HiKey="58" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}ViolasEns/ViolaEns_susvib_G2_v1_1.wav"
+          Duplicate="1" SampleEnd="333600" MonolithOffset="4489216" MonolithLength="335872"
+          SampleRate="44100.0"/>
+  <sample Root="79" LoKey="79" HiKey="82" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}ViolasEns/ViolaEns_susvib_G4_v1_1.wav"
+          Duplicate="1" SampleEnd="423757" MonolithOffset="4825088" MonolithLength="425984"
+          SampleRate="44100.0"/>
+</samplemap>

@@ -1,0 +1,80 @@
+{
+  "exports": [
+    {
+      "source_path": "/Users/filo/Filo/VST-Project/Sketches-Ideas/audioToBeat/e-gmd-v1.0.0/drummer6/session3/3_rock_100_beat_4-4_35.midi",
+      "bar_start": 17,
+      "n_bars": 1,
+      "bpm": 100.0,
+      "output_bpm": 100.0,
+      "source_type": "groove",
+      "mid_path": "/Users/filo/Filo/VST-Project/dsphise/Boomcha/drum_classifier/closest_1bar.mid",
+      "velocity": 100,
+      "query": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    }
+  ]
+}

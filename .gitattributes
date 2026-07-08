@@ -1,0 +1,2 @@
+*.bbank filter=lfs diff=lfs merge=lfs -text
+Boomcha/pattern_bank*.npz filter=lfs diff=lfs merge=lfs -text

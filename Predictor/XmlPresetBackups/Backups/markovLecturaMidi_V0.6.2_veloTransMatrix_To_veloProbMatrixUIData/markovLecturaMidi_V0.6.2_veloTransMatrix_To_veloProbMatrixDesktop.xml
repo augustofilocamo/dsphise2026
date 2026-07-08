@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptFloatingTile" id="FloatingTile1" x="200.0" y="30.0"
+             ContentType="MidiOverlayPanel" bgColour="620756992" itemColour="4287137928"
+             itemColour2="4282664004" Data="{&#10;  &quot;ProcessorId&quot;: &quot;MIDI Player1&quot;,&#10;  &quot;Index&quot;: 0,&#10;  &quot;FollowWorkspace&quot;: false&#10;}"
+             width="300.0" height="170.0"/>
+  <Component type="ScriptFloatingTile" id="FloatingTile2" x="200.0" y="200.0"
+             ContentType="MidiOverlayPanel" bgColour="620756992" itemColour="4287137928"
+             itemColour2="4282664004" Data="{&#10;  &quot;ProcessorId&quot;: &quot;MIDI Player1&quot;,&#10;  &quot;Index&quot;: 1,&#10;  &quot;FollowWorkspace&quot;: false&#10;}"
+             width="300.0" height="100.0"/>
+  <Component type="ScriptButton" id="PlayMIDISequence" x="20.0" y="320.0"
+             width="140.0" height="40.0" text="Play MIDI Sequence"/>
+  <Component type="ScriptButton" id="NextNote" x="20.0" y="110.0" width="120"
+             height="40" isMomentary="1"/>
+  <Component type="ScriptButton" id="ReadMidiFile" x="20.0" y="40.0" isMomentary="1"
+             width="130.0" height="30.0"/>
+  <Component type="ScriptButton" id="Clear MIDI Sequence" x="20.0" y="370.0"
+             width="150.0" height="40.0" isMomentary="1"/>
+</ContentProperties>

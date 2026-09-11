@@ -1,0 +1,5949 @@
+[
+  {
+    "id": "v6foot_ato_foot_cloth_0001",
+    "family": "ATOM",
+    "ucs": "FOOT_CLOTH",
+    "tag": "v6foot,foot_cloth,backpack_strap_rustle",
+    "tags": [
+      "v6foot",
+      "foot_cloth",
+      "backpack_strap_rustle"
+    ],
+    "prompt": "sfx backpack strap rustle, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_cloth_0001.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_cloth_0002",
+    "family": "ATOM",
+    "ucs": "FOOT_CLOTH",
+    "tag": "v6foot,foot_cloth,bag_zipper_short_while_walki",
+    "tags": [
+      "v6foot",
+      "foot_cloth",
+      "bag_zipper_short_while_walki"
+    ],
+    "prompt": "sfx bag zipper short while walking, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_cloth_0002.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_cloth_0003",
+    "family": "ATOM",
+    "ucs": "FOOT_CLOTH",
+    "tag": "v6foot,foot_cloth,close,close_bag_zipper_short_while",
+    "tags": [
+      "v6foot",
+      "foot_cloth",
+      "close",
+      "close_bag_zipper_short_while"
+    ],
+    "prompt": "sfx close bag zipper short while walking, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_cloth_0003.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_cloth_0004",
+    "family": "ATOM",
+    "ucs": "FOOT_CLOTH",
+    "tag": "v6foot,foot_cloth,close,close_leather_jacket_creak_w",
+    "tags": [
+      "v6foot",
+      "foot_cloth",
+      "close",
+      "close_leather_jacket_creak_w"
+    ],
+    "prompt": "sfx close leather jacket creak walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_cloth_0004.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_cloth_0005",
+    "family": "ATOM",
+    "ucs": "FOOT_CLOTH",
+    "tag": "v6foot,foot_cloth,close,close_stand_up_cloth_rustle",
+    "tags": [
+      "v6foot",
+      "foot_cloth",
+      "close",
+      "close_stand_up_cloth_rustle"
+    ],
+    "prompt": "sfx close stand up cloth rustle, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_cloth_0005.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_cloth_0006",
+    "family": "ATOM",
+    "ucs": "FOOT_CLOTH",
+    "tag": "v6foot,foot_cloth,coat_fabric_rustle_short",
+    "tags": [
+      "v6foot",
+      "foot_cloth",
+      "coat_fabric_rustle_short"
+    ],
+    "prompt": "sfx coat fabric rustle short, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_cloth_0006.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_cloth_0007",
+    "family": "ATOM",
+    "ucs": "FOOT_CLOTH",
+    "tag": "v6foot,foot_cloth,distant,distant_bag_zipper_short_whi",
+    "tags": [
+      "v6foot",
+      "foot_cloth",
+      "distant",
+      "distant_bag_zipper_short_whi"
+    ],
+    "prompt": "sfx distant bag zipper short while walking, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_cloth_0007.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_cloth_0008",
+    "family": "ATOM",
+    "ucs": "FOOT_CLOTH",
+    "tag": "v6foot,foot_cloth,dry,dry_jacket_cloth_rustle_walk",
+    "tags": [
+      "v6foot",
+      "foot_cloth",
+      "dry",
+      "dry_jacket_cloth_rustle_walk"
+    ],
+    "prompt": "sfx dry jacket cloth rustle walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_cloth_0008.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_cloth_0009",
+    "family": "ATOM",
+    "ucs": "FOOT_CLOTH",
+    "tag": "v6foot,foot_cloth,dry,dry_sit_down_cloth_rustle",
+    "tags": [
+      "v6foot",
+      "foot_cloth",
+      "dry",
+      "dry_sit_down_cloth_rustle"
+    ],
+    "prompt": "sfx dry sit down cloth rustle, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_cloth_0009.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_cloth_0010",
+    "family": "ATOM",
+    "ucs": "FOOT_CLOTH",
+    "tag": "v6foot,foot_cloth,jacket_cloth_rustle_walk",
+    "tags": [
+      "v6foot",
+      "foot_cloth",
+      "jacket_cloth_rustle_walk"
+    ],
+    "prompt": "sfx jacket cloth rustle walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_cloth_0010.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_cloth_0011",
+    "family": "ATOM",
+    "ucs": "FOOT_CLOTH",
+    "tag": "v6foot,foot_cloth,jeans_fabric_rub_walk",
+    "tags": [
+      "v6foot",
+      "foot_cloth",
+      "jeans_fabric_rub_walk"
+    ],
+    "prompt": "sfx jeans fabric rub walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_cloth_0011.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_cloth_0012",
+    "family": "ATOM",
+    "ucs": "FOOT_CLOTH",
+    "tag": "v6foot,foot_cloth,leather_jacket_creak_walk",
+    "tags": [
+      "v6foot",
+      "foot_cloth",
+      "leather_jacket_creak_walk"
+    ],
+    "prompt": "sfx leather jacket creak walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_cloth_0012.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_cloth_0013",
+    "family": "ATOM",
+    "ucs": "FOOT_CLOTH",
+    "tag": "v6foot,foot_cloth,low,low_backpack_strap_rustle",
+    "tags": [
+      "v6foot",
+      "foot_cloth",
+      "low",
+      "low_backpack_strap_rustle"
+    ],
+    "prompt": "sfx low backpack strap rustle, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_cloth_0013.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_cloth_0014",
+    "family": "ATOM",
+    "ucs": "FOOT_CLOTH",
+    "tag": "v6foot,foot_cloth,low,low_coat_fabric_rustle_short",
+    "tags": [
+      "v6foot",
+      "foot_cloth",
+      "low",
+      "low_coat_fabric_rustle_short"
+    ],
+    "prompt": "sfx low coat fabric rustle short, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_cloth_0014.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_cloth_0015",
+    "family": "ATOM",
+    "ucs": "FOOT_CLOTH",
+    "tag": "v6foot,foot_cloth,pants_cloth_swish_run",
+    "tags": [
+      "v6foot",
+      "foot_cloth",
+      "pants_cloth_swish_run"
+    ],
+    "prompt": "sfx pants cloth swish run, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_cloth_0015.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_cloth_0016",
+    "family": "ATOM",
+    "ucs": "FOOT_CLOTH",
+    "tag": "v6foot,foot_cloth,quiet,quiet_backpack_strap_rustle",
+    "tags": [
+      "v6foot",
+      "foot_cloth",
+      "quiet",
+      "quiet_backpack_strap_rustle"
+    ],
+    "prompt": "sfx quiet backpack strap rustle, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_cloth_0016.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_cloth_0017",
+    "family": "ATOM",
+    "ucs": "FOOT_CLOTH",
+    "tag": "v6foot,foot_cloth,quiet,quiet_coat_fabric_rustle_sho",
+    "tags": [
+      "v6foot",
+      "foot_cloth",
+      "quiet",
+      "quiet_coat_fabric_rustle_sho"
+    ],
+    "prompt": "sfx quiet coat fabric rustle short, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_cloth_0017.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_cloth_0018",
+    "family": "ATOM",
+    "ucs": "FOOT_CLOTH",
+    "tag": "v6foot,foot_cloth,quiet,quiet_jeans_fabric_rub_walk",
+    "tags": [
+      "v6foot",
+      "foot_cloth",
+      "quiet",
+      "quiet_jeans_fabric_rub_walk"
+    ],
+    "prompt": "sfx quiet jeans fabric rub walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_cloth_0018.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_cloth_0019",
+    "family": "ATOM",
+    "ucs": "FOOT_CLOTH",
+    "tag": "v6foot,foot_cloth,quiet,quiet_pants_cloth_swish_run",
+    "tags": [
+      "v6foot",
+      "foot_cloth",
+      "quiet",
+      "quiet_pants_cloth_swish_run"
+    ],
+    "prompt": "sfx quiet pants cloth swish run, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_cloth_0019.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_cloth_0020",
+    "family": "ATOM",
+    "ucs": "FOOT_CLOTH",
+    "tag": "v6foot,foot_cloth,quiet,quiet_stand_up_cloth_rustle",
+    "tags": [
+      "v6foot",
+      "foot_cloth",
+      "quiet",
+      "quiet_stand_up_cloth_rustle"
+    ],
+    "prompt": "sfx quiet stand up cloth rustle, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_cloth_0020.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_cloth_0021",
+    "family": "ATOM",
+    "ucs": "FOOT_CLOTH",
+    "tag": "v6foot,foot_cloth,sit_down_cloth_rustle",
+    "tags": [
+      "v6foot",
+      "foot_cloth",
+      "sit_down_cloth_rustle"
+    ],
+    "prompt": "sfx sit down cloth rustle, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_cloth_0021.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_cloth_0022",
+    "family": "ATOM",
+    "ucs": "FOOT_CLOTH",
+    "tag": "v6foot,foot_cloth,soft,soft_jeans_fabric_rub_walk",
+    "tags": [
+      "v6foot",
+      "foot_cloth",
+      "soft",
+      "soft_jeans_fabric_rub_walk"
+    ],
+    "prompt": "sfx soft jeans fabric rub walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_cloth_0022.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_cloth_0023",
+    "family": "ATOM",
+    "ucs": "FOOT_CLOTH",
+    "tag": "v6foot,foot_cloth,soft,soft_leather_jacket_creak_wa",
+    "tags": [
+      "v6foot",
+      "foot_cloth",
+      "soft",
+      "soft_leather_jacket_creak_wa"
+    ],
+    "prompt": "sfx soft leather jacket creak walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_cloth_0023.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_cloth_0024",
+    "family": "ATOM",
+    "ucs": "FOOT_CLOTH",
+    "tag": "v6foot,foot_cloth,soft,soft_sit_down_cloth_rustle",
+    "tags": [
+      "v6foot",
+      "foot_cloth",
+      "soft",
+      "soft_sit_down_cloth_rustle"
+    ],
+    "prompt": "sfx soft sit down cloth rustle, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_cloth_0024.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_cloth_0025",
+    "family": "ATOM",
+    "ucs": "FOOT_CLOTH",
+    "tag": "v6foot,foot_cloth,stand_up_cloth_rustle",
+    "tags": [
+      "v6foot",
+      "foot_cloth",
+      "stand_up_cloth_rustle"
+    ],
+    "prompt": "sfx stand up cloth rustle, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_cloth_0025.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_cloth_0027",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_cloth_0027.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_cloth_0028",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_cloth_0028.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_cloth_0029",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_cloth_0029.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_cloth_0030",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_cloth_0030.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_cloth_0032",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_cloth_0032.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_cloth_0034",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_cloth_0034.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_cloth_0035",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_cloth_0035.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_cloth_0036",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_cloth_0036.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_cloth_0039",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_cloth_0039.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_cloth_0041",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_cloth_0041.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_cloth_0043",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_cloth_0043.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_cloth_0046",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_cloth_0046.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_cloth_0047",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_cloth_0047.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_cloth_0048",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_cloth_0048.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_cloth_0049",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_cloth_0049.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_cloth_0050",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_cloth_0050.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_cloth_0051",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_cloth_0051.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_cloth_0052",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_cloth_0052.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_cloth_0055",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_cloth_0055.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_cloth_0056",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_cloth_0056.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_cloth_0061",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_cloth_0061.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_crowd_0001",
+    "family": "ATOM",
+    "ucs": "FOOT_CROWD",
+    "tag": "v6foot,foot_crowd,busy_corridor_foot_traffic_s",
+    "tags": [
+      "v6foot",
+      "foot_crowd",
+      "busy_corridor_foot_traffic_s"
+    ],
+    "prompt": "sfx busy corridor foot traffic short, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_crowd_0001.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_crowd_0002",
+    "family": "ATOM",
+    "ucs": "FOOT_CROWD",
+    "tag": "v6foot,foot_crowd,close,close_busy_corridor_foot_tra",
+    "tags": [
+      "v6foot",
+      "foot_crowd",
+      "close",
+      "close_busy_corridor_foot_tra"
+    ],
+    "prompt": "sfx close busy corridor foot traffic short, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_crowd_0002.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_crowd_0003",
+    "family": "ATOM",
+    "ucs": "FOOT_CROWD",
+    "tag": "v6foot,foot_crowd,close,close_crowd_footsteps_hallwa",
+    "tags": [
+      "v6foot",
+      "foot_crowd",
+      "close",
+      "close_crowd_footsteps_hallwa"
+    ],
+    "prompt": "sfx close crowd footsteps hallway, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_crowd_0003.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_crowd_0004",
+    "family": "ATOM",
+    "ucs": "FOOT_CROWD",
+    "tag": "v6foot,foot_crowd,close,close_group_footsteps_paveme",
+    "tags": [
+      "v6foot",
+      "foot_crowd",
+      "close",
+      "close_group_footsteps_paveme"
+    ],
+    "prompt": "sfx close group footsteps pavement, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_crowd_0004.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_crowd_0005",
+    "family": "ATOM",
+    "ucs": "FOOT_CROWD",
+    "tag": "v6foot,foot_crowd,close,close_several_people_stairs",
+    "tags": [
+      "v6foot",
+      "foot_crowd",
+      "close",
+      "close_several_people_stairs"
+    ],
+    "prompt": "sfx close several people stairs, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_crowd_0005.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_crowd_0006",
+    "family": "ATOM",
+    "ucs": "FOOT_CROWD",
+    "tag": "v6foot,foot_crowd,crowd_footsteps_hallway",
+    "tags": [
+      "v6foot",
+      "foot_crowd",
+      "crowd_footsteps_hallway"
+    ],
+    "prompt": "sfx crowd footsteps hallway, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_crowd_0006.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_crowd_0007",
+    "family": "ATOM",
+    "ucs": "FOOT_CROWD",
+    "tag": "v6foot,foot_crowd,crowd_footsteps_lobby",
+    "tags": [
+      "v6foot",
+      "foot_crowd",
+      "crowd_footsteps_lobby"
+    ],
+    "prompt": "sfx crowd footsteps lobby, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_crowd_0007.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_crowd_0008",
+    "family": "ATOM",
+    "ucs": "FOOT_CROWD",
+    "tag": "v6foot,foot_crowd,distant,distant_group_footsteps_pave",
+    "tags": [
+      "v6foot",
+      "foot_crowd",
+      "distant",
+      "distant_group_footsteps_pave"
+    ],
+    "prompt": "sfx distant group footsteps pavement, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_crowd_0008.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_crowd_0009",
+    "family": "ATOM",
+    "ucs": "FOOT_CROWD",
+    "tag": "v6foot,foot_crowd,distant,distant_several_people_stair",
+    "tags": [
+      "v6foot",
+      "foot_crowd",
+      "distant",
+      "distant_several_people_stair"
+    ],
+    "prompt": "sfx distant several people stairs, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_crowd_0009.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_crowd_0010",
+    "family": "ATOM",
+    "ucs": "FOOT_CROWD",
+    "tag": "v6foot,foot_crowd,group_footsteps_pavement",
+    "tags": [
+      "v6foot",
+      "foot_crowd",
+      "group_footsteps_pavement"
+    ],
+    "prompt": "sfx group footsteps pavement, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_crowd_0010.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_crowd_0011",
+    "family": "ATOM",
+    "ucs": "FOOT_CROWD",
+    "tag": "v6foot,foot_crowd,low,low_crowd_footsteps_lobby",
+    "tags": [
+      "v6foot",
+      "foot_crowd",
+      "low",
+      "low_crowd_footsteps_lobby"
+    ],
+    "prompt": "sfx low crowd footsteps lobby, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_crowd_0011.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_crowd_0012",
+    "family": "ATOM",
+    "ucs": "FOOT_CROWD",
+    "tag": "v6foot,foot_crowd,several_people_stairs",
+    "tags": [
+      "v6foot",
+      "foot_crowd",
+      "several_people_stairs"
+    ],
+    "prompt": "sfx several people stairs, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_crowd_0012.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_crowd_0013",
+    "family": "ATOM",
+    "ucs": "FOOT_CROWD",
+    "tag": "v6foot,foot_crowd,soft,soft_busy_corridor_foot_traf",
+    "tags": [
+      "v6foot",
+      "foot_crowd",
+      "soft",
+      "soft_busy_corridor_foot_traf"
+    ],
+    "prompt": "sfx soft busy corridor foot traffic short, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_crowd_0013.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_crowd_0014",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_crowd_0014.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_crowd_0015",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_crowd_0015.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_crowd_0016",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_crowd_0016.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_crowd_0017",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_crowd_0017.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_crowd_0021",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_crowd_0021.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_crowd_0022",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_crowd_0022.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_crowd_0024",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_crowd_0024.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_crowd_0025",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_crowd_0025.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_crowd_0027",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_crowd_0027.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_crowd_0028",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_crowd_0028.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_crowd_0030",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_crowd_0030.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_crowd_0033",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_crowd_0033.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_crowd_0035",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_crowd_0035.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0001",
+    "family": "ATOM",
+    "ucs": "FOOT_DIRT",
+    "tag": "v6foot,foot_dirt,boot_muddy_path_stomp",
+    "tags": [
+      "v6foot",
+      "foot_dirt",
+      "boot_muddy_path_stomp"
+    ],
+    "prompt": "sfx boot muddy path stomp, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_dirt_0001.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0002",
+    "family": "ATOM",
+    "ucs": "FOOT_DIRT",
+    "tag": "v6foot,foot_dirt,close,close_footstep_dirt_walk",
+    "tags": [
+      "v6foot",
+      "foot_dirt",
+      "close",
+      "close_footstep_dirt_walk"
+    ],
+    "prompt": "sfx close footstep dirt walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_dirt_0002.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0003",
+    "family": "ATOM",
+    "ucs": "FOOT_DIRT",
+    "tag": "v6foot,foot_dirt,close,close_footstep_dry_leaves_wa",
+    "tags": [
+      "v6foot",
+      "foot_dirt",
+      "close",
+      "close_footstep_dry_leaves_wa"
+    ],
+    "prompt": "sfx close footstep dry leaves walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_dirt_0003.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0004",
+    "family": "ATOM",
+    "ucs": "FOOT_DIRT",
+    "tag": "v6foot,foot_dirt,close,close_footstep_pebble_path",
+    "tags": [
+      "v6foot",
+      "foot_dirt",
+      "close",
+      "close_footstep_pebble_path"
+    ],
+    "prompt": "sfx close footstep pebble path, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_dirt_0004.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0005",
+    "family": "ATOM",
+    "ucs": "FOOT_DIRT",
+    "tag": "v6foot,foot_dirt,close,close_footstep_snow_crunch_w",
+    "tags": [
+      "v6foot",
+      "foot_dirt",
+      "close",
+      "close_footstep_snow_crunch_w"
+    ],
+    "prompt": "sfx close footstep snow crunch walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_dirt_0005.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0006",
+    "family": "ATOM",
+    "ucs": "FOOT_DIRT",
+    "tag": "v6foot,foot_dirt,close,close_footstep_snow_soft_wal",
+    "tags": [
+      "v6foot",
+      "foot_dirt",
+      "close",
+      "close_footstep_snow_soft_wal"
+    ],
+    "prompt": "sfx close footstep snow soft walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_dirt_0006.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0007",
+    "family": "ATOM",
+    "ucs": "FOOT_DIRT",
+    "tag": "v6foot,foot_dirt,distant,distant_footstep_dry_grass_w",
+    "tags": [
+      "v6foot",
+      "foot_dirt",
+      "distant",
+      "distant_footstep_dry_grass_w"
+    ],
+    "prompt": "sfx distant footstep dry grass walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_dirt_0007.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0008",
+    "family": "ATOM",
+    "ucs": "FOOT_DIRT",
+    "tag": "v6foot,foot_dirt,distant,distant_footstep_forest_floo",
+    "tags": [
+      "v6foot",
+      "foot_dirt",
+      "distant",
+      "distant_footstep_forest_floo"
+    ],
+    "prompt": "sfx distant footstep forest floor walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_dirt_0008.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0009",
+    "family": "ATOM",
+    "ucs": "FOOT_DIRT",
+    "tag": "v6foot,foot_dirt,distant,distant_footstep_gravel_run",
+    "tags": [
+      "v6foot",
+      "foot_dirt",
+      "distant",
+      "distant_footstep_gravel_run"
+    ],
+    "prompt": "sfx distant footstep gravel run, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_dirt_0009.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0010",
+    "family": "ATOM",
+    "ucs": "FOOT_DIRT",
+    "tag": "v6foot,foot_dirt,distant,distant_footstep_sand_run",
+    "tags": [
+      "v6foot",
+      "foot_dirt",
+      "distant",
+      "distant_footstep_sand_run"
+    ],
+    "prompt": "sfx distant footstep sand run, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_dirt_0010.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0011",
+    "family": "ATOM",
+    "ucs": "FOOT_DIRT",
+    "tag": "v6foot,foot_dirt,dry,dry_boot_muddy_path_stomp",
+    "tags": [
+      "v6foot",
+      "foot_dirt",
+      "dry",
+      "dry_boot_muddy_path_stomp"
+    ],
+    "prompt": "sfx dry boot muddy path stomp, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_dirt_0011.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0012",
+    "family": "ATOM",
+    "ucs": "FOOT_DIRT",
+    "tag": "v6foot,foot_dirt,dry,dry_footstep_dirt_run",
+    "tags": [
+      "v6foot",
+      "foot_dirt",
+      "dry",
+      "dry_footstep_dirt_run"
+    ],
+    "prompt": "sfx dry footstep dirt run, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_dirt_0012.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0014",
+    "family": "ATOM",
+    "ucs": "FOOT_DIRT",
+    "tag": "v6foot,foot_dirt,dry,dry_footstep_pebble_path",
+    "tags": [
+      "v6foot",
+      "foot_dirt",
+      "dry",
+      "dry_footstep_pebble_path"
+    ],
+    "prompt": "sfx dry footstep pebble path, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_dirt_0014.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0015",
+    "family": "ATOM",
+    "ucs": "FOOT_DIRT",
+    "tag": "v6foot,foot_dirt,dry,dry_footstep_sand_walk",
+    "tags": [
+      "v6foot",
+      "foot_dirt",
+      "dry",
+      "dry_footstep_sand_walk"
+    ],
+    "prompt": "sfx dry footstep sand walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_dirt_0015.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0016",
+    "family": "ATOM",
+    "ucs": "FOOT_DIRT",
+    "tag": "v6foot,foot_dirt,footstep_dirt_run",
+    "tags": [
+      "v6foot",
+      "foot_dirt",
+      "footstep_dirt_run"
+    ],
+    "prompt": "sfx footstep dirt run, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_dirt_0016.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0017",
+    "family": "ATOM",
+    "ucs": "FOOT_DIRT",
+    "tag": "v6foot,foot_dirt,footstep_dirt_walk",
+    "tags": [
+      "v6foot",
+      "foot_dirt",
+      "footstep_dirt_walk"
+    ],
+    "prompt": "sfx footstep dirt walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_dirt_0017.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0018",
+    "family": "ATOM",
+    "ucs": "FOOT_DIRT",
+    "tag": "v6foot,foot_dirt,footstep_dry_grass_walk",
+    "tags": [
+      "v6foot",
+      "foot_dirt",
+      "footstep_dry_grass_walk"
+    ],
+    "prompt": "sfx footstep dry grass walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_dirt_0018.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0019",
+    "family": "ATOM",
+    "ucs": "FOOT_DIRT",
+    "tag": "v6foot,foot_dirt,footstep_dry_leaves_walk",
+    "tags": [
+      "v6foot",
+      "foot_dirt",
+      "footstep_dry_leaves_walk"
+    ],
+    "prompt": "sfx footstep dry leaves walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_dirt_0019.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0020",
+    "family": "ATOM",
+    "ucs": "FOOT_DIRT",
+    "tag": "v6foot,foot_dirt,footstep_forest_floor_walk",
+    "tags": [
+      "v6foot",
+      "foot_dirt",
+      "footstep_forest_floor_walk"
+    ],
+    "prompt": "sfx footstep forest floor walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_dirt_0020.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0021",
+    "family": "ATOM",
+    "ucs": "FOOT_DIRT",
+    "tag": "v6foot,foot_dirt,footstep_gravel_run",
+    "tags": [
+      "v6foot",
+      "foot_dirt",
+      "footstep_gravel_run"
+    ],
+    "prompt": "sfx footstep gravel run, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_dirt_0021.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0022",
+    "family": "ATOM",
+    "ucs": "FOOT_DIRT",
+    "tag": "v6foot,foot_dirt,footstep_gravel_walk",
+    "tags": [
+      "v6foot",
+      "foot_dirt",
+      "footstep_gravel_walk"
+    ],
+    "prompt": "sfx footstep gravel walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_dirt_0022.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0023",
+    "family": "ATOM",
+    "ucs": "FOOT_DIRT",
+    "tag": "v6foot,foot_dirt,footstep_mud_squish_walk",
+    "tags": [
+      "v6foot",
+      "foot_dirt",
+      "footstep_mud_squish_walk"
+    ],
+    "prompt": "sfx footstep mud squish walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_dirt_0023.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0024",
+    "family": "ATOM",
+    "ucs": "FOOT_DIRT",
+    "tag": "v6foot,foot_dirt,footstep_pebble_path",
+    "tags": [
+      "v6foot",
+      "foot_dirt",
+      "footstep_pebble_path"
+    ],
+    "prompt": "sfx footstep pebble path, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_dirt_0024.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0026",
+    "family": "ATOM",
+    "ucs": "FOOT_DIRT",
+    "tag": "v6foot,foot_dirt,footstep_sand_walk",
+    "tags": [
+      "v6foot",
+      "foot_dirt",
+      "footstep_sand_walk"
+    ],
+    "prompt": "sfx footstep sand walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_dirt_0026.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0027",
+    "family": "ATOM",
+    "ucs": "FOOT_DIRT",
+    "tag": "v6foot,foot_dirt,footstep_snow_crunch_walk",
+    "tags": [
+      "v6foot",
+      "foot_dirt",
+      "footstep_snow_crunch_walk"
+    ],
+    "prompt": "sfx footstep snow crunch walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_dirt_0027.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0028",
+    "family": "ATOM",
+    "ucs": "FOOT_DIRT",
+    "tag": "v6foot,foot_dirt,footstep_snow_soft_walk",
+    "tags": [
+      "v6foot",
+      "foot_dirt",
+      "footstep_snow_soft_walk"
+    ],
+    "prompt": "sfx footstep snow soft walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_dirt_0028.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0029",
+    "family": "ATOM",
+    "ucs": "FOOT_DIRT",
+    "tag": "v6foot,foot_dirt,low,low_boot_muddy_path_stomp",
+    "tags": [
+      "v6foot",
+      "foot_dirt",
+      "low",
+      "low_boot_muddy_path_stomp"
+    ],
+    "prompt": "sfx low boot muddy path stomp, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_dirt_0029.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0030",
+    "family": "ATOM",
+    "ucs": "FOOT_DIRT",
+    "tag": "v6foot,foot_dirt,low,low_footstep_dry_grass_walk",
+    "tags": [
+      "v6foot",
+      "foot_dirt",
+      "low",
+      "low_footstep_dry_grass_walk"
+    ],
+    "prompt": "sfx low footstep dry grass walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_dirt_0030.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0031",
+    "family": "ATOM",
+    "ucs": "FOOT_DIRT",
+    "tag": "v6foot,foot_dirt,low,low_footstep_gravel_run",
+    "tags": [
+      "v6foot",
+      "foot_dirt",
+      "low",
+      "low_footstep_gravel_run"
+    ],
+    "prompt": "sfx low footstep gravel run, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_dirt_0031.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0032",
+    "family": "ATOM",
+    "ucs": "FOOT_DIRT",
+    "tag": "v6foot,foot_dirt,low,low_footstep_gravel_walk",
+    "tags": [
+      "v6foot",
+      "foot_dirt",
+      "low",
+      "low_footstep_gravel_walk"
+    ],
+    "prompt": "sfx low footstep gravel walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_dirt_0032.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0033",
+    "family": "ATOM",
+    "ucs": "FOOT_DIRT",
+    "tag": "v6foot,foot_dirt,low,low_footstep_sand_run",
+    "tags": [
+      "v6foot",
+      "foot_dirt",
+      "low",
+      "low_footstep_sand_run"
+    ],
+    "prompt": "sfx low footstep sand run, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_dirt_0033.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0034",
+    "family": "ATOM",
+    "ucs": "FOOT_DIRT",
+    "tag": "v6foot,foot_dirt,low,low_footstep_sand_walk",
+    "tags": [
+      "v6foot",
+      "foot_dirt",
+      "low",
+      "low_footstep_sand_walk"
+    ],
+    "prompt": "sfx low footstep sand walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_dirt_0034.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0035",
+    "family": "ATOM",
+    "ucs": "FOOT_DIRT",
+    "tag": "v6foot,foot_dirt,quiet,quiet_footstep_dirt_run",
+    "tags": [
+      "v6foot",
+      "foot_dirt",
+      "quiet",
+      "quiet_footstep_dirt_run"
+    ],
+    "prompt": "sfx quiet footstep dirt run, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_dirt_0035.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0036",
+    "family": "ATOM",
+    "ucs": "FOOT_DIRT",
+    "tag": "v6foot,foot_dirt,quiet,quiet_footstep_gravel_walk",
+    "tags": [
+      "v6foot",
+      "foot_dirt",
+      "quiet",
+      "quiet_footstep_gravel_walk"
+    ],
+    "prompt": "sfx quiet footstep gravel walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_dirt_0036.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0037",
+    "family": "ATOM",
+    "ucs": "FOOT_DIRT",
+    "tag": "v6foot,foot_dirt,soft,soft_footstep_dry_leaves_wal",
+    "tags": [
+      "v6foot",
+      "foot_dirt",
+      "soft",
+      "soft_footstep_dry_leaves_wal"
+    ],
+    "prompt": "sfx soft footstep dry leaves walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_dirt_0037.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0038",
+    "family": "ATOM",
+    "ucs": "FOOT_DIRT",
+    "tag": "v6foot,foot_dirt,soft,soft_footstep_snow_crunch_wa",
+    "tags": [
+      "v6foot",
+      "foot_dirt",
+      "soft",
+      "soft_footstep_snow_crunch_wa"
+    ],
+    "prompt": "sfx soft footstep snow crunch walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_dirt_0038.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0039",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_dirt_0039.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0041",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_dirt_0041.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0042",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_dirt_0042.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0043",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_dirt_0043.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0044",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_dirt_0044.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0045",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_dirt_0045.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0047",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_dirt_0047.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0049",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_dirt_0049.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0050",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_dirt_0050.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0051",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_dirt_0051.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0053",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_dirt_0053.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0055",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_dirt_0055.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0057",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_dirt_0057.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0058",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_dirt_0058.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0059",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_dirt_0059.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0061",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_dirt_0061.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0063",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_dirt_0063.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0064",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_dirt_0064.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0065",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_dirt_0065.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0067",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_dirt_0067.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0070",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_dirt_0070.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0071",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_dirt_0071.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0075",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_dirt_0075.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0076",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_dirt_0076.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0080",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_dirt_0080.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0081",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_dirt_0081.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0082",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_dirt_0082.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0084",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_dirt_0084.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0087",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_dirt_0087.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0089",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_dirt_0089.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0092",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_dirt_0092.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0093",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_dirt_0093.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0095",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_dirt_0095.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0096",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_dirt_0096.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_dirt_0097",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_dirt_0097.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0001",
+    "family": "ATOM",
+    "ucs": "FOOT_HARD",
+    "tag": "v6foot,foot_hard,boot_concrete_stomp",
+    "tags": [
+      "v6foot",
+      "foot_hard",
+      "boot_concrete_stomp"
+    ],
+    "prompt": "sfx boot concrete stomp, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_hard_0001.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0002",
+    "family": "ATOM",
+    "ucs": "FOOT_HARD",
+    "tag": "v6foot,foot_hard,close,close_boot_concrete_stomp",
+    "tags": [
+      "v6foot",
+      "foot_hard",
+      "close",
+      "close_boot_concrete_stomp"
+    ],
+    "prompt": "sfx close boot concrete stomp, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_hard_0002.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0003",
+    "family": "ATOM",
+    "ucs": "FOOT_HARD",
+    "tag": "v6foot,foot_hard,close,close_footstep_concrete_walk",
+    "tags": [
+      "v6foot",
+      "foot_hard",
+      "close",
+      "close_footstep_concrete_walk"
+    ],
+    "prompt": "sfx close footstep concrete walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_hard_0003.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0004",
+    "family": "ATOM",
+    "ucs": "FOOT_HARD",
+    "tag": "v6foot,foot_hard,close,close_heel_click_hard_floor",
+    "tags": [
+      "v6foot",
+      "foot_hard",
+      "close",
+      "close_heel_click_hard_floor"
+    ],
+    "prompt": "sfx close heel click hard floor, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_hard_0004.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0005",
+    "family": "ATOM",
+    "ucs": "FOOT_HARD",
+    "tag": "v6foot,foot_hard,close,close_sneaker_court_shoe_squ",
+    "tags": [
+      "v6foot",
+      "foot_hard",
+      "close",
+      "close_sneaker_court_shoe_squ"
+    ],
+    "prompt": "sfx close sneaker court shoe squeak, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_hard_0005.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0006",
+    "family": "ATOM",
+    "ucs": "FOOT_HARD",
+    "tag": "v6foot,foot_hard,distant,distant_footstep_brick_walk",
+    "tags": [
+      "v6foot",
+      "foot_hard",
+      "distant",
+      "distant_footstep_brick_walk"
+    ],
+    "prompt": "sfx distant footstep brick walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_hard_0006.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0007",
+    "family": "ATOM",
+    "ucs": "FOOT_HARD",
+    "tag": "v6foot,foot_hard,distant,distant_shoe_hard_floor_scuf",
+    "tags": [
+      "v6foot",
+      "foot_hard",
+      "distant",
+      "distant_shoe_hard_floor_scuf"
+    ],
+    "prompt": "sfx distant shoe hard floor scuff, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_hard_0007.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0008",
+    "family": "ATOM",
+    "ucs": "FOOT_HARD",
+    "tag": "v6foot,foot_hard,dry,dry_footstep_hardwood_walk",
+    "tags": [
+      "v6foot",
+      "foot_hard",
+      "dry",
+      "dry_footstep_hardwood_walk"
+    ],
+    "prompt": "sfx dry footstep hardwood walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_hard_0008.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0009",
+    "family": "ATOM",
+    "ucs": "FOOT_HARD",
+    "tag": "v6foot,foot_hard,dry,dry_footstep_stone_corridor_",
+    "tags": [
+      "v6foot",
+      "foot_hard",
+      "dry",
+      "dry_footstep_stone_corridor_"
+    ],
+    "prompt": "sfx dry footstep stone corridor walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_hard_0009.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0010",
+    "family": "ATOM",
+    "ucs": "FOOT_HARD",
+    "tag": "v6foot,foot_hard,footstep_brick_walk",
+    "tags": [
+      "v6foot",
+      "foot_hard",
+      "footstep_brick_walk"
+    ],
+    "prompt": "sfx footstep brick walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_hard_0010.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0011",
+    "family": "ATOM",
+    "ucs": "FOOT_HARD",
+    "tag": "v6foot,foot_hard,footstep_ceramic_tile_heels",
+    "tags": [
+      "v6foot",
+      "foot_hard",
+      "footstep_ceramic_tile_heels"
+    ],
+    "prompt": "sfx footstep ceramic tile heels, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_hard_0011.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0012",
+    "family": "ATOM",
+    "ucs": "FOOT_HARD",
+    "tag": "v6foot,foot_hard,footstep_concrete_run",
+    "tags": [
+      "v6foot",
+      "foot_hard",
+      "footstep_concrete_run"
+    ],
+    "prompt": "sfx footstep concrete run, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_hard_0012.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0013",
+    "family": "ATOM",
+    "ucs": "FOOT_HARD",
+    "tag": "v6foot,foot_hard,footstep_concrete_sneak",
+    "tags": [
+      "v6foot",
+      "foot_hard",
+      "footstep_concrete_sneak"
+    ],
+    "prompt": "sfx footstep concrete sneak, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_hard_0013.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0014",
+    "family": "ATOM",
+    "ucs": "FOOT_HARD",
+    "tag": "v6foot,foot_hard,footstep_concrete_walk",
+    "tags": [
+      "v6foot",
+      "foot_hard",
+      "footstep_concrete_walk"
+    ],
+    "prompt": "sfx footstep concrete walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_hard_0014.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0015",
+    "family": "ATOM",
+    "ucs": "FOOT_HARD",
+    "tag": "v6foot,foot_hard,footstep_hardwood_run",
+    "tags": [
+      "v6foot",
+      "foot_hard",
+      "footstep_hardwood_run"
+    ],
+    "prompt": "sfx footstep hardwood run, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_hard_0015.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0016",
+    "family": "ATOM",
+    "ucs": "FOOT_HARD",
+    "tag": "v6foot,foot_hard,footstep_hardwood_walk",
+    "tags": [
+      "v6foot",
+      "foot_hard",
+      "footstep_hardwood_walk"
+    ],
+    "prompt": "sfx footstep hardwood walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_hard_0016.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0017",
+    "family": "ATOM",
+    "ucs": "FOOT_HARD",
+    "tag": "v6foot,foot_hard,footstep_linoleum_walk",
+    "tags": [
+      "v6foot",
+      "foot_hard",
+      "footstep_linoleum_walk"
+    ],
+    "prompt": "sfx footstep linoleum walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_hard_0017.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0018",
+    "family": "ATOM",
+    "ucs": "FOOT_HARD",
+    "tag": "v6foot,foot_hard,footstep_marble_walk",
+    "tags": [
+      "v6foot",
+      "foot_hard",
+      "footstep_marble_walk"
+    ],
+    "prompt": "sfx footstep marble walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_hard_0018.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0019",
+    "family": "ATOM",
+    "ucs": "FOOT_HARD",
+    "tag": "v6foot,foot_hard,footstep_stone_corridor_walk",
+    "tags": [
+      "v6foot",
+      "foot_hard",
+      "footstep_stone_corridor_walk"
+    ],
+    "prompt": "sfx footstep stone corridor walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_hard_0019.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0020",
+    "family": "ATOM",
+    "ucs": "FOOT_HARD",
+    "tag": "v6foot,foot_hard,footstep_tile_walk",
+    "tags": [
+      "v6foot",
+      "foot_hard",
+      "footstep_tile_walk"
+    ],
+    "prompt": "sfx footstep tile walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_hard_0020.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0021",
+    "family": "ATOM",
+    "ucs": "FOOT_HARD",
+    "tag": "v6foot,foot_hard,heel_click_hard_floor",
+    "tags": [
+      "v6foot",
+      "foot_hard",
+      "heel_click_hard_floor"
+    ],
+    "prompt": "sfx heel click hard floor, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_hard_0021.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0022",
+    "family": "ATOM",
+    "ucs": "FOOT_HARD",
+    "tag": "v6foot,foot_hard,low,low_footstep_brick_walk",
+    "tags": [
+      "v6foot",
+      "foot_hard",
+      "low",
+      "low_footstep_brick_walk"
+    ],
+    "prompt": "sfx low footstep brick walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_hard_0022.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0023",
+    "family": "ATOM",
+    "ucs": "FOOT_HARD",
+    "tag": "v6foot,foot_hard,low,low_footstep_concrete_run",
+    "tags": [
+      "v6foot",
+      "foot_hard",
+      "low",
+      "low_footstep_concrete_run"
+    ],
+    "prompt": "sfx low footstep concrete run, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_hard_0023.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0024",
+    "family": "ATOM",
+    "ucs": "FOOT_HARD",
+    "tag": "v6foot,foot_hard,low,low_footstep_concrete_sneak",
+    "tags": [
+      "v6foot",
+      "foot_hard",
+      "low",
+      "low_footstep_concrete_sneak"
+    ],
+    "prompt": "sfx low footstep concrete sneak, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_hard_0024.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0025",
+    "family": "ATOM",
+    "ucs": "FOOT_HARD",
+    "tag": "v6foot,foot_hard,low,low_footstep_concrete_walk",
+    "tags": [
+      "v6foot",
+      "foot_hard",
+      "low",
+      "low_footstep_concrete_walk"
+    ],
+    "prompt": "sfx low footstep concrete walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_hard_0025.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0026",
+    "family": "ATOM",
+    "ucs": "FOOT_HARD",
+    "tag": "v6foot,foot_hard,low,low_footstep_hardwood_run",
+    "tags": [
+      "v6foot",
+      "foot_hard",
+      "low",
+      "low_footstep_hardwood_run"
+    ],
+    "prompt": "sfx low footstep hardwood run, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_hard_0026.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0027",
+    "family": "ATOM",
+    "ucs": "FOOT_HARD",
+    "tag": "v6foot,foot_hard,low,low_footstep_linoleum_walk",
+    "tags": [
+      "v6foot",
+      "foot_hard",
+      "low",
+      "low_footstep_linoleum_walk"
+    ],
+    "prompt": "sfx low footstep linoleum walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_hard_0027.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0028",
+    "family": "ATOM",
+    "ucs": "FOOT_HARD",
+    "tag": "v6foot,foot_hard,low,low_footstep_stone_corridor_",
+    "tags": [
+      "v6foot",
+      "foot_hard",
+      "low",
+      "low_footstep_stone_corridor_"
+    ],
+    "prompt": "sfx low footstep stone corridor walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_hard_0028.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0029",
+    "family": "ATOM",
+    "ucs": "FOOT_HARD",
+    "tag": "v6foot,foot_hard,low,low_sneaker_court_shoe_squea",
+    "tags": [
+      "v6foot",
+      "foot_hard",
+      "low",
+      "low_sneaker_court_shoe_squea"
+    ],
+    "prompt": "sfx low sneaker court shoe squeak, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_hard_0029.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0030",
+    "family": "ATOM",
+    "ucs": "FOOT_HARD",
+    "tag": "v6foot,foot_hard,quiet,quiet_footstep_ceramic_tile_",
+    "tags": [
+      "v6foot",
+      "foot_hard",
+      "quiet",
+      "quiet_footstep_ceramic_tile_"
+    ],
+    "prompt": "sfx quiet footstep ceramic tile heels, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_hard_0030.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0031",
+    "family": "ATOM",
+    "ucs": "FOOT_HARD",
+    "tag": "v6foot,foot_hard,quiet,quiet_footstep_marble_walk",
+    "tags": [
+      "v6foot",
+      "foot_hard",
+      "quiet",
+      "quiet_footstep_marble_walk"
+    ],
+    "prompt": "sfx quiet footstep marble walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_hard_0031.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0032",
+    "family": "ATOM",
+    "ucs": "FOOT_HARD",
+    "tag": "v6foot,foot_hard,quiet,quiet_footstep_tile_walk",
+    "tags": [
+      "v6foot",
+      "foot_hard",
+      "quiet",
+      "quiet_footstep_tile_walk"
+    ],
+    "prompt": "sfx quiet footstep tile walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_hard_0032.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0033",
+    "family": "ATOM",
+    "ucs": "FOOT_HARD",
+    "tag": "v6foot,foot_hard,quiet,quiet_heel_click_hard_floor",
+    "tags": [
+      "v6foot",
+      "foot_hard",
+      "quiet",
+      "quiet_heel_click_hard_floor"
+    ],
+    "prompt": "sfx quiet heel click hard floor, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_hard_0033.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0034",
+    "family": "ATOM",
+    "ucs": "FOOT_HARD",
+    "tag": "v6foot,foot_hard,quiet,quiet_shoe_hard_floor_scuff",
+    "tags": [
+      "v6foot",
+      "foot_hard",
+      "quiet",
+      "quiet_shoe_hard_floor_scuff"
+    ],
+    "prompt": "sfx quiet shoe hard floor scuff, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_hard_0034.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0035",
+    "family": "ATOM",
+    "ucs": "FOOT_HARD",
+    "tag": "v6foot,foot_hard,shoe_hard_floor_scuff",
+    "tags": [
+      "v6foot",
+      "foot_hard",
+      "shoe_hard_floor_scuff"
+    ],
+    "prompt": "sfx shoe hard floor scuff, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_hard_0035.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0036",
+    "family": "ATOM",
+    "ucs": "FOOT_HARD",
+    "tag": "v6foot,foot_hard,sneaker_court_shoe_squeak",
+    "tags": [
+      "v6foot",
+      "foot_hard",
+      "sneaker_court_shoe_squeak"
+    ],
+    "prompt": "sfx sneaker court shoe squeak, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_hard_0036.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0037",
+    "family": "ATOM",
+    "ucs": "FOOT_HARD",
+    "tag": "v6foot,foot_hard,soft,soft_footstep_ceramic_tile_h",
+    "tags": [
+      "v6foot",
+      "foot_hard",
+      "soft",
+      "soft_footstep_ceramic_tile_h"
+    ],
+    "prompt": "sfx soft footstep ceramic tile heels, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_hard_0037.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0038",
+    "family": "ATOM",
+    "ucs": "FOOT_HARD",
+    "tag": "v6foot,foot_hard,soft,soft_footstep_concrete_sneak",
+    "tags": [
+      "v6foot",
+      "foot_hard",
+      "soft",
+      "soft_footstep_concrete_sneak"
+    ],
+    "prompt": "sfx soft footstep concrete sneak, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_hard_0038.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0041",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_hard_0041.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0042",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_hard_0042.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0043",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_hard_0043.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0046",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_hard_0046.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0047",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_hard_0047.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0048",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_hard_0048.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0049",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_hard_0049.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0050",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_hard_0050.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0053",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_hard_0053.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0054",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_hard_0054.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0059",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_hard_0059.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0061",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_hard_0061.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0062",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_hard_0062.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0063",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_hard_0063.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0066",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_hard_0066.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0068",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_hard_0068.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0070",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_hard_0070.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0073",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_hard_0073.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0074",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_hard_0074.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0077",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_hard_0077.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0079",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_hard_0079.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0081",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_hard_0081.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0082",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_hard_0082.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0083",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_hard_0083.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0084",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_hard_0084.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0085",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_hard_0085.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0086",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_hard_0086.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0088",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_hard_0088.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0089",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_hard_0089.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0091",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_hard_0091.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0093",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_hard_0093.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0094",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_hard_0094.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0097",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_hard_0097.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0098",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_hard_0098.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0099",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_hard_0099.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0100",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_hard_0100.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0101",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_hard_0101.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_hard_0104",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_hard_0104.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_metal_0001",
+    "family": "ATOM",
+    "ucs": "FOOT_METAL",
+    "tag": "v6foot,foot_metal,boot_metal_catwalk",
+    "tags": [
+      "v6foot",
+      "foot_metal",
+      "boot_metal_catwalk"
+    ],
+    "prompt": "sfx boot metal catwalk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_metal_0001.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_metal_0002",
+    "family": "ATOM",
+    "ucs": "FOOT_METAL",
+    "tag": "v6foot,foot_metal,close,close_footstep_steel_plate_w",
+    "tags": [
+      "v6foot",
+      "foot_metal",
+      "close",
+      "close_footstep_steel_plate_w"
+    ],
+    "prompt": "sfx close footstep steel plate walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_metal_0002.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_metal_0003",
+    "family": "ATOM",
+    "ucs": "FOOT_METAL",
+    "tag": "v6foot,foot_metal,distant,distant_footstep_hollow_meta",
+    "tags": [
+      "v6foot",
+      "foot_metal",
+      "distant",
+      "distant_footstep_hollow_meta"
+    ],
+    "prompt": "sfx distant footstep hollow metal stairs run, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_metal_0003.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_metal_0004",
+    "family": "ATOM",
+    "ucs": "FOOT_METAL",
+    "tag": "v6foot,foot_metal,distant,distant_footstep_metal_stair",
+    "tags": [
+      "v6foot",
+      "foot_metal",
+      "distant",
+      "distant_footstep_metal_stair"
+    ],
+    "prompt": "sfx distant footstep metal stairs, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_metal_0004.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_metal_0005",
+    "family": "ATOM",
+    "ucs": "FOOT_METAL",
+    "tag": "v6foot,foot_metal,distant,distant_footstep_ship_deck_m",
+    "tags": [
+      "v6foot",
+      "foot_metal",
+      "distant",
+      "distant_footstep_ship_deck_m"
+    ],
+    "prompt": "sfx distant footstep ship deck metal, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_metal_0005.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_metal_0006",
+    "family": "ATOM",
+    "ucs": "FOOT_METAL",
+    "tag": "v6foot,foot_metal,dry,dry_boot_metal_catwalk",
+    "tags": [
+      "v6foot",
+      "foot_metal",
+      "dry",
+      "dry_boot_metal_catwalk"
+    ],
+    "prompt": "sfx dry boot metal catwalk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_metal_0006.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_metal_0007",
+    "family": "ATOM",
+    "ucs": "FOOT_METAL",
+    "tag": "v6foot,foot_metal,dry,dry_footstep_hollow_metal_st",
+    "tags": [
+      "v6foot",
+      "foot_metal",
+      "dry",
+      "dry_footstep_hollow_metal_st"
+    ],
+    "prompt": "sfx dry footstep hollow metal stairs run, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_metal_0007.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_metal_0008",
+    "family": "ATOM",
+    "ucs": "FOOT_METAL",
+    "tag": "v6foot,foot_metal,dry,dry_footstep_metal_stairs",
+    "tags": [
+      "v6foot",
+      "foot_metal",
+      "dry",
+      "dry_footstep_metal_stairs"
+    ],
+    "prompt": "sfx dry footstep metal stairs, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_metal_0008.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_metal_0009",
+    "family": "ATOM",
+    "ucs": "FOOT_METAL",
+    "tag": "v6foot,foot_metal,footstep_hollow_metal_stairs",
+    "tags": [
+      "v6foot",
+      "foot_metal",
+      "footstep_hollow_metal_stairs"
+    ],
+    "prompt": "sfx footstep hollow metal stairs run, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_metal_0009.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_metal_0010",
+    "family": "ATOM",
+    "ucs": "FOOT_METAL",
+    "tag": "v6foot,foot_metal,footstep_industrial_mezzanin",
+    "tags": [
+      "v6foot",
+      "foot_metal",
+      "footstep_industrial_mezzanin"
+    ],
+    "prompt": "sfx footstep industrial mezzanine, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_metal_0010.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_metal_0011",
+    "family": "ATOM",
+    "ucs": "FOOT_METAL",
+    "tag": "v6foot,foot_metal,footstep_metal_grate_walk",
+    "tags": [
+      "v6foot",
+      "foot_metal",
+      "footstep_metal_grate_walk"
+    ],
+    "prompt": "sfx footstep metal grate walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_metal_0011.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_metal_0012",
+    "family": "ATOM",
+    "ucs": "FOOT_METAL",
+    "tag": "v6foot,foot_metal,footstep_metal_stairs",
+    "tags": [
+      "v6foot",
+      "foot_metal",
+      "footstep_metal_stairs"
+    ],
+    "prompt": "sfx footstep metal stairs, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_metal_0012.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_metal_0013",
+    "family": "ATOM",
+    "ucs": "FOOT_METAL",
+    "tag": "v6foot,foot_metal,footstep_ship_deck_metal",
+    "tags": [
+      "v6foot",
+      "foot_metal",
+      "footstep_ship_deck_metal"
+    ],
+    "prompt": "sfx footstep ship deck metal, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_metal_0013.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_metal_0014",
+    "family": "ATOM",
+    "ucs": "FOOT_METAL",
+    "tag": "v6foot,foot_metal,footstep_steel_plate_walk",
+    "tags": [
+      "v6foot",
+      "foot_metal",
+      "footstep_steel_plate_walk"
+    ],
+    "prompt": "sfx footstep steel plate walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_metal_0014.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_metal_0015",
+    "family": "ATOM",
+    "ucs": "FOOT_METAL",
+    "tag": "v6foot,foot_metal,low,low_footstep_ship_deck_metal",
+    "tags": [
+      "v6foot",
+      "foot_metal",
+      "low",
+      "low_footstep_ship_deck_metal"
+    ],
+    "prompt": "sfx low footstep ship deck metal, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_metal_0015.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_metal_0016",
+    "family": "ATOM",
+    "ucs": "FOOT_METAL",
+    "tag": "v6foot,foot_metal,quiet,quiet_footstep_industrial_me",
+    "tags": [
+      "v6foot",
+      "foot_metal",
+      "quiet",
+      "quiet_footstep_industrial_me"
+    ],
+    "prompt": "sfx quiet footstep industrial mezzanine, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_metal_0016.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_metal_0017",
+    "family": "ATOM",
+    "ucs": "FOOT_METAL",
+    "tag": "v6foot,foot_metal,soft,soft_boot_metal_catwalk",
+    "tags": [
+      "v6foot",
+      "foot_metal",
+      "soft",
+      "soft_boot_metal_catwalk"
+    ],
+    "prompt": "sfx soft boot metal catwalk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_metal_0017.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_metal_0018",
+    "family": "ATOM",
+    "ucs": "FOOT_METAL",
+    "tag": "v6foot,foot_metal,soft,soft_footstep_industrial_mez",
+    "tags": [
+      "v6foot",
+      "foot_metal",
+      "soft",
+      "soft_footstep_industrial_mez"
+    ],
+    "prompt": "sfx soft footstep industrial mezzanine, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_metal_0018.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_metal_0019",
+    "family": "ATOM",
+    "ucs": "FOOT_METAL",
+    "tag": "v6foot,foot_metal,soft,soft_footstep_metal_grate_wa",
+    "tags": [
+      "v6foot",
+      "foot_metal",
+      "soft",
+      "soft_footstep_metal_grate_wa"
+    ],
+    "prompt": "sfx soft footstep metal grate walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_metal_0019.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_metal_0021",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_metal_0021.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_metal_0022",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_metal_0022.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_metal_0024",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_metal_0024.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_metal_0025",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_metal_0025.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_metal_0026",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_metal_0026.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_metal_0027",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_metal_0027.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_metal_0028",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_metal_0028.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_metal_0029",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_metal_0029.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_metal_0033",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_metal_0033.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_metal_0034",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_metal_0034.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_metal_0036",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_metal_0036.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_metal_0038",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_metal_0038.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_metal_0039",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_metal_0039.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_metal_0040",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_metal_0040.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_metal_0041",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_metal_0041.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_metal_0044",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_metal_0044.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_metal_0045",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_metal_0045.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_metal_0047",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_metal_0047.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_metal_0048",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_metal_0048.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_metal_0049",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_metal_0049.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0001",
+    "family": "ATOM",
+    "ucs": "FOOT_SOFT",
+    "tag": "v6foot,foot_soft,barefoot_tile_soft",
+    "tags": [
+      "v6foot",
+      "foot_soft",
+      "barefoot_tile_soft"
+    ],
+    "prompt": "sfx barefoot tile soft, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_soft_0001.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0002",
+    "family": "ATOM",
+    "ucs": "FOOT_SOFT",
+    "tag": "v6foot,foot_soft,barefoot_wood_walk",
+    "tags": [
+      "v6foot",
+      "foot_soft",
+      "barefoot_wood_walk"
+    ],
+    "prompt": "sfx barefoot wood walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_soft_0002.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0003",
+    "family": "ATOM",
+    "ucs": "FOOT_SOFT",
+    "tag": "v6foot,foot_soft,close,close_barefoot_tile_soft",
+    "tags": [
+      "v6foot",
+      "foot_soft",
+      "close",
+      "close_barefoot_tile_soft"
+    ],
+    "prompt": "sfx close barefoot tile soft, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_soft_0003.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0005",
+    "family": "ATOM",
+    "ucs": "FOOT_SOFT",
+    "tag": "v6foot,foot_soft,distant,distant_footstep_cushioned_m",
+    "tags": [
+      "v6foot",
+      "foot_soft",
+      "distant",
+      "distant_footstep_cushioned_m"
+    ],
+    "prompt": "sfx distant footstep cushioned mat, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_soft_0005.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0006",
+    "family": "ATOM",
+    "ucs": "FOOT_SOFT",
+    "tag": "v6foot,foot_soft,distant,distant_footstep_thick_rug_r",
+    "tags": [
+      "v6foot",
+      "foot_soft",
+      "distant",
+      "distant_footstep_thick_rug_r"
+    ],
+    "prompt": "sfx distant footstep thick rug run, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_soft_0006.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0007",
+    "family": "ATOM",
+    "ucs": "FOOT_SOFT",
+    "tag": "v6foot,foot_soft,distant,distant_slipper_carpet_walk",
+    "tags": [
+      "v6foot",
+      "foot_soft",
+      "distant",
+      "distant_slipper_carpet_walk"
+    ],
+    "prompt": "sfx distant slipper carpet walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_soft_0007.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0008",
+    "family": "ATOM",
+    "ucs": "FOOT_SOFT",
+    "tag": "v6foot,foot_soft,dry,dry_barefoot_tile_soft",
+    "tags": [
+      "v6foot",
+      "foot_soft",
+      "dry",
+      "dry_barefoot_tile_soft"
+    ],
+    "prompt": "sfx dry barefoot tile soft, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_soft_0008.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0009",
+    "family": "ATOM",
+    "ucs": "FOOT_SOFT",
+    "tag": "v6foot,foot_soft,dry,dry_barefoot_wood_walk",
+    "tags": [
+      "v6foot",
+      "foot_soft",
+      "dry",
+      "dry_barefoot_wood_walk"
+    ],
+    "prompt": "sfx dry barefoot wood walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_soft_0009.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0010",
+    "family": "ATOM",
+    "ucs": "FOOT_SOFT",
+    "tag": "v6foot,foot_soft,dry,dry_footstep_carpet_sneak",
+    "tags": [
+      "v6foot",
+      "foot_soft",
+      "dry",
+      "dry_footstep_carpet_sneak"
+    ],
+    "prompt": "sfx dry footstep carpet sneak, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_soft_0010.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0011",
+    "family": "ATOM",
+    "ucs": "FOOT_SOFT",
+    "tag": "v6foot,foot_soft,dry,dry_footstep_carpet_walk",
+    "tags": [
+      "v6foot",
+      "foot_soft",
+      "dry",
+      "dry_footstep_carpet_walk"
+    ],
+    "prompt": "sfx dry footstep carpet walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_soft_0011.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0012",
+    "family": "ATOM",
+    "ucs": "FOOT_SOFT",
+    "tag": "v6foot,foot_soft,dry,dry_footstep_foam_gym_mat",
+    "tags": [
+      "v6foot",
+      "foot_soft",
+      "dry",
+      "dry_footstep_foam_gym_mat"
+    ],
+    "prompt": "sfx dry footstep foam gym mat, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_soft_0012.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0013",
+    "family": "ATOM",
+    "ucs": "FOOT_SOFT",
+    "tag": "v6foot,foot_soft,dry,dry_sock_footstep_hardwood_s",
+    "tags": [
+      "v6foot",
+      "foot_soft",
+      "dry",
+      "dry_sock_footstep_hardwood_s"
+    ],
+    "prompt": "sfx dry sock footstep hardwood soft, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_soft_0013.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0014",
+    "family": "ATOM",
+    "ucs": "FOOT_SOFT",
+    "tag": "v6foot,foot_soft,footstep_carpet_sneak",
+    "tags": [
+      "v6foot",
+      "foot_soft",
+      "footstep_carpet_sneak"
+    ],
+    "prompt": "sfx footstep carpet sneak, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_soft_0014.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0015",
+    "family": "ATOM",
+    "ucs": "FOOT_SOFT",
+    "tag": "v6foot,foot_soft,footstep_carpet_walk",
+    "tags": [
+      "v6foot",
+      "foot_soft",
+      "footstep_carpet_walk"
+    ],
+    "prompt": "sfx footstep carpet walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_soft_0015.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0016",
+    "family": "ATOM",
+    "ucs": "FOOT_SOFT",
+    "tag": "v6foot,foot_soft,footstep_cushioned_mat",
+    "tags": [
+      "v6foot",
+      "foot_soft",
+      "footstep_cushioned_mat"
+    ],
+    "prompt": "sfx footstep cushioned mat, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_soft_0016.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0017",
+    "family": "ATOM",
+    "ucs": "FOOT_SOFT",
+    "tag": "v6foot,foot_soft,footstep_foam_gym_mat",
+    "tags": [
+      "v6foot",
+      "foot_soft",
+      "footstep_foam_gym_mat"
+    ],
+    "prompt": "sfx footstep foam gym mat, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_soft_0017.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0018",
+    "family": "ATOM",
+    "ucs": "FOOT_SOFT",
+    "tag": "v6foot,foot_soft,footstep_rug_walk",
+    "tags": [
+      "v6foot",
+      "foot_soft",
+      "footstep_rug_walk"
+    ],
+    "prompt": "sfx footstep rug walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_soft_0018.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0019",
+    "family": "ATOM",
+    "ucs": "FOOT_SOFT",
+    "tag": "v6foot,foot_soft,footstep_thick_rug_run",
+    "tags": [
+      "v6foot",
+      "foot_soft",
+      "footstep_thick_rug_run"
+    ],
+    "prompt": "sfx footstep thick rug run, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_soft_0019.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0020",
+    "family": "ATOM",
+    "ucs": "FOOT_SOFT",
+    "tag": "v6foot,foot_soft,low,low_footstep_carpet_walk",
+    "tags": [
+      "v6foot",
+      "foot_soft",
+      "low",
+      "low_footstep_carpet_walk"
+    ],
+    "prompt": "sfx low footstep carpet walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_soft_0020.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0021",
+    "family": "ATOM",
+    "ucs": "FOOT_SOFT",
+    "tag": "v6foot,foot_soft,low,low_footstep_thick_rug_run",
+    "tags": [
+      "v6foot",
+      "foot_soft",
+      "low",
+      "low_footstep_thick_rug_run"
+    ],
+    "prompt": "sfx low footstep thick rug run, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_soft_0021.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0022",
+    "family": "ATOM",
+    "ucs": "FOOT_SOFT",
+    "tag": "v6foot,foot_soft,low,low_slipper_carpet_walk",
+    "tags": [
+      "v6foot",
+      "foot_soft",
+      "low",
+      "low_slipper_carpet_walk"
+    ],
+    "prompt": "sfx low slipper carpet walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_soft_0022.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0023",
+    "family": "ATOM",
+    "ucs": "FOOT_SOFT",
+    "tag": "v6foot,foot_soft,quiet,quiet_barefoot_wood_walk",
+    "tags": [
+      "v6foot",
+      "foot_soft",
+      "quiet",
+      "quiet_barefoot_wood_walk"
+    ],
+    "prompt": "sfx quiet barefoot wood walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_soft_0023.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0024",
+    "family": "ATOM",
+    "ucs": "FOOT_SOFT",
+    "tag": "v6foot,foot_soft,quiet,quiet_footstep_rug_walk",
+    "tags": [
+      "v6foot",
+      "foot_soft",
+      "quiet",
+      "quiet_footstep_rug_walk"
+    ],
+    "prompt": "sfx quiet footstep rug walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_soft_0024.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0025",
+    "family": "ATOM",
+    "ucs": "FOOT_SOFT",
+    "tag": "v6foot,foot_soft,slipper_carpet_walk",
+    "tags": [
+      "v6foot",
+      "foot_soft",
+      "slipper_carpet_walk"
+    ],
+    "prompt": "sfx slipper carpet walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_soft_0025.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0026",
+    "family": "ATOM",
+    "ucs": "FOOT_SOFT",
+    "tag": "v6foot,foot_soft,sock_footstep_hardwood_soft",
+    "tags": [
+      "v6foot",
+      "foot_soft",
+      "sock_footstep_hardwood_soft"
+    ],
+    "prompt": "sfx sock footstep hardwood soft, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_soft_0026.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0027",
+    "family": "ATOM",
+    "ucs": "FOOT_SOFT",
+    "tag": "v6foot,foot_soft,soft,soft_footstep_cushioned_mat",
+    "tags": [
+      "v6foot",
+      "foot_soft",
+      "soft",
+      "soft_footstep_cushioned_mat"
+    ],
+    "prompt": "sfx soft footstep cushioned mat, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_soft_0027.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0028",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_soft_0028.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0030",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_soft_0030.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0031",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_soft_0031.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0032",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_soft_0032.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0033",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_soft_0033.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0035",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_soft_0035.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0036",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_soft_0036.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0038",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_soft_0038.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0039",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_soft_0039.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0040",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_soft_0040.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0041",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_soft_0041.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0042",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_soft_0042.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0043",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_soft_0043.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0046",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_soft_0046.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0048",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_soft_0048.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0050",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_soft_0050.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0051",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_soft_0051.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0054",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_soft_0054.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0055",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_soft_0055.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0057",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_soft_0057.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0060",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_soft_0060.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0061",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_soft_0061.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0065",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_soft_0065.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0066",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_soft_0066.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0067",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_soft_0067.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_soft_0069",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_soft_0069.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_stairs_0001",
+    "family": "ATOM",
+    "ucs": "FOOT_STAIRS",
+    "tag": "v6foot,foot_stairs,close,close_footstep_concrete_stai",
+    "tags": [
+      "v6foot",
+      "foot_stairs",
+      "close",
+      "close_footstep_concrete_stai"
+    ],
+    "prompt": "sfx close footstep concrete stairs up, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_stairs_0001.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_stairs_0002",
+    "family": "ATOM",
+    "ucs": "FOOT_STAIRS",
+    "tag": "v6foot,foot_stairs,close,close_footstep_stairs_run_up",
+    "tags": [
+      "v6foot",
+      "foot_stairs",
+      "close",
+      "close_footstep_stairs_run_up"
+    ],
+    "prompt": "sfx close footstep stairs run up, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_stairs_0002.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_stairs_0003",
+    "family": "ATOM",
+    "ucs": "FOOT_STAIRS",
+    "tag": "v6foot,foot_stairs,close,close_footstep_stairs_sneak_",
+    "tags": [
+      "v6foot",
+      "foot_stairs",
+      "close",
+      "close_footstep_stairs_sneak_"
+    ],
+    "prompt": "sfx close footstep stairs sneak down, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_stairs_0003.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_stairs_0004",
+    "family": "ATOM",
+    "ucs": "FOOT_STAIRS",
+    "tag": "v6foot,foot_stairs,close,close_footstep_wood_stairs_d",
+    "tags": [
+      "v6foot",
+      "foot_stairs",
+      "close",
+      "close_footstep_wood_stairs_d"
+    ],
+    "prompt": "sfx close footstep wood stairs down, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_stairs_0004.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_stairs_0005",
+    "family": "ATOM",
+    "ucs": "FOOT_STAIRS",
+    "tag": "v6foot,foot_stairs,distant,distant_footstep_stairs_snea",
+    "tags": [
+      "v6foot",
+      "foot_stairs",
+      "distant",
+      "distant_footstep_stairs_snea"
+    ],
+    "prompt": "sfx distant footstep stairs sneak down, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_stairs_0005.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_stairs_0006",
+    "family": "ATOM",
+    "ucs": "FOOT_STAIRS",
+    "tag": "v6foot,foot_stairs,distant,distant_footstep_wood_stairs",
+    "tags": [
+      "v6foot",
+      "foot_stairs",
+      "distant",
+      "distant_footstep_wood_stairs"
+    ],
+    "prompt": "sfx distant footstep wood stairs up, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_stairs_0006.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_stairs_0007",
+    "family": "ATOM",
+    "ucs": "FOOT_STAIRS",
+    "tag": "v6foot,foot_stairs,dry,dry_footstep_creaky_stairs",
+    "tags": [
+      "v6foot",
+      "foot_stairs",
+      "dry",
+      "dry_footstep_creaky_stairs"
+    ],
+    "prompt": "sfx dry footstep creaky stairs, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_stairs_0007.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_stairs_0008",
+    "family": "ATOM",
+    "ucs": "FOOT_STAIRS",
+    "tag": "v6foot,foot_stairs,footstep_concrete_stairs_dow",
+    "tags": [
+      "v6foot",
+      "foot_stairs",
+      "footstep_concrete_stairs_dow"
+    ],
+    "prompt": "sfx footstep concrete stairs down, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_stairs_0008.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_stairs_0009",
+    "family": "ATOM",
+    "ucs": "FOOT_STAIRS",
+    "tag": "v6foot,foot_stairs,footstep_concrete_stairs_up",
+    "tags": [
+      "v6foot",
+      "foot_stairs",
+      "footstep_concrete_stairs_up"
+    ],
+    "prompt": "sfx footstep concrete stairs up, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_stairs_0009.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_stairs_0010",
+    "family": "ATOM",
+    "ucs": "FOOT_STAIRS",
+    "tag": "v6foot,foot_stairs,footstep_creaky_stairs",
+    "tags": [
+      "v6foot",
+      "foot_stairs",
+      "footstep_creaky_stairs"
+    ],
+    "prompt": "sfx footstep creaky stairs, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_stairs_0010.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_stairs_0011",
+    "family": "ATOM",
+    "ucs": "FOOT_STAIRS",
+    "tag": "v6foot,foot_stairs,footstep_stairs_run_up",
+    "tags": [
+      "v6foot",
+      "foot_stairs",
+      "footstep_stairs_run_up"
+    ],
+    "prompt": "sfx footstep stairs run up, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_stairs_0011.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_stairs_0012",
+    "family": "ATOM",
+    "ucs": "FOOT_STAIRS",
+    "tag": "v6foot,foot_stairs,footstep_stairs_sneak_down",
+    "tags": [
+      "v6foot",
+      "foot_stairs",
+      "footstep_stairs_sneak_down"
+    ],
+    "prompt": "sfx footstep stairs sneak down, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_stairs_0012.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_stairs_0013",
+    "family": "ATOM",
+    "ucs": "FOOT_STAIRS",
+    "tag": "v6foot,foot_stairs,footstep_stone_stairs_echo",
+    "tags": [
+      "v6foot",
+      "foot_stairs",
+      "footstep_stone_stairs_echo"
+    ],
+    "prompt": "sfx footstep stone stairs echo, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_stairs_0013.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_stairs_0014",
+    "family": "ATOM",
+    "ucs": "FOOT_STAIRS",
+    "tag": "v6foot,foot_stairs,footstep_wood_stairs_down",
+    "tags": [
+      "v6foot",
+      "foot_stairs",
+      "footstep_wood_stairs_down"
+    ],
+    "prompt": "sfx footstep wood stairs down, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_stairs_0014.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_stairs_0015",
+    "family": "ATOM",
+    "ucs": "FOOT_STAIRS",
+    "tag": "v6foot,foot_stairs,footstep_wood_stairs_up",
+    "tags": [
+      "v6foot",
+      "foot_stairs",
+      "footstep_wood_stairs_up"
+    ],
+    "prompt": "sfx footstep wood stairs up, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_stairs_0015.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_stairs_0016",
+    "family": "ATOM",
+    "ucs": "FOOT_STAIRS",
+    "tag": "v6foot,foot_stairs,low,low_footstep_concrete_stairs",
+    "tags": [
+      "v6foot",
+      "foot_stairs",
+      "low",
+      "low_footstep_concrete_stairs"
+    ],
+    "prompt": "sfx low footstep concrete stairs up, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_stairs_0016.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_stairs_0017",
+    "family": "ATOM",
+    "ucs": "FOOT_STAIRS",
+    "tag": "v6foot,foot_stairs,low,low_footstep_stairs_run_up",
+    "tags": [
+      "v6foot",
+      "foot_stairs",
+      "low",
+      "low_footstep_stairs_run_up"
+    ],
+    "prompt": "sfx low footstep stairs run up, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_stairs_0017.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_stairs_0018",
+    "family": "ATOM",
+    "ucs": "FOOT_STAIRS",
+    "tag": "v6foot,foot_stairs,low,low_footstep_stone_stairs_ec",
+    "tags": [
+      "v6foot",
+      "foot_stairs",
+      "low",
+      "low_footstep_stone_stairs_ec"
+    ],
+    "prompt": "sfx low footstep stone stairs echo, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_stairs_0018.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_stairs_0019",
+    "family": "ATOM",
+    "ucs": "FOOT_STAIRS",
+    "tag": "v6foot,foot_stairs,quiet,quiet_footstep_concrete_stai",
+    "tags": [
+      "v6foot",
+      "foot_stairs",
+      "quiet",
+      "quiet_footstep_concrete_stai"
+    ],
+    "prompt": "sfx quiet footstep concrete stairs down, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_stairs_0019.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_stairs_0020",
+    "family": "ATOM",
+    "ucs": "FOOT_STAIRS",
+    "tag": "v6foot,foot_stairs,quiet,quiet_footstep_wood_stairs_d",
+    "tags": [
+      "v6foot",
+      "foot_stairs",
+      "quiet",
+      "quiet_footstep_wood_stairs_d"
+    ],
+    "prompt": "sfx quiet footstep wood stairs down, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_stairs_0020.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_stairs_0021",
+    "family": "ATOM",
+    "ucs": "FOOT_STAIRS",
+    "tag": "v6foot,foot_stairs,soft,soft_footstep_concrete_stair",
+    "tags": [
+      "v6foot",
+      "foot_stairs",
+      "soft",
+      "soft_footstep_concrete_stair"
+    ],
+    "prompt": "sfx soft footstep concrete stairs down, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_stairs_0021.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_stairs_0022",
+    "family": "ATOM",
+    "ucs": "FOOT_STAIRS",
+    "tag": "v6foot,foot_stairs,soft,soft_footstep_creaky_stairs",
+    "tags": [
+      "v6foot",
+      "foot_stairs",
+      "soft",
+      "soft_footstep_creaky_stairs"
+    ],
+    "prompt": "sfx soft footstep creaky stairs, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_stairs_0022.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_stairs_0023",
+    "family": "ATOM",
+    "ucs": "FOOT_STAIRS",
+    "tag": "v6foot,foot_stairs,soft,soft_footstep_wood_stairs_up",
+    "tags": [
+      "v6foot",
+      "foot_stairs",
+      "soft",
+      "soft_footstep_wood_stairs_up"
+    ],
+    "prompt": "sfx soft footstep wood stairs up, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_stairs_0023.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_stairs_0026",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_stairs_0026.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_stairs_0028",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_stairs_0028.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_stairs_0029",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_stairs_0029.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_stairs_0031",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_stairs_0031.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_stairs_0032",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_stairs_0032.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_stairs_0033",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_stairs_0033.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_stairs_0034",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_stairs_0034.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_stairs_0035",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_stairs_0035.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_stairs_0036",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_stairs_0036.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_stairs_0038",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_stairs_0038.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_stairs_0039",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_stairs_0039.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_stairs_0040",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_stairs_0040.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_stairs_0043",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_stairs_0043.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_stairs_0044",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_stairs_0044.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_stairs_0045",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_stairs_0045.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_stairs_0046",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_stairs_0046.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_stairs_0047",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_stairs_0047.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_stairs_0048",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_stairs_0048.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_stairs_0049",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_stairs_0049.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_stairs_0051",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_stairs_0051.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_stairs_0052",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_stairs_0052.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_stairs_0053",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_stairs_0053.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_stairs_0056",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_stairs_0056.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_water_0001",
+    "family": "ATOM",
+    "ucs": "FOOT_WATER",
+    "tag": "v6foot,foot_water,barefoot_water_edge_splash",
+    "tags": [
+      "v6foot",
+      "foot_water",
+      "barefoot_water_edge_splash"
+    ],
+    "prompt": "sfx barefoot water edge splash, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_water_0001.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_water_0002",
+    "family": "ATOM",
+    "ucs": "FOOT_WATER",
+    "tag": "v6foot,foot_water,boot_splash_puddle_run",
+    "tags": [
+      "v6foot",
+      "foot_water",
+      "boot_splash_puddle_run"
+    ],
+    "prompt": "sfx boot splash puddle run, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_water_0002.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_water_0003",
+    "family": "ATOM",
+    "ucs": "FOOT_WATER",
+    "tag": "v6foot,foot_water,close,close_footstep_wet_concrete_",
+    "tags": [
+      "v6foot",
+      "foot_water",
+      "close",
+      "close_footstep_wet_concrete_"
+    ],
+    "prompt": "sfx close footstep wet concrete walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_water_0003.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_water_0004",
+    "family": "ATOM",
+    "ucs": "FOOT_WATER",
+    "tag": "v6foot,foot_water,distant,distant_footstep_rain_soaked",
+    "tags": [
+      "v6foot",
+      "foot_water",
+      "distant",
+      "distant_footstep_rain_soaked"
+    ],
+    "prompt": "sfx distant footstep rain soaked street, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_water_0004.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_water_0005",
+    "family": "ATOM",
+    "ucs": "FOOT_WATER",
+    "tag": "v6foot,foot_water,dry,dry_footstep_wet_concrete_wa",
+    "tags": [
+      "v6foot",
+      "foot_water",
+      "dry",
+      "dry_footstep_wet_concrete_wa"
+    ],
+    "prompt": "sfx dry footstep wet concrete walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_water_0005.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_water_0006",
+    "family": "ATOM",
+    "ucs": "FOOT_WATER",
+    "tag": "v6foot,foot_water,footstep_puddle_splash_walk",
+    "tags": [
+      "v6foot",
+      "foot_water",
+      "footstep_puddle_splash_walk"
+    ],
+    "prompt": "sfx footstep puddle splash walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_water_0006.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_water_0007",
+    "family": "ATOM",
+    "ucs": "FOOT_WATER",
+    "tag": "v6foot,foot_water,footstep_rain_soaked_street",
+    "tags": [
+      "v6foot",
+      "foot_water",
+      "footstep_rain_soaked_street"
+    ],
+    "prompt": "sfx footstep rain soaked street, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_water_0007.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_water_0008",
+    "family": "ATOM",
+    "ucs": "FOOT_WATER",
+    "tag": "v6foot,foot_water,footstep_shallow_water_walk",
+    "tags": [
+      "v6foot",
+      "foot_water",
+      "footstep_shallow_water_walk"
+    ],
+    "prompt": "sfx footstep shallow water walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_water_0008.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_water_0009",
+    "family": "ATOM",
+    "ucs": "FOOT_WATER",
+    "tag": "v6foot,foot_water,footstep_wet_concrete_walk",
+    "tags": [
+      "v6foot",
+      "foot_water",
+      "footstep_wet_concrete_walk"
+    ],
+    "prompt": "sfx footstep wet concrete walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_water_0009.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_water_0010",
+    "family": "ATOM",
+    "ucs": "FOOT_WATER",
+    "tag": "v6foot,foot_water,low,low_barefoot_water_edge_spla",
+    "tags": [
+      "v6foot",
+      "foot_water",
+      "low",
+      "low_barefoot_water_edge_spla"
+    ],
+    "prompt": "sfx low barefoot water edge splash, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_water_0010.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_water_0011",
+    "family": "ATOM",
+    "ucs": "FOOT_WATER",
+    "tag": "v6foot,foot_water,low,low_boot_splash_puddle_run",
+    "tags": [
+      "v6foot",
+      "foot_water",
+      "low",
+      "low_boot_splash_puddle_run"
+    ],
+    "prompt": "sfx low boot splash puddle run, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_water_0011.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_water_0012",
+    "family": "ATOM",
+    "ucs": "FOOT_WATER",
+    "tag": "v6foot,foot_water,low,low_footstep_rain_soaked_str",
+    "tags": [
+      "v6foot",
+      "foot_water",
+      "low",
+      "low_footstep_rain_soaked_str"
+    ],
+    "prompt": "sfx low footstep rain soaked street, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_water_0012.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_water_0013",
+    "family": "ATOM",
+    "ucs": "FOOT_WATER",
+    "tag": "v6foot,foot_water,quiet,quiet_barefoot_water_edge_sp",
+    "tags": [
+      "v6foot",
+      "foot_water",
+      "quiet",
+      "quiet_barefoot_water_edge_sp"
+    ],
+    "prompt": "sfx quiet barefoot water edge splash, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_water_0013.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_water_0014",
+    "family": "ATOM",
+    "ucs": "FOOT_WATER",
+    "tag": "v6foot,foot_water,quiet,quiet_boot_splash_puddle_run",
+    "tags": [
+      "v6foot",
+      "foot_water",
+      "quiet",
+      "quiet_boot_splash_puddle_run"
+    ],
+    "prompt": "sfx quiet boot splash puddle run, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_water_0014.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_water_0015",
+    "family": "ATOM",
+    "ucs": "FOOT_WATER",
+    "tag": "v6foot,foot_water,quiet,quiet_footstep_puddle_splash",
+    "tags": [
+      "v6foot",
+      "foot_water",
+      "quiet",
+      "quiet_footstep_puddle_splash"
+    ],
+    "prompt": "sfx quiet footstep puddle splash walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_water_0015.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_water_0016",
+    "family": "ATOM",
+    "ucs": "FOOT_WATER",
+    "tag": "v6foot,foot_water,quiet,quiet_footstep_shallow_water",
+    "tags": [
+      "v6foot",
+      "foot_water",
+      "quiet",
+      "quiet_footstep_shallow_water"
+    ],
+    "prompt": "sfx quiet footstep shallow water walk, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6foot_ato_foot_water_0016.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6foot_ato_foot_water_0017",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_water_0017.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_water_0018",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_water_0018.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_water_0019",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_water_0019.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_water_0020",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_water_0020.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_water_0024",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_water_0024.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_water_0028",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_water_0028.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_water_0030",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_water_0030.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_water_0032",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_water_0032.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_water_0033",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_water_0033.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_water_0034",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_water_0034.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_water_0035",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_water_0035.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_water_0037",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_water_0037.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_water_0038",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_water_0038.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_water_0039",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_water_0039.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_water_0040",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_water_0040.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  },
+  {
+    "id": "v6foot_ato_foot_water_0042",
+    "family": "ATOM",
+    "ucs": "UNKNOWN",
+    "tag": "v6foot",
+    "tags": [
+      "v6foot"
+    ],
+    "prompt": "",
+    "path": "wavs/v6foot_ato_foot_water_0042.wav",
+    "seconds": 12.0,
+    "source": "orphan-wav",
+    "host": "local"
+  }
+]

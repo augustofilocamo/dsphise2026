@@ -1,0 +1,22 @@
+{
+  "onset_player": [
+    "IsPolyphonic",
+    "AllowPolyphonic"
+  ],
+  "oneshot_player": [
+    "IsPolyphonic",
+    "AllowPolyphonic"
+  ],
+  "granulator_gap": [
+    "IsPolyphonic",
+    "AllowPolyphonic"
+  ],
+  "haas_width": [
+    "IsPolyphonic",
+    "AllowPolyphonic"
+  ],
+  "stereo_spread": [
+    "IsPolyphonic",
+    "AllowPolyphonic"
+  ]
+}

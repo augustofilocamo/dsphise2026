@@ -1,0 +1,11 @@
+Semantic_s distro payload
+packed: 2026-09-01T14:32:24Z
+
+banks: v6 + v6_locations (no SFX)
+layout:
+  v6_curated/*.ogg   music beds + locations
+  meta_ucs_v6.json / meta_ucs_v6_locations.json
+  index.bin + text_encoder.onnx + tokenizer/ + dylibs
+
+ogg: 2709
+size: hardlinks share space with library/

@@ -1,0 +1,3802 @@
+[
+  {
+    "id": "air_01",
+    "ucs": "AIRHiss",
+    "tag": "air",
+    "tags": [
+      "air"
+    ],
+    "prompt": "soft air hiss bed, continuous breath of air, no drums",
+    "path": "wavs/air_01.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.29",
+      "seed": "1053523617",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "air_02",
+    "ucs": "AIRHiss",
+    "tag": "air",
+    "tags": [
+      "air"
+    ],
+    "prompt": "ventilated air noise texture, seamless, no melody",
+    "path": "wavs/air_02.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.28",
+      "seed": "218855813",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "air_03",
+    "ucs": "AIRHiss",
+    "tag": "air",
+    "tags": [
+      "air"
+    ],
+    "prompt": "pressure air release bed soft continuous, no drums",
+    "path": "wavs/air_03.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.3",
+      "seed": "1147777979",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "air_04",
+    "ucs": "AIRHiss",
+    "tag": "air",
+    "tags": [
+      "air"
+    ],
+    "prompt": "room air tone soft hiss, continuous, no percussion",
+    "path": "wavs/air_04.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.31",
+      "seed": "484276726",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "air_05",
+    "ucs": "AIRHiss",
+    "tag": "air",
+    "tags": [
+      "air"
+    ],
+    "prompt": "wind-less air texture, pink-ish noise soft, continuous, no melody",
+    "path": "wavs/air_05.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.3",
+      "seed": "1683160304",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "air_06",
+    "ucs": "AIRHiss",
+    "tag": "air",
+    "tags": [
+      "air"
+    ],
+    "prompt": "breathy air pad noise, continuous, no drums",
+    "path": "wavs/air_06.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.32",
+      "seed": "1401402546",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "air_07",
+    "ucs": "AIRHiss",
+    "tag": "air",
+    "tags": [
+      "air"
+    ],
+    "prompt": "HVAC soft air bed, continuous, no melody",
+    "path": "wavs/air_07.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.32",
+      "seed": "1358832254",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "air_08",
+    "ucs": "AIRHiss",
+    "tag": "air",
+    "tags": [
+      "air"
+    ],
+    "prompt": "open air quiet hiss texture, continuous, no percussion",
+    "path": "wavs/air_08.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.32",
+      "seed": "12728496",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "design_01",
+    "ucs": "DESIGNTex",
+    "tag": "design",
+    "tags": [
+      "design"
+    ],
+    "prompt": "abstract cinematic design texture bed, continuous, no drums",
+    "path": "wavs/design_01.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.31",
+      "seed": "302328238",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "design_02",
+    "ucs": "DESIGNTex",
+    "tag": "design",
+    "tags": [
+      "design"
+    ],
+    "prompt": "morphing soft design noise bed, continuous, no melody",
+    "path": "wavs/design_02.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.3",
+      "seed": "629367777",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "design_03",
+    "ucs": "DESIGNTex",
+    "tag": "design",
+    "tags": [
+      "design"
+    ],
+    "prompt": "granular soft design atmosphere, continuous, no percussion",
+    "path": "wavs/design_03.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.35",
+      "seed": "1272271137",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "design_04",
+    "ucs": "DESIGNTex",
+    "tag": "design",
+    "tags": [
+      "design"
+    ],
+    "prompt": "experimental soft pad design bed, continuous, no drums",
+    "path": "wavs/design_04.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.35",
+      "seed": "1117170571",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "design_05",
+    "ucs": "DESIGNTex",
+    "tag": "design",
+    "tags": [
+      "design"
+    ],
+    "prompt": "sound design airy wash bed, continuous, no melody",
+    "path": "wavs/design_05.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.31",
+      "seed": "106064921",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "design_06",
+    "ucs": "DESIGNTex",
+    "tag": "design",
+    "tags": [
+      "design"
+    ],
+    "prompt": "abstract metallic design bed soft, continuous, no drums",
+    "path": "wavs/design_06.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.32",
+      "seed": "1871880394",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "design_07",
+    "ucs": "DESIGNTex",
+    "tag": "design",
+    "tags": [
+      "design"
+    ],
+    "prompt": "evolving design drone texture, continuous, no percussion",
+    "path": "wavs/design_07.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.32",
+      "seed": "1200011263",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "design_08",
+    "ucs": "DESIGNTex",
+    "tag": "design",
+    "tags": [
+      "design"
+    ],
+    "prompt": "cinematic abstract bed soft continuous, no melody",
+    "path": "wavs/design_08.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.32",
+      "seed": "1096584733",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "drone_01",
+    "ucs": "DRONE",
+    "tag": "drone",
+    "tags": [
+      "drone"
+    ],
+    "prompt": "dark low continuous drone bed, no drums, no melody",
+    "path": "wavs/drone_01.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.32",
+      "seed": "524320143",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "drone_02",
+    "ucs": "DRONE",
+    "tag": "drone",
+    "tags": [
+      "drone"
+    ],
+    "prompt": "soft analog drone texture, sustained, seamless, no percussion",
+    "path": "wavs/drone_02.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.3",
+      "seed": "1153412791",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "drone_03",
+    "ucs": "DRONE",
+    "tag": "drone",
+    "tags": [
+      "drone"
+    ],
+    "prompt": "airy high drone, shimmering air, continuous, no drums",
+    "path": "wavs/drone_03.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.32",
+      "seed": "1882160998",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "drone_04",
+    "ucs": "DRONE",
+    "tag": "drone",
+    "tags": [
+      "drone"
+    ],
+    "prompt": "pulsing soft drone bed, slow modulation, no melody",
+    "path": "wavs/drone_04.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.3",
+      "seed": "2015734688",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "drone_05",
+    "ucs": "DRONE",
+    "tag": "drone",
+    "tags": [
+      "drone"
+    ],
+    "prompt": "dissonant tense drone, continuous, cinematic, no drums",
+    "path": "wavs/drone_05.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.31",
+      "seed": "1382909800",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "drone_06",
+    "ucs": "DRONE",
+    "tag": "drone",
+    "tags": [
+      "drone"
+    ],
+    "prompt": "warm mid drone pad texture, sustained, no percussion",
+    "path": "wavs/drone_06.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.3",
+      "seed": "437895257",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "drone_07",
+    "ucs": "DRONE",
+    "tag": "drone",
+    "tags": [
+      "drone"
+    ],
+    "prompt": "hollow distant drone, cavernous, continuous, no melody",
+    "path": "wavs/drone_07.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.34",
+      "seed": "1960547382",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "drone_08",
+    "ucs": "DRONE",
+    "tag": "drone",
+    "tags": [
+      "drone"
+    ],
+    "prompt": "gritty distorted drone bed, continuous noise edge, no drums",
+    "path": "wavs/drone_08.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.3",
+      "seed": "401432186",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "electric_01",
+    "ucs": "ELECHum",
+    "tag": "electric",
+    "tags": [
+      "electric"
+    ],
+    "prompt": "soft electrical hum bed, continuous, no drums, no melody",
+    "path": "wavs/electric_01.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.36",
+      "seed": "1156136401",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "electric_02",
+    "ucs": "ELECHum",
+    "tag": "electric",
+    "tags": [
+      "electric"
+    ],
+    "prompt": "power line distant hum texture, continuous, no percussion",
+    "path": "wavs/electric_02.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.29",
+      "seed": "427925870",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "electric_03",
+    "ucs": "ELECHum",
+    "tag": "electric",
+    "tags": [
+      "electric"
+    ],
+    "prompt": "fluorescent light hum bed, continuous, no melody",
+    "path": "wavs/electric_03.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.34",
+      "seed": "1325089021",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "electric_04",
+    "ucs": "ELECHum",
+    "tag": "electric",
+    "tags": [
+      "electric"
+    ],
+    "prompt": "synth electrical drone soft, continuous, no drums",
+    "path": "wavs/electric_04.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.34",
+      "seed": "481374020",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "electric_05",
+    "ucs": "ELECHum",
+    "tag": "electric",
+    "tags": [
+      "electric"
+    ],
+    "prompt": "machine room electrical hum bed, continuous, no melody",
+    "path": "wavs/electric_05.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.3",
+      "seed": "690105604",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "electric_06",
+    "ucs": "ELECHum",
+    "tag": "electric",
+    "tags": [
+      "electric"
+    ],
+    "prompt": "buzz soft filtered electric bed, continuous, no percussion",
+    "path": "wavs/electric_06.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.33",
+      "seed": "843643159",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "electric_07",
+    "ucs": "ELECHum",
+    "tag": "electric",
+    "tags": [
+      "electric"
+    ],
+    "prompt": "transformer hum atmospheric bed, continuous, no drums",
+    "path": "wavs/electric_07.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.31",
+      "seed": "324523948",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "electric_08",
+    "ucs": "ELECHum",
+    "tag": "electric",
+    "tags": [
+      "electric"
+    ],
+    "prompt": "sci-fi electric idle hum bed, continuous, no melody",
+    "path": "wavs/electric_08.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.32",
+      "seed": "1744009458",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "fire_01",
+    "ucs": "FIREEmber",
+    "tag": "fire",
+    "tags": [
+      "fire"
+    ],
+    "prompt": "soft fireplace crackle bed, continuous, no drums, no melody",
+    "path": "wavs/fire_01.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.32",
+      "seed": "135022949",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "fire_02",
+    "ucs": "FIREEmber",
+    "tag": "fire",
+    "tags": [
+      "fire"
+    ],
+    "prompt": "distant fire ember glow texture, continuous, no percussion",
+    "path": "wavs/fire_02.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.33",
+      "seed": "1111369719",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "fire_03",
+    "ucs": "FIREEmber",
+    "tag": "fire",
+    "tags": [
+      "fire"
+    ],
+    "prompt": "campfire soft crackle atmosphere, continuous, no melody",
+    "path": "wavs/fire_03.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.3",
+      "seed": "2146088520",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "fire_04",
+    "ucs": "FIREEmber",
+    "tag": "fire",
+    "tags": [
+      "fire"
+    ],
+    "prompt": "smoldering ember hiss bed, continuous, no drums",
+    "path": "wavs/fire_04.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.34",
+      "seed": "527107886",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "fire_05",
+    "ucs": "FIREEmber",
+    "tag": "fire",
+    "tags": [
+      "fire"
+    ],
+    "prompt": "warm fire noise bed, gentle, continuous, no melody",
+    "path": "wavs/fire_05.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.27",
+      "seed": "358627714",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "fire_06",
+    "ucs": "FIREEmber",
+    "tag": "fire",
+    "tags": [
+      "fire"
+    ],
+    "prompt": "torch flame soft flutter bed, continuous, no percussion",
+    "path": "wavs/fire_06.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.31",
+      "seed": "2034051771",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "fire_07",
+    "ucs": "FIREEmber",
+    "tag": "fire",
+    "tags": [
+      "fire"
+    ],
+    "prompt": "ash and ember texture bed, continuous, no drums",
+    "path": "wavs/fire_07.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.28",
+      "seed": "1240975142",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "fire_08",
+    "ucs": "FIREEmber",
+    "tag": "fire",
+    "tags": [
+      "fire"
+    ],
+    "prompt": "cinematic fire bed soft, continuous, no melody",
+    "path": "wavs/fire_08.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.28",
+      "seed": "1207376241",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "horror_01",
+    "ucs": "HORRDrone",
+    "tag": "horror",
+    "tags": [
+      "horror"
+    ],
+    "prompt": "horror dissonant drone bed, continuous, no drums, no melody",
+    "path": "wavs/horror_01.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.32",
+      "seed": "1427044018",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "horror_02",
+    "ucs": "HORRDrone",
+    "tag": "horror",
+    "tags": [
+      "horror"
+    ],
+    "prompt": "fearful tense air texture, continuous, no percussion",
+    "path": "wavs/horror_02.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.3",
+      "seed": "1794207348",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "horror_03",
+    "ucs": "HORRDrone",
+    "tag": "horror",
+    "tags": [
+      "horror"
+    ],
+    "prompt": "dark horror pad atmosphere, continuous, no drums",
+    "path": "wavs/horror_03.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.32",
+      "seed": "1322645733",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "horror_04",
+    "ucs": "HORRDrone",
+    "tag": "horror",
+    "tags": [
+      "horror"
+    ],
+    "prompt": "unsettling whispery noise bed soft, continuous, no melody",
+    "path": "wavs/horror_04.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.3",
+      "seed": "308820871",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "horror_05",
+    "ucs": "HORRDrone",
+    "tag": "horror",
+    "tags": [
+      "horror"
+    ],
+    "prompt": "horror metallic dread drone, continuous, no drums",
+    "path": "wavs/horror_05.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.32",
+      "seed": "347815186",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "horror_06",
+    "ucs": "HORRDrone",
+    "tag": "horror",
+    "tags": [
+      "horror"
+    ],
+    "prompt": "nightmare soft ambience bed, continuous, no percussion",
+    "path": "wavs/horror_06.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.33",
+      "seed": "269657901",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "horror_07",
+    "ucs": "HORRDrone",
+    "tag": "horror",
+    "tags": [
+      "horror"
+    ],
+    "prompt": "dissonant cluster horror bed, continuous, no drums",
+    "path": "wavs/horror_07.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.3",
+      "seed": "947698835",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "horror_08",
+    "ucs": "HORRDrone",
+    "tag": "horror",
+    "tags": [
+      "horror"
+    ],
+    "prompt": "cold horror wind and drone bed, continuous, no melody",
+    "path": "wavs/horror_08.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.32",
+      "seed": "459981640",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "ice_01",
+    "ucs": "ICEWind",
+    "tag": "ice",
+    "tags": [
+      "ice"
+    ],
+    "prompt": "icy wind texture bed, continuous, no drums, no melody",
+    "path": "wavs/ice_01.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.36",
+      "seed": "1653602819",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "ice_02",
+    "ucs": "ICEWind",
+    "tag": "ice",
+    "tags": [
+      "ice"
+    ],
+    "prompt": "frozen air hiss bed, continuous, no percussion",
+    "path": "wavs/ice_02.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.3",
+      "seed": "1277174498",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "ice_03",
+    "ucs": "ICEWind",
+    "tag": "ice",
+    "tags": [
+      "ice"
+    ],
+    "prompt": "ice crackle soft distant bed, continuous, no melody",
+    "path": "wavs/ice_03.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.31",
+      "seed": "213286383",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "ice_04",
+    "ucs": "ICEWind",
+    "tag": "ice",
+    "tags": [
+      "ice"
+    ],
+    "prompt": "glacial wind drone atmosphere, continuous, no drums",
+    "path": "wavs/ice_04.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.31",
+      "seed": "344066919",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "ice_05",
+    "ucs": "ICEWind",
+    "tag": "ice",
+    "tags": [
+      "ice"
+    ],
+    "prompt": "cold ice cave air bed, continuous, no melody",
+    "path": "wavs/ice_05.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.31",
+      "seed": "858686329",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "ice_06",
+    "ucs": "ICEWind",
+    "tag": "ice",
+    "tags": [
+      "ice"
+    ],
+    "prompt": "snow wind soft texture bed, continuous, no percussion",
+    "path": "wavs/ice_06.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.3",
+      "seed": "1126607447",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "ice_07",
+    "ucs": "ICEWind",
+    "tag": "ice",
+    "tags": [
+      "ice"
+    ],
+    "prompt": "crystal ice shimmer cold bed, continuous, no drums",
+    "path": "wavs/ice_07.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.29",
+      "seed": "1055267927",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "ice_08",
+    "ucs": "ICEWind",
+    "tag": "ice",
+    "tags": [
+      "ice"
+    ],
+    "prompt": "arctic ice ambience soft continuous, no melody",
+    "path": "wavs/ice_08.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.31",
+      "seed": "2013524731",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "impact_01",
+    "ucs": "IMPACTSoft",
+    "tag": "impact",
+    "tags": [
+      "impact"
+    ],
+    "prompt": "soft distant cinematic hit with long reverb tail, no melody",
+    "path": "wavs/impact_01.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.3",
+      "seed": "1842556308",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "impact_02",
+    "ucs": "IMPACTSoft",
+    "tag": "impact",
+    "tags": [
+      "impact"
+    ],
+    "prompt": "muffled soft impact into atmospheric bed, no drums groove",
+    "path": "wavs/impact_02.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.34",
+      "seed": "210056102",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "impact_03",
+    "ucs": "IMPACTSoft",
+    "tag": "impact",
+    "tags": [
+      "impact"
+    ],
+    "prompt": "deep soft boom with long pad tail, no melody",
+    "path": "wavs/impact_03.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.33",
+      "seed": "1117311479",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "impact_04",
+    "ucs": "IMPACTSoft",
+    "tag": "impact",
+    "tags": [
+      "impact"
+    ],
+    "prompt": "glass soft impact into shimmer tail, no drums",
+    "path": "wavs/impact_04.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.3",
+      "seed": "13009010",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "impact_05",
+    "ucs": "IMPACTSoft",
+    "tag": "impact",
+    "tags": [
+      "impact"
+    ],
+    "prompt": "metal soft hit with resonance tail bed, no melody",
+    "path": "wavs/impact_05.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.32",
+      "seed": "675780598",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "impact_06",
+    "ucs": "IMPACTSoft",
+    "tag": "impact",
+    "tags": [
+      "impact"
+    ],
+    "prompt": "cinematic soft thud into rumble tail, no drums",
+    "path": "wavs/impact_06.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.3",
+      "seed": "1385068296",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "impact_07",
+    "ucs": "IMPACTSoft",
+    "tag": "impact",
+    "tags": [
+      "impact"
+    ],
+    "prompt": "airy soft impact into wind tail, no melody",
+    "path": "wavs/impact_07.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.33",
+      "seed": "1878189597",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "impact_08",
+    "ucs": "IMPACTSoft",
+    "tag": "impact",
+    "tags": [
+      "impact"
+    ],
+    "prompt": "sub soft hit with long dark tail, no drums",
+    "path": "wavs/impact_08.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.3",
+      "seed": "1618065520",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "magic_01",
+    "ucs": "MAGICSpark",
+    "tag": "magic",
+    "tags": [
+      "magic"
+    ],
+    "prompt": "soft magical sparkle atmosphere bed, continuous, no drums",
+    "path": "wavs/magic_01.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.32",
+      "seed": "550223884",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "magic_02",
+    "ucs": "MAGICSpark",
+    "tag": "magic",
+    "tags": [
+      "magic"
+    ],
+    "prompt": "enchanted air shimmer pad bed, continuous, no melody",
+    "path": "wavs/magic_02.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.31",
+      "seed": "1783013222",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "magic_03",
+    "ucs": "MAGICSpark",
+    "tag": "magic",
+    "tags": [
+      "magic"
+    ],
+    "prompt": "mystic soft drone with sparkle, continuous, no percussion",
+    "path": "wavs/magic_03.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.36",
+      "seed": "1395134031",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "magic_04",
+    "ucs": "MAGICSpark",
+    "tag": "magic",
+    "tags": [
+      "magic"
+    ],
+    "prompt": "fairy dust soft wash bed, continuous, no drums",
+    "path": "wavs/magic_04.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.29",
+      "seed": "658766925",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "magic_05",
+    "ucs": "MAGICSpark",
+    "tag": "magic",
+    "tags": [
+      "magic"
+    ],
+    "prompt": "arcane soft tonal bed, continuous, no melody",
+    "path": "wavs/magic_05.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.31",
+      "seed": "1601329543",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "magic_06",
+    "ucs": "MAGICSpark",
+    "tag": "magic",
+    "tags": [
+      "magic"
+    ],
+    "prompt": "spell residue soft atmosphere, continuous, no drums",
+    "path": "wavs/magic_06.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.3",
+      "seed": "1645576454",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "magic_07",
+    "ucs": "MAGICSpark",
+    "tag": "magic",
+    "tags": [
+      "magic"
+    ],
+    "prompt": "magic portal soft air bed, continuous, no percussion",
+    "path": "wavs/magic_07.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.31",
+      "seed": "158868658",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "magic_08",
+    "ucs": "MAGICSpark",
+    "tag": "magic",
+    "tags": [
+      "magic"
+    ],
+    "prompt": "fantasy soft glow texture bed, continuous, no melody",
+    "path": "wavs/magic_08.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.3",
+      "seed": "1964312658",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "metal_01",
+    "ucs": "METLRes",
+    "tag": "metal",
+    "tags": [
+      "metal"
+    ],
+    "prompt": "distant metallic resonance bed, continuous, no drums, no melody",
+    "path": "wavs/metal_01.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.31",
+      "seed": "607052167",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "metal_02",
+    "ucs": "METLRes",
+    "tag": "metal",
+    "tags": [
+      "metal"
+    ],
+    "prompt": "soft metal hum drone, sustained, no percussion",
+    "path": "wavs/metal_02.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.32",
+      "seed": "2105456959",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "metal_03",
+    "ucs": "METLRes",
+    "tag": "metal",
+    "tags": [
+      "metal"
+    ],
+    "prompt": "huge metal chamber resonance soft bed, continuous, no melody",
+    "path": "wavs/metal_03.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.33",
+      "seed": "1956173430",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "metal_04",
+    "ucs": "METLRes",
+    "tag": "metal",
+    "tags": [
+      "metal"
+    ],
+    "prompt": "iron resonance atmospheric bed, continuous, no drums",
+    "path": "wavs/metal_04.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.31",
+      "seed": "666639312",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "metal_05",
+    "ucs": "METLRes",
+    "tag": "metal",
+    "tags": [
+      "metal"
+    ],
+    "prompt": "metallic scrape wash soft continuous texture, no melody",
+    "path": "wavs/metal_05.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.31",
+      "seed": "818750038",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "metal_06",
+    "ucs": "METLRes",
+    "tag": "metal",
+    "tags": [
+      "metal"
+    ],
+    "prompt": "steel wire shimmer resonance bed, continuous, no percussion",
+    "path": "wavs/metal_06.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.33",
+      "seed": "1035793191",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "metal_07",
+    "ucs": "METLRes",
+    "tag": "metal",
+    "tags": [
+      "metal"
+    ],
+    "prompt": "industrial metal hum soft bed, continuous, no drums",
+    "path": "wavs/metal_07.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.31",
+      "seed": "712167986",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "metal_08",
+    "ucs": "METLRes",
+    "tag": "metal",
+    "tags": [
+      "metal"
+    ],
+    "prompt": "cinematic metal tone bed, continuous, no melody",
+    "path": "wavs/metal_08.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.35",
+      "seed": "474808849",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "nature_01",
+    "ucs": "AMBNature",
+    "tag": "nature",
+    "tags": [
+      "nature"
+    ],
+    "prompt": "forest soft ambience bed without birds focus, continuous air, no drums",
+    "path": "wavs/nature_01.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.32",
+      "seed": "1860207239",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "nature_02",
+    "ucs": "AMBNature",
+    "tag": "nature",
+    "tags": [
+      "nature"
+    ],
+    "prompt": "night field quiet ambience bed, continuous, no melody",
+    "path": "wavs/nature_02.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.31",
+      "seed": "248250675",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "nature_03",
+    "ucs": "AMBNature",
+    "tag": "nature",
+    "tags": [
+      "nature"
+    ],
+    "prompt": "mountain distant air ambience bed, continuous, no percussion",
+    "path": "wavs/nature_03.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.34",
+      "seed": "881725913",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "nature_04",
+    "ucs": "AMBNature",
+    "tag": "nature",
+    "tags": [
+      "nature"
+    ],
+    "prompt": "desert night quiet ambience bed, continuous, no drums",
+    "path": "wavs/nature_04.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.28",
+      "seed": "1542655607",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "nature_05",
+    "ucs": "AMBNature",
+    "tag": "nature",
+    "tags": [
+      "nature"
+    ],
+    "prompt": "jungle distant soft ambience bed, continuous, no melody",
+    "path": "wavs/nature_05.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.36",
+      "seed": "1993446973",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "nature_06",
+    "ucs": "AMBNature",
+    "tag": "nature",
+    "tags": [
+      "nature"
+    ],
+    "prompt": "meadow soft wind ambience bed, continuous, no drums",
+    "path": "wavs/nature_06.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.3",
+      "seed": "1532933171",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "nature_07",
+    "ucs": "AMBNature",
+    "tag": "nature",
+    "tags": [
+      "nature"
+    ],
+    "prompt": "wetland soft nature ambience bed, continuous, no percussion",
+    "path": "wavs/nature_07.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.31",
+      "seed": "1035883384",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "nature_08",
+    "ucs": "AMBNature",
+    "tag": "nature",
+    "tags": [
+      "nature"
+    ],
+    "prompt": "snowy field quiet ambience bed, continuous, no drums",
+    "path": "wavs/nature_08.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.28",
+      "seed": "820372205",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "noise_01",
+    "ucs": "NOISTape",
+    "tag": "noise",
+    "tags": [
+      "noise"
+    ],
+    "prompt": "soft tape hiss noise bed, continuous, no drums, no melody",
+    "path": "wavs/noise_01.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.29",
+      "seed": "1761748464",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "noise_02",
+    "ucs": "NOISTape",
+    "tag": "noise",
+    "tags": [
+      "noise"
+    ],
+    "prompt": "grainy vinyl crackle bed soft, continuous, no percussion",
+    "path": "wavs/noise_02.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.34",
+      "seed": "1501745543",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "noise_03",
+    "ucs": "NOISTape",
+    "tag": "noise",
+    "tags": [
+      "noise"
+    ],
+    "prompt": "pink noise filtered soft bed, seamless, no melody",
+    "path": "wavs/noise_03.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.32",
+      "seed": "1447020460",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "noise_04",
+    "ucs": "NOISTape",
+    "tag": "noise",
+    "tags": [
+      "noise"
+    ],
+    "prompt": "brown noise low soft bed, continuous, no drums",
+    "path": "wavs/noise_04.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.31",
+      "seed": "1146582590",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "noise_05",
+    "ucs": "NOISTape",
+    "tag": "noise",
+    "tags": [
+      "noise"
+    ],
+    "prompt": "static radio soft noise bed, continuous, no melody",
+    "path": "wavs/noise_05.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.29",
+      "seed": "613516785",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "noise_06",
+    "ucs": "NOISTape",
+    "tag": "noise",
+    "tags": [
+      "noise"
+    ],
+    "prompt": "dusty grain noise texture, continuous, no percussion",
+    "path": "wavs/noise_06.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.32",
+      "seed": "841153776",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "noise_07",
+    "ucs": "NOISTape",
+    "tag": "noise",
+    "tags": [
+      "noise"
+    ],
+    "prompt": "analog hiss and soft crackle bed, continuous, no drums",
+    "path": "wavs/noise_07.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.32",
+      "seed": "29852171",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "noise_08",
+    "ucs": "NOISTape",
+    "tag": "noise",
+    "tags": [
+      "noise"
+    ],
+    "prompt": "white noise soft filtered bed, continuous, no melody",
+    "path": "wavs/noise_08.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.34",
+      "seed": "1708662405",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "pad_01",
+    "ucs": "PAD",
+    "tag": "pad",
+    "tags": [
+      "pad"
+    ],
+    "prompt": "warm soft synth pad, sustained bed, no drums, no melody",
+    "path": "wavs/pad_01.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.33",
+      "seed": "935877558",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "pad_02",
+    "ucs": "PAD",
+    "tag": "pad",
+    "tags": [
+      "pad"
+    ],
+    "prompt": "choir-like ethereal pad texture, continuous, no percussion",
+    "path": "wavs/pad_02.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.32",
+      "seed": "1643560322",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "pad_03",
+    "ucs": "PAD",
+    "tag": "pad",
+    "tags": [
+      "pad"
+    ],
+    "prompt": "glass soft pad, bright airy sustain, no drums",
+    "path": "wavs/pad_03.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.33",
+      "seed": "342570438",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "pad_04",
+    "ucs": "PAD",
+    "tag": "pad",
+    "tags": [
+      "pad"
+    ],
+    "prompt": "dark evolving pad bed, slow movement, no melody",
+    "path": "wavs/pad_04.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.31",
+      "seed": "198706707",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "pad_05",
+    "ucs": "PAD",
+    "tag": "pad",
+    "tags": [
+      "pad"
+    ],
+    "prompt": "analog soft pad texture, continuous, no percussion",
+    "path": "wavs/pad_05.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.32",
+      "seed": "2010078540",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "pad_06",
+    "ucs": "PAD",
+    "tag": "pad",
+    "tags": [
+      "pad"
+    ],
+    "prompt": "lush wide stereo pad, sustained, no drums",
+    "path": "wavs/pad_06.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.35",
+      "seed": "456585554",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "pad_07",
+    "ucs": "PAD",
+    "tag": "pad",
+    "tags": [
+      "pad"
+    ],
+    "prompt": "thin icy pad texture, continuous, no melody",
+    "path": "wavs/pad_07.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.3",
+      "seed": "1773598670",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "pad_08",
+    "ucs": "PAD",
+    "tag": "pad",
+    "tags": [
+      "pad"
+    ],
+    "prompt": "muted felt pad bed, soft and close, no drums",
+    "path": "wavs/pad_08.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.35",
+      "seed": "429213845",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "rain_01",
+    "ucs": "WTHRRain",
+    "tag": "rain",
+    "tags": [
+      "rain"
+    ],
+    "prompt": "soft rain on roof bed, continuous, no drums, no melody",
+    "path": "wavs/rain_01.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.36",
+      "seed": "1407310850",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "rain_02",
+    "ucs": "WTHRRain",
+    "tag": "rain",
+    "tags": [
+      "rain"
+    ],
+    "prompt": "distant rain atmosphere, seamless, calm, no percussion",
+    "path": "wavs/rain_02.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.3",
+      "seed": "207218881",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "rain_03",
+    "ucs": "WTHRRain",
+    "tag": "rain",
+    "tags": [
+      "rain"
+    ],
+    "prompt": "heavy rain noise bed, dense, continuous, no melody",
+    "path": "wavs/rain_03.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.34",
+      "seed": "46574838",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "rain_04",
+    "ucs": "WTHRRain",
+    "tag": "rain",
+    "tags": [
+      "rain"
+    ],
+    "prompt": "light drizzle texture, soft continuous, no drums",
+    "path": "wavs/rain_04.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.31",
+      "seed": "1544126009",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "rain_05",
+    "ucs": "WTHRRain",
+    "tag": "rain",
+    "tags": [
+      "rain"
+    ],
+    "prompt": "rain on window glass, continuous bed, no melody",
+    "path": "wavs/rain_05.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.32",
+      "seed": "1045770826",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "rain_06",
+    "ucs": "WTHRRain",
+    "tag": "rain",
+    "tags": [
+      "rain"
+    ],
+    "prompt": "rain in forest ambience bed, continuous, no drums",
+    "path": "wavs/rain_06.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.3",
+      "seed": "463590407",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "rain_07",
+    "ucs": "WTHRRain",
+    "tag": "rain",
+    "tags": [
+      "rain"
+    ],
+    "prompt": "storm rain texture, continuous, cinematic, no percussion",
+    "path": "wavs/rain_07.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.33",
+      "seed": "2038084662",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "rain_08",
+    "ucs": "WTHRRain",
+    "tag": "rain",
+    "tags": [
+      "rain"
+    ],
+    "prompt": "soft rain and distant thunder rumble bed, continuous, no drums",
+    "path": "wavs/rain_08.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.3",
+      "seed": "793035215",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "roomtone_01",
+    "ucs": "AMBRoom",
+    "tag": "roomtone",
+    "tags": [
+      "roomtone"
+    ],
+    "prompt": "quiet empty room tone bed, continuous, no drums, no melody",
+    "path": "wavs/roomtone_01.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.32",
+      "seed": "948281082",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "roomtone_02",
+    "ucs": "AMBRoom",
+    "tag": "roomtone",
+    "tags": [
+      "roomtone"
+    ],
+    "prompt": "soft hall ambience empty, continuous, no percussion",
+    "path": "wavs/roomtone_02.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.3",
+      "seed": "986950413",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "roomtone_03",
+    "ucs": "AMBRoom",
+    "tag": "roomtone",
+    "tags": [
+      "roomtone"
+    ],
+    "prompt": "cathedral soft air tone bed, continuous, no melody",
+    "path": "wavs/roomtone_03.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.33",
+      "seed": "2106961326",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "roomtone_04",
+    "ucs": "AMBRoom",
+    "tag": "roomtone",
+    "tags": [
+      "roomtone"
+    ],
+    "prompt": "basement quiet room tone, continuous, no drums",
+    "path": "wavs/roomtone_04.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.29",
+      "seed": "1886726345",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "roomtone_05",
+    "ucs": "AMBRoom",
+    "tag": "roomtone",
+    "tags": [
+      "roomtone"
+    ],
+    "prompt": "studio quiet room tone bed, continuous, no melody",
+    "path": "wavs/roomtone_05.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.32",
+      "seed": "1283999450",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "roomtone_06",
+    "ucs": "AMBRoom",
+    "tag": "roomtone",
+    "tags": [
+      "roomtone"
+    ],
+    "prompt": "warehouse empty soft ambience bed, continuous, no percussion",
+    "path": "wavs/roomtone_06.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.31",
+      "seed": "193881647",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "roomtone_07",
+    "ucs": "AMBRoom",
+    "tag": "roomtone",
+    "tags": [
+      "roomtone"
+    ],
+    "prompt": "apartment night quiet room tone, continuous, no drums",
+    "path": "wavs/roomtone_07.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.36",
+      "seed": "1458157924",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "roomtone_08",
+    "ucs": "AMBRoom",
+    "tag": "roomtone",
+    "tags": [
+      "roomtone"
+    ],
+    "prompt": "museum hall soft ambience bed, continuous, no melody",
+    "path": "wavs/roomtone_08.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.34",
+      "seed": "1327015471",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "rumble_01",
+    "ucs": "RUMBSub",
+    "tag": "rumble",
+    "tags": [
+      "rumble"
+    ],
+    "prompt": "deep sub rumble bed, continuous low end, no drums, no melody",
+    "path": "wavs/rumble_01.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.3",
+      "seed": "616800406",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "rumble_02",
+    "ucs": "RUMBSub",
+    "tag": "rumble",
+    "tags": [
+      "rumble"
+    ],
+    "prompt": "distant earthquake soft rumble bed, continuous, no percussion",
+    "path": "wavs/rumble_02.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.3",
+      "seed": "1976017017",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "rumble_03",
+    "ucs": "RUMBSub",
+    "tag": "rumble",
+    "tags": [
+      "rumble"
+    ],
+    "prompt": "cinematic low rumble tension bed, continuous, no drums",
+    "path": "wavs/rumble_03.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.29",
+      "seed": "277322586",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "rumble_04",
+    "ucs": "RUMBSub",
+    "tag": "rumble",
+    "tags": [
+      "rumble"
+    ],
+    "prompt": "thunder distant rumble only bed, continuous, no melody",
+    "path": "wavs/rumble_04.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.32",
+      "seed": "2091106727",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "rumble_05",
+    "ucs": "RUMBSub",
+    "tag": "rumble",
+    "tags": [
+      "rumble"
+    ],
+    "prompt": "engine distant low rumble bed soft, continuous, no drums",
+    "path": "wavs/rumble_05.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.29",
+      "seed": "748577687",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "rumble_06",
+    "ucs": "RUMBSub",
+    "tag": "rumble",
+    "tags": [
+      "rumble"
+    ],
+    "prompt": "subway distant rumble atmosphere, continuous, no percussion",
+    "path": "wavs/rumble_06.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.32",
+      "seed": "939124530",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "rumble_07",
+    "ucs": "RUMBSub",
+    "tag": "rumble",
+    "tags": [
+      "rumble"
+    ],
+    "prompt": "dark pressure rumble bed, continuous, no drums",
+    "path": "wavs/rumble_07.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.3",
+      "seed": "458021183",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "rumble_08",
+    "ucs": "RUMBSub",
+    "tag": "rumble",
+    "tags": [
+      "rumble"
+    ],
+    "prompt": "soft seismic rumble texture, continuous, no melody",
+    "path": "wavs/rumble_08.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.34",
+      "seed": "967206221",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "shimmer_01",
+    "ucs": "SHIMBright",
+    "tag": "shimmer",
+    "tags": [
+      "shimmer"
+    ],
+    "prompt": "metallic shimmer drone, high frequency air, continuous, no drums",
+    "path": "wavs/shimmer_01.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.55",
+      "seed": "206309737",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "shimmer_02",
+    "ucs": "SHIMBright",
+    "tag": "shimmer",
+    "tags": [
+      "shimmer"
+    ],
+    "prompt": "glass shimmer pad texture, bright, continuous, no melody",
+    "path": "wavs/shimmer_02.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.34",
+      "seed": "1628035458",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "shimmer_03",
+    "ucs": "SHIMBright",
+    "tag": "shimmer",
+    "tags": [
+      "shimmer"
+    ],
+    "prompt": "crystal sparkle bed soft continuous, no percussion",
+    "path": "wavs/shimmer_03.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.36",
+      "seed": "962665863",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "shimmer_04",
+    "ucs": "SHIMBright",
+    "tag": "shimmer",
+    "tags": [
+      "shimmer"
+    ],
+    "prompt": "icy shimmer atmosphere, continuous, no drums",
+    "path": "wavs/shimmer_04.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.32",
+      "seed": "672108048",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "shimmer_05",
+    "ucs": "SHIMBright",
+    "tag": "shimmer",
+    "tags": [
+      "shimmer"
+    ],
+    "prompt": "bell-like soft shimmer wash, continuous, no melody",
+    "path": "wavs/shimmer_05.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.33",
+      "seed": "56534276",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "shimmer_06",
+    "ucs": "SHIMBright",
+    "tag": "shimmer",
+    "tags": [
+      "shimmer"
+    ],
+    "prompt": "bright air shimmer texture, continuous, no drums",
+    "path": "wavs/shimmer_06.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.32",
+      "seed": "153392375",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "shimmer_07",
+    "ucs": "SHIMBright",
+    "tag": "shimmer",
+    "tags": [
+      "shimmer"
+    ],
+    "prompt": "sheen metallic air bed, continuous, no percussion",
+    "path": "wavs/shimmer_07.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.35",
+      "seed": "2099347914",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "shimmer_08",
+    "ucs": "SHIMBright",
+    "tag": "shimmer",
+    "tags": [
+      "shimmer"
+    ],
+    "prompt": "fairy-light soft shimmer bed cinematic, continuous, no melody",
+    "path": "wavs/shimmer_08.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.3",
+      "seed": "280245088",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "space_01",
+    "ucs": "SCIFISpace",
+    "tag": "space",
+    "tags": [
+      "space"
+    ],
+    "prompt": "space ambient texture, soft sci-fi atmosphere, continuous, no drums",
+    "path": "wavs/space_01.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.31",
+      "seed": "936671732",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "space_02",
+    "ucs": "SCIFISpace",
+    "tag": "space",
+    "tags": [
+      "space"
+    ],
+    "prompt": "void soft space drone bed, continuous, no melody",
+    "path": "wavs/space_02.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.32",
+      "seed": "39703242",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "space_03",
+    "ucs": "SCIFISpace",
+    "tag": "space",
+    "tags": [
+      "space"
+    ],
+    "prompt": "spaceship engine soft idle bed, continuous, no percussion",
+    "path": "wavs/space_03.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.29",
+      "seed": "696507347",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "space_04",
+    "ucs": "SCIFISpace",
+    "tag": "space",
+    "tags": [
+      "space"
+    ],
+    "prompt": "cosmic airy pad atmosphere, continuous, no drums",
+    "path": "wavs/space_04.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.3",
+      "seed": "2028679302",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "space_05",
+    "ucs": "SCIFISpace",
+    "tag": "space",
+    "tags": [
+      "space"
+    ],
+    "prompt": "alien soft ambience bed, continuous, no melody",
+    "path": "wavs/space_05.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.29",
+      "seed": "1495881059",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "space_06",
+    "ucs": "SCIFISpace",
+    "tag": "space",
+    "tags": [
+      "space"
+    ],
+    "prompt": "orbital wind sci-fi texture, continuous, no drums",
+    "path": "wavs/space_06.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.31",
+      "seed": "435935382",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "space_07",
+    "ucs": "SCIFISpace",
+    "tag": "space",
+    "tags": [
+      "space"
+    ],
+    "prompt": "deep space rumble soft bed, continuous, no percussion",
+    "path": "wavs/space_07.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.29",
+      "seed": "730188139",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "space_08",
+    "ucs": "SCIFISpace",
+    "tag": "space",
+    "tags": [
+      "space"
+    ],
+    "prompt": "futuristic soft atmosphere bed, continuous, no melody",
+    "path": "wavs/space_08.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.31",
+      "seed": "268039063",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "storm_01",
+    "ucs": "WTHRStorm",
+    "tag": "storm",
+    "tags": [
+      "storm"
+    ],
+    "prompt": "distant storm atmosphere bed, wind and rumble, continuous, no drums",
+    "path": "wavs/storm_01.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.35",
+      "seed": "181313915",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "storm_02",
+    "ucs": "WTHRStorm",
+    "tag": "storm",
+    "tags": [
+      "storm"
+    ],
+    "prompt": "thunder rumble bed far away, continuous low, no melody",
+    "path": "wavs/storm_02.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.32",
+      "seed": "752761854",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "storm_03",
+    "ucs": "WTHRStorm",
+    "tag": "storm",
+    "tags": [
+      "storm"
+    ],
+    "prompt": "stormy weather texture, dense air, continuous, no percussion",
+    "path": "wavs/storm_03.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.51",
+      "seed": "754532144",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "storm_04",
+    "ucs": "WTHRStorm",
+    "tag": "storm",
+    "tags": [
+      "storm"
+    ],
+    "prompt": "electric storm air bed, tense continuous, no drums",
+    "path": "wavs/storm_04.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.3",
+      "seed": "912162068",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "storm_05",
+    "ucs": "WTHRStorm",
+    "tag": "storm",
+    "tags": [
+      "storm"
+    ],
+    "prompt": "post-storm wind and drip atmosphere, continuous, no melody",
+    "path": "wavs/storm_05.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.32",
+      "seed": "1920591719",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "storm_06",
+    "ucs": "WTHRStorm",
+    "tag": "storm",
+    "tags": [
+      "storm"
+    ],
+    "prompt": "dark storm drone weather bed, continuous, no drums",
+    "path": "wavs/storm_06.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.32",
+      "seed": "456722705",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "storm_07",
+    "ucs": "WTHRStorm",
+    "tag": "storm",
+    "tags": [
+      "storm"
+    ],
+    "prompt": "cinematic storm pad of wind and low thunder, continuous, no melody",
+    "path": "wavs/storm_07.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.33",
+      "seed": "858391505",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "storm_08",
+    "ucs": "WTHRStorm",
+    "tag": "storm",
+    "tags": [
+      "storm"
+    ],
+    "prompt": "soft storm ambience, distant, seamless, no percussion",
+    "path": "wavs/storm_08.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.52",
+      "seed": "883230059",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "swell_01",
+    "ucs": "SWELL",
+    "tag": "swell",
+    "tags": [
+      "swell"
+    ],
+    "prompt": "cinematic soft swell into pad bed, no drums, no melody",
+    "path": "wavs/swell_01.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.31",
+      "seed": "676374510",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "swell_02",
+    "ucs": "SWELL",
+    "tag": "swell",
+    "tags": [
+      "swell"
+    ],
+    "prompt": "slow atmospheric swell texture, continuous feel, no percussion",
+    "path": "wavs/swell_02.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.29",
+      "seed": "619973162",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "swell_03",
+    "ucs": "SWELL",
+    "tag": "swell",
+    "tags": [
+      "swell"
+    ],
+    "prompt": "dark swell into rumble bed soft, no drums",
+    "path": "wavs/swell_03.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.54",
+      "seed": "976226231",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "swell_04",
+    "ucs": "SWELL",
+    "tag": "swell",
+    "tags": [
+      "swell"
+    ],
+    "prompt": "bright swell into shimmer bed, no melody",
+    "path": "wavs/swell_04.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.31",
+      "seed": "217727572",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "swell_05",
+    "ucs": "SWELL",
+    "tag": "swell",
+    "tags": [
+      "swell"
+    ],
+    "prompt": "tension swell soft cinematic, no drums",
+    "path": "wavs/swell_05.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.32",
+      "seed": "205826151",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "swell_06",
+    "ucs": "SWELL",
+    "tag": "swell",
+    "tags": [
+      "swell"
+    ],
+    "prompt": "emotional soft swell pad rise, no percussion",
+    "path": "wavs/swell_06.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.29",
+      "seed": "518425089",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "swell_07",
+    "ucs": "SWELL",
+    "tag": "swell",
+    "tags": [
+      "swell"
+    ],
+    "prompt": "horror swell into dissonant bed, no drums",
+    "path": "wavs/swell_07.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.31",
+      "seed": "1478148684",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "swell_08",
+    "ucs": "SWELL",
+    "tag": "swell",
+    "tags": [
+      "swell"
+    ],
+    "prompt": "air swell into wind bed soft, no melody",
+    "path": "wavs/swell_08.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.29",
+      "seed": "468859730",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "tonal_01",
+    "ucs": "SCIFITone",
+    "tag": "tonal",
+    "tags": [
+      "tonal"
+    ],
+    "prompt": "sci-fi soft tonal bed, sustained tones, no drums, no melody lead",
+    "path": "wavs/tonal_01.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.3",
+      "seed": "1282612452",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "tonal_02",
+    "ucs": "SCIFITone",
+    "tag": "tonal",
+    "tags": [
+      "tonal"
+    ],
+    "prompt": "distant signal tone atmosphere, continuous, no percussion",
+    "path": "wavs/tonal_02.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.32",
+      "seed": "2082301627",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "tonal_03",
+    "ucs": "SCIFITone",
+    "tag": "tonal",
+    "tags": [
+      "tonal"
+    ],
+    "prompt": "soft sonar-like tonal wash bed, continuous, no drums",
+    "path": "wavs/tonal_03.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.29",
+      "seed": "1505573350",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "tonal_04",
+    "ucs": "SCIFITone",
+    "tag": "tonal",
+    "tags": [
+      "tonal"
+    ],
+    "prompt": "analog sci-fi tone cluster bed, continuous, no melody",
+    "path": "wavs/tonal_04.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.32",
+      "seed": "637963329",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "tonal_05",
+    "ucs": "SCIFITone",
+    "tag": "tonal",
+    "tags": [
+      "tonal"
+    ],
+    "prompt": "hollow tonal sci-fi pad, continuous, no drums",
+    "path": "wavs/tonal_05.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.31",
+      "seed": "2084271905",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "tonal_06",
+    "ucs": "SCIFITone",
+    "tag": "tonal",
+    "tags": [
+      "tonal"
+    ],
+    "prompt": "modulated soft sci-fi tone bed, continuous, no percussion",
+    "path": "wavs/tonal_06.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.29",
+      "seed": "1017345950",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "tonal_07",
+    "ucs": "SCIFITone",
+    "tag": "tonal",
+    "tags": [
+      "tonal"
+    ],
+    "prompt": "crystal tonal sci-fi atmosphere, continuous, no drums",
+    "path": "wavs/tonal_07.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.3",
+      "seed": "2019635927",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "tonal_08",
+    "ucs": "SCIFITone",
+    "tag": "tonal",
+    "tags": [
+      "tonal"
+    ],
+    "prompt": "dark tonal design bed continuous, no melody",
+    "path": "wavs/tonal_08.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.33",
+      "seed": "1113052368",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "urban_01",
+    "ucs": "AMBUrban",
+    "tag": "urban",
+    "tags": [
+      "urban"
+    ],
+    "prompt": "distant city ambience soft bed, continuous, no drums, no melody",
+    "path": "wavs/urban_01.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.32",
+      "seed": "1146689849",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "urban_02",
+    "ucs": "AMBUrban",
+    "tag": "urban",
+    "tags": [
+      "urban"
+    ],
+    "prompt": "night city far traffic wash bed, continuous, no percussion",
+    "path": "wavs/urban_02.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.3",
+      "seed": "1000843740",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "urban_03",
+    "ucs": "AMBUrban",
+    "tag": "urban",
+    "tags": [
+      "urban"
+    ],
+    "prompt": "empty street soft urban air bed, continuous, no melody",
+    "path": "wavs/urban_03.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.33",
+      "seed": "2063955149",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "urban_04",
+    "ucs": "AMBUrban",
+    "tag": "urban",
+    "tags": [
+      "urban"
+    ],
+    "prompt": "rooftop city distant ambience bed, continuous, no drums",
+    "path": "wavs/urban_04.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.3",
+      "seed": "189404744",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "urban_05",
+    "ucs": "AMBUrban",
+    "tag": "urban",
+    "tags": [
+      "urban"
+    ],
+    "prompt": "subway station distant soft ambience bed, continuous, no melody",
+    "path": "wavs/urban_05.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.34",
+      "seed": "1632881363",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "urban_06",
+    "ucs": "AMBUrban",
+    "tag": "urban",
+    "tags": [
+      "urban"
+    ],
+    "prompt": "industrial area distant soft bed, continuous, no percussion",
+    "path": "wavs/urban_06.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.33",
+      "seed": "789396358",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "urban_07",
+    "ucs": "AMBUrban",
+    "tag": "urban",
+    "tags": [
+      "urban"
+    ],
+    "prompt": "harbor distant urban water and air bed, continuous, no drums",
+    "path": "wavs/urban_07.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.34",
+      "seed": "2139199044",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "urban_08",
+    "ucs": "AMBUrban",
+    "tag": "urban",
+    "tags": [
+      "urban"
+    ],
+    "prompt": "rainy city distant ambience bed, continuous, no melody",
+    "path": "wavs/urban_08.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.32",
+      "seed": "1348773570",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "water_01",
+    "ucs": "WATRBed",
+    "tag": "water",
+    "tags": [
+      "water"
+    ],
+    "prompt": "soft water stream bed, continuous, no drums, no melody",
+    "path": "wavs/water_01.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.35",
+      "seed": "396368574",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "water_02",
+    "ucs": "WATRBed",
+    "tag": "water",
+    "tags": [
+      "water"
+    ],
+    "prompt": "underwater muffled ambience bed, continuous, no percussion",
+    "path": "wavs/water_02.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.28",
+      "seed": "1602438040",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "water_03",
+    "ucs": "WATRBed",
+    "tag": "water",
+    "tags": [
+      "water"
+    ],
+    "prompt": "gentle lake shore lapping bed, continuous, no melody",
+    "path": "wavs/water_03.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.35",
+      "seed": "1522706129",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "water_04",
+    "ucs": "WATRBed",
+    "tag": "water",
+    "tags": [
+      "water"
+    ],
+    "prompt": "bubbling soft water texture, continuous, no drums",
+    "path": "wavs/water_04.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.34",
+      "seed": "1334545509",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "water_05",
+    "ucs": "WATRBed",
+    "tag": "water",
+    "tags": [
+      "water"
+    ],
+    "prompt": "deep underwater pressure bed, continuous, no melody",
+    "path": "wavs/water_05.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.31",
+      "seed": "361910744",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "water_06",
+    "ucs": "WATRBed",
+    "tag": "water",
+    "tags": [
+      "water"
+    ],
+    "prompt": "rain puddle drip atmosphere soft, continuous, no drums",
+    "path": "wavs/water_06.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.29",
+      "seed": "557599973",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "water_07",
+    "ucs": "WATRBed",
+    "tag": "water",
+    "tags": [
+      "water"
+    ],
+    "prompt": "ocean distant wash bed, continuous, no percussion",
+    "path": "wavs/water_07.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.29",
+      "seed": "1780284305",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "water_08",
+    "ucs": "WATRBed",
+    "tag": "water",
+    "tags": [
+      "water"
+    ],
+    "prompt": "cave water drip ambience bed, continuous, no melody",
+    "path": "wavs/water_08.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.34",
+      "seed": "1472718435",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "whoosh_01",
+    "ucs": "WHOOSH",
+    "tag": "whoosh",
+    "tags": [
+      "whoosh"
+    ],
+    "prompt": "soft air whoosh texture, atmospheric sweep, no drums",
+    "path": "wavs/whoosh_01.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.31",
+      "seed": "334256367",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "whoosh_02",
+    "ucs": "WHOOSH",
+    "tag": "whoosh",
+    "tags": [
+      "whoosh"
+    ],
+    "prompt": "cinematic soft whoosh bed-like wash, no melody",
+    "path": "wavs/whoosh_02.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.28",
+      "seed": "209269781",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "whoosh_03",
+    "ucs": "WHOOSH",
+    "tag": "whoosh",
+    "tags": [
+      "whoosh"
+    ],
+    "prompt": "reverse soft whoosh atmosphere, airy, no percussion",
+    "path": "wavs/whoosh_03.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.3",
+      "seed": "1136016603",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "whoosh_04",
+    "ucs": "WHOOSH",
+    "tag": "whoosh",
+    "tags": [
+      "whoosh"
+    ],
+    "prompt": "long soft whoosh tail texture, no drums",
+    "path": "wavs/whoosh_04.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.36",
+      "seed": "1678584879",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "whoosh_05",
+    "ucs": "WHOOSH",
+    "tag": "whoosh",
+    "tags": [
+      "whoosh"
+    ],
+    "prompt": "dark whoosh sweep soft cinematic, no melody",
+    "path": "wavs/whoosh_05.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.3",
+      "seed": "123678462",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "whoosh_06",
+    "ucs": "WHOOSH",
+    "tag": "whoosh",
+    "tags": [
+      "whoosh"
+    ],
+    "prompt": "bright air whoosh soft texture, no drums",
+    "path": "wavs/whoosh_06.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.33",
+      "seed": "808405551",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "whoosh_07",
+    "ucs": "WHOOSH",
+    "tag": "whoosh",
+    "tags": [
+      "whoosh"
+    ],
+    "prompt": "stereo whoosh soft pass-by texture, no percussion",
+    "path": "wavs/whoosh_07.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.31",
+      "seed": "569201086",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "whoosh_08",
+    "ucs": "WHOOSH",
+    "tag": "whoosh",
+    "tags": [
+      "whoosh"
+    ],
+    "prompt": "ethereal whoosh wash continuous feel, no drums",
+    "path": "wavs/whoosh_08.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.34",
+      "seed": "1383881872",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "wind_01",
+    "ucs": "WTHRWind",
+    "tag": "wind",
+    "tags": [
+      "wind"
+    ],
+    "prompt": "distant wind noise bed, stereo, seamless, no melody",
+    "path": "wavs/wind_01.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.34",
+      "seed": "100941367",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "wind_02",
+    "ucs": "WTHRWind",
+    "tag": "wind",
+    "tags": [
+      "wind"
+    ],
+    "prompt": "cold wind through trees, continuous atmosphere, no drums",
+    "path": "wavs/wind_02.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.37",
+      "seed": "1247425582",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "wind_03",
+    "ucs": "WTHRWind",
+    "tag": "wind",
+    "tags": [
+      "wind"
+    ],
+    "prompt": "howling wind texture, continuous, cinematic, no melody",
+    "path": "wavs/wind_03.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.33",
+      "seed": "1558072154",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "wind_04",
+    "ucs": "WTHRWind",
+    "tag": "wind",
+    "tags": [
+      "wind"
+    ],
+    "prompt": "soft breeze noise bed, gentle, seamless, no drums",
+    "path": "wavs/wind_04.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.39",
+      "seed": "909499120",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "wind_05",
+    "ucs": "WTHRWind",
+    "tag": "wind",
+    "tags": [
+      "wind"
+    ],
+    "prompt": "stormy wind bed, dense air, continuous, no percussion",
+    "path": "wavs/wind_05.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.36",
+      "seed": "866369444",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "wind_06",
+    "ucs": "WTHRWind",
+    "tag": "wind",
+    "tags": [
+      "wind"
+    ],
+    "prompt": "desert dry wind texture, continuous, no melody",
+    "path": "wavs/wind_06.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.33",
+      "seed": "653633312",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "wind_07",
+    "ucs": "WTHRWind",
+    "tag": "wind",
+    "tags": [
+      "wind"
+    ],
+    "prompt": "arctic wind hiss bed, cold air, continuous, no drums",
+    "path": "wavs/wind_07.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.32",
+      "seed": "232425888",
+      "device": "cuda"
+    }
+  },
+  {
+    "id": "wind_08",
+    "ucs": "WTHRWind",
+    "tag": "wind",
+    "tags": [
+      "wind"
+    ],
+    "prompt": "gusty wind texture with soft movement, continuous, no melody",
+    "path": "wavs/wind_08.wav",
+    "seconds": 4.0,
+    "source": "stable-audio-open-small",
+    "host": "runpod",
+    "gen": {
+      "duration_s": "3.994",
+      "elapsed_s": "0.3",
+      "seed": "116304918",
+      "device": "cuda"
+    }
+  }
+]

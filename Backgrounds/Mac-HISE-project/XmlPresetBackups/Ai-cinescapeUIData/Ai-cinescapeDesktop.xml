@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptPanel" id="backgroundScriptPanel" x="0.0" y="0.0"
+             width="1024.0" height="680.0" bgColour="16777215" itemColour="4280624421"
+             itemColour2="4280624421" borderSize="0.0" borderRadius="0.0"/>
+  <Component type="ScriptImage" id="samplesonLogoScriptImage" x="827.0" y="17.0"
+             width="179.0" height="39.0" fileName="{PROJECT_FOLDER}logo-sampleson.png"/>
+  <Component type="ScriptImage" id="earImage" x="467.0" y="210.0" fileName="{PROJECT_FOLDER}ear.png"
+             width="70.0" height="100.0"/>
+  <Component type="ScriptPanel" id="animPanel" x="0.0" y="0.0" width="1024.0"
+             height="457.0" enabled="0"/>
+  <Component type="ScriptImage" id="logoImage" x="21.0" y="17.0" fileName="{PROJECT_FOLDER}logo.png"
+             width="212.0" height="40.0"/>
+  <Component type="ScriptPanel" id="xyPad" x="0.0" y="0.0" width="1024.0"
+             height="680.0" bgColour="0" itemColour="0" itemColour2="0" borderSize="0.0"
+             allowCallbacks="Clicks, Hover &amp; Dragging"/>
+  <Component type="ScriptPanel" id="calmCapsule" x="613.0" y="286.45" width="156.0"
+             height="37.1" enabled="0" bgColour="0" itemColour="0" itemColour2="0"
+             borderSize="0.0" visible="0"/>
+  <Component type="ScriptPanel" id="furyCapsule" x="387.0" y="212.4499969482422"
+             width="156.0" height="37.1" enabled="0" bgColour="0" itemColour="0"
+             itemColour2="0" borderSize="0.0" visible="0"/>
+  <Component type="ScriptPanel" id="goldCapsule" x="73.0" y="364.4500122070312"
+             width="156.0" height="37.1" enabled="0" bgColour="0" itemColour="0"
+             itemColour2="0" borderSize="0.0" visible="0"/>
+  <Component type="ScriptLabel" id="calmLabel" x="613.0" y="286.45" width="146.0"
+             height="53.0" text="a kid runn" fontName="Tuffy" fontSize="33"
+             textColour="-855638017" editable="0" enabled="0" visible="0"/>
+  <Component type="ScriptLabel" id="furyLabel" x="387.0" y="212.4499969482422"
+             width="146.0" height="53.0" text="lighthouse" fontName="Tuffy"
+             fontSize="33" textColour="-855638017" editable="0" enabled="0"
+             visible="0"/>
+  <Component type="ScriptLabel" id="goldLabel" x="73.0" y="364.4500122070312"
+             width="146.0" height="53.0" text="ancient ru" fontName="Tuffy"
+             fontSize="33" textColour="-855638017" editable="0" enabled="0"
+             visible="0"/>
+  <Component type="ScriptPanel" id="calmRefresh" x="774.6" y="286.45" width="37.1"
+             height="37.1" bgColour="0" itemColour="0" itemColour2="0" borderSize="0.0"
+             allowCallbacks="Clicks, Hover &amp; Dragging" visible="0"/>
+  <Component type="ScriptPanel" id="furyRefresh" x="548.6" y="212.4499969482422"
+             width="37.1" height="37.1" bgColour="0" itemColour="0" itemColour2="0"
+             borderSize="0.0" allowCallbacks="Clicks, Hover &amp; Dragging"
+             visible="0"/>
+  <Component type="ScriptPanel" id="goldRefresh" x="234.6" y="364.4500122070312"
+             width="37.1" height="37.1" bgColour="0" itemColour="0" itemColour2="0"
+             borderSize="0.0" allowCallbacks="Clicks, Hover &amp; Dragging"
+             visible="0"/>
+  <Component type="ScriptPanel" id="calmDelete" x="817.3" y="286.45" width="37.1"
+             height="37.1" bgColour="0" itemColour="0" itemColour2="0" borderSize="0.0"
+             allowCallbacks="Clicks, Hover &amp; Dragging" visible="0"/>
+  <Component type="ScriptPanel" id="furyDelete" x="591.3" y="212.4499969482422"
+             width="37.1" height="37.1" bgColour="0" itemColour="0" itemColour2="0"
+             borderSize="0.0" allowCallbacks="Clicks, Hover &amp; Dragging"
+             visible="0"/>
+  <Component type="ScriptPanel" id="goldDelete" x="277.3" y="364.4500122070312"
+             width="37.1" height="37.1" bgColour="0" itemColour="0" itemColour2="0"
+             borderSize="0.0" allowCallbacks="Clicks, Hover &amp; Dragging"
+             visible="0"/>
+  <Component type="ScriptButton" id="stretchPlayBtn" x="851.0" y="465.0" width="135.0"
+             height="53.0" text="" saveInPreset="0" filmstripImage="{PROJECT_FOLDER}btn-generate-emotions.png"
+             scaleFactor="0.5"/>
+  <Component type="ScriptButton" id="pitchMatchBtn" x="852.0" y="584.0" width="135.0"
+             height="50.0" text="" saveInPreset="0" filmstripImage="{PROJECT_FOLDER}btn-tune.png"
+             scaleFactor="0.5"/>
+  <Component type="ScriptPanel" id="emotionPromptBox" x="172" y="248" width="380.0"
+             height="201.0" enabled="0" bgColour="0" itemColour="0" itemColour2="0"
+             borderSize="0.0" allowCallbacks="Clicks, Hover &amp; Dragging"
+             visible="0"/>
+  <Component type="ScriptLabel" id="emotionPromptInput" x="192" y="264" width="165.3497924804688"
+             height="42.0" text="" fontName="Atkinson Hyperlegible" fontSize="16"
+             textColour="4291348680" alignment="left" editable="0" visible="0"/>
+  <Component type="ScriptPanel" id="emotionPromptOk" x="764" y="292" width="22.0"
+             height="22.0" bgColour="0" itemColour="0" itemColour2="0" borderSize="0.0"
+             allowCallbacks="Clicks, Hover &amp; Dragging" visible="0"/>
+  <Component type="ScriptPanel" id="calmEdit" x="145" y="321" visible="0"/>
+  <Component type="ScriptPanel" id="furyEdit" x="609" y="321" visible="0"/>
+  <Component type="ScriptLabel" id="emotionPromptPlaceholder" x="192" y="264"
+             fontName="Atkinson Hyperlegible" fontSize="16" textColour="4287137928"
+             alignment="left" editable="0" enabled="0" text="Ask for an ambient sound"
+             width="165.3497924804688" height="37.0" visible="0"/>
+  <Component type="ScriptPanel" id="emotionTypeIcon" x="0" y="0" width="16.1"
+             height="16.1" enabled="0" allowCallbacks="Clicks, Hover &amp; Dragging"
+             visible="0"/>
+  <Component type="ScriptPanel" id="tagBackbroundPanel" x="0.0" y="455.0"
+             width="830.0" height="190.0" bgColour="16777215" borderSize="0.0"
+             borderRadius="0.0" itemColour="4280295456" itemColour2="4280295456"/>
+  <Component type="ScriptPanel" id="tagsPanel" x="34.0" y="469.0" width="740.0"
+             height="160.0" bgColour="0" itemColour="0" itemColour2="0" borderSize="0.0"
+             allowCallbacks="Clicks, Hover &amp; Dragging"/>
+  <Component type="ScriptImage" id="toDawScriptImage" x="46.0" y="528.0" width="233.0"
+             height="42.0" fileName="{PROJECT_FOLDER}dragtodaW.png" visible="0"/>
+  <Component type="ScriptPanel" id="capturePanel" x="50.0" y="490.0" width="640.0"
+             height="120.0" bgColour="0" itemColour="0" itemColour2="0" borderSize="0.0"
+             allowCallbacks="Clicks, Hover &amp; Dragging" visible="0"/>
+  <Component type="ScriptLabel" id="tagPromptInput" x="234.0" y="548.0" width="308.0"
+             height="32.0" text="" fontName="Atkinson Hyperlegible" fontSize="14"
+             textColour="3868168079" alignment="left" visible="0"/>
+  <Component type="ScriptPanel" id="tagGhost" x="394.6156058311462" y="285.0"
+             width="69.89766883850098" height="29.0" bgColour="0" itemColour="0"
+             itemColour2="0" borderSize="0.0" enabled="0" visible="0"/>
+  <Component type="ScriptImage" id="Image7" x="830.0" y="511.0" fileName="{PROJECT_FOLDER}linea-horizontal-2.png"
+             width="190.0" height="20.0"/>
+  <Component type="ScriptButton" id="capturePanelButton" x="857.0" y="526.0"
+             filmstripImage="{PROJECT_FOLDER}btn-capture.png" scaleFactor="0.5"
+             width="142.0" height="48.0"/>
+  <Component type="ScriptButton" id="recordButton" x="690.0" y="470.0" width="130.0"
+             height="50.0" text="" saveInPreset="0" filmstripImage="{PROJECT_FOLDER}btn-record.png"
+             scaleFactor="0.5" visible="0"/>
+  <Component type="ScriptButton" id="recordingPlayBtn" x="690.0" y="524.0"
+             width="121.0" height="46.0" text="" saveInPreset="0" filmstripImage="{PROJECT_FOLDER}btn-play.png"
+             scaleFactor="0.5" visible="0"/>
+  <Component type="ScriptImage" id="Image8" x="830.0" y="572.0" fileName="{PROJECT_FOLDER}linea-horizontal-2.png"
+             width="190.0" height="20.0"/>
+  <Component type="ScriptButton" id="settingsButton" x="361.0" y="7.0" saveInPreset="0"
+             filmstripImage="{PROJECT_FOLDER}btn-settings.png" width="150.0"
+             height="50.0" scaleFactor="0.5"/>
+  <Component type="ScriptButton" id="weblinkButton" x="525.0" y="9.0" isMomentary="1"
+             filmstripImage="{PROJECT_FOLDER}btn-web.png" width="150.0" height="50.0"
+             scaleFactor="0.5"/>
+  <Component type="ScriptImage" id="dropOntoImage" x="150.0" y="260.0" fileName="{PROJECT_FOLDER}img-drop.png"
+             width="320.0" height="170.0"/>
+  <Component type="ScriptPanel" id="settingsPanel" x="50.0" y="69.0" width="930.0"
+             height="360.0" itemColour="4280887593" itemColour2="4280887593"
+             borderSize="1.0" visible="0">
+    <Component type="ScriptLabel" id="settingsLabel" x="399.0" y="47.0" parentComponent="settingsPanel"
+               text="Settings" fontName="Atkinson Hyperlegible" fontSize="22.0"
+               textColour="4291217094"/>
+    <Component type="ScriptPanel" id="standaloneSettingPnl" x="70.0" y="91.0"
+               width="800.0" height="230.0" parentComponent="settingsPanel"
+               bgColour="16777215" itemColour="16777215" itemColour2="16777215"
+               textColour="16777215">
+      <Component type="ScriptFloatingTile" id="FloatingTile1" x="-27.0" y="21.0"
+                 parentComponent="standaloneSettingPnl" ContentType="CustomSettings"
+                 bgColour="4278190080" itemColour="0" itemColour2="0" Data="{&#10;  &quot;Driver&quot;: true,&#10;  &quot;Device&quot;: true,&#10;  &quot;Output&quot;: true,&#10;  &quot;BufferSize&quot;: true,&#10;  &quot;SampleRate&quot;: false,&#10;  &quot;GlobalBPM&quot;: false,&#10;  &quot;StreamingMode&quot;: false,&#10;  &quot;ScaleFactor&quot;: false,&#10;  &quot;VoiceAmountMultiplier&quot;: false,&#10;  &quot;ClearMidiCC&quot;: false,&#10;  &quot;SampleLocation&quot;: false,&#10;  &quot;DebugMode&quot;: false,&#10;  &quot;UseOpenGL&quot;: false,&#10;  &quot;ScaleFactorList&quot;: [&#10;    0.5,&#10;    0.75,&#10;    1.0,&#10;    1.25,&#10;    1.5,&#10;    2.0&#10;  ]&#10;}"
+                 width="410.0" height="180.0" Font="Atkinson Hyperlegible" textColour="4290164406"/>
+      <Component type="ScriptFloatingTile" id="FloatingTile2" x="363.0" y="22.0"
+                 parentComponent="standaloneSettingPnl" ContentType="CustomSettings"
+                 bgColour="4278190080" itemColour="0" itemColour2="0" Data="{&#10;  &quot;Driver&quot;: false,&#10;  &quot;Device&quot;: false,&#10;  &quot;Output&quot;: false,&#10;  &quot;BufferSize&quot;: false,&#10;  &quot;SampleRate&quot;: true,&#10;  &quot;GlobalBPM&quot;: false,&#10;  &quot;StreamingMode&quot;: true,&#10;  &quot;ScaleFactor&quot;: true,&#10;  &quot;VoiceAmountMultiplier&quot;: true,&#10;  &quot;ClearMidiCC&quot;: false,&#10;  &quot;SampleLocation&quot;: false,&#10;  &quot;DebugMode&quot;: false,&#10;  &quot;UseOpenGL&quot;: false,&#10;  &quot;ScaleFactorList&quot;: [&#10;    0.5,&#10;    0.75,&#10;    1.0,&#10;    1.25,&#10;    1.5,&#10;    2.0&#10;  ]&#10;}"
+                 width="410.0" height="190.0" Font="Atkinson Hyperlegible" textColour="4290164406"/>
+    </Component>
+    <Component type="ScriptPanel" id="instrumentSettingPnl" x="70.0" y="91.0"
+               width="800.0" height="230.0" parentComponent="settingsPanel"
+               bgColour="16777215" itemColour="16777215" itemColour2="16777215"
+               textColour="16777215" visible="0">
+      <Component type="ScriptFloatingTile" id="FloatingTile4" x="182.0" y="76.0"
+                 parentComponent="instrumentSettingPnl" ContentType="CustomSettings"
+                 bgColour="4278190080" itemColour="0" itemColour2="0" Data="{&#10;  &quot;Driver&quot;: false,&#10;  &quot;Device&quot;: false,&#10;  &quot;Output&quot;: false,&#10;  &quot;BufferSize&quot;: false,&#10;  &quot;SampleRate&quot;: false,&#10;  &quot;GlobalBPM&quot;: false,&#10;  &quot;StreamingMode&quot;: false,&#10;  &quot;ScaleFactor&quot;: true,&#10;  &quot;VoiceAmountMultiplier&quot;: false,&#10;  &quot;ClearMidiCC&quot;: false,&#10;  &quot;SampleLocation&quot;: false,&#10;  &quot;DebugMode&quot;: false,&#10;  &quot;UseOpenGL&quot;: false,&#10;  &quot;ScaleFactorList&quot;: [&#10;    0.5,&#10;    0.75,&#10;    1.0,&#10;    1.25,&#10;    1.5,&#10;    2.0&#10;  ]&#10;}"
+                 width="390.0" height="60.0" Font="Atkinson Hyperlegible" textColour="4290164406"/>
+    </Component>
+  </Component>
+  <Component type="ScriptPanel" id="calmXSlider" x="-40.0" y="-40.0" width="8.0"
+             height="8.0" min="12.0" max="856.0" defaultValue="207.0" stepSize="0.1000000014901161"
+             visible="0" saveInPreset="1" isPluginParameter="1" pluginParameterName="Node 1 X"/>
+  <Component type="ScriptPanel" id="calmYSlider" x="-40.0" y="-40.0" width="8.0"
+             height="8.0" min="56.0" max="464.8999938964844" defaultValue="310.0"
+             stepSize="0.1000000014901161" visible="0" saveInPreset="1" isPluginParameter="1"
+             pluginParameterName="Node 1 Y"/>
+  <Component type="ScriptPanel" id="furyXSlider" x="-40.0" y="-40.0" width="8.0"
+             height="8.0" min="12.0" max="856.0" defaultValue="671.0" stepSize="0.1000000014901161"
+             visible="0" saveInPreset="1" isPluginParameter="1" pluginParameterName="Node 2 X"/>
+  <Component type="ScriptPanel" id="furyYSlider" x="-40.0" y="-40.0" width="8.0"
+             height="8.0" min="56.0" max="464.8999938964844" defaultValue="310.0"
+             stepSize="0.1000000014901161" visible="0" saveInPreset="1" isPluginParameter="1"
+             pluginParameterName="Node 2 Y"/>
+  <Component type="ScriptPanel" id="goldXSlider" x="-40.0" y="-40.0" width="8.0"
+             height="8.0" min="12.0" max="856.0" defaultValue="439.0" stepSize="0.1000000014901161"
+             visible="0" saveInPreset="1" isPluginParameter="1" pluginParameterName="Node 3 X"/>
+  <Component type="ScriptPanel" id="goldYSlider" x="-40.0" y="-40.0" width="8.0"
+             height="8.0" min="56.0" max="464.8999938964844" defaultValue="140.0"
+             stepSize="0.1000000014901161" visible="0" saveInPreset="1" isPluginParameter="1"
+             pluginParameterName="Node 3 Y"/>
+  <Component type="ScriptPanel" id="legalPanel" x="0.0" y="646.0" height="35.0"
+             width="1024.0" borderSize="0.0" borderRadius="0.0" itemColour="4280032284"
+             itemColour2="4280032284">
+    <Component type="ScriptLabel" id="legalLabel" x="50.0" y="1.0" text="Generated audio is royalty-free for personal and commercial use, including music, film, games and advertising. No attribution required. See EULA for full terms."
+               fontName="Atkinson Hyperlegible" editable="0" textColour="4284243036"
+               width="950.0" height="30.0" parentComponent="legalPanel" fontSize="14.0"
+               alignment="left"/>
+    <Component type="ScriptImage" id="infoScriptImage" x="29.0" y="6.0" width="21.0"
+               height="23.0" parentComponent="legalPanel" fileName="{PROJECT_FOLDER}img-info.png"
+               scale="0.300000011920929"/>
+  </Component>
+  <Component type="ScriptImage" id="Image1" x="-22.0" y="631.0" fileName="{PROJECT_FOLDER}hline3.png"
+             width="1090.0" height="30.0"/>
+  <Component type="ScriptImage" id="Image3" x="-22.0" y="440.0" fileName="{PROJECT_FOLDER}hline3.png"
+             width="1090.0" height="30.0"/>
+  <Component type="ScriptPanel" id="maxNodesPanel" x="312.0" y="190.0" width="400.0"
+             height="160.0" bgColour="0" itemColour="0" itemColour2="0" borderSize="0.0"
+             allowCallbacks="Clicks, Hover &amp; Dragging" visible="0">
+    <Component type="ScriptLabel" id="maxNodesLabel" x="20.0" y="28.0" width="360.0"
+               height="48.0" text="You can only use 3 nodes." fontName="Atkinson Hyperlegible"
+               fontSize="18.0" textColour="-221854010" editable="0" parentComponent="maxNodesPanel"/>
+    <Component type="ScriptPanel" id="maxNodesOk" x="150.0" y="100.0" width="100.0"
+               height="36.0" parentComponent="maxNodesPanel" bgColour="0" itemColour="0"
+               itemColour2="0" borderSize="0.0" allowCallbacks="Clicks, Hover &amp; Dragging"/>
+  </Component>
+  <Component type="ScriptPanel" id="cristalPanel" x="20.0" y="10.0" width="980.0"
+             height="650.0" bgColour="16777215" itemColour="16777215" itemColour2="16777215"
+             textColour="16777215" visible="0"/>
+  <Component type="ScriptPanel" id="AuthorisationDialogue" x="213.0" y="130.0"
+             width="590.0" height="351.0" itemColour="4029360939" itemColour2="4029360939"
+             borderRadius="2.0" borderSize="1.0" visible="0">
+    <Component type="ScriptLabel" id="TitleLabel" x="31.0" y="39.0" parentComponent="AuthorisationDialogue"
+               width="521.0" height="53.0" text="Enter your License Key" fontName="Atkinson Hyperlegible"
+               fontSize="33.0" bgColour="16777215" editable="0"/>
+    <Component type="ScriptLabel" id="Description" x="90.0" y="90.0" width="406.0"
+               height="49.0" parentComponent="AuthorisationDialogue" text="Type or paste your license key"
+               multiline="1" fontSize="16.0" editable="0" textColour="4291414473"
+               fontName="Atkinson Hyperlegible"/>
+    <Component type="ScriptLabel" id="SerialInput" x="142.0" y="154.0" width="318.0"
+               height="41.0" parentComponent="AuthorisationDialogue" text=""
+               fontName="Source Code Pro" fontSize="26.0" bgColour="1174405119"
+               textColour="4279440147"/>
+    <Component type="ScriptButton" id="SubmitButton" x="142.0" y="220.0" parentComponent="AuthorisationDialogue"
+               bgColour="4278231260" text="Authorise" width="318.0" isMomentary="1"
+               saveInPreset="0" height="47.0" fontName="Atkinson Hyperlegible"
+               fontSize="18.0" borderRadius="5.0" borderSize="1.0"/>
+  </Component>
+  <Component type="ScriptLabel" id="sessionStateLabel" x="-80.0" y="-80.0"
+             width="8.0" height="8.0" visible="0" editable="0" saveInPreset="1"
+             text="{&#10;  &quot;v&quot;: 1,&#10;  &quot;n1&quot;: {&#10;    &quot;on&quot;: 0,&#10;    &quot;p&quot;: &quot;&quot;,&#10;    &quot;b&quot;: &quot;v6&quot;,&#10;    &quot;id&quot;: &quot;&quot;&#10;  },&#10;  &quot;n2&quot;: {&#10;    &quot;on&quot;: 0,&#10;    &quot;p&quot;: &quot;lighthouse storm&quot;,&#10;    &quot;b&quot;: &quot;v6&quot;,&#10;    &quot;id&quot;: &quot;&quot;&#10;  },&#10;  &quot;n3&quot;: {&#10;    &quot;on&quot;: 0,&#10;    &quot;p&quot;: &quot;ancient ruins&quot;,&#10;    &quot;b&quot;: &quot;v6&quot;,&#10;    &quot;id&quot;: &quot;&quot;&#10;  }&#10;}"
+             fontName="Atkinson Hyperlegible" fontSize="1.0"/>
+  <Component type="ScriptButton" id="recordingClearBtn" x="690.0" y="580.0"
+             width="121.0" height="46.0" text="" saveInPreset="0" filmstripImage="{PROJECT_FOLDER}btn-clear.png"
+             scaleFactor="0.5" isMomentary="1" visible="0"/>
+</ContentProperties>

@@ -1,0 +1,8 @@
+{
+  "model_id": "laion/clap-htsat-unfused",
+  "dim": 512,
+  "n": 5524,
+  "text_encoder": "text_encoder.onnx",
+  "index": "index.bin",
+  "tokenizer": "tokenizer"
+}

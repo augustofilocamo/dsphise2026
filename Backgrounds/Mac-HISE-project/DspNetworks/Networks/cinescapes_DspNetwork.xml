@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Network ID="cinescapes_DspNetwork" Version="0.0.0">
+  <Node FactoryPath="container.chain" ID="cinescapes_DspNetwork" Bypassed="0"
+        Name="cinescapes_DspNetwork" ShowParameters="1">
+    <Nodes>
+      <Node FactoryPath="container.split" ID="zones_split" Bypassed="0" Name="zones_split">
+        <Nodes>
+          <Node ID="ch0_midi" FactoryPath="container.midichain" Bypassed="0"
+                Name="ch0_midi">
+            <Nodes>
+              <Node ID="ch0_stretch" FactoryPath="core.stretch_player" Bypassed="0"
+                    Name="ch0_stretch">
+                <ComplexData>
+                  <AudioFiles>
+                    <AudioFile Index="0" MinValue="12932" MaxValue="427016"/>
+                  </AudioFiles>
+                </ComplexData>
+                <Parameters>
+                  <Parameter MinValue="0.0" MaxValue="1.0" StepSize="1.0" ID="Gate" DefaultValue="0.0"
+                             Automated="1"/>
+                  <Parameter MinValue="0.01" MaxValue="2.0" SkewFactor="0.3" ID="TimeRatio"
+                             DefaultValue="0.1" Automated="1"/>
+                  <Parameter MinValue="-12.0" MaxValue="12.0" ID="Pitch" DefaultValue="0.0"
+                             Automated="1"/>
+                  <Parameter MinValue="0.0" MaxValue="1.0" StepSize="1.0" ID="Enable" Value="1.0"/>
+                  <Parameter MinValue="0.0" MaxValue="1.0" StepSize="1.0" ID="ClockSync" Value="0.0"/>
+                </Parameters>
+              </Node>
+              <Node ID="ch0_haas" FactoryPath="project.haas_width" Bypassed="0" Name="ch0_haas">
+                <Parameters>
+                  <Parameter MinValue="0.0" MaxValue="1000.0" ID="DelayTime" Value="500.0"/>
+                  <Parameter MinValue="0.0" MaxValue="1.0" StepSize="1.0" ID="Gate" DefaultValue="0.0"
+                             Automated="1"/>
+                  <Parameter MinValue="-1.0" MaxValue="1.0" ID="DryPan" DefaultValue="-0.35"
+                             Automated="1"/>
+                  <Parameter MinValue="-1.0" MaxValue="1.0" ID="DelayPan" DefaultValue="0.35"
+                             Automated="1"/>
+                </Parameters>
+              </Node>
+              <Node ID="ch0_gain" FactoryPath="core.gain" Bypassed="0" Name="ch0_gain">
+                <Parameters>
+                  <Parameter MinValue="-100.0" MaxValue="0.0" SkewFactor="0.2" ID="Gain" DefaultValue="0.0"
+                             Automated="1"/>
+                  <Parameter MinValue="0.0" MaxValue="1000.0" SkewFactor="0.2" ID="Smoothing"
+                             Value="400.0"/>
+                  <Parameter MinValue="-100.0" MaxValue="0.0" SkewFactor="0.2" ID="ResetValue"
+                             Value="0.0"/>
+                </Parameters>
+              </Node>
+              <Node ID="ch0_pan" FactoryPath="jdsp.jpanner" Bypassed="0" Name="ch0_pan">
+                <Parameters>
+                  <Parameter MinValue="-1.0" MaxValue="1.0" ID="Pan" DefaultValue="0.0" Automated="1"/>
+                  <Parameter MinValue="0.0" MaxValue="6.0" StepSize="1.0" ID="Rule" Value="1.0"/>
+                </Parameters>
+              </Node>
+            </Nodes>
+            <Parameters/>
+          </Node>
+          <Node ID="fury_midi" FactoryPath="container.midichain" Bypassed="0"
+                Name="fury_midi">
+            <Nodes>
+              <Node ID="fury_stretch" FactoryPath="core.stretch_player" Bypassed="0"
+                    Name="fury_stretch">
+                <ComplexData>
+                  <AudioFiles>
+                    <AudioFile Index="4" MinValue="12932" MaxValue="528140"/>
+                  </AudioFiles>
+                </ComplexData>
+                <Parameters>
+                  <Parameter MinValue="0.0" MaxValue="1.0" StepSize="1.0" ID="Gate" DefaultValue="0.0"
+                             Automated="1"/>
+                  <Parameter MinValue="0.01" MaxValue="2.0" SkewFactor="0.3" ID="TimeRatio"
+                             DefaultValue="0.1" Automated="1"/>
+                  <Parameter MinValue="-12.0" MaxValue="12.0" ID="Pitch" DefaultValue="0.0"
+                             Automated="1"/>
+                  <Parameter MinValue="0.0" MaxValue="1.0" StepSize="1.0" ID="Enable" Value="1.0"/>
+                  <Parameter MinValue="0.0" MaxValue="1.0" StepSize="1.0" ID="ClockSync" Value="0.0"/>
+                </Parameters>
+              </Node>
+              <Node ID="fury_haas" FactoryPath="project.haas_width" Bypassed="0"
+                    Name="fury_haas">
+                <Parameters>
+                  <Parameter MinValue="0.0" MaxValue="1000.0" ID="DelayTime" Value="500.0"/>
+                  <Parameter MinValue="0.0" MaxValue="1.0" StepSize="1.0" ID="Gate" DefaultValue="0.0"
+                             Automated="1"/>
+                  <Parameter MinValue="-1.0" MaxValue="1.0" ID="DryPan" DefaultValue="-0.35"
+                             Automated="1"/>
+                  <Parameter MinValue="-1.0" MaxValue="1.0" ID="DelayPan" DefaultValue="0.35"
+                             Automated="1"/>
+                </Parameters>
+              </Node>
+              <Node ID="fury_gain" FactoryPath="core.gain" Bypassed="0" Name="fury_gain">
+                <Parameters>
+                  <Parameter MinValue="-100.0" MaxValue="0.0" SkewFactor="0.2" ID="Gain" DefaultValue="0.0"
+                             Automated="1"/>
+                  <Parameter MinValue="0.0" MaxValue="1000.0" SkewFactor="0.2" ID="Smoothing"
+                             Value="400.0"/>
+                  <Parameter MinValue="-100.0" MaxValue="0.0" SkewFactor="0.2" ID="ResetValue"
+                             Value="0.0"/>
+                </Parameters>
+              </Node>
+              <Node ID="fury_pan" FactoryPath="jdsp.jpanner" Bypassed="0" Name="fury_pan">
+                <Parameters>
+                  <Parameter MinValue="-1.0" MaxValue="1.0" ID="Pan" DefaultValue="0.0" Automated="1"/>
+                  <Parameter MinValue="0.0" MaxValue="6.0" StepSize="1.0" ID="Rule" Value="1.0"/>
+                </Parameters>
+              </Node>
+            </Nodes>
+            <Parameters/>
+          </Node>
+          <Node ID="gold_midi" FactoryPath="container.midichain" Bypassed="0"
+                Name="gold_midi">
+            <Nodes>
+              <Node ID="gold_stretch" FactoryPath="core.stretch_player" Bypassed="0"
+                    Name="gold_stretch">
+                <ComplexData>
+                  <AudioFiles>
+                    <AudioFile Index="1" MinValue="12932" MaxValue="528140"/>
+                  </AudioFiles>
+                </ComplexData>
+                <Parameters>
+                  <Parameter MinValue="0.0" MaxValue="1.0" StepSize="1.0" ID="Gate" DefaultValue="0.0"
+                             Automated="1"/>
+                  <Parameter MinValue="0.01" MaxValue="2.0" SkewFactor="0.3" ID="TimeRatio"
+                             DefaultValue="0.1" Automated="1"/>
+                  <Parameter MinValue="-12.0" MaxValue="12.0" ID="Pitch" DefaultValue="0.0"
+                             Automated="1"/>
+                  <Parameter MinValue="0.0" MaxValue="1.0" StepSize="1.0" ID="Enable" Value="1.0"/>
+                  <Parameter MinValue="0.0" MaxValue="1.0" StepSize="1.0" ID="ClockSync" Value="0.0"/>
+                </Parameters>
+              </Node>
+              <Node ID="gold_haas" FactoryPath="project.haas_width" Bypassed="0"
+                    Name="gold_haas">
+                <Parameters>
+                  <Parameter MinValue="0.0" MaxValue="1000.0" ID="DelayTime" Value="500.0"/>
+                  <Parameter MinValue="0.0" MaxValue="1.0" StepSize="1.0" ID="Gate" DefaultValue="0.0"
+                             Automated="1"/>
+                  <Parameter MinValue="-1.0" MaxValue="1.0" ID="DryPan" DefaultValue="-0.35"
+                             Automated="1"/>
+                  <Parameter MinValue="-1.0" MaxValue="1.0" ID="DelayPan" DefaultValue="0.35"
+                             Automated="1"/>
+                </Parameters>
+              </Node>
+              <Node ID="gold_gain" FactoryPath="core.gain" Bypassed="0" Name="gold_gain">
+                <Parameters>
+                  <Parameter MinValue="-100.0" MaxValue="0.0" SkewFactor="0.2" ID="Gain" DefaultValue="0.0"
+                             Automated="1"/>
+                  <Parameter MinValue="0.0" MaxValue="1000.0" SkewFactor="0.2" ID="Smoothing"
+                             Value="400.0"/>
+                  <Parameter MinValue="-100.0" MaxValue="0.0" SkewFactor="0.2" ID="ResetValue"
+                             Value="0.0"/>
+                </Parameters>
+              </Node>
+              <Node ID="gold_pan" FactoryPath="jdsp.jpanner" Bypassed="0" Name="gold_pan">
+                <Parameters>
+                  <Parameter MinValue="-1.0" MaxValue="1.0" ID="Pan" DefaultValue="0.0" Automated="1"/>
+                  <Parameter MinValue="0.0" MaxValue="6.0" StepSize="1.0" ID="Rule" Value="1.0"/>
+                </Parameters>
+              </Node>
+            </Nodes>
+            <Parameters/>
+          </Node>
+        </Nodes>
+        <Parameters/>
+      </Node>
+      <Node ID="to_mono" FactoryPath="routing.ms_encode" Bypassed="1" Name="to_mono">
+        <Parameters/>
+      </Node>
+      <Node ID="copy_mid" FactoryPath="core.mono2stereo" Bypassed="1" Name="copy_mid">
+        <Parameters/>
+      </Node>
+      <Node ID="stereo_spread" FactoryPath="project.stereo_spread" Bypassed="1"
+            Name="stereo_spread">
+        <Parameters>
+          <Parameter MinValue="0.0" MaxValue="1.0" ID="Width" DefaultValue="0.35"
+                     Automated="1"/>
+          <Parameter MinValue="2.0" MaxValue="16.0" StepSize="1.0" ID="Order" DefaultValue="8.0"
+                     Automated="1"/>
+        </Parameters>
+      </Node>
+    </Nodes>
+    <Parameters>
+      <Parameter ID="ch0_stretch_gate" MinValue="0.0" MaxValue="1.0" StepSize="1.0"
+                 Value="1.0" DefaultValue="0.0">
+        <Connections>
+          <Connection NodeId="ch0_stretch" ParameterId="Gate"/>
+          <Connection NodeId="fury_stretch" ParameterId="Gate"/>
+          <Connection NodeId="gold_stretch" ParameterId="Gate"/>
+          <Connection NodeId="ch0_haas" ParameterId="Gate"/>
+          <Connection NodeId="fury_haas" ParameterId="Gate"/>
+          <Connection NodeId="gold_haas" ParameterId="Gate"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="ch0_stretch_speed" MinValue="0.01" MaxValue="2.0" SkewFactor="0.3"
+                 Value="0.1455345265952078" DefaultValue="0.1">
+        <Connections>
+          <Connection NodeId="ch0_stretch" ParameterId="TimeRatio"/>
+          <Connection NodeId="fury_stretch" ParameterId="TimeRatio"/>
+          <Connection NodeId="gold_stretch" ParameterId="TimeRatio"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="ch0_stretch_pitch" MinValue="-12.0" MaxValue="12.0" Value="0.0">
+        <Connections>
+          <Connection NodeId="ch0_stretch" ParameterId="Pitch"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="fury_stretch_pitch" MinValue="-12.0" MaxValue="12.0" Value="0.0">
+        <Connections>
+          <Connection NodeId="fury_stretch" ParameterId="Pitch"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="gold_stretch_pitch" MinValue="-12.0" MaxValue="12.0" Value="0.0">
+        <Connections>
+          <Connection NodeId="gold_stretch" ParameterId="Pitch"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="ch0_gain_gain" MinValue="-100.0" MaxValue="0.0" SkewFactor="0.2"
+                 Value="-1.232727766036987" DefaultValue="0.0">
+        <Connections>
+          <Connection NodeId="ch0_gain" ParameterId="Gain"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="ch0_pan_pan" MinValue="-1.0" MaxValue="1.0" Value="-0.02695312537252903"
+                 DefaultValue="0.0">
+        <Connections>
+          <Connection NodeId="ch0_pan" ParameterId="Pan"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="fury_pan_pan" MinValue="-1.0" MaxValue="1.0" Value="0.0">
+        <Connections>
+          <Connection NodeId="fury_pan" ParameterId="Pan"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="gold_pan_pan" MinValue="-1.0" MaxValue="1.0" Value="0.0">
+        <Connections>
+          <Connection NodeId="gold_pan" ParameterId="Pan"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="ch0a_pan_pan" MinValue="-1.0" MaxValue="1.0" Value="-0.3499999940395355"
+                 DefaultValue="-0.35">
+        <Connections>
+          <Connection NodeId="ch0_haas" ParameterId="DryPan"/>
+          <Connection NodeId="fury_haas" ParameterId="DryPan"/>
+          <Connection NodeId="gold_haas" ParameterId="DryPan"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="ch0b_pan_pan" MinValue="-1.0" MaxValue="1.0" Value="0.3499999940395355"
+                 DefaultValue="0.35">
+        <Connections>
+          <Connection NodeId="ch0_haas" ParameterId="DelayPan"/>
+          <Connection NodeId="fury_haas" ParameterId="DelayPan"/>
+          <Connection NodeId="gold_haas" ParameterId="DelayPan"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="fury_gain_gain" MinValue="-100.0" MaxValue="0.0" SkewFactor="0.2"
+                 Value="-100.0" DefaultValue="0.0">
+        <Connections>
+          <Connection NodeId="fury_gain" ParameterId="Gain"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="gold_gain_gain" MinValue="-100.0" MaxValue="0.0" SkewFactor="0.2"
+                 Value="-100.0" DefaultValue="0.0">
+        <Connections>
+          <Connection NodeId="gold_gain" ParameterId="Gain"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="stereo_spread_width" MinValue="0.0" MaxValue="1.0" Value="1.0"
+                 DefaultValue="0.35">
+        <Connections>
+          <Connection NodeId="stereo_spread" ParameterId="Width"/>
+        </Connections>
+      </Parameter>
+      <Parameter ID="stereo_spread_order" MinValue="2.0" MaxValue="16.0" StepSize="1.0"
+                 Value="9.0" DefaultValue="8.0">
+        <Connections>
+          <Connection NodeId="stereo_spread" ParameterId="Order"/>
+        </Connections>
+      </Parameter>
+    </Parameters>
+  </Node>
+</Network>

@@ -1,0 +1,5 @@
+This directory vendors a subset of Mutable Instruments Clouds DSP and stmlib
+(MIT License, Copyright Emilie Gillet).
+
+Product branding must NOT use the names "Mutable Instruments" or "Clouds".
+See https://github.com/pichenettes/eurorack

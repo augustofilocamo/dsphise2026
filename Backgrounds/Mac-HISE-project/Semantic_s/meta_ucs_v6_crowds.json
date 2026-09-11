@@ -1,0 +1,1848 @@
+[
+  {
+    "id": "v6crd_ato_crd_applause_0001",
+    "family": "ATOM",
+    "ucs": "CRD_APPLAUSE",
+    "tag": "v6crd,crd_applause,applause_big_hall_short",
+    "tags": [
+      "v6crd",
+      "crd_applause",
+      "applause_big_hall_short"
+    ],
+    "prompt": "sfx applause big hall short, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_applause_0001.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_applause_0003",
+    "family": "ATOM",
+    "ucs": "CRD_APPLAUSE",
+    "tag": "v6crd,crd_applause,applause_polite_short",
+    "tags": [
+      "v6crd",
+      "crd_applause",
+      "applause_polite_short"
+    ],
+    "prompt": "sfx applause polite short, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_applause_0003.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_applause_0004",
+    "family": "ATOM",
+    "ucs": "CRD_APPLAUSE",
+    "tag": "v6crd,crd_applause,applause_short_burst",
+    "tags": [
+      "v6crd",
+      "crd_applause",
+      "applause_short_burst"
+    ],
+    "prompt": "sfx applause short burst, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_applause_0004.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_applause_0005",
+    "family": "ATOM",
+    "ucs": "CRD_APPLAUSE",
+    "tag": "v6crd,crd_applause,applause_soft",
+    "tags": [
+      "v6crd",
+      "crd_applause",
+      "applause_soft"
+    ],
+    "prompt": "sfx applause soft, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_applause_0005.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_applause_0006",
+    "family": "ATOM",
+    "ucs": "CRD_APPLAUSE",
+    "tag": "v6crd,crd_applause,single_clap_accent",
+    "tags": [
+      "v6crd",
+      "crd_applause",
+      "single_clap_accent"
+    ],
+    "prompt": "sfx single clap accent, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_applause_0006.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_market_0002",
+    "family": "ATOM",
+    "ucs": "CRD_MARKET",
+    "tag": "v6crd,crd_market,pad_close,close_bazaar_crowd_murmur",
+    "tags": [
+      "v6crd",
+      "crd_market",
+      "pad_close",
+      "close_bazaar_crowd_murmur"
+    ],
+    "prompt": "sfx close bazaar crowd murmur, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_market_0002.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_market_0003",
+    "family": "ATOM",
+    "ucs": "CRD_MARKET",
+    "tag": "v6crd,crd_market,close,close_market_crowd_walla",
+    "tags": [
+      "v6crd",
+      "crd_market",
+      "close",
+      "close_market_crowd_walla"
+    ],
+    "prompt": "sfx close market crowd walla, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_market_0003.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_market_0004",
+    "family": "ATOM",
+    "ucs": "CRD_MARKET",
+    "tag": "v6crd,crd_market,pad_close,close_street_market_soft_wal",
+    "tags": [
+      "v6crd",
+      "crd_market",
+      "pad_close",
+      "close_street_market_soft_wal"
+    ],
+    "prompt": "sfx close street market soft walla, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_market_0004.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_market_0005",
+    "family": "ATOM",
+    "ucs": "CRD_MARKET",
+    "tag": "v6crd,crd_market,distant,distant_bazaar_crowd_murmur",
+    "tags": [
+      "v6crd",
+      "crd_market",
+      "distant",
+      "distant_bazaar_crowd_murmur"
+    ],
+    "prompt": "sfx distant bazaar crowd murmur, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_market_0005.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_market_0006",
+    "family": "ATOM",
+    "ucs": "CRD_MARKET",
+    "tag": "v6crd,crd_market,distant,distant_market_crowd_walla",
+    "tags": [
+      "v6crd",
+      "crd_market",
+      "distant",
+      "distant_market_crowd_walla"
+    ],
+    "prompt": "sfx distant market crowd walla, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_market_0006.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_market_0007",
+    "family": "ATOM",
+    "ucs": "CRD_MARKET",
+    "tag": "v6crd,crd_market,distant,distant_street_market_soft_w",
+    "tags": [
+      "v6crd",
+      "crd_market",
+      "distant",
+      "distant_street_market_soft_w"
+    ],
+    "prompt": "sfx distant street market soft walla, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_market_0007.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_market_0008",
+    "family": "ATOM",
+    "ucs": "CRD_MARKET",
+    "tag": "v6crd,crd_market,dry,dry_bazaar_crowd_murmur",
+    "tags": [
+      "v6crd",
+      "crd_market",
+      "dry",
+      "dry_bazaar_crowd_murmur"
+    ],
+    "prompt": "sfx dry bazaar crowd murmur, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_market_0008.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_market_0009",
+    "family": "ATOM",
+    "ucs": "CRD_MARKET",
+    "tag": "v6crd,crd_market,pad_dry,dry_market_crowd_walla",
+    "tags": [
+      "v6crd",
+      "crd_market",
+      "pad_dry",
+      "dry_market_crowd_walla"
+    ],
+    "prompt": "sfx dry market crowd walla, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_market_0009.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_market_0010",
+    "family": "ATOM",
+    "ucs": "CRD_MARKET",
+    "tag": "v6crd,crd_market,pad_dry,dry_street_market_soft_walla",
+    "tags": [
+      "v6crd",
+      "crd_market",
+      "pad_dry",
+      "dry_street_market_soft_walla"
+    ],
+    "prompt": "sfx dry street market soft walla, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_market_0010.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_market_0011",
+    "family": "ATOM",
+    "ucs": "CRD_MARKET",
+    "tag": "v6crd,crd_market,pad_low,low_bazaar_crowd_murmur",
+    "tags": [
+      "v6crd",
+      "crd_market",
+      "pad_low",
+      "low_bazaar_crowd_murmur"
+    ],
+    "prompt": "sfx low bazaar crowd murmur, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_market_0011.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_market_0012",
+    "family": "ATOM",
+    "ucs": "CRD_MARKET",
+    "tag": "v6crd,crd_market,low,low_market_crowd_walla",
+    "tags": [
+      "v6crd",
+      "crd_market",
+      "low",
+      "low_market_crowd_walla"
+    ],
+    "prompt": "sfx low market crowd walla, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_market_0012.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_market_0013",
+    "family": "ATOM",
+    "ucs": "CRD_MARKET",
+    "tag": "v6crd,crd_market,low,low_street_market_soft_walla",
+    "tags": [
+      "v6crd",
+      "crd_market",
+      "low",
+      "low_street_market_soft_walla"
+    ],
+    "prompt": "sfx low street market soft walla, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_market_0013.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_market_0014",
+    "family": "ATOM",
+    "ucs": "CRD_MARKET",
+    "tag": "v6crd,crd_market,market_crowd_walla",
+    "tags": [
+      "v6crd",
+      "crd_market",
+      "market_crowd_walla"
+    ],
+    "prompt": "sfx market crowd walla, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_market_0014.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_market_0015",
+    "family": "ATOM",
+    "ucs": "CRD_MARKET",
+    "tag": "v6crd,crd_market,quiet,quiet_bazaar_crowd_murmur",
+    "tags": [
+      "v6crd",
+      "crd_market",
+      "quiet",
+      "quiet_bazaar_crowd_murmur"
+    ],
+    "prompt": "sfx quiet bazaar crowd murmur, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_market_0015.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_market_0017",
+    "family": "ATOM",
+    "ucs": "CRD_MARKET",
+    "tag": "v6crd,crd_market,quiet,quiet_street_market_soft_wal",
+    "tags": [
+      "v6crd",
+      "crd_market",
+      "quiet",
+      "quiet_street_market_soft_wal"
+    ],
+    "prompt": "sfx quiet street market soft walla, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_market_0017.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_market_0018",
+    "family": "ATOM",
+    "ucs": "CRD_MARKET",
+    "tag": "v6crd,crd_market,soft,soft_bazaar_crowd_murmur",
+    "tags": [
+      "v6crd",
+      "crd_market",
+      "soft",
+      "soft_bazaar_crowd_murmur"
+    ],
+    "prompt": "sfx soft bazaar crowd murmur, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_market_0018.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_market_0019",
+    "family": "ATOM",
+    "ucs": "CRD_MARKET",
+    "tag": "v6crd,crd_market,soft,soft_market_crowd_walla",
+    "tags": [
+      "v6crd",
+      "crd_market",
+      "soft",
+      "soft_market_crowd_walla"
+    ],
+    "prompt": "sfx soft market crowd walla, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_market_0019.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_market_0020",
+    "family": "ATOM",
+    "ucs": "CRD_MARKET",
+    "tag": "v6crd,crd_market,soft,soft_street_market_soft_wall",
+    "tags": [
+      "v6crd",
+      "crd_market",
+      "soft",
+      "soft_street_market_soft_wall"
+    ],
+    "prompt": "sfx soft street market soft walla, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_market_0020.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_market_0021",
+    "family": "ATOM",
+    "ucs": "CRD_MARKET",
+    "tag": "v6crd,crd_market,street_market_soft_walla",
+    "tags": [
+      "v6crd",
+      "crd_market",
+      "street_market_soft_walla"
+    ],
+    "prompt": "sfx street market soft walla, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_market_0021.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_party_0001",
+    "family": "ATOM",
+    "ucs": "CRD_PARTY",
+    "tag": "v6crd,crd_party,bar_crowd_murmur",
+    "tags": [
+      "v6crd",
+      "crd_party",
+      "bar_crowd_murmur"
+    ],
+    "prompt": "sfx bar crowd murmur, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_party_0001.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_party_0002",
+    "family": "ATOM",
+    "ucs": "CRD_PARTY",
+    "tag": "v6crd,crd_party,close,close_bar_crowd_murmur",
+    "tags": [
+      "v6crd",
+      "crd_party",
+      "close",
+      "close_bar_crowd_murmur"
+    ],
+    "prompt": "sfx close bar crowd murmur, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_party_0002.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_party_0003",
+    "family": "ATOM",
+    "ucs": "CRD_PARTY",
+    "tag": "v6crd,crd_party,close,close_nightclub_crowd_wash_n",
+    "tags": [
+      "v6crd",
+      "crd_party",
+      "close",
+      "close_nightclub_crowd_wash_n"
+    ],
+    "prompt": "sfx close nightclub crowd wash no music, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_party_0003.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_party_0004",
+    "family": "ATOM",
+    "ucs": "CRD_PARTY",
+    "tag": "v6crd,crd_party,close,close_party_cheer_short",
+    "tags": [
+      "v6crd",
+      "crd_party",
+      "close",
+      "close_party_cheer_short"
+    ],
+    "prompt": "sfx close party cheer short, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_party_0004.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_party_0005",
+    "family": "ATOM",
+    "ucs": "CRD_PARTY",
+    "tag": "v6crd,crd_party,close,close_party_crowd_walla_musi",
+    "tags": [
+      "v6crd",
+      "crd_party",
+      "close",
+      "close_party_crowd_walla_musi"
+    ],
+    "prompt": "sfx close party crowd walla musicless, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_party_0005.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_party_0006",
+    "family": "ATOM",
+    "ucs": "CRD_PARTY",
+    "tag": "v6crd,crd_party,close,close_toast_cheer_short",
+    "tags": [
+      "v6crd",
+      "crd_party",
+      "close",
+      "close_toast_cheer_short"
+    ],
+    "prompt": "sfx close toast cheer short, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_party_0006.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_party_0007",
+    "family": "ATOM",
+    "ucs": "CRD_PARTY",
+    "tag": "v6crd,crd_party,distant,distant_bar_crowd_murmur",
+    "tags": [
+      "v6crd",
+      "crd_party",
+      "distant",
+      "distant_bar_crowd_murmur"
+    ],
+    "prompt": "sfx distant bar crowd murmur, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_party_0007.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_party_0009",
+    "family": "ATOM",
+    "ucs": "CRD_PARTY",
+    "tag": "v6crd,crd_party,distant,distant_party_cheer_short",
+    "tags": [
+      "v6crd",
+      "crd_party",
+      "distant",
+      "distant_party_cheer_short"
+    ],
+    "prompt": "sfx distant party cheer short, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_party_0009.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_party_0010",
+    "family": "ATOM",
+    "ucs": "CRD_PARTY",
+    "tag": "v6crd,crd_party,pad_distant,distant_party_crowd_walla_mu",
+    "tags": [
+      "v6crd",
+      "crd_party",
+      "pad_distant",
+      "distant_party_crowd_walla_mu"
+    ],
+    "prompt": "sfx distant party crowd walla musicless, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_party_0010.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_party_0011",
+    "family": "ATOM",
+    "ucs": "CRD_PARTY",
+    "tag": "v6crd,crd_party,pad_distant,distant_toast_cheer_short",
+    "tags": [
+      "v6crd",
+      "crd_party",
+      "pad_distant",
+      "distant_toast_cheer_short"
+    ],
+    "prompt": "sfx distant toast cheer short, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_party_0011.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_party_0012",
+    "family": "ATOM",
+    "ucs": "CRD_PARTY",
+    "tag": "v6crd,crd_party,dry,dry_bar_crowd_murmur",
+    "tags": [
+      "v6crd",
+      "crd_party",
+      "dry",
+      "dry_bar_crowd_murmur"
+    ],
+    "prompt": "sfx dry bar crowd murmur, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_party_0012.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_party_0013",
+    "family": "ATOM",
+    "ucs": "CRD_PARTY",
+    "tag": "v6crd,crd_party,dry,dry_nightclub_crowd_wash_no_",
+    "tags": [
+      "v6crd",
+      "crd_party",
+      "dry",
+      "dry_nightclub_crowd_wash_no_"
+    ],
+    "prompt": "sfx dry nightclub crowd wash no music, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_party_0013.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_party_0014",
+    "family": "ATOM",
+    "ucs": "CRD_PARTY",
+    "tag": "v6crd,crd_party,dry,dry_party_cheer_short",
+    "tags": [
+      "v6crd",
+      "crd_party",
+      "dry",
+      "dry_party_cheer_short"
+    ],
+    "prompt": "sfx dry party cheer short, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_party_0014.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_party_0015",
+    "family": "ATOM",
+    "ucs": "CRD_PARTY",
+    "tag": "v6crd,crd_party,dry,dry_party_crowd_walla_musicl",
+    "tags": [
+      "v6crd",
+      "crd_party",
+      "dry",
+      "dry_party_crowd_walla_musicl"
+    ],
+    "prompt": "sfx dry party crowd walla musicless, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_party_0015.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_party_0016",
+    "family": "ATOM",
+    "ucs": "CRD_PARTY",
+    "tag": "v6crd,crd_party,dry,dry_toast_cheer_short",
+    "tags": [
+      "v6crd",
+      "crd_party",
+      "dry",
+      "dry_toast_cheer_short"
+    ],
+    "prompt": "sfx dry toast cheer short, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_party_0016.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_party_0017",
+    "family": "ATOM",
+    "ucs": "CRD_PARTY",
+    "tag": "v6crd,crd_party,low,low_bar_crowd_murmur",
+    "tags": [
+      "v6crd",
+      "crd_party",
+      "low",
+      "low_bar_crowd_murmur"
+    ],
+    "prompt": "sfx low bar crowd murmur, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_party_0017.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_party_0018",
+    "family": "ATOM",
+    "ucs": "CRD_PARTY",
+    "tag": "v6crd,crd_party,pad_low,low_nightclub_crowd_wash_no_",
+    "tags": [
+      "v6crd",
+      "crd_party",
+      "pad_low",
+      "low_nightclub_crowd_wash_no_"
+    ],
+    "prompt": "sfx low nightclub crowd wash no music, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_party_0018.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_party_0019",
+    "family": "ATOM",
+    "ucs": "CRD_PARTY",
+    "tag": "v6crd,crd_party,low,low_party_cheer_short",
+    "tags": [
+      "v6crd",
+      "crd_party",
+      "low",
+      "low_party_cheer_short"
+    ],
+    "prompt": "sfx low party cheer short, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_party_0019.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_party_0020",
+    "family": "ATOM",
+    "ucs": "CRD_PARTY",
+    "tag": "v6crd,crd_party,low,low_party_crowd_walla_musicl",
+    "tags": [
+      "v6crd",
+      "crd_party",
+      "low",
+      "low_party_crowd_walla_musicl"
+    ],
+    "prompt": "sfx low party crowd walla musicless, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_party_0020.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_party_0021",
+    "family": "ATOM",
+    "ucs": "CRD_PARTY",
+    "tag": "v6crd,crd_party,low,low_toast_cheer_short",
+    "tags": [
+      "v6crd",
+      "crd_party",
+      "low",
+      "low_toast_cheer_short"
+    ],
+    "prompt": "sfx low toast cheer short, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_party_0021.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_party_0022",
+    "family": "ATOM",
+    "ucs": "CRD_PARTY",
+    "tag": "v6crd,crd_party,nightclub_crowd_wash_no_musi",
+    "tags": [
+      "v6crd",
+      "crd_party",
+      "nightclub_crowd_wash_no_musi"
+    ],
+    "prompt": "sfx nightclub crowd wash no music, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_party_0022.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_party_0023",
+    "family": "ATOM",
+    "ucs": "CRD_PARTY",
+    "tag": "v6crd,crd_party,party_cheer_short",
+    "tags": [
+      "v6crd",
+      "crd_party",
+      "party_cheer_short"
+    ],
+    "prompt": "sfx party cheer short, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_party_0023.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_party_0025",
+    "family": "ATOM",
+    "ucs": "CRD_PARTY",
+    "tag": "v6crd,crd_party,pad_quiet,quiet_bar_crowd_murmur",
+    "tags": [
+      "v6crd",
+      "crd_party",
+      "pad_quiet",
+      "quiet_bar_crowd_murmur"
+    ],
+    "prompt": "sfx quiet bar crowd murmur, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_party_0025.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_party_0026",
+    "family": "ATOM",
+    "ucs": "CRD_PARTY",
+    "tag": "v6crd,crd_party,quiet,quiet_nightclub_crowd_wash_n",
+    "tags": [
+      "v6crd",
+      "crd_party",
+      "quiet",
+      "quiet_nightclub_crowd_wash_n"
+    ],
+    "prompt": "sfx quiet nightclub crowd wash no music, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_party_0026.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_party_0027",
+    "family": "ATOM",
+    "ucs": "CRD_PARTY",
+    "tag": "v6crd,crd_party,pad_quiet,quiet_party_cheer_short",
+    "tags": [
+      "v6crd",
+      "crd_party",
+      "pad_quiet",
+      "quiet_party_cheer_short"
+    ],
+    "prompt": "sfx quiet party cheer short, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_party_0027.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_party_0028",
+    "family": "ATOM",
+    "ucs": "CRD_PARTY",
+    "tag": "v6crd,crd_party,pad_quiet,quiet_party_crowd_walla_musi",
+    "tags": [
+      "v6crd",
+      "crd_party",
+      "pad_quiet",
+      "quiet_party_crowd_walla_musi"
+    ],
+    "prompt": "sfx quiet party crowd walla musicless, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_party_0028.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_party_0029",
+    "family": "ATOM",
+    "ucs": "CRD_PARTY",
+    "tag": "v6crd,crd_party,pad_quiet,quiet_toast_cheer_short",
+    "tags": [
+      "v6crd",
+      "crd_party",
+      "pad_quiet",
+      "quiet_toast_cheer_short"
+    ],
+    "prompt": "sfx quiet toast cheer short, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_party_0029.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_party_0030",
+    "family": "ATOM",
+    "ucs": "CRD_PARTY",
+    "tag": "v6crd,crd_party,soft,soft_bar_crowd_murmur",
+    "tags": [
+      "v6crd",
+      "crd_party",
+      "soft",
+      "soft_bar_crowd_murmur"
+    ],
+    "prompt": "sfx soft bar crowd murmur, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_party_0030.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_party_0031",
+    "family": "ATOM",
+    "ucs": "CRD_PARTY",
+    "tag": "v6crd,crd_party,soft,soft_nightclub_crowd_wash_no",
+    "tags": [
+      "v6crd",
+      "crd_party",
+      "soft",
+      "soft_nightclub_crowd_wash_no"
+    ],
+    "prompt": "sfx soft nightclub crowd wash no music, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_party_0031.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_party_0032",
+    "family": "ATOM",
+    "ucs": "CRD_PARTY",
+    "tag": "v6crd,crd_party,soft,soft_party_cheer_short",
+    "tags": [
+      "v6crd",
+      "crd_party",
+      "soft",
+      "soft_party_cheer_short"
+    ],
+    "prompt": "sfx soft party cheer short, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_party_0032.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_party_0033",
+    "family": "ATOM",
+    "ucs": "CRD_PARTY",
+    "tag": "v6crd,crd_party,soft,soft_party_crowd_walla_music",
+    "tags": [
+      "v6crd",
+      "crd_party",
+      "soft",
+      "soft_party_crowd_walla_music"
+    ],
+    "prompt": "sfx soft party crowd walla musicless, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_party_0033.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_party_0034",
+    "family": "ATOM",
+    "ucs": "CRD_PARTY",
+    "tag": "v6crd,crd_party,soft,soft_toast_cheer_short",
+    "tags": [
+      "v6crd",
+      "crd_party",
+      "soft",
+      "soft_toast_cheer_short"
+    ],
+    "prompt": "sfx soft toast cheer short, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_party_0034.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_party_0035",
+    "family": "ATOM",
+    "ucs": "CRD_PARTY",
+    "tag": "v6crd,crd_party,toast_cheer_short",
+    "tags": [
+      "v6crd",
+      "crd_party",
+      "toast_cheer_short"
+    ],
+    "prompt": "sfx toast cheer short, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_party_0035.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_protest_0001",
+    "family": "ATOM",
+    "ucs": "CRD_PROTEST",
+    "tag": "v6crd,crd_protest,close,close_crowd_chant_burst_shor",
+    "tags": [
+      "v6crd",
+      "crd_protest",
+      "close",
+      "close_crowd_chant_burst_shor"
+    ],
+    "prompt": "sfx close crowd chant burst short, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_protest_0001.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_protest_0002",
+    "family": "ATOM",
+    "ucs": "CRD_PROTEST",
+    "tag": "v6crd,crd_protest,close,close_protest_cheer_burst",
+    "tags": [
+      "v6crd",
+      "crd_protest",
+      "close",
+      "close_protest_cheer_burst"
+    ],
+    "prompt": "sfx close protest cheer burst, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_protest_0002.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_protest_0003",
+    "family": "ATOM",
+    "ucs": "CRD_PROTEST",
+    "tag": "v6crd,crd_protest,pad_close,close_protest_crowd_chant_wa",
+    "tags": [
+      "v6crd",
+      "crd_protest",
+      "pad_close",
+      "close_protest_crowd_chant_wa"
+    ],
+    "prompt": "sfx close protest crowd chant wash nonlexical, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_protest_0003.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_protest_0004",
+    "family": "ATOM",
+    "ucs": "CRD_PROTEST",
+    "tag": "v6crd,crd_protest,close,close_rally_crowd_murmur",
+    "tags": [
+      "v6crd",
+      "crd_protest",
+      "close",
+      "close_rally_crowd_murmur"
+    ],
+    "prompt": "sfx close rally crowd murmur, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_protest_0004.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_protest_0005",
+    "family": "ATOM",
+    "ucs": "CRD_PROTEST",
+    "tag": "v6crd,crd_protest,crowd_chant_burst_short",
+    "tags": [
+      "v6crd",
+      "crd_protest",
+      "crowd_chant_burst_short"
+    ],
+    "prompt": "sfx crowd chant burst short, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_protest_0005.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_protest_0006",
+    "family": "ATOM",
+    "ucs": "CRD_PROTEST",
+    "tag": "v6crd,crd_protest,distant,distant_crowd_chant_burst_sh",
+    "tags": [
+      "v6crd",
+      "crd_protest",
+      "distant",
+      "distant_crowd_chant_burst_sh"
+    ],
+    "prompt": "sfx distant crowd chant burst short, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_protest_0006.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_protest_0007",
+    "family": "ATOM",
+    "ucs": "CRD_PROTEST",
+    "tag": "v6crd,crd_protest,distant,distant_protest_cheer_burst",
+    "tags": [
+      "v6crd",
+      "crd_protest",
+      "distant",
+      "distant_protest_cheer_burst"
+    ],
+    "prompt": "sfx distant protest cheer burst, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_protest_0007.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_protest_0008",
+    "family": "ATOM",
+    "ucs": "CRD_PROTEST",
+    "tag": "v6crd,crd_protest,distant,distant_protest_crowd_chant_",
+    "tags": [
+      "v6crd",
+      "crd_protest",
+      "distant",
+      "distant_protest_crowd_chant_"
+    ],
+    "prompt": "sfx distant protest crowd chant wash nonlexical, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_protest_0008.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_protest_0009",
+    "family": "ATOM",
+    "ucs": "CRD_PROTEST",
+    "tag": "v6crd,crd_protest,distant,distant_rally_crowd_murmur",
+    "tags": [
+      "v6crd",
+      "crd_protest",
+      "distant",
+      "distant_rally_crowd_murmur"
+    ],
+    "prompt": "sfx distant rally crowd murmur, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_protest_0009.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_protest_0010",
+    "family": "ATOM",
+    "ucs": "CRD_PROTEST",
+    "tag": "v6crd,crd_protest,pad_dry,dry_crowd_chant_burst_short",
+    "tags": [
+      "v6crd",
+      "crd_protest",
+      "pad_dry",
+      "dry_crowd_chant_burst_short"
+    ],
+    "prompt": "sfx dry crowd chant burst short, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_protest_0010.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_protest_0011",
+    "family": "ATOM",
+    "ucs": "CRD_PROTEST",
+    "tag": "v6crd,crd_protest,dry,dry_protest_cheer_burst",
+    "tags": [
+      "v6crd",
+      "crd_protest",
+      "dry",
+      "dry_protest_cheer_burst"
+    ],
+    "prompt": "sfx dry protest cheer burst, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_protest_0011.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_protest_0012",
+    "family": "ATOM",
+    "ucs": "CRD_PROTEST",
+    "tag": "v6crd,crd_protest,pad_dry,dry_protest_crowd_chant_wash",
+    "tags": [
+      "v6crd",
+      "crd_protest",
+      "pad_dry",
+      "dry_protest_crowd_chant_wash"
+    ],
+    "prompt": "sfx dry protest crowd chant wash nonlexical, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_protest_0012.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_protest_0013",
+    "family": "ATOM",
+    "ucs": "CRD_PROTEST",
+    "tag": "v6crd,crd_protest,pad_dry,dry_rally_crowd_murmur",
+    "tags": [
+      "v6crd",
+      "crd_protest",
+      "pad_dry",
+      "dry_rally_crowd_murmur"
+    ],
+    "prompt": "sfx dry rally crowd murmur, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_protest_0013.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_protest_0014",
+    "family": "ATOM",
+    "ucs": "CRD_PROTEST",
+    "tag": "v6crd,crd_protest,low,low_crowd_chant_burst_short",
+    "tags": [
+      "v6crd",
+      "crd_protest",
+      "low",
+      "low_crowd_chant_burst_short"
+    ],
+    "prompt": "sfx low crowd chant burst short, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_protest_0014.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_protest_0015",
+    "family": "ATOM",
+    "ucs": "CRD_PROTEST",
+    "tag": "v6crd,crd_protest,pad_low,low_protest_cheer_burst",
+    "tags": [
+      "v6crd",
+      "crd_protest",
+      "pad_low",
+      "low_protest_cheer_burst"
+    ],
+    "prompt": "sfx low protest cheer burst, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_protest_0015.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_protest_0016",
+    "family": "ATOM",
+    "ucs": "CRD_PROTEST",
+    "tag": "v6crd,crd_protest,low,low_protest_crowd_chant_wash",
+    "tags": [
+      "v6crd",
+      "crd_protest",
+      "low",
+      "low_protest_crowd_chant_wash"
+    ],
+    "prompt": "sfx low protest crowd chant wash nonlexical, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_protest_0016.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_protest_0017",
+    "family": "ATOM",
+    "ucs": "CRD_PROTEST",
+    "tag": "v6crd,crd_protest,low,low_rally_crowd_murmur",
+    "tags": [
+      "v6crd",
+      "crd_protest",
+      "low",
+      "low_rally_crowd_murmur"
+    ],
+    "prompt": "sfx low rally crowd murmur, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_protest_0017.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_protest_0018",
+    "family": "ATOM",
+    "ucs": "CRD_PROTEST",
+    "tag": "v6crd,crd_protest,protest_cheer_burst",
+    "tags": [
+      "v6crd",
+      "crd_protest",
+      "protest_cheer_burst"
+    ],
+    "prompt": "sfx protest cheer burst, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_protest_0018.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_protest_0019",
+    "family": "ATOM",
+    "ucs": "CRD_PROTEST",
+    "tag": "v6crd,crd_protest,protest_crowd_chant_wash_non",
+    "tags": [
+      "v6crd",
+      "crd_protest",
+      "protest_crowd_chant_wash_non"
+    ],
+    "prompt": "sfx protest crowd chant wash nonlexical, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_protest_0019.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_protest_0020",
+    "family": "ATOM",
+    "ucs": "CRD_PROTEST",
+    "tag": "v6crd,crd_protest,quiet,quiet_crowd_chant_burst_shor",
+    "tags": [
+      "v6crd",
+      "crd_protest",
+      "quiet",
+      "quiet_crowd_chant_burst_shor"
+    ],
+    "prompt": "sfx quiet crowd chant burst short, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_protest_0020.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_protest_0021",
+    "family": "ATOM",
+    "ucs": "CRD_PROTEST",
+    "tag": "v6crd,crd_protest,quiet,quiet_protest_cheer_burst",
+    "tags": [
+      "v6crd",
+      "crd_protest",
+      "quiet",
+      "quiet_protest_cheer_burst"
+    ],
+    "prompt": "sfx quiet protest cheer burst, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_protest_0021.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_protest_0022",
+    "family": "ATOM",
+    "ucs": "CRD_PROTEST",
+    "tag": "v6crd,crd_protest,quiet,quiet_protest_crowd_chant_wa",
+    "tags": [
+      "v6crd",
+      "crd_protest",
+      "quiet",
+      "quiet_protest_crowd_chant_wa"
+    ],
+    "prompt": "sfx quiet protest crowd chant wash nonlexical, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_protest_0022.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_protest_0024",
+    "family": "ATOM",
+    "ucs": "CRD_PROTEST",
+    "tag": "v6crd,crd_protest,rally_crowd_murmur",
+    "tags": [
+      "v6crd",
+      "crd_protest",
+      "rally_crowd_murmur"
+    ],
+    "prompt": "sfx rally crowd murmur, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_protest_0024.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_protest_0025",
+    "family": "ATOM",
+    "ucs": "CRD_PROTEST",
+    "tag": "v6crd,crd_protest,soft,soft_crowd_chant_burst_short",
+    "tags": [
+      "v6crd",
+      "crd_protest",
+      "soft",
+      "soft_crowd_chant_burst_short"
+    ],
+    "prompt": "sfx soft crowd chant burst short, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_protest_0025.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_protest_0026",
+    "family": "ATOM",
+    "ucs": "CRD_PROTEST",
+    "tag": "v6crd,crd_protest,pad_soft,soft_protest_cheer_burst",
+    "tags": [
+      "v6crd",
+      "crd_protest",
+      "pad_soft",
+      "soft_protest_cheer_burst"
+    ],
+    "prompt": "sfx soft protest cheer burst, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_protest_0026.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_protest_0027",
+    "family": "ATOM",
+    "ucs": "CRD_PROTEST",
+    "tag": "v6crd,crd_protest,soft,soft_protest_crowd_chant_was",
+    "tags": [
+      "v6crd",
+      "crd_protest",
+      "soft",
+      "soft_protest_crowd_chant_was"
+    ],
+    "prompt": "sfx soft protest crowd chant wash nonlexical, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_protest_0027.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_protest_0028",
+    "family": "ATOM",
+    "ucs": "CRD_PROTEST",
+    "tag": "v6crd,crd_protest,soft,soft_rally_crowd_murmur",
+    "tags": [
+      "v6crd",
+      "crd_protest",
+      "soft",
+      "soft_rally_crowd_murmur"
+    ],
+    "prompt": "sfx soft rally crowd murmur, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_protest_0028.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_quiet_0001",
+    "family": "ATOM",
+    "ucs": "CRD_QUIET",
+    "tag": "v6crd,crd_quiet,church_congregation_soft_mur",
+    "tags": [
+      "v6crd",
+      "crd_quiet",
+      "church_congregation_soft_mur"
+    ],
+    "prompt": "sfx church congregation soft murmur, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_quiet_0001.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_quiet_0002",
+    "family": "ATOM",
+    "ucs": "CRD_QUIET",
+    "tag": "v6crd,crd_quiet,close,close_church_congregation_so",
+    "tags": [
+      "v6crd",
+      "crd_quiet",
+      "close",
+      "close_church_congregation_so"
+    ],
+    "prompt": "sfx close church congregation soft murmur, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_quiet_0002.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_quiet_0003",
+    "family": "ATOM",
+    "ucs": "CRD_QUIET",
+    "tag": "v6crd,crd_quiet,close,close_library_soft_presence_",
+    "tags": [
+      "v6crd",
+      "crd_quiet",
+      "close",
+      "close_library_soft_presence_"
+    ],
+    "prompt": "sfx close library soft presence walla, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_quiet_0003.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_quiet_0004",
+    "family": "ATOM",
+    "ucs": "CRD_QUIET",
+    "tag": "v6crd,crd_quiet,pad_close,close_museum_sparse_walla",
+    "tags": [
+      "v6crd",
+      "crd_quiet",
+      "pad_close",
+      "close_museum_sparse_walla"
+    ],
+    "prompt": "sfx close museum sparse walla, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_quiet_0004.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_quiet_0005",
+    "family": "ATOM",
+    "ucs": "CRD_QUIET",
+    "tag": "v6crd,crd_quiet,distant,distant_church_congregation_",
+    "tags": [
+      "v6crd",
+      "crd_quiet",
+      "distant",
+      "distant_church_congregation_"
+    ],
+    "prompt": "sfx distant church congregation soft murmur, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_quiet_0005.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_quiet_0006",
+    "family": "ATOM",
+    "ucs": "CRD_QUIET",
+    "tag": "v6crd,crd_quiet,distant,distant_library_soft_presenc",
+    "tags": [
+      "v6crd",
+      "crd_quiet",
+      "distant",
+      "distant_library_soft_presenc"
+    ],
+    "prompt": "sfx distant library soft presence walla, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_quiet_0006.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_quiet_0007",
+    "family": "ATOM",
+    "ucs": "CRD_QUIET",
+    "tag": "v6crd,crd_quiet,distant,distant_museum_sparse_walla",
+    "tags": [
+      "v6crd",
+      "crd_quiet",
+      "distant",
+      "distant_museum_sparse_walla"
+    ],
+    "prompt": "sfx distant museum sparse walla, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_quiet_0007.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_quiet_0008",
+    "family": "ATOM",
+    "ucs": "CRD_QUIET",
+    "tag": "v6crd,crd_quiet,dry,dry_church_congregation_soft",
+    "tags": [
+      "v6crd",
+      "crd_quiet",
+      "dry",
+      "dry_church_congregation_soft"
+    ],
+    "prompt": "sfx dry church congregation soft murmur, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_quiet_0008.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_quiet_0010",
+    "family": "ATOM",
+    "ucs": "CRD_QUIET",
+    "tag": "v6crd,crd_quiet,dry,dry_museum_sparse_walla",
+    "tags": [
+      "v6crd",
+      "crd_quiet",
+      "dry",
+      "dry_museum_sparse_walla"
+    ],
+    "prompt": "sfx dry museum sparse walla, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_quiet_0010.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_quiet_0011",
+    "family": "ATOM",
+    "ucs": "CRD_QUIET",
+    "tag": "v6crd,crd_quiet,library_soft_presence_walla",
+    "tags": [
+      "v6crd",
+      "crd_quiet",
+      "library_soft_presence_walla"
+    ],
+    "prompt": "sfx library soft presence walla, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_quiet_0011.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_quiet_0012",
+    "family": "ATOM",
+    "ucs": "CRD_QUIET",
+    "tag": "v6crd,crd_quiet,low,low_church_congregation_soft",
+    "tags": [
+      "v6crd",
+      "crd_quiet",
+      "low",
+      "low_church_congregation_soft"
+    ],
+    "prompt": "sfx low church congregation soft murmur, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_quiet_0012.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_quiet_0013",
+    "family": "ATOM",
+    "ucs": "CRD_QUIET",
+    "tag": "v6crd,crd_quiet,pad_low,low_library_soft_presence_wa",
+    "tags": [
+      "v6crd",
+      "crd_quiet",
+      "pad_low",
+      "low_library_soft_presence_wa"
+    ],
+    "prompt": "sfx low library soft presence walla, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_quiet_0013.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_quiet_0014",
+    "family": "ATOM",
+    "ucs": "CRD_QUIET",
+    "tag": "v6crd,crd_quiet,low,low_museum_sparse_walla",
+    "tags": [
+      "v6crd",
+      "crd_quiet",
+      "low",
+      "low_museum_sparse_walla"
+    ],
+    "prompt": "sfx low museum sparse walla, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_quiet_0014.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_quiet_0015",
+    "family": "ATOM",
+    "ucs": "CRD_QUIET",
+    "tag": "v6crd,crd_quiet,museum_sparse_walla",
+    "tags": [
+      "v6crd",
+      "crd_quiet",
+      "museum_sparse_walla"
+    ],
+    "prompt": "sfx museum sparse walla, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_quiet_0015.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_quiet_0016",
+    "family": "ATOM",
+    "ucs": "CRD_QUIET",
+    "tag": "v6crd,crd_quiet,quiet,quiet_church_congregation_so",
+    "tags": [
+      "v6crd",
+      "crd_quiet",
+      "quiet",
+      "quiet_church_congregation_so"
+    ],
+    "prompt": "sfx quiet church congregation soft murmur, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_quiet_0016.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_quiet_0017",
+    "family": "ATOM",
+    "ucs": "CRD_QUIET",
+    "tag": "v6crd,crd_quiet,quiet,quiet_library_soft_presence_",
+    "tags": [
+      "v6crd",
+      "crd_quiet",
+      "quiet",
+      "quiet_library_soft_presence_"
+    ],
+    "prompt": "sfx quiet library soft presence walla, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_quiet_0017.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_quiet_0018",
+    "family": "ATOM",
+    "ucs": "CRD_QUIET",
+    "tag": "v6crd,crd_quiet,pad_quiet,quiet_museum_sparse_walla",
+    "tags": [
+      "v6crd",
+      "crd_quiet",
+      "pad_quiet",
+      "quiet_museum_sparse_walla"
+    ],
+    "prompt": "sfx quiet museum sparse walla, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_quiet_0018.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_quiet_0019",
+    "family": "ATOM",
+    "ucs": "CRD_QUIET",
+    "tag": "v6crd,crd_quiet,quiet_sparse_crowd_murmur",
+    "tags": [
+      "v6crd",
+      "crd_quiet",
+      "quiet_sparse_crowd_murmur"
+    ],
+    "prompt": "sfx quiet sparse crowd murmur, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_quiet_0019.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_quiet_0020",
+    "family": "ATOM",
+    "ucs": "CRD_QUIET",
+    "tag": "v6crd,crd_quiet,soft,soft_church_congregation_sof",
+    "tags": [
+      "v6crd",
+      "crd_quiet",
+      "soft",
+      "soft_church_congregation_sof"
+    ],
+    "prompt": "sfx soft church congregation soft murmur, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_quiet_0020.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_quiet_0021",
+    "family": "ATOM",
+    "ucs": "CRD_QUIET",
+    "tag": "v6crd,crd_quiet,soft,soft_library_soft_presence_w",
+    "tags": [
+      "v6crd",
+      "crd_quiet",
+      "soft",
+      "soft_library_soft_presence_w"
+    ],
+    "prompt": "sfx soft library soft presence walla, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_quiet_0021.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_quiet_0022",
+    "family": "ATOM",
+    "ucs": "CRD_QUIET",
+    "tag": "v6crd,crd_quiet,soft,soft_museum_sparse_walla",
+    "tags": [
+      "v6crd",
+      "crd_quiet",
+      "soft",
+      "soft_museum_sparse_walla"
+    ],
+    "prompt": "sfx soft museum sparse walla, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_quiet_0022.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_stadium_0001",
+    "family": "ATOM",
+    "ucs": "CRD_STADIUM",
+    "tag": "v6crd,crd_stadium,goal_celebration_burst",
+    "tags": [
+      "v6crd",
+      "crd_stadium",
+      "goal_celebration_burst"
+    ],
+    "prompt": "sfx goal celebration burst, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_stadium_0001.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_stadium_0002",
+    "family": "ATOM",
+    "ucs": "CRD_STADIUM",
+    "tag": "v6crd,crd_stadium,sports_crowd_murmur_distant",
+    "tags": [
+      "v6crd",
+      "crd_stadium",
+      "sports_crowd_murmur_distant"
+    ],
+    "prompt": "sfx sports crowd murmur distant, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_stadium_0002.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_stadium_0003",
+    "family": "ATOM",
+    "ucs": "CRD_STADIUM",
+    "tag": "v6crd,crd_stadium,stadium_boo_short",
+    "tags": [
+      "v6crd",
+      "crd_stadium",
+      "stadium_boo_short"
+    ],
+    "prompt": "sfx stadium boo short, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_stadium_0003.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_stadium_0004",
+    "family": "ATOM",
+    "ucs": "CRD_STADIUM",
+    "tag": "v6crd,crd_stadium,stadium_cheer_burst_short",
+    "tags": [
+      "v6crd",
+      "crd_stadium",
+      "stadium_cheer_burst_short"
+    ],
+    "prompt": "sfx stadium cheer burst short, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_stadium_0004.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  },
+  {
+    "id": "v6crd_ato_crd_stadium_0006",
+    "family": "ATOM",
+    "ucs": "CRD_STADIUM",
+    "tag": "v6crd,crd_stadium,stadium_crowd_roar_wash",
+    "tags": [
+      "v6crd",
+      "crd_stadium",
+      "stadium_crowd_roar_wash"
+    ],
+    "prompt": "sfx stadium crowd roar wash, one-shots, several short separate takes, clear silence gap of about one second between each take, dry",
+    "path": "wavs/v6crd_ato_crd_stadium_0006.wav",
+    "seconds": 12.0,
+    "source": "stable-audio-open-1.0",
+    "host": "runpod"
+  }
+]

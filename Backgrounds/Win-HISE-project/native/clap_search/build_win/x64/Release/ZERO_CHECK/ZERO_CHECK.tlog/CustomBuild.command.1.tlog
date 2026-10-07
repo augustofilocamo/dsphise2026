@@ -1,0 +1,10 @@
+^C:\FILO\HISE-PROJECT\NATIVE\CLAP_SEARCH\BUILD_WIN\CMAKEFILES\852BEB50A6C834F0775D5758AB537C75\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Filo/HISE-project/native/clap_search -BC:/Filo/HISE-project/native/clap_search/build_win --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Filo/HISE-project/native/clap_search/build_win/clap_search.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

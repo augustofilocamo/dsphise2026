@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Filo/HISE-project/native/clap_search/build_win/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

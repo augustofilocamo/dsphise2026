@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap CrossfadeGamma="1.0" ID="cellosSusVib2" RRGroupAmount="1.0" MicPositions=";"
+           SaveMode="2">
+  <sample Root="57" LoKey="57" HiKey="59" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Cellos/susvib_A2_v1_1.wav" Duplicate="0"
+          LoopEnabled="0" SampleEnd="389449" MonolithOffset="0" MonolithLength="393216"
+          SampleRate="44100.0"/>
+  <sample Root="47" LoKey="47" HiKey="49" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Cellos/susvib_B1_v1_1.wav" Duplicate="0"
+          LoopEnabled="0" SampleEnd="395408" MonolithOffset="393216" MonolithLength="397312"
+          SampleRate="44100.0"/>
+  <sample Root="71" LoKey="71" HiKey="73" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Cellos/susvib_B3_v1_1.wav" Duplicate="0"
+          LoopEnabled="0" LoopEnd="212972" LoopStart="77975" LoopXFade="9000"
+          SampleEnd="275833" SampleStart="5839" MonolithOffset="790528"
+          MonolithLength="282624" SampleRate="44100.0"/>
+  <sample Root="36" LoKey="25" HiKey="39" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Cellos/susvib_C1_v1_1.wav" Duplicate="0"
+          LoopEnabled="0" SampleEnd="391222" MonolithOffset="1073152" MonolithLength="393216"
+          SampleRate="44100.0"/>
+  <sample Root="60" LoKey="60" HiKey="63" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Cellos/susvib_C3_v1_1.wav" Duplicate="0"
+          LoopEnabled="0" SampleEnd="407355" MonolithOffset="1466368" MonolithLength="409600"
+          SampleRate="44100.0"/>
+  <sample Root="50" LoKey="50" HiKey="52" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Cellos/susvib_D2_v1_1.wav" Duplicate="0"
+          LoopEnabled="0" SampleEnd="425152" MonolithOffset="1875968" MonolithLength="425984"
+          SampleRate="44100.0"/>
+  <sample Root="74" LoKey="74" HiKey="76" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Cellos/susvib_D4_v1_1.wav" Duplicate="0"
+          LoopEnabled="0" LoopEnd="232823" LoopStart="108096" LoopXFade="9000"
+          SampleEnd="345734" SampleStart="12253" MonolithOffset="2301952"
+          MonolithLength="360448" SampleRate="44100.0"/>
+  <sample Root="40" LoKey="40" HiKey="42" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Cellos/susvib_E1_v1_1.wav" Duplicate="0"
+          LoopEnabled="0" SampleEnd="411384" MonolithOffset="2662400" MonolithLength="413696"
+          SampleRate="44100.0"/>
+  <sample Root="40" LoKey="40" HiKey="42" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Cellos/susvib_E1_v1_2.wav" Duplicate="0"
+          LoopEnabled="0" SampleEnd="406578" MonolithOffset="3076096" MonolithLength="409600"
+          SampleRate="44100.0"/>
+  <sample Root="64" LoKey="64" HiKey="66" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Cellos/susvib_E3_v1_1.wav" Duplicate="0"
+          LoopEnabled="0" SampleEnd="409438" MonolithOffset="3485696" MonolithLength="409600"
+          SampleRate="44100.0"/>
+  <sample Root="53" LoKey="53" HiKey="56" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Cellos/susvib_F2_v1_1.wav" Duplicate="0"
+          LoopEnabled="0" SampleEnd="364328" MonolithOffset="3895296" MonolithLength="364544"
+          SampleRate="44100.0"/>
+  <sample Root="77" LoKey="77" HiKey="106" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Cellos/susvib_F4_v1_1.wav" Duplicate="0"
+          LoopEnabled="0" LoopEnd="197371" LoopStart="100053" LoopXFade="9000"
+          SampleEnd="291562" SampleStart="13679" MonolithOffset="4259840"
+          MonolithLength="323584" SampleRate="44100.0"/>
+  <sample Root="43" LoKey="43" HiKey="46" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Cellos/susvib_G1_v1_1.wav" Duplicate="0"
+          LoopEnabled="0" SampleEnd="360276" MonolithOffset="4583424" MonolithLength="360448"
+          SampleRate="44100.0"/>
+  <sample Root="67" LoKey="67" HiKey="70" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Cellos/susvib_G3_v1_1.wav" Duplicate="0"
+          LoopEnabled="0" LoopEnd="263417" LoopStart="103291" LoopXFade="9000"
+          SampleEnd="397844" SampleStart="8401" MonolithOffset="4943872"
+          MonolithLength="405504" SampleRate="44100.0"/>
+</samplemap>

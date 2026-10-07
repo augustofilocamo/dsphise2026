@@ -1,0 +1,4 @@
+C:/Filo/HISE-project/native/clap_search/build_win/CMakeFiles/clap_search.dir
+C:/Filo/HISE-project/native/clap_search/build_win/CMakeFiles/clap_search_cli.dir
+C:/Filo/HISE-project/native/clap_search/build_win/CMakeFiles/ALL_BUILD.dir
+C:/Filo/HISE-project/native/clap_search/build_win/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Processor Type="SynthChain" ID="Ai-cinescape" Bypassed="0" Gain="1.0" Balance="0.0"
+           VoiceLimit="64.0" KillFadeTime="20.0" IconColour="0" packageName=""
+           BuildVersion="650">
+  <ChildProcessors>
+    <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
+      <ChildProcessors>
+        <Processor Type="ScriptProcessor" ID="Interface" Bypassed="0">
+          <ChildProcessors/>
+          <Content>
+            <Control type="ScriptButton" id="capturePanelButton" value="0.0"/>
+            <Control type="ScriptButton" id="weblinkButton" value="0.0"/>
+            <Control type="ScriptPanel" id="calmXSlider" value="451.0"/>
+            <Control type="ScriptPanel" id="calmYSlider" value="289.4500122070312"/>
+            <Control type="ScriptPanel" id="furyXSlider" value="770.0"/>
+            <Control type="ScriptPanel" id="furyYSlider" value="258.4500122070312"/>
+            <Control type="ScriptPanel" id="goldXSlider" value="398.0"/>
+            <Control type="ScriptPanel" id="goldYSlider" value="211.4499969482422"/>
+            <Control type="ScriptLabel" id="sessionStateLabel" value="{&#10;  &quot;v&quot;: 1,&#10;  &quot;n1&quot;: {&#10;    &quot;on&quot;: 0,&#10;    &quot;p&quot;: &quot;&quot;,&#10;    &quot;b&quot;: &quot;v6&quot;,&#10;    &quot;id&quot;: &quot;&quot;&#10;  },&#10;  &quot;n2&quot;: {&#10;    &quot;on&quot;: 0,&#10;    &quot;p&quot;: &quot;lighthouse storm&quot;,&#10;    &quot;b&quot;: &quot;v6&quot;,&#10;    &quot;id&quot;: &quot;&quot;&#10;  },&#10;  &quot;n3&quot;: {&#10;    &quot;on&quot;: 0,&#10;    &quot;p&quot;: &quot;ancient ruins&quot;,&#10;    &quot;b&quot;: &quot;v6&quot;,&#10;    &quot;id&quot;: &quot;&quot;&#10;  }&#10;}"/>
+          </Content>
+          <UIData Source="Ai-cinescapeUIData"/>
+        </Processor>
+      </ChildProcessors>
+    </Processor>
+    <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
+      <ChildProcessors/>
+    </Processor>
+    <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="1" Intensity="0.0">
+      <ChildProcessors/>
+    </Processor>
+    <Processor Type="EffectChain" ID="FX" Bypassed="0">
+      <ChildProcessors>
+        <Processor Type="ScriptFX" ID="Engine" Bypassed="0" NumAudioFiles="6">
+          <ChildProcessors/>
+          <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+          <Content/>
+          <Networks>
+            <Network ID="cinescapes_DspNetwork" Version="0.0.0"/>
+          </Networks>
+          <UIData>
+            <ContentProperties DeviceType="Desktop"/>
+          </UIData>
+        </Processor>
+        <Processor Type="SimpleReverb" ID="Simple Reverb1" Bypassed="1" RoomSize="0.9700000286102295"
+                   Damping="0.75" WetLevel="0.05999999865889549" DryLevel="0.9399999976158142"
+                   Width="0.800000011920929" FreezeMode="0.1000000014901161">
+          <ChildProcessors/>
+          <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+        </Processor>
+        <Processor Type="CurveEq" ID="Parametriq EQ1" Bypassed="0" NumFilters="3"
+                   Band0="-20.52413940429688" Band1="53.50227355957031" Band2="1.0"
+                   Band3="1.0" Band4="2.0" Band5="-9.103446960449219" Band6="241.152587890625"
+                   Band7="3.130000114440918" Band8="1.0" Band9="4.0" Band10="2.31724214553833"
+                   Band11="3045.30224609375" Band12="1.0" Band13="1.0" Band14="3.0"
+                   FFTEnabled="0">
+          <ChildProcessors/>
+          <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+        </Processor>
+        <Processor Type="ScriptFX" ID="RecordingScript" Bypassed="0">
+          <ChildProcessors/>
+          <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+          <Content/>
+          <UIData>
+            <ContentProperties DeviceType="Desktop"/>
+          </UIData>
+        </Processor>
+        <Processor Type="ScriptFX" ID="Recorder" Bypassed="0" NumAudioFiles="1">
+          <ChildProcessors/>
+          <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+          <Content/>
+          <Networks>
+            <Network ID="capture_DspNetwork" Version="0.0.0"/>
+          </Networks>
+          <UIData>
+            <ContentProperties DeviceType="Desktop"/>
+          </UIData>
+        </Processor>
+        <Processor Type="SimpleGain" ID="GlobalMute" Bypassed="1" Gain="0.0" Delay="0.0"
+                   Width="100.0" Balance="0.0" InvertPolarity="0.0">
+          <ChildProcessors>
+            <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+          <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+        </Processor>
+        <Processor Type="SimpleGain" ID="Leveler1" Bypassed="1" Gain="0.0" Delay="0.0"
+                   Width="100.0" Balance="0.0" InvertPolarity="0.0">
+          <ChildProcessors>
+            <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+          <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+        </Processor>
+        <Processor Type="SimpleGain" ID="Leveler2" Bypassed="1" Gain="0.0" Delay="0.0"
+                   Width="100.0" Balance="0.0" InvertPolarity="0.0">
+          <ChildProcessors>
+            <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+          <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+        </Processor>
+        <Processor Type="Convolution" ID="Convolution Reverb1" Bypassed="0" DryGain="-2.799999713897705"
+                   WetGain="-15.30000114440918" Latency="0.0" ImpulseLength="1.0"
+                   ProcessInput="1.0" UseBackgroundThread="0.0" Predelay="0.0" HiCut="20000.0"
+                   Damping="0.0" FFTType="5.0" FileName="{PROJECT_FOLDER}ir5sec.wav"
+                   min="0" max="230921" loopStart="0" loopEnd="230921">
+          <ChildProcessors/>
+          <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+        </Processor>
+      </ChildProcessors>
+    </Processor>
+  </ChildProcessors>
+  <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+  <macro_controls>
+    <macro name="Macro 1" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 2" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 3" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 4" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 5" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 6" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 7" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 8" value="0.0" midi_cc="-1"/>
+  </macro_controls>
+  <MidiAutomation/>
+  <MPEData Enabled="0"/>
+</Processor>
